@@ -1,0 +1,2 @@
+CLASS dw net/minecraft/container/AbstractContainer
+	FIELD e slots Ljava/util/List;

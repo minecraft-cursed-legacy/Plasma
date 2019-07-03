@@ -1,0 +1,4 @@
+CLASS gp net/minecraft/container/Slot
+	FIELD b x I
+	FIELD c y I
+	METHOD a getItem ()Liz;

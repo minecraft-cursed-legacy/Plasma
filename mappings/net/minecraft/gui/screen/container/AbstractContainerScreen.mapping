@@ -1,0 +1,16 @@
+CLASS id net/minecraft/gui/screen/container/AbstractContainerScreen
+	FIELD a containerWidth I
+	FIELD i containerHeight I
+	FIELD j container Ldw;
+	METHOD <init> (Ldw;)V
+		ARG 1 container
+	METHOD a getSlot (II)Lgp;
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a renderSlot (Lgp;)V
+		ARG 1 slot
+	METHOD a isMouseOverSlot (Lgp;II)Z
+		ARG 1 slot
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD k renderForeground ()V

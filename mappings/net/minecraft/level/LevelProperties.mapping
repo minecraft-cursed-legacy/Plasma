@@ -1,4 +1,4 @@
-CLASS ei net/minecraft/world/level/LevelProperties
+CLASS ei net/minecraft/level/LevelProperties
 	FIELD a randomSeed J
 	FIELD b spawnX I
 	FIELD c spawnY I

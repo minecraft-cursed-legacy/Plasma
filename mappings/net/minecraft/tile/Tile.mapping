@@ -92,6 +92,7 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD bl TRAPDOOR Luu;
 	FIELD bm texUVStart I
 	FIELD bn id I
+	FIELD by sounds Lct;
 	FIELD d STONE_SOUNDS Lct;
 	FIELD e WOOD_SOUNDS Lct;
 	FIELD f GRAVEL_SOUNDS Lct;
@@ -113,7 +114,7 @@ CLASS uu net/minecraft/tile/Tile
 	METHOD a getDropId (ILjava/util/Random;)I
 	METHOD a sounds (Lct;)Luu;
 	METHOD a beforeDestroyedByExplosion (Lfd;IIIIF)V
-	METHOD a onBlockAction (Lfd;IIIII)V
+	METHOD a onTileAction (Lfd;IIIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
@@ -127,7 +128,7 @@ CLASS uu net/minecraft/tile/Tile
 	METHOD a afterBreak (Lfd;Lgs;IIII)V
 	METHOD a setName (Ljava/lang/String;)Luu;
 	METHOD a getDropCount (Ljava/util/Random;)I
-	METHOD b onBlockRemoved (Lfd;III)V
+	METHOD b onTileRemoved (Lfd;III)V
 		ARG 1 level
 	METHOD b activate (Lfd;IIILgs;)V
 	METHOD b randomDisplayTick (Lfd;IIILjava/util/Random;)V

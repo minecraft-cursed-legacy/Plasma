@@ -1,4 +1,4 @@
-CLASS ht net/minecraft/sortme/Options
+CLASS ht net/minecraft/sortme/Option
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
 		ARG 2 id
 	METHOD a getById (I)Lht;

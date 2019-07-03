@@ -1,1 +1,58 @@
 CLASS nu net/minecraft/util/io/CompoundTag
+	FIELD a data Ljava/util/Map;
+	METHOD a put (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;Lij;)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;Lnu;)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 item
+	METHOD a put (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 item
+	METHOD b containsKey (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD c values ()Ljava/util/Collection;
+	METHOD c getByte (Ljava/lang/String;)B
+		ARG 1 key
+	METHOD d getShort (Ljava/lang/String;)S
+		ARG 1 key
+	METHOD e getInt (Ljava/lang/String;)I
+		ARG 1 key
+	METHOD f getLong (Ljava/lang/String;)J
+		ARG 1 key
+	METHOD g getFloat (Ljava/lang/String;)F
+		ARG 1 key
+	METHOD h getDouble (Ljava/lang/String;)D
+		ARG 1 key
+	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD j getByteArray (Ljava/lang/String;)[B
+		ARG 1 key
+	METHOD k getCompoundTag (Ljava/lang/String;)Lnu;
+		ARG 1 key
+	METHOD l getListTag (Ljava/lang/String;)Lsp;
+		ARG 1 key

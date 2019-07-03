@@ -1,0 +1,8 @@
+CLASS sp net/minecraft/util/io/ListTag
+	FIELD a data Ljava/util/List;
+	FIELD b listTypeId B
+	METHOD a get (I)Lij;
+		ARG 1 index
+	METHOD a add (Lij;)V
+		ARG 1 tag
+	METHOD c size ()I

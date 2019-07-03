@@ -1,0 +1,4 @@
+CLASS pp net/minecraft/util/io/IntTag
+	FIELD a data I
+	METHOD <init> (I)V
+		ARG 1 value

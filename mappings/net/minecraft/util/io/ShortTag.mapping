@@ -1,0 +1,4 @@
+CLASS ul net/minecraft/util/io/ShortTag
+	FIELD a data S
+	METHOD <init> (S)V
+		ARG 1 value

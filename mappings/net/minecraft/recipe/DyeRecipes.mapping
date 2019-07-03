@@ -1,0 +1,2 @@
+CLASS ng net/minecraft/recipe/DyeRecipes
+	METHOD a register (Lhk;)V

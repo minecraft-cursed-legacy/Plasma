@@ -2,6 +2,8 @@ CLASS jl net/minecraft/stat/Stats
 	FIELD A playerKills Lvr;
 	FIELD B fishCaught Lvr;
 	FIELD C mineBlock [Lvr;
+	FIELD E useItem [Lvr;
+	FIELD F breakItem [Lvr;
 	FIELD a idMap Ljava/util/Map;
 	FIELD b stats Ljava/util/List;
 	FIELD f startGame Lvr;

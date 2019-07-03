@@ -1,2 +1,9 @@
 CLASS hk net/minecraft/recipe/RecipeRegistry
-	METHOD a addRecipe (Liz;[Ljava/lang/Object;)V
+	FIELD a INSTANCE Lhk;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Lhk;
+	METHOD a addShapedRecipe (Liz;[Ljava/lang/Object;)V
+		ARG 1 output
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Liz;[Ljava/lang/Object;)V
+		ARG 1 output

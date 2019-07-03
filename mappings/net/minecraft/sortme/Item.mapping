@@ -29,3 +29,4 @@ CLASS iz net/minecraft/sortme/Item
 	METHOD b (Lnu;)V
 		ARG 1 tag
 	METHOD i getDamage ()I
+	METHOD k clone ()Liz;

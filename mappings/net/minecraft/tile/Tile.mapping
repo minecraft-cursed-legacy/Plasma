@@ -60,6 +60,7 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD ah MUSHROOM_2 Lwb;
 	FIELD ai BLOCK_GOLD Luu;
 	FIELD aj BLOCK_IRON Luu;
+	FIELD al STONE_SLAB Luu;
 	FIELD am BRICK Luu;
 	FIELD an TNT Luu;
 	FIELD ao BOOKSHELF Luu;

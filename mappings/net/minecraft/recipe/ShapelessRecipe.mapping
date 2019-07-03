@@ -1,1 +1,4 @@
 CLASS tt net/minecraft/recipe/ShapelessRecipe
+	FIELD a output Liz;
+	METHOD <init> (Liz;Ljava/util/List;)V
+		ARG 1 output

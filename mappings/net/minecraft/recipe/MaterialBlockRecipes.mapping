@@ -1,0 +1,3 @@
+CLASS tp net/minecraft/recipe/MaterialBlockRecipes
+	FIELD a recipes [[Ljava/lang/Object;
+	METHOD a register (Lhk;)V

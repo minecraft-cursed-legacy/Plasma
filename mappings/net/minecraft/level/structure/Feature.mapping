@@ -1,4 +1,4 @@
-CLASS pg net/minecraft/level/structure/Tree
+CLASS pg net/minecraft/level/structure/Feature
 	METHOD a generate (Lfd;Ljava/util/Random;III)Z
 		ARG 1 level
 		ARG 2 rand

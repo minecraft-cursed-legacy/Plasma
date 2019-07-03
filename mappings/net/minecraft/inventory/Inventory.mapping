@@ -1,0 +1,4 @@
+CLASS lw net/minecraft/inventory/Inventory
+	METHOD a getInvSize ()I
+	METHOD c getContainerName ()Ljava/lang/String;
+	METHOD d getMaxItemCount ()I

@@ -1,0 +1,12 @@
+CLASS ps net/minecraft/client/model/Cuboid
+	FIELD a rotationPointX F
+	FIELD b rotationPointY F
+	FIELD c rotationPointZ F
+	FIELD d pitch F
+	FIELD e yaw F
+	FIELD f roll F
+	FIELD g mirror Z
+	FIELD h visible Z
+	FIELD n compiled Z
+	FIELD o list I
+	METHOD a setRotationPoint (FFF)V

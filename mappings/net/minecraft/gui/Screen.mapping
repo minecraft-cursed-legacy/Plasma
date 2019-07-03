@@ -21,4 +21,5 @@ CLASS da net/minecraft/gui/Screen
 	METHOD b renderDirtBackground (I)V
 		ARG 1 alpha
 	METHOD d getClipboardContent ()Ljava/lang/String;
+	METHOD h onClose ()V
 	METHOD i renderBackground ()V

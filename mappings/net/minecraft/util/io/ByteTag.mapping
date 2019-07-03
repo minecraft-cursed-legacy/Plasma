@@ -1,0 +1,4 @@
+CLASS qp net/minecraft/util/io/ByteTag
+	FIELD a data B
+	METHOD <init> (B)V
+		ARG 1 value

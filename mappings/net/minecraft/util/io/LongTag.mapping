@@ -1,0 +1,4 @@
+CLASS mi net/minecraft/util/io/LongTag
+	FIELD a data J
+	METHOD <init> (J)V
+		ARG 1 value

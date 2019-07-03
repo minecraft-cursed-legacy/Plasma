@@ -1,0 +1,4 @@
+CLASS hk net/minecraft/recipe/Recipes
+	FIELD b recipes Ljava/util/List;
+	METHOD a addRecipe (Liz;[Ljava/lang/Object;)V
+		ARG 1 output

@@ -1,0 +1,41 @@
+CLASS kd net/minecraft/level/biome/Biome
+	FIELD a RAINFOREST Lkd;
+	FIELD b SWAMPLAND Lkd;
+	FIELD c SEASONAL_FOREST Lkd;
+	FIELD d FOREST Lkd;
+	FIELD e SAVANNA Lkd;
+	FIELD f SHRUBLAND Lkd;
+	FIELD g TAIGA Lkd;
+	FIELD h DESERT Lkd;
+	FIELD i PLAINS Lkd;
+	FIELD j ICE_DESERT Lkd;
+	FIELD k TUNDRA Lkd;
+	FIELD l NETHER Lkd;
+	FIELD m SKY Lkd;
+	FIELD n biomeName Ljava/lang/String;
+	FIELD o colour1 I
+	FIELD r colour2 I
+	FIELD s monsters Ljava/util/List;
+	FIELD t creatures Ljava/util/List;
+	FIELD u waterCreatures Ljava/util/List;
+	FIELD v snows Z
+	FIELD w precipitates Z
+	FIELD x biomes [Lkd;
+	METHOD a createBiomeArray ()V
+	METHOD a getSkyColour (F)I
+		ARG 1 temperature
+	METHOD a getBiome (FF)Lkd;
+		ARG 0 x
+		ARG 1 z
+	METHOD a setColour_2 (I)Lkd;
+	METHOD a setName (Ljava/lang/String;)Lkd;
+		ARG 1 name
+	METHOD a getTree (Ljava/util/Random;)Lpg;
+		ARG 1 rand
+	METHOD a getSpawnList (Llk;)Ljava/util/List;
+		ARG 1 type
+	METHOD b setSnowy ()Lkd;
+	METHOD b setColour_1 (I)Lkd;
+	METHOD c canSnow ()Z
+	METHOD d canRain ()Z
+	METHOD e setRainless ()Lkd;

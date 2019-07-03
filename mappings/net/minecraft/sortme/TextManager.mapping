@@ -1,0 +1,9 @@
+CLASS sj net/minecraft/sortme/TextManager
+	METHOD a getTextWidth (Ljava/lang/String;)I
+	METHOD a drawTextWithShadow (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+	METHOD a drawText (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+	METHOD b drawText (Ljava/lang/String;III)V
+		ARG 1 text

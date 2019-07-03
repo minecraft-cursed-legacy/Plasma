@@ -1,0 +1,8 @@
+CLASS fd net/minecraft/level/Level
+	FIELD r rand Ljava/util/Random;
+	FIELD v cache Lcl;
+	METHOD <init> (Lwt;Ljava/lang/String;Lxa;J)V
+		ARG 4 seed
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a playSound (Ljava/lang/String;DDDDDD)V
+	METHOD c setBlock (IIII)Z

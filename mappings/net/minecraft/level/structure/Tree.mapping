@@ -1,0 +1,7 @@
+CLASS pg net/minecraft/level/structure/Tree
+	METHOD a generate (Lfd;Ljava/util/Random;III)Z
+		ARG 1 level
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

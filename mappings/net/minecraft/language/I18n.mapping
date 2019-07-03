@@ -1,0 +1,7 @@
+CLASS do net/minecraft/language/I18n
+	FIELD a loader Lnh;
+	METHOD a format (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 key
+	METHOD a format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 0 key
+		ARG 1 arg

@@ -1,0 +1,2 @@
+CLASS id net/minecraft/gui/screen/AbstractContainerScreen
+	METHOD k renderForeground ()V

@@ -1,0 +1,15 @@
+CLASS bu net/minecraft/sortme/ToolMaterial
+	FIELD f miningLevel I
+	FIELD g durability I
+	FIELD h miningSpeed F
+	FIELD i attackDamage I
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 1 name
+		ARG 2 id
+		ARG 3 miningLevel
+		ARG 4 durability
+		ARG 5 miningSpeed
+		ARG 6 attackDamage
+	METHOD a getDurability ()I
+	METHOD b getMiningSpeed ()F
+	METHOD c getAttackDamage ()I

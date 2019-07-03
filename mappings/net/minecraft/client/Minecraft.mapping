@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD f level Lfd;
+	FIELD q textManager Lsj;
+	FIELD r currentScreen Lda;
+	FIELD t gameRenderer Lpx;
+	METHOD a start (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 playerName
+	METHOD a start (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 playerName

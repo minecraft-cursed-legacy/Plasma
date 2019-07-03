@@ -1,0 +1,24 @@
+CLASS da net/minecraft/gui/Screen
+	FIELD a lastClickedButton Lke;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c width I
+	FIELD d height I
+	FIELD e buttons Ljava/util/List;
+	FIELD g textManager Lsj;
+	METHOD a renderBackground (I)V
+		ARG 1 alpha
+	METHOD a render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta
+	METHOD a mouseClicked (III)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 button
+	METHOD a onClicked (Lke;)V
+	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD b init ()V
+	METHOD b renderDirtBackground (I)V
+		ARG 1 alpha
+	METHOD d getClipboardContent ()Ljava/lang/String;
+	METHOD i renderBackground ()V

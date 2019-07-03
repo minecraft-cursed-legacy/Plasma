@@ -1,0 +1,3 @@
+CLASS ow net/minecraft/entity/TileEntitiy
+	FIELD d level Lfd;
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V

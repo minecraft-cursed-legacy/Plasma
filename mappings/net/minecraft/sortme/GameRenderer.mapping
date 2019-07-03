@@ -1,0 +1,4 @@
+CLASS px net/minecraft/sortme/GameRenderer
+	FIELD j minecraft Lnet/minecraft/client/Minecraft;
+	METHOD b (F)V
+		ARG 1 delta

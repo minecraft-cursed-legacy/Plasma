@@ -1,0 +1,7 @@
+CLASS i
+	METHOD a (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance
+	METHOD b (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance
+	METHOD c (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance

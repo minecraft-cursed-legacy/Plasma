@@ -1,0 +1,6 @@
+CLASS ct net/minecraft/tile/Material
+	FIELD a sound Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 sound
+	METHOD a getStepSound ()Ljava/lang/String;
+	METHOD d getStepSound2 ()Ljava/lang/String;

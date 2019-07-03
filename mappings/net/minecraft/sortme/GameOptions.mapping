@@ -1,0 +1,6 @@
+CLASS ht net/minecraft/sortme/GameOptions
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 2 id
+	METHOD a getById (I)Lht;
+		ARG 0 id
+	METHOD c getId ()I

@@ -1,0 +1,27 @@
+CLASS ke net/minecraft/gui/widgets/Button
+	FIELD a width I
+	FIELD b height I
+	FIELD c x I
+	FIELD d y I
+	FIELD e text Ljava/lang/String;
+	FIELD f id I
+	FIELD g active Z
+	FIELD h visible Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 text
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 text
+	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD c isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
+		ARG 2 mouseX
+		ARG 3 mouseY

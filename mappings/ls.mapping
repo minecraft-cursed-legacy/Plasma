@@ -1,0 +1,5 @@
+CLASS ls
+	FIELD O texture Ljava/lang/String;
+	METHOD g getSound ()Ljava/lang/String;
+	METHOD i getDeathSound ()Ljava/lang/String;
+	METHOD j_ getHurtSound ()Ljava/lang/String;

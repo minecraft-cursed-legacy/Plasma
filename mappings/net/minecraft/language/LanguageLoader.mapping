@@ -1,0 +1,9 @@
+CLASS nh net/minecraft/language/LanguageLoader
+	FIELD a instance Lnh;
+	FIELD b data Ljava/util/Properties;
+	METHOD a getInstance ()Lnh;
+	METHOD a format (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD a format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 arg

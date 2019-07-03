@@ -1,0 +1,2 @@
+CLASS cl net/minecraft/level/chunk/IChunkCache
+	METHOD c toString ()Ljava/lang/String;

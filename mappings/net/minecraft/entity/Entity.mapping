@@ -1,0 +1,10 @@
+CLASS sn net/minecraft/entity/Entity
+	FIELD bg width F
+	FIELD bh height F
+	METHOD <init> (Lfd;)V
+		ARG 1 level
+	METHOD b setSize (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object

@@ -1,0 +1,2 @@
+CLASS hk net/minecraft/recipe/RecipeRegistry
+	METHOD a addRecipe (Liz;[Ljava/lang/Object;)V

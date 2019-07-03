@@ -1,0 +1,4 @@
+CLASS ha net/minecraft/recipe/ToolRecipes
+	FIELD a TOOL_PATTERN [[Ljava/lang/String;
+	FIELD b TOOL_MATERIALS [[Ljava/lang/Object;
+	METHOD a register (Lhk;)V

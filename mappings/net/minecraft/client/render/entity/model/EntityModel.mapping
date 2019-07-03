@@ -1,0 +1,6 @@
+CLASS ko net/minecraft/client/render/entity/model/EntityModel
+	FIELD m handSwingProgress F
+	FIELD n isRiding Z
+	METHOD a render (FFFFFF)V
+	METHOD a animateModel (Lls;FFF)V
+	METHOD b setAngles (FFFFFF)V

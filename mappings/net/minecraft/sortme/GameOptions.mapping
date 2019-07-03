@@ -1,6 +1,29 @@
-CLASS ht net/minecraft/sortme/GameOptions
-	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
-		ARG 2 id
-	METHOD a getById (I)Lht;
-		ARG 0 id
-	METHOD c getId ()I
+CLASS kv net/minecraft/sortme/GameOptions
+	FIELD C lastServer Ljava/lang/String;
+	FIELD I guiScale I
+	FIELD a music F
+	FIELD b sound F
+	FIELD c mouseSensitivity F
+	FIELD d invertYMouse Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g anaglyph3d Z
+	FIELD h advancedOpengl Z
+	FIELD i fpsLimit I
+	FIELD j fancyGraphics Z
+	FIELD k ao Z
+	FIELD l skin Ljava/lang/String;
+	FIELD m forwardKey Lqb;
+	FIELD n leftKey Lqb;
+	FIELD o backKey Lqb;
+	FIELD p rightKey Lqb;
+	FIELD q jumpKey Lqb;
+	FIELD r inventoryKey Lqb;
+	FIELD s dropKey Lqb;
+	FIELD t chatKey Lqb;
+	FIELD u fogKey Lqb;
+	FIELD v sneakKey Lqb;
+	FIELD w keyBindings [Lqb;
+	FIELD y difficulty I
+	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 1 str

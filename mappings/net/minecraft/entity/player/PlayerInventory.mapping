@@ -1,0 +1,18 @@
+CLASS ix net/minecraft/entity/player/PlayerInventory
+	FIELD a main [Liz;
+	FIELD b armour [Liz;
+	FIELD c selectedHotbarSlot I
+	FIELD d player Lgs;
+	FIELD e dirty Z
+	FIELD f cursorStack Liz;
+	METHOD a toTag (Lsp;)Lsp;
+	METHOD b getHeldStack ()Liz;
+	METHOD b setCursorStack (Liz;)V
+	METHOD b fromTag (Lsp;)V
+	METHOD b isUsingEffectiveTool (Luu;)Z
+	METHOD c decreaseAmountOfItem (I)Z
+	METHOD e damageArmour (I)V
+	METHOD f getSlotWithItem (I)I
+		ARG 1 id
+	METHOD g dropInventory ()V
+	METHOD i getCursorStack ()Liz;

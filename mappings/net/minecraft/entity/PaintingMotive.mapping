@@ -1,0 +1,4 @@
+CLASS iq net/minecraft/entity/PaintingMotive
+	FIELD A id Ljava/lang/String;
+	FIELD B width I
+	FIELD C height I

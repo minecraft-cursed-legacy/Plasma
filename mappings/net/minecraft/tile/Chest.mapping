@@ -1,1 +1,2 @@
 CLASS e net/minecraft/tile/Chest
+	FIELD a rand Ljava/util/Random;

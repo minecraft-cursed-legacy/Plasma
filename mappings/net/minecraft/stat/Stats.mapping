@@ -24,3 +24,4 @@ CLASS jl net/minecraft/stat/Stats
 	FIELD x DAMAGE_TAKEN Lvr;
 	FIELD y DEATHS Lvr;
 	FIELD z MOB_KILLS Lvr;
+	METHOD c onItemsRegistered ()V

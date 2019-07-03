@@ -1,0 +1,3 @@
+CLASS pv net/minecraft/container/slot/ArmourSlot
+	FIELD d armourSlot I
+	FIELD e playerContainer Laa;

@@ -1,0 +1,7 @@
+CLASS lx
+	FIELD a shake I
+	FIELD d xTile I
+	FIELD e yTile I
+	FIELD f zTile I
+	FIELD g inTile I
+	FIELD h inGround Z

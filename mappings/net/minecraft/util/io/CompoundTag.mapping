@@ -56,3 +56,4 @@ CLASS nu net/minecraft/util/io/CompoundTag
 		ARG 1 key
 	METHOD l getListTag (Ljava/lang/String;)Lsp;
 		ARG 1 key
+	METHOD m getBoolean (Ljava/lang/String;)Z

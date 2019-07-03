@@ -1,1 +1,3 @@
 CLASS wh net/minecraft/entity/animal/Pig
+	METHOD a setSaddled (Z)V
+	METHOD v isSaddled ()Z

@@ -1,1 +1,3 @@
 CLASS uw net/minecraft/entity/monster/Slime
+	METHOD e setSize (I)V
+	METHOD v getSize ()I

@@ -1,0 +1,3 @@
+CLASS az net/minecraft/entity/DispenserEntity
+	FIELD a contents [Liz;
+	FIELD b rand Ljava/util/Random;

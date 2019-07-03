@@ -1,0 +1,9 @@
+CLASS gp net/minecraft/container/slot/Slot
+	FIELD a id I
+	METHOD a getItem ()Liz;
+	METHOD a onCrafted (Liz;)V
+	METHOD b hasItem ()Z
+	METHOD b canInsert (Liz;)Z
+	METHOD c markDirty ()V
+	METHOD c setStack (Liz;)V
+	METHOD d getMaxStackCount ()I

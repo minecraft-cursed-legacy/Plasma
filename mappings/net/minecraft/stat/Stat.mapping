@@ -1,1 +1,2 @@
 CLASS vr net/minecraft/stat/Stat
+	METHOD g register ()Lvr;

@@ -1,27 +1,27 @@
 CLASS uu net/minecraft/tile/Tile
 	FIELD A BEDROCK Luu;
-	FIELD B WATER_FLOWING Luu;
-	FIELD C WATER Luu;
-	FIELD D LAVA_FLOWING Luu;
-	FIELD E LAVA Luu;
+	FIELD B FLOWING_WATER Luu;
+	FIELD C STILL_WATER Luu;
+	FIELD D FLOWING_LAVA Luu;
+	FIELD E STILL_LAVA Luu;
 	FIELD F SAND Luu;
 	FIELD G GRAVEL Luu;
-	FIELD H ORE_GOLD Luu;
-	FIELD I ORE_IRON Luu;
-	FIELD J ORE_COAL Luu;
+	FIELD H GOLD_ORE Luu;
+	FIELD I IRON_ORE Luu;
+	FIELD J COAL_ORE Luu;
 	FIELD K LOG Luu;
 	FIELD L LEAVES Lbk;
 	FIELD M SPONGE Luu;
 	FIELD N GLASS Luu;
-	FIELD O ORE_LAPIS Luu;
-	FIELD P BLOCK_LAPIS Luu;
+	FIELD O LAPIS_LAZULI_ORE Luu;
+	FIELD P LAPIS_LAZULI_BLOCK Luu;
 	FIELD Q DISPENSER Luu;
 	FIELD R SANDSTONE Luu;
 	FIELD S NOTEBLOCK Luu;
 	FIELD T BED Luu;
 	FIELD U GOLDEN_RAIL Luu;
 	FIELD V DETECTOR_RAIL Luu;
-	FIELD W PISTON_STICKY_BASE Luu;
+	FIELD W STICKY_PISTON Luu;
 	FIELD X WEB Luu;
 	FIELD Y TALLGRASS Lru;
 	FIELD Z DEADBUSH Ljb;
@@ -37,10 +37,11 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD aJ WALL_SIGN Luu;
 	FIELD aK LEVER Luu;
 	FIELD aL WOODEN_PRESSURE_PLATE Luu;
+	FIELD a name Ljava/lang/String;
 	FIELD aM DOOR_IRON Luu;
 	FIELD aN STONE_PRESSURE_PLATE Luu;
-	FIELD aO ORE_REDSTONE Luu;
-	FIELD aP ORE_REDSTONE_LIT Luu;
+	FIELD aO REDSTONE_ORE Luu;
+	FIELD aP REDSTONE_ORE_LIT Luu;
 	FIELD aQ REDSTONE_TORCH Luu;
 	FIELD aR REDSTONE_TORCH_LIT Luu;
 	FIELD aS BUTTON Luu;
@@ -51,14 +52,17 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD aX CLAY Luu;
 	FIELD aY REEDS Luu;
 	FIELD aZ JUKEBOX Luu;
-	FIELD aa PISTON_BASE Luu;
-	FIELD ac CLOTH Luu;
+	FIELD aa PISTON Luu;
+	FIELD ab PISTON_HEAD Lh;
+	FIELD ac WOOL Luu;
 	FIELD ae DANDELION Lwb;
 	FIELD af ROSE Lwb;
 	FIELD ag MUSHROOM_1 Lwb;
 	FIELD ah MUSHROOM_2 Lwb;
 	FIELD ai BLOCK_GOLD Luu;
 	FIELD aj BLOCK_IRON Luu;
+	FIELD ak DOUBLE_STONE_SLAB Luu;
+	FIELD al STONE_SLAB Luu;
 	FIELD am BRICK Luu;
 	FIELD an TNT Luu;
 	FIELD ao BOOKSHELF Luu;
@@ -73,21 +77,66 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD ax ORE_DIAMOND Luu;
 	FIELD ay BLOCK_DIAMOND Luu;
 	FIELD az WORKBENCH Luu;
+	FIELD bA material Lln;
 	FIELD ba FENCE Luu;
+	FIELD bb PUMPKIN Luu;
+	FIELD bc NETHERRACK Luu;
+	FIELD bd SOUL_SAND Luu;
+	FIELD be GLOWSTONE Luu;
+	FIELD bf PORTAL Lak;
+	FIELD bg LIT_PUMPKIN Luu;
+	FIELD bh CAKE Luu;
+	FIELD bi REDSTONE_REPEATER Luu;
+	FIELD bj REDSTONE_REPEATER_LIT Luu;
+	FIELD bk LOCKED_CHEST Luu;
+	FIELD bl TRAPDOOR Luu;
+	FIELD bm texUVStart I
 	FIELD bn id I
+	FIELD d STONE_SOUNDS Lct;
+	FIELD e WOOD_SOUNDS Lct;
+	FIELD f GRAVEL_SOUNDS Lct;
+	FIELD g GRASS_SOUNDS Lct;
+	FIELD h PISTON_SOUNDS Lct;
+	FIELD i METAL_SOUNDS Lct;
+	FIELD j GLASS_SOUNDS Lct;
+	FIELD k WOOL_SOUNDS Lct;
+	FIELD l SAND_SOUNDS Lct;
+	FIELD m BY_ID [Luu;
+	FIELD o FULL_OPAQUE [Z
+	FIELD p HAS_TILE_ENTITY [Z
 	FIELD u STONE Luu;
 	FIELD v GRASS Lwp;
 	FIELD w DIRT Luu;
 	FIELD x STONEBRICK Luu;
 	FIELD y WOOD Luu;
 	FIELD z SAPLING Luu;
-	FIELD a name Ljava/lang/String;
-	METHOD a (Lfd;IIIII)V
+	METHOD a getDropId (ILjava/util/Random;)I
+	METHOD a sounds (Lct;)Luu;
+	METHOD a beforeDestroyedByExplosion (Lfd;IIIIF)V
+	METHOD a onBlockAction (Lfd;IIIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 blockMeta
+	METHOD a onScheduledTick (Lfd;IIILjava/util/Random;)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a afterPlaced (Lfd;IIILls;)V
+	METHOD a onEntityCollision (Lfd;IIILsn;)V
+	METHOD a afterBreak (Lfd;Lgs;IIII)V
 	METHOD a setName (Ljava/lang/String;)Luu;
-	METHOD b (Lfd;III)V
+	METHOD a getDropCount (Ljava/util/Random;)I
+	METHOD b onBlockRemoved (Lfd;III)V
 		ARG 1 level
+	METHOD b activate (Lfd;IIILgs;)V
+	METHOD b randomDisplayTick (Lfd;IIILjava/util/Random;)V
+	METHOD c isFullOpaque ()Z
+	METHOD d isFullCube ()Z
+	METHOD d onDestroyedByExplosion (Lfd;III)V
+	METHOD e getTickrate ()I
+	METHOD e getCollisionShape (Lfd;III)Leq;
+	METHOD e onPlaced (Lfd;IIII)V
+	METHOD f emitsRedstonePower ()Z
+	METHOD f getOutlineShape (Lfd;III)Leq;
 	METHOD n getName ()Ljava/lang/String;

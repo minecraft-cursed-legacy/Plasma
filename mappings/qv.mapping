@@ -1,0 +1,7 @@
+CLASS qv
+	FIELD a dir I
+	FIELD b tileX I
+	FIELD c tileY I
+	FIELD d tileZ I
+	FIELD e motive Liq;
+	METHOD b setDir (I)V

@@ -1,0 +1,6 @@
+CLASS aa net/minecraft/entity/player/PlayerContainer
+	FIELD a craftingInv Lmq;
+	FIELD b resultInv Llw;
+	FIELD c local Z
+	METHOD <init> (Lix;Z)V
+		ARG 2 local

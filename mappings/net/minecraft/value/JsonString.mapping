@@ -1,0 +1,2 @@
+CLASS qa net/minecraft/value/JsonString
+	FIELD a value Ljava/lang/String;

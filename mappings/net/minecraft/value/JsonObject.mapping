@@ -1,0 +1,2 @@
+CLASS kr net/minecraft/value/JsonObject
+	FIELD a fields Ljava/util/Map;

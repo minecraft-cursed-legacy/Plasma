@@ -1,2 +1,3 @@
 CLASS in net/minecraft/util/math/MathHelper
+	FIELD a TABLE [F
 	METHOD c sqrt (F)F

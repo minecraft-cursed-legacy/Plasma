@@ -49,6 +49,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD w HATCHET_STONE Lgm;
 	FIELD x SWORD_DIAMOND Lgm;
 	FIELD y SHOVEL_DIAMOND Lgm;
+	FIELD z DIAMOND_PICKAXE Lgm;
 	METHOD a activate (Liz;Lfd;Lgs;)Liz;
 	METHOD a interact (Liz;Lgs;Lfd;IIII)Z
 	METHOD a setName (Ljava/lang/String;)Lgm;

@@ -1,0 +1,3 @@
+CLASS oe net/minecraft/value/JsonArray
+	FIELD a elements Ljava/util/List;
+	METHOD a toList (Ljava/lang/Iterable;)Ljava/util/List;

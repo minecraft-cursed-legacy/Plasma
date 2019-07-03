@@ -1,0 +1,3 @@
+CLASS jt net/minecraft/value/ValueHolder
+	FIELD a value Lyp;
+	METHOD a accepts (Ljava/lang/Object;)Z

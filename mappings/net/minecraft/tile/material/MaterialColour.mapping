@@ -1,0 +1,12 @@
+CLASS dx net/minecraft/tile/material/MaterialColour
+	FIELD b AIR Ldx;
+	FIELD c GRASS Ldx;
+	FIELD d SAND Ldx;
+	FIELD e WEB Ldx;
+	FIELD f LAVA Ldx;
+	FIELD h IRON Ldx;
+	FIELD i FOLIAGE Ldx;
+	FIELD l DIRT Ldx;
+	FIELD m STONE Ldx;
+	FIELD n WATER Ldx;
+	FIELD o WOOD Ldx;

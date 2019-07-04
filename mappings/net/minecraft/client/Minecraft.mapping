@@ -4,7 +4,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD aa savesDir Lnl;
 	FIELD af gameDirectory Ljava/io/File;
 	FIELD f level Lfd;
-	FIELD q textManager Lsj;
+	FIELD q textRenderer Lsj;
 	FIELD r currentScreen Lda;
 	FIELD t gameRenderer Lpx;
 	FIELD z gameOptions Lkv;

@@ -1,0 +1,9 @@
+CLASS sl net/minecraft/entity/projectile/ArrowEntity
+	FIELD a player Z
+	FIELD b shake I
+	FIELD d xTile I
+	FIELD e yTile I
+	FIELD f zTile I
+	FIELD g inTile I
+	FIELD h inData I
+	FIELD i inGround Z

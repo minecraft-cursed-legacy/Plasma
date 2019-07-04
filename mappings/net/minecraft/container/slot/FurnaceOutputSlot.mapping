@@ -1,0 +1,2 @@
+CLASS vq net/minecraft/container/slot/FurnaceOutputSlot
+	FIELD d player Lgs;

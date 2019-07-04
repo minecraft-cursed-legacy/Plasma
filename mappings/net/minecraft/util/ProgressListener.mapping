@@ -1,0 +1,2 @@
+CLASS yb net/minecraft/util/ProgressListener
+	METHOD a progressStagePercentage (I)V

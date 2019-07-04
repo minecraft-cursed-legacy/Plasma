@@ -1,0 +1,2 @@
+CLASS qw net/minecraft/entity/PrimedTnt
+	FIELD a fuse I

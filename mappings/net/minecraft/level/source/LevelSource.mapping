@@ -1,0 +1,3 @@
+CLASS cl net/minecraft/level/source/LevelSource
+	METHOD a isChunkLoaded (II)Z
+	METHOD c toString ()Ljava/lang/String;

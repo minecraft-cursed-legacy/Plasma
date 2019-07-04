@@ -1,14 +1,46 @@
 CLASS sn net/minecraft/entity/Entity
+	FIELD aG passenger Lsn;
+	FIELD aH vehicle Lsn;
+	FIELD aI level Lfd;
+	FIELD aM x D
+	FIELD aN y D
+	FIELD aO z D
+	FIELD aP velocityX D
+	FIELD aQ velocityY D
+	FIELD aR velocityZ D
 	FIELD aX onGround Z
+	FIELD bC immuneToFire Z
+	FIELD bD dataTracker Lud;
+	FIELD bf standingEyeHeight F
 	FIELD bg width F
 	FIELD bh height F
 	FIELD bk fallDistance F
+	FIELD bs rand Ljava/util/Random;
 	FIELD bv fire I
 	FIELD bz air I
 	METHOD <init> (Lfd;)V
 		ARG 1 level
+	METHOD K remove ()V
+	METHOD a getBrightnessAtEyes (F)F
+	METHOD a onStruckByLightning (Lc;)V
+	METHOD a interact (Lgs;)Z
+	METHOD a dropItem (Liz;F)Lhl;
+	METHOD a readCustomDataFromTag (Lnu;)V
+	METHOD a damage (Lsn;I)Z
+	METHOD b initDataTracker ()V
+	METHOD b handleFallDamage (F)V
 	METHOD b setSize (FF)V
 		ARG 1 width
 		ARG 2 height
+	METHOD b dropItem (II)Lhl;
+	METHOD b onPlayerCollision (Lgs;)V
+	METHOD b writeCustomDataToTag (Lnu;)V
+	METHOD c setPositionAndAngles (DDDFF)V
+	METHOD e setPosition (DDD)V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
+	METHOD f distanceTo (Lsn;)F
+	METHOD i startRiding (Lsn;)V
+	METHOD m getMountedHeightOffset ()D
+	METHOD n canClimb ()Z
+	METHOD w_ tick ()V

@@ -1,1 +1,4 @@
 CLASS cy net/minecraft/entity/MobSpawnerEntity
+	FIELD a delay I
+	FIELD i entityId Ljava/lang/String;
+	METHOD d resetDelay ()V

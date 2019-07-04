@@ -1,8 +1,8 @@
 CLASS in net/minecraft/util/math/MathHelper
 	FIELD a TABLE [F
 	METHOD a sqrt (D)F
-	METHOD a isStringEmpty (Ljava/lang/String;)Z
 	METHOD a sin (F)F
+	METHOD a isStringEmpty (Ljava/lang/String;)Z
 	METHOD b floor (D)I
 	METHOD b cos (F)F
 	METHOD c sqrt (F)F

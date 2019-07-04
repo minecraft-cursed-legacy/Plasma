@@ -1,6 +1,0 @@
-CLASS nh net/minecraft/client/resource/language/TranslationStorage
-	FIELD a INSTANCE Lnh;
-	FIELD b translations Ljava/util/Properties;
-	METHOD a getInstance ()Lnh;
-	METHOD a translate (Ljava/lang/String;)Ljava/lang/String;
-	METHOD a translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

@@ -1,1 +1,7 @@
 CLASS n net/minecraft/render/class_q3434462
+	FIELD k level Lfd;
+	FIELD l textureManager Lji;
+	FIELD t client Lnet/minecraft/client/Minecraft;
+	METHOD a renderSky (F)V
+	METHOD c renderClouds (F)V
+	METHOD g renderStars ()V

@@ -2,13 +2,6 @@ CLASS iz net/minecraft/sortme/Item
 	FIELD a count I
 	FIELD c itemId I
 	FIELD d damage I
-	METHOD a getType ()Lgm;
-	METHOD a applyDamage (ILsn;)V
-	METHOD a toTag (Lnu;)Lnu;
-	METHOD b setDamage (I)V
-	METHOD b onCrafted (Lfd;Lgs;)V
-	METHOD b fromTag (Lnu;)V
-	METHOD b isEffectiveOn (Luu;)Z
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 count
@@ -31,9 +24,14 @@ CLASS iz net/minecraft/sortme/Item
 		ARG 1 tile
 		ARG 2 count
 		ARG 3 damage
-	METHOD a (Lnu;)Lnu;
+	METHOD a getType ()Lgm;
+	METHOD a applyDamage (ILsn;)V
+	METHOD a toTag (Lnu;)Lnu;
 		ARG 1 tag
-	METHOD b (Lnu;)V
+	METHOD b setDamage (I)V
+	METHOD b onCrafted (Lfd;Lgs;)V
+	METHOD b fromTag (Lnu;)V
 		ARG 1 tag
+	METHOD b isEffectiveOn (Luu;)Z
 	METHOD i getDamage ()I
 	METHOD k copy ()Liz;

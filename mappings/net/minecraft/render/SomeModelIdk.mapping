@@ -1,1 +1,2 @@
 CLASS o net/minecraft/render/SomeModelIdk
+	FIELD a head Lps;

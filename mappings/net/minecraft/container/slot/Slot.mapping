@@ -1,5 +1,10 @@
 CLASS gp net/minecraft/container/slot/Slot
 	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	METHOD <init> (Llw;III)V
+		ARG 3 x
+		ARG 4 y
 	METHOD a getItem ()Liz;
 	METHOD a onCrafted (Liz;)V
 	METHOD b hasItem ()Z

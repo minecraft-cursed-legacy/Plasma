@@ -1,4 +1,4 @@
-CLASS ke net/minecraft/gui/widgets/Button
+CLASS ke net/minecraft/client/gui/widgets/Button
 	FIELD a width I
 	FIELD b height I
 	FIELD c x I

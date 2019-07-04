@@ -1,4 +1,4 @@
-CLASS nw net/minecraft/render/Tessellator
+CLASS nw net/minecraft/client/render/Tessellator
 	FIELD a INSTANCE Lnw;
 	FIELD i width D
 	FIELD j height D

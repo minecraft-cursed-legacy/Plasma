@@ -1,4 +1,4 @@
-CLASS ub net/minecraft/gui/DrawableHelper
+CLASS ub net/minecraft/client/gui/DrawableHelper
 	FIELD k zOffset F
 	METHOD a (IIII)V
 		ARG 4 colour

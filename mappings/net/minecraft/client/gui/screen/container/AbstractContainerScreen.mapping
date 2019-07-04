@@ -1,4 +1,4 @@
-CLASS id net/minecraft/gui/screen/container/AbstractContainerScreen
+CLASS id net/minecraft/client/gui/screen/container/AbstractContainerScreen
 	FIELD a containerWidth I
 	FIELD i containerHeight I
 	FIELD j container Ldw;

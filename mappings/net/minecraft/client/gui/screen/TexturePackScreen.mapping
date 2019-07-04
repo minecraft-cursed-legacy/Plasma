@@ -1,4 +1,4 @@
-CLASS ft net/minecraft/gui/screen/TexturePackScreen
+CLASS ft net/minecraft/client/gui/screen/TexturePackScreen
 	FIELD a parent Lda;
 	METHOD <init> (Lda;)V
 		ARG 1 parent

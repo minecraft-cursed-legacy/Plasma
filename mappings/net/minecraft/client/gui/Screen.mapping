@@ -1,4 +1,4 @@
-CLASS da net/minecraft/gui/Screen
+CLASS da net/minecraft/client/gui/Screen
 	FIELD a lastClickedButton Lke;
 	FIELD b minecraft Lnet/minecraft/client/Minecraft;
 	FIELD c width I

@@ -1,0 +1,11 @@
+CLASS vz net/minecraft/client/gui/widgets/Slider
+	FIELD i value F
+	FIELD j dragged Z
+	FIELD l option Lht;
+	METHOD <init> (IIILht;Ljava/lang/String;F)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 text
+		ARG 6 value

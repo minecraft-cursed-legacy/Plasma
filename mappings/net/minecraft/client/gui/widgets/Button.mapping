@@ -19,9 +19,20 @@ CLASS ke net/minecraft/client/gui/widgets/Button
 		ARG 2 x
 		ARG 3 y
 		ARG 4 text
+	METHOD a mouseReleased (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY
 	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD a getYImage (Z)I
+		ARG 1 hovered
+	METHOD b postRender (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
 		ARG 2 mouseX
 		ARG 3 mouseY
 	METHOD c isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
+		ARG 1 minecraft
 		ARG 2 mouseX
 		ARG 3 mouseY

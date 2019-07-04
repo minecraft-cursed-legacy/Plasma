@@ -1,1 +1,4 @@
 CLASS oo net/minecraft/client/gui/screen/container/CraftingScreen
+	METHOD <init> (Lix;Lfd;III)V
+		ARG 1 inventory
+		ARG 2 level

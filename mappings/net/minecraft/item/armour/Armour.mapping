@@ -1,1 +1,2 @@
 CLASS wa net/minecraft/item/armour/Armour
+	FIELD bk armourSlot I

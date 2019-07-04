@@ -1,0 +1,10 @@
+CLASS ct net/minecraft/tile/TileSounds
+	FIELD a sound Ljava/lang/String;
+	FIELD b volume F
+	FIELD c pitch F
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 sound
+	METHOD a getBreakSound ()Ljava/lang/String;
+	METHOD b getVolume ()F
+	METHOD c getPitch ()F
+	METHOD d getWalkSound ()Ljava/lang/String;

@@ -1,1 +1,8 @@
 CLASS gi net/minecraft/entity/animal/Wolf
+	METHOD A getOwner ()Ljava/lang/String;
+	METHOD B isSitting ()Z
+	METHOD C isAngry ()Z
+	METHOD a setOwner (Ljava/lang/String;)V
+	METHOD b setSitting (Z)V
+	METHOD c setAngry (Z)V
+	METHOD d setHasOwner (Z)V

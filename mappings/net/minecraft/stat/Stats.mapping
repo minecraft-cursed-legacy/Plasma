@@ -27,3 +27,4 @@ CLASS jl net/minecraft/stat/Stats
 	FIELD x damageTaken Lvr;
 	FIELD y deaths Lvr;
 	FIELD z mobKills Lvr;
+	METHOD c onItemsRegistered ()V

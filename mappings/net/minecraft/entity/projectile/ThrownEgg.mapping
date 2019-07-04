@@ -1,0 +1,7 @@
+CLASS vv net/minecraft/entity/projectile/ThrownEgg
+	FIELD a shake I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I
+	FIELD f inGround Z

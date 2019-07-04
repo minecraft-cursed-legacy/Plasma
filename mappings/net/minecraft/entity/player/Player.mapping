@@ -1,0 +1,15 @@
+CLASS gs net/minecraft/entity/player/Player
+	FIELD a sleepTimer I
+	FIELD b spawnPos Lbr;
+	FIELD c inventory Lix;
+	FIELD d playerContainer Ldw;
+	FIELD e container Ldw;
+	FIELD g score I
+	FIELD m dimensionId I
+	FIELD u sleeping Z
+	METHOD G getHeldItem ()Liz;
+	METHOD a dropItem (Liz;)V
+	METHOD a dropItem (Liz;Z)V
+	METHOD a incrementStat (Lvr;)V
+	METHOD a increaseStat (Lvr;I)V
+	METHOD b updateCursorStack (Liz;)V

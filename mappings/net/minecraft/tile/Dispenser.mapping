@@ -1,1 +1,2 @@
 CLASS xq net/minecraft/tile/Dispenser
+	FIELD a rand Ljava/util/Random;

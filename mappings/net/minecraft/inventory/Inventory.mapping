@@ -1,4 +1,8 @@
 CLASS lw net/minecraft/inventory/Inventory
 	METHOD a getInvSize ()I
+	METHOD a takeInvItem (II)Liz;
+	METHOD a setInvItem (ILiz;)V
 	METHOD c getContainerName ()Ljava/lang/String;
 	METHOD d getMaxItemCount ()I
+	METHOD f_ getInvItem (I)Liz;
+	METHOD y_ markDirty ()V

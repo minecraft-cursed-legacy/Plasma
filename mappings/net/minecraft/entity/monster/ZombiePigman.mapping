@@ -1,1 +1,2 @@
 CLASS ya net/minecraft/entity/monster/ZombiePigman
+	FIELD a anger I

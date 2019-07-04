@@ -1,0 +1,3 @@
+CLASS yv net/minecraft/container/slot/CraftingResultSlot
+	FIELD d resultInventory Llw;
+	FIELD e player Lgs;

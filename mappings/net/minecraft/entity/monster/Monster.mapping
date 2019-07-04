@@ -1,1 +1,2 @@
 CLASS gz net/minecraft/entity/monster/Monster
+	FIELD c attackDamage I

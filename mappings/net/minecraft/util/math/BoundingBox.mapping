@@ -1,0 +1,2 @@
+CLASS eq net/minecraft/util/math/BoundingBox
+	METHOD b create (DDDDDD)Leq;

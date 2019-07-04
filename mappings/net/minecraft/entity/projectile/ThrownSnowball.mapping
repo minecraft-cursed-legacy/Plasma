@@ -1,0 +1,7 @@
+CLASS by net/minecraft/entity/projectile/ThrownSnowball
+	FIELD a shake I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I
+	FIELD f inGround Z

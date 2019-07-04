@@ -1,0 +1,7 @@
+CLASS xp net/minecraft/level/TileView
+	METHOD a getTileId (III)I
+	METHOD b getTileEntity (III)Low;
+	METHOD c getBrightness (III)F
+	METHOD e getTileMeta (III)I
+	METHOD f getMaterial (III)Lln;
+	METHOD h canSuffocate (III)Z

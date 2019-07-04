@@ -1,1 +1,3 @@
 CLASS fo net/minecraft/tile/Jukebox
+	METHOD f setRecord (Lfd;IIII)V
+		ARG 5 recordId

@@ -1,0 +1,5 @@
+CLASS hl net/minecraft/entity/ItemEntity
+	FIELD a item Liz;
+	FIELD b age I
+	FIELD c pickupDelay I
+	FIELD f health I

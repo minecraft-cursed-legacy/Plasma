@@ -101,7 +101,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD o swordIron Lgm;
 	FIELD p swordWood Lgm;
 	FIELD q shovelWood Lgm;
-	FIELD r pickxaeWood Lgm;
+	FIELD r pickaxeWood Lgm;
 	FIELD s hatchetWood Lgm;
 	FIELD t swordStone Lgm;
 	FIELD u shovelStone Lgm;

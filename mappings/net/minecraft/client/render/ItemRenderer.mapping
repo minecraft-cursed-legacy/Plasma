@@ -1,0 +1,3 @@
+CLASS bb net/minecraft/client/render/ItemRenderer
+	METHOD b (Lsj;Lji;Liz;II)V
+		ARG 3 item

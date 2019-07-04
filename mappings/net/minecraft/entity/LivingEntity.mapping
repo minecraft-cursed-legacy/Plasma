@@ -1,4 +1,4 @@
-CLASS ls net/minecraft/entity/Mob
+CLASS ls net/minecraft/entity/LivingEntity
 	FIELD O texture Ljava/lang/String;
 	FIELD Y health I
 	FIELD aB movementSpeed F

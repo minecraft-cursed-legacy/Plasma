@@ -26,6 +26,10 @@ CLASS kv net/minecraft/sortme/GameOptions
 	FIELD w keyBindings [Lqb;
 	FIELD y difficulty I
 	METHOD a changeOption (Lht;I)V
+	METHOD a getKeybindName (I)Ljava/lang/String;
+		ARG 1 index
 	METHOD a parseFloat (Ljava/lang/String;)F
 		ARG 1 str
 	METHOD b saveOptions ()V
+	METHOD b getKeybindKey (I)Ljava/lang/String;
+		ARG 1 index

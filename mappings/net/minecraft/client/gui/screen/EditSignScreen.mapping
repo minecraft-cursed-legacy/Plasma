@@ -1,3 +1,5 @@
 CLASS yc net/minecraft/client/gui/screen/EditSignScreen
 	FIELD a title Ljava/lang/String;
-	FIELD i sign Lyk;
+	FIELD i entity Lyk;
+	METHOD <init> (Lyk;)V
+		ARG 1 entity

@@ -1,1 +1,2 @@
 CLASS ov net/minecraft/client/gui/screen/container/FurnaceScreen
+	FIELD l entity Lsk;

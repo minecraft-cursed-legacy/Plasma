@@ -1,3 +1,0 @@
-CLASS qq
-	METHOD a getScaledWidth ()I
-	METHOD b getScaledHeight ()I

@@ -1,0 +1,12 @@
+CLASS qq net/minecraft/client/ScreenScaler
+	FIELD a scaledWidth D
+	FIELD b scaledHeight D
+	FIELD c scale I
+	FIELD d ceilScaledWidth I
+	FIELD e ceilScaledHeight I
+	METHOD <init> (Lkv;II)V
+		ARG 1 gameOptions
+		ARG 2 width
+		ARG 3 height
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I

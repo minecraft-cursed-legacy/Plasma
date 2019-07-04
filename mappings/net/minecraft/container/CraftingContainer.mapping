@@ -1,0 +1,6 @@
+CLASS it net/minecraft/container/CraftingContainer
+	FIELD a inventory Lmq;
+	FIELD b result Llw;
+	FIELD c level Lfd;
+	METHOD <init> (Lix;Lfd;III)V
+		ARG 1 playerInventory

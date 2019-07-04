@@ -13,3 +13,4 @@ CLASS gs net/minecraft/entity/player/Player
 	METHOD a incrementStat (Lvr;)V
 	METHOD a increaseStat (Lvr;I)V
 	METHOD b updateCursorStack (Liz;)V
+	METHOD p_ respawn ()V

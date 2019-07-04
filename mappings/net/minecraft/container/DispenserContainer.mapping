@@ -1,0 +1,2 @@
+CLASS sh net/minecraft/container/DispenserContainer
+	FIELD a entity Laz;

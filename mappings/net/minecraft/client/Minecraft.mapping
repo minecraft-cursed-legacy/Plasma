@@ -28,6 +28,6 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD b getGameDirectory ()Ljava/io/File;
 	METHOD c printOpenGLError (Ljava/lang/String;)V
 	METHOD j toggleFullscreen ()V
-	METHOD l isLevelOnClient ()Z
+	METHOD l hasLevel ()Z
 	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

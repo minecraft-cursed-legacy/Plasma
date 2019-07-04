@@ -1,4 +1,0 @@
-CLASS ud
-	METHOD a get (I)B
-	METHOD a startTracking (ILjava/lang/Object;)V
-	METHOD b setInt (ILjava/lang/Object;)V

@@ -26,7 +26,9 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD a interact (Lgs;)Z
 	METHOD a dropItem (Liz;F)Lhl;
 	METHOD a readCustomDataFromTag (Lnu;)V
+		ARG 1 tag
 	METHOD a damage (Lsn;I)Z
+	METHOD ad getDataTracker ()Lud;
 	METHOD b initDataTracker ()V
 	METHOD b handleFallDamage (F)V
 	METHOD b setSize (FF)V
@@ -35,6 +37,7 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD b dropItem (II)Lhl;
 	METHOD b onPlayerCollision (Lgs;)V
 	METHOD b writeCustomDataToTag (Lnu;)V
+		ARG 1 tag
 	METHOD c setPositionAndAngles (DDDFF)V
 	METHOD e setPosition (DDD)V
 	METHOD equals (Ljava/lang/Object;)Z

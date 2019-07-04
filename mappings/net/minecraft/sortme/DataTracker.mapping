@@ -1,0 +1,16 @@
+CLASS ud net/minecraft/sortme/DataTracker
+	FIELD a dataIds Ljava/util/HashMap;
+	FIELD b data Ljava/util/Map;
+	METHOD a getByte (I)B
+	METHOD a startTracking (ILjava/lang/Object;)V
+		ARG 1 valueId
+		ARG 2 object
+	METHOD a (Ljava/io/DataInputStream;)Ljava/util/List;
+		ARG 0 in
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 out
+	METHOD a write (Ljava/io/DataOutputStream;Lma;)V
+		ARG 0 out
+	METHOD b getInt (I)I
+	METHOD b setInt (ILjava/lang/Object;)V
+	METHOD c getString (I)Ljava/lang/String;

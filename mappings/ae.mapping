@@ -1,0 +1,3 @@
+CLASS ae
+	METHOD <init> (Lfd;DDDDDDF)V
+		ARG 1 level

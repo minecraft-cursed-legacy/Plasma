@@ -1,0 +1,2 @@
+CLASS lg
+	FIELD a instance Lnet/minecraft/client/Minecraft;

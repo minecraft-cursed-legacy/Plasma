@@ -1,0 +1,2 @@
+CLASS xc net/minecraft/recipe/WeaponRecipes
+	METHOD a register (Lhk;)V

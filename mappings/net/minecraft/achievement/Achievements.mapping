@@ -16,3 +16,4 @@ CLASS ep net/minecraft/achievement/Achievements
 	FIELD s KILL_ENEMY Lny;
 	FIELD t KILL_COW Lny;
 	FIELD u FLY_PIG Lny;
+	METHOD a init ()V

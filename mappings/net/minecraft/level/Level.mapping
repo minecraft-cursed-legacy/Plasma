@@ -17,4 +17,5 @@ CLASS fd net/minecraft/level/Level
 	METHOD f setBlock (IIII)Z
 	METHOD n getLightLevel (III)I
 	METHOD p removeTileEntity (III)V
+	METHOD q disconnect ()V
 	METHOD x getProperties ()Lei;

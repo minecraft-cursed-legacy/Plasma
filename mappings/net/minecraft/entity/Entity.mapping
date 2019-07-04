@@ -8,6 +8,8 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD aP velocityX D
 	FIELD aQ velocityY D
 	FIELD aR velocityZ D
+	FIELD aS pitch F
+	FIELD aT yaw F
 	FIELD aX onGround Z
 	FIELD bC immuneToFire Z
 	FIELD bD dataTracker Lud;
@@ -21,7 +23,9 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD <init> (Lfd;)V
 		ARG 1 level
 	METHOD K remove ()V
+	METHOD a setVelocity (DDD)V
 	METHOD a getBrightnessAtEyes (F)F
+	METHOD a dropItem (IIF)Lhl;
 	METHOD a onStruckByLightning (Lc;)V
 	METHOD a interact (Lgs;)Z
 	METHOD a dropItem (Liz;F)Lhl;
@@ -36,7 +40,10 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD b onPlayerCollision (Lgs;)V
 	METHOD b writeCustomDataToTag (Lnu;)V
 	METHOD c setPositionAndAngles (DDDFF)V
+	METHOD c setRotation (FF)V
+	METHOD d toTag (Lnu;)V
 	METHOD e setPosition (DDD)V
+	METHOD e fromTag (Lnu;)V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
 	METHOD f distanceTo (Lsn;)F

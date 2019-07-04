@@ -1,2 +1,4 @@
 CLASS ji
 	FIELD i gameOptions Lkv;
+	METHOD b bindTexture (I)V
+	METHOD b getTextureId (Ljava/lang/String;)I

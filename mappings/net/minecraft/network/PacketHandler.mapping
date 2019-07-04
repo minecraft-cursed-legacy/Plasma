@@ -1,1 +1,3 @@
 CLASS ti net/minecraft/network/PacketHandler
+	METHOD a handle (La;)V
+	METHOD a handleEntitySpawnPacket (Lso;)V

@@ -5,6 +5,8 @@ CLASS da net/minecraft/client/gui/Screen
 	FIELD d height I
 	FIELD e buttons Ljava/util/List;
 	FIELD g textManager Lsj;
+	METHOD a tick ()V
+	METHOD a onKeyPressed (CI)V
 	METHOD a renderBackground (I)V
 		ARG 1 alpha
 	METHOD a render (IIF)V
@@ -17,9 +19,11 @@ CLASS da net/minecraft/client/gui/Screen
 		ARG 3 button
 	METHOD a onClicked (Lke;)V
 	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD a updateServer (ZI)V
 	METHOD b init ()V
 	METHOD b renderDirtBackground (I)V
 		ARG 1 alpha
-	METHOD d getClipboardContent ()Ljava/lang/String;
+	METHOD c isPauseScreen ()Z
+	METHOD d getClipboardContents ()Ljava/lang/String;
 	METHOD h onClose ()V
 	METHOD i renderBackground ()V

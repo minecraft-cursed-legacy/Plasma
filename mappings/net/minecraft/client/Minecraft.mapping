@@ -1,9 +1,13 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD I inGameHud Lxi;
 	FIELD Z gameDir Ljava/io/File;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
 	FIELD aa savesDir Lnl;
 	FIELD af gameDirectory Ljava/io/File;
 	FIELD f level Lfd;
+	FIELD h player Ldc;
+	FIELD k session Lgr;
+	FIELD p textureManager Lji;
 	FIELD q textRenderer Lsj;
 	FIELD r currentScreen Lda;
 	FIELD t gameRenderer Lpx;
@@ -16,5 +20,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD a start (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 playerName
 	METHOD b getGameDirectory ()Ljava/io/File;
+	METHOD g lockCursor ()V
+	METHOD l isInServer ()Z
 	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

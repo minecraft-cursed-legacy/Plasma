@@ -1,0 +1,2 @@
+CLASS qn
+	FIELD h rand Ljava/util/Random;

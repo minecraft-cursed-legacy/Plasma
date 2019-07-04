@@ -1,0 +1,15 @@
+CLASS ls net/minecraft/entity/Mob
+	FIELD O texture Ljava/lang/String;
+	FIELD Y health I
+	FIELD aB movementSpeed F
+	FIELD aa hurtTime I
+	FIELD ad deathTime I
+	FIELD ae attackTime I
+	METHOD V onSpawnedFromSpawner ()V
+	METHOD b onKilledBy (Lsn;)V
+	METHOD d canSpawn ()Z
+	METHOD g getAmbientSound ()Ljava/lang/String;
+	METHOD i getDeathSound ()Ljava/lang/String;
+	METHOD j getMobDrops ()I
+	METHOD j_ getHurtSound ()Ljava/lang/String;
+	METHOD o updateDespawnCounter ()V

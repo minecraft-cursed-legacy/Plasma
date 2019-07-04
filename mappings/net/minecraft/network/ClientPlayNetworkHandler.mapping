@@ -1,0 +1,3 @@
+CLASS nb net/minecraft/network/ClientPlayNetworkHandler
+	FIELD f minecraft Lnet/minecraft/client/Minecraft;
+	METHOD b sendPacket (Lki;)V

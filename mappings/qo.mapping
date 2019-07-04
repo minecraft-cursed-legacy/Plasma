@@ -1,0 +1,4 @@
+CLASS qo
+	FIELD a name Ljava/lang/String;
+	FIELD b invSize I
+	FIELD c contents [Liz;

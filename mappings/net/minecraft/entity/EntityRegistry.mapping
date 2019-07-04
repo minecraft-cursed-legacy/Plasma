@@ -1,0 +1,11 @@
+CLASS jc net/minecraft/entity/EntityRegistry
+	FIELD a STRING_ID_TO_CLASS Ljava/util/Map;
+	FIELD b CLASS_TO_STRING_ID Ljava/util/Map;
+	FIELD c ID_TO_CLASS Ljava/util/Map;
+	FIELD d CLASS_TO_ID Ljava/util/Map;
+	METHOD a create (ILfd;)Lsn;
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD a create (Ljava/lang/String;Lfd;)Lsn;
+	METHOD a create (Lnu;Lfd;)Lsn;
+	METHOD a getId (Lsn;)I
+	METHOD b getStringId (Lsn;)Ljava/lang/String;

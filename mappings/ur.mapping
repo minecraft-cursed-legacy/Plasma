@@ -1,0 +1,2 @@
+CLASS ur
+	FIELD a rand Ljava/util/Random;

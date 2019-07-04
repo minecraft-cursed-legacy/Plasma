@@ -1,2 +1,3 @@
 CLASS ju net/minecraft/entity/FallingBlock
 	FIELD a tile I
+	METHOD k getFallingLevel ()Lfd;

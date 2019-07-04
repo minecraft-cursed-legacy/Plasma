@@ -1,1 +1,2 @@
 CLASS js net/minecraft/entity/ChestEntity
+	FIELD a contents [Liz;

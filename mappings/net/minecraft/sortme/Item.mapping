@@ -26,6 +26,8 @@ CLASS iz net/minecraft/sortme/Item
 		ARG 3 damage
 	METHOD a getType ()Lgm;
 	METHOD a applyDamage (ILsn;)V
+	METHOD a isEqualIgnoreFlags (Liz;)Z
+	METHOD a interactWithEntity (Lls;)V
 	METHOD a toTag (Lnu;)Lnu;
 		ARG 1 tag
 	METHOD b setDamage (I)V

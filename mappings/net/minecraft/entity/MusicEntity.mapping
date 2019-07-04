@@ -1,1 +1,4 @@
 CLASS tn net/minecraft/entity/MusicEntity
+	FIELD a note B
+	METHOD a incrementNote ()V
+	METHOD a playNote (Lfd;III)V

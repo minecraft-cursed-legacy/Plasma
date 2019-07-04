@@ -6,7 +6,7 @@ CLASS ix net/minecraft/entity/player/PlayerInventory
 	FIELD e dirty Z
 	FIELD f cursorStack Liz;
 	METHOD a toTag (Lsp;)Lsp;
-	METHOD b getHeldStack ()Liz;
+	METHOD b getHeldItem ()Liz;
 	METHOD b setCursorStack (Liz;)V
 	METHOD b fromTag (Lsp;)V
 	METHOD b isUsingEffectiveTool (Luu;)Z

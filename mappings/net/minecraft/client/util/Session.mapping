@@ -1,0 +1,2 @@
+CLASS gr net/minecraft/client/util/Session
+	FIELD b username Ljava/lang/String;

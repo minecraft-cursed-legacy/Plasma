@@ -1,4 +1,4 @@
-CLASS ji
+CLASS ji net/minecraft/client/texture/TextureManager
 	FIELD i gameOptions Lkv;
 	METHOD b bindTexture (I)V
 	METHOD b getTextureId (Ljava/lang/String;)I

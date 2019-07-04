@@ -17,6 +17,7 @@ CLASS ln net/minecraft/tile/material/Material
 	FIELD l WOOL Lln;
 	FIELD m FIRE Lln;
 	FIELD n SAND Lln;
+	FIELD p GLASS Lln;
 	FIELD s ICE Lln;
 	FIELD v CACTUS Lln;
 	FIELD w CLAY Lln;

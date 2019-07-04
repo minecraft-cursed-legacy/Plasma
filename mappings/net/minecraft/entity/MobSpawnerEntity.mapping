@@ -1,4 +1,7 @@
 CLASS cy net/minecraft/entity/MobSpawnerEntity
 	FIELD a delay I
 	FIELD i entityId Ljava/lang/String;
+	METHOD a getEntityId ()Ljava/lang/String;
+	METHOD a setEntityId (Ljava/lang/String;)V
+	METHOD b isPlayerInRange ()Z
 	METHOD d resetDelay ()V

@@ -1,4 +1,4 @@
-CLASS do net/minecraft/language/I18n
+CLASS do net/minecraft/client/resource/language/I18n
 	FIELD a loader Lnh;
 	METHOD a format (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 key

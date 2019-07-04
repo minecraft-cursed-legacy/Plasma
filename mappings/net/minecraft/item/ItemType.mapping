@@ -9,7 +9,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD H hatchetGold Lgm;
 	FIELD I string Lgm;
 	FIELD J feather Lgm;
-	FIELD K sulthur Lgm;
+	FIELD K sulphur Lgm;
 	FIELD L hoeWood Lgm;
 	FIELD M hoeStone Lgm;
 	FIELD N hoeIron Lgm;
@@ -76,7 +76,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD aw bucketLava Lgm;
 	FIELD ax minecart Lgm;
 	FIELD ay saddle Lgm;
-	FIELD az dorrIron Lgm;
+	FIELD az doorIron Lgm;
 	FIELD b rand Ljava/util/Random;
 	FIELD ba cookie Lgm;
 	FIELD bb map Lwr;
@@ -95,7 +95,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD i bow Lgm;
 	FIELD j arrow Lgm;
 	FIELD k coal Lgm;
-	FIELD l emerald Lgm;
+	FIELD l diamond Lgm;
 	FIELD m ingotIron Lgm;
 	FIELD n ingotGold Lgm;
 	FIELD o swordIron Lgm;

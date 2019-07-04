@@ -1,0 +1,2 @@
+CLASS o net/minecraft/client/render/entity/model/DoggoModel
+	FIELD a head Lps;

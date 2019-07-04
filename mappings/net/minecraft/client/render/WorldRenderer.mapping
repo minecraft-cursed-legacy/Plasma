@@ -1,4 +1,4 @@
-CLASS n net/minecraft/render/class_q3434462
+CLASS n net/minecraft/client/render/WorldRenderer
 	FIELD k level Lfd;
 	FIELD l textureManager Lji;
 	FIELD t client Lnet/minecraft/client/Minecraft;

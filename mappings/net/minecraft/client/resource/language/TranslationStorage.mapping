@@ -1,4 +1,4 @@
-CLASS nh net/minecraft/language/LanguageLoader
+CLASS nh net/minecraft/client/resource/language/TranslationStorage
 	FIELD a instance Lnh;
 	FIELD b data Ljava/util/Properties;
 	METHOD a getInstance ()Lnh;

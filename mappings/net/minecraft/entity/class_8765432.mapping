@@ -1,0 +1,8 @@
+CLASS xw net/minecraft/entity/class_8765432
+	METHOD <init> (Lfd;DDDDDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a (Lnw;FFFFFF)V
+		ARG 1 tessellator

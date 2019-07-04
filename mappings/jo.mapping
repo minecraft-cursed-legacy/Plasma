@@ -1,0 +1,3 @@
+CLASS jo
+	METHOD <init> (Lsn;)V
+		ARG 1 entity

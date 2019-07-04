@@ -1,0 +1,8 @@
+CLASS cc net/minecraft/util/noise/SimplexNoise
+	FIELD a xOffset D
+	FIELD b yOffset D
+	FIELD c zOffset D
+	FIELD d gradients [[I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a dot ([IDD)D

@@ -1,0 +1,3 @@
+CLASS ki net/minecraft/packet/AbstractPacket
+	METHOD a (Lti;)V
+		ARG 1 handler

@@ -1,0 +1,2 @@
+CLASS od net/minecraft/recipe/StewAndCookieRecipes
+	METHOD a register (Lhk;)V

@@ -1,0 +1,5 @@
+CLASS bd
+	FIELD e minecraftDirectory Ljava/io/File;
+	METHOD a getMinecraftDirectory ()Ljava/io/File;
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+	METHOD e getOperatingSystem ()Ljn;

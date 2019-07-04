@@ -1,0 +1,2 @@
+CLASS z net/minecraft/recipe/ArmourRecipes
+	METHOD a register (Lhk;)V

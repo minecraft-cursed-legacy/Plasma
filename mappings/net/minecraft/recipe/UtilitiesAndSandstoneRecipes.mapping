@@ -1,0 +1,2 @@
+CLASS jy net/minecraft/recipe/UtilitiesAndSandstoneRecipes
+	METHOD a register (Lhk;)V

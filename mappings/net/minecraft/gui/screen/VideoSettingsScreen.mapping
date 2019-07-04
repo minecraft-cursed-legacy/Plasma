@@ -1,5 +1,0 @@
-CLASS nj net/minecraft/gui/screen/VideoSettingsScreen
-	FIELD i parent Lda;
-	FIELD l OPTIONS [Lht;
-	METHOD <init> (Lda;Lkv;)V
-		ARG 1 parent

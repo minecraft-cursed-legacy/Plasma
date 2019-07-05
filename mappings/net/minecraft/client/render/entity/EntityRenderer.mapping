@@ -1,0 +1,2 @@
+CLASS gv net/minecraft/client/render/entity/EntityRenderer
+	METHOD a render (Lls;IF)Z

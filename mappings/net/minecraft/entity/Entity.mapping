@@ -21,6 +21,7 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD aX onGround Z
 	FIELD bC immuneToFire Z
 	FIELD bD dataTracker Lud;
+	FIELD bc inCobweb Z
 	FIELD be removed Z
 	FIELD bf standingEyeHeight F
 	FIELD bg width F

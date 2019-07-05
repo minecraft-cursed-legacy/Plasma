@@ -1,3 +1,3 @@
 CLASS ll net/minecraft/client/render/entity/TileEntityRenderDispatcher
 	FIELD a INSTNACE Lll;
-	METHOD a renderBlockEntity (Low;DDDF)V
+	METHOD a renderTileEntity (Low;DDDF)V

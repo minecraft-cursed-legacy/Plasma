@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD I inGameHud Lxi;
-	FIELD J isRunning Z
+	FIELD J running Z
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD Z gameDir Ljava/io/File;

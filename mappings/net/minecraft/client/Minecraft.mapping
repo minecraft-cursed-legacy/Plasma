@@ -44,5 +44,5 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD j toggleFullscreen ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
-	METHOD u isFancyGraphicsEnabled ()Z127
+	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

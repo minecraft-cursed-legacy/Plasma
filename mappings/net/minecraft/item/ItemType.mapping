@@ -113,7 +113,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD z pickaxeDiamond Lgm;
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getTranaslationKey ()Ljava/lang/String;
+	METHOD a getTranslationKey ()Ljava/lang/String;
 	METHOD a setContainerItem (Lgm;)Lgm;
 		ARG 1 itemType
 	METHOD a getTranslationKey (Liz;)Ljava/lang/String;

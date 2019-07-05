@@ -1,4 +1,4 @@
-CLASS nj net/minecraft/client/gui/screen/VideoOptionsScreen
+CLASS nj net/minecraft/client/gui/screen/VideoSettingsScreen
 	FIELD a title Ljava/lang/String;
 	FIELD i parent Lda;
 	FIELD j options Lkv;

@@ -1,13 +1,17 @@
 CLASS fd net/minecraft/level/Level
 	FIELD B isClient Z
+	FIELD d players Ljava/util/List;
 	FIELD r rand Ljava/util/Random;
 	FIELD v cache Lcl;
 	FIELD x properties Lei;
 	METHOD <init> (Lwt;Ljava/lang/String;Lxa;J)V
 		ARG 4 seed
+	METHOD A canSkipNight ()Z
 	METHOD a isPlayerInRange (DDDD)Lgs;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a setTileEntity (IIILow;)V
+	METHOD a setLevelTime (J)V
+	METHOD a setSpawnPosition (Lbr;)V
 	METHOD a getEntities (Ljava/lang/Class;Leq;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a getClosestPlayer (Lsn;D)Lgs;
@@ -22,5 +26,8 @@ CLASS fd net/minecraft/level/Level
 	METHOD n getLightLevel (III)I
 	METHOD p removeTileEntity (III)V
 	METHOD q disconnect ()V
+	METHOD s getSeed ()J
+	METHOD t getLevelTime ()J
 	METHOD u getSpawnPosition ()Lbr;
 	METHOD x getProperties ()Lei;
+	METHOD z wakeUpSleepingPlayers ()V

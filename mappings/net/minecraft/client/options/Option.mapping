@@ -5,7 +5,7 @@ CLASS ht net/minecraft/client/options/Option
 		ARG 1 name
 		ARG 2 id
 		ARG 3 translationKey
-		ARG 4 isSlider
+		ARG 4 slider
 	METHOD a isSlider ()Z
 	METHOD a getById (I)Lht;
 		ARG 0 id

@@ -1,4 +1,0 @@
-CLASS hp net/minecraft/client/gui/screen/DoubleChestScreen
-	FIELD l inv1 Llw;
-	FIELD m inv2 Llw;
-	FIELD n rows I

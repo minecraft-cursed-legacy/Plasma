@@ -1,5 +1,6 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD I inGameHud Lxi;
+	FIELD J running Z
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD Z gameDir Ljava/io/File;
@@ -24,6 +25,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD z options Lkv;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 6 isFullscreen
+	METHOD a init ()V
 	METHOD a updateScreenResolution (II)V
 		ARG 1 actualWidth
 		ARG 2 actualHeight
@@ -36,6 +38,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 playerName
 	METHOD b getGameDirectory ()Ljava/io/File;
 	METHOD c printOpenGLError (Ljava/lang/String;)V
+	METHOD d stop ()V
+	METHOD f scheduleStop ()V
 	METHOD g lockCursor ()V
 	METHOD j toggleFullscreen ()V
 	METHOD l hasLevel ()Z

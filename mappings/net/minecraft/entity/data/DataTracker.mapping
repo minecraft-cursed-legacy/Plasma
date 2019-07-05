@@ -1,4 +1,4 @@
-CLASS ud net/minecraft/sortme/DataTracker
+CLASS ud net/minecraft/entity/data/DataTracker
 	FIELD a dataIds Ljava/util/HashMap;
 	FIELD b data Ljava/util/Map;
 	METHOD a getByte (I)B

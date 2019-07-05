@@ -1,0 +1,2 @@
+CLASS mm net/minecraft/client/level/ClientLevel
+	FIELD D netHandler Lnb;

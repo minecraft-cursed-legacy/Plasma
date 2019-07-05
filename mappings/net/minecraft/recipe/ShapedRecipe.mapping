@@ -1,1 +1,12 @@
 CLASS is net/minecraft/recipe/ShapedRecipe
+	FIELD a outputId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d ingredients [Liz;
+	FIELD e output Liz;
+	METHOD <init> (II[Liz;Liz;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 ingredients
+		ARG 4 output
+	METHOD a matchesSmall (Lmq;IIZ)Z

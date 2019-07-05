@@ -1,1 +1,7 @@
 CLASS rq net/minecraft/client/gui/screen/SelectWorldScreen
+	FIELD a parent Lda;
+	FIELD i title Ljava/lang/String;
+	FIELD j dateFormat Ljava/text/DateFormat;
+	FIELD s renameButton Lke;
+	FIELD t selectButton Lke;
+	FIELD u deleteButton Lke;

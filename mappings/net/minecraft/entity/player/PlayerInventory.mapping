@@ -7,12 +7,15 @@ CLASS ix net/minecraft/entity/player/PlayerInventory
 	FIELD f cursorStack Liz;
 	METHOD a toTag (Lsp;)Lsp;
 	METHOD b getHeldItem ()Liz;
-	METHOD b setCursorStack (Liz;)V
+	METHOD b scrollInHotbar (I)V
+	METHOD b setCursorItem (Liz;)V
 	METHOD b fromTag (Lsp;)V
 	METHOD b isUsingEffectiveTool (Luu;)Z
 	METHOD c decreaseAmountOfItem (I)Z
+	METHOD c containsItem (Liz;)Z
+	METHOD d getArmourItem (I)Liz;
 	METHOD e damageArmour (I)V
 	METHOD f getSlotWithItem (I)I
 		ARG 1 id
 	METHOD g dropInventory ()V
-	METHOD i getCursorStack ()Liz;
+	METHOD i getCursorItem ()Liz;

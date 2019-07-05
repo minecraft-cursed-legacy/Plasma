@@ -1,0 +1,3 @@
+CLASS iw net/minecraft/packet/OpenScreenS2CPacket
+	FIELD a containerId I
+	FIELD b screenId I

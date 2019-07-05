@@ -1,3 +1,4 @@
 CLASS bb net/minecraft/client/render/ItemRenderer
+	FIELD f rand Ljava/util/Random;
 	METHOD b (Lsj;Lji;Liz;II)V
 		ARG 3 item

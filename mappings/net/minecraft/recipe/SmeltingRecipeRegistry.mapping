@@ -1,4 +1,4 @@
-CLASS ey net/minecraft/recipe/SmeltingRecipes
+CLASS ey net/minecraft/recipe/SmeltingRecipeRegistry
 	FIELD a INSTANCE Ley;
 	FIELD b recipes Ljava/util/Map;
 	METHOD a getInstance ()Ley;

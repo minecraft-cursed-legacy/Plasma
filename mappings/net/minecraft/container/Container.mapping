@@ -1,5 +1,6 @@
 CLASS dw net/minecraft/container/Container
 	FIELD e slots Ljava/util/List;
+	FIELD f currentContainerId I
 	METHOD a transferSlot (I)Liz;
 	METHOD a addSlot (Lgp;)V
 	METHOD a onClosed (Lgs;)V

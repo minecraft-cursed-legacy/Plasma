@@ -1,0 +1,2 @@
+CLASS dq net/minecraft/item/tool/Tool
+	FIELD a toolMaterial Lbu;

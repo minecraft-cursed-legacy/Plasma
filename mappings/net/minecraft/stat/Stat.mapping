@@ -1,2 +1,9 @@
 CLASS vr net/minecraft/stat/Stat
+	FIELD b NUMBER_FORMAT Ljava/text/NumberFormat;
+	FIELD c DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD e id I
+	FIELD f name Ljava/lang/String;
+	FIELD i NUMBER_FORMATTER Lwk;
+	FIELD j TIME_FORMATTER Lwk;
+	FIELD k DISTANCE_FORMATTER Lwk;
 	METHOD g register ()Lvr;

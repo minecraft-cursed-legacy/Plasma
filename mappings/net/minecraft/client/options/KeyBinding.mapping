@@ -1,4 +1,4 @@
-CLASS qb net/minecraft/sortme/KeyBinding
+CLASS qb net/minecraft/client/options/KeyBinding
 	FIELD a name Ljava/lang/String;
 	FIELD b key I
 	METHOD <init> (Ljava/lang/String;I)V

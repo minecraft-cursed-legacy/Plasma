@@ -1,0 +1,3 @@
+CLASS wk net/minecraft/stat/StatFormatter
+	METHOD a format (I)Ljava/lang/String;
+		ARG 1 amount

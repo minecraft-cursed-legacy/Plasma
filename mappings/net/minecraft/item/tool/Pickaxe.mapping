@@ -1,1 +1,2 @@
 CLASS au net/minecraft/item/tool/Pickaxe
+	FIELD bk effectiveBlocks [Luu;

@@ -1,2 +1,4 @@
 CLASS xc net/minecraft/recipe/WeaponRecipes
+	FIELD a pattern [[Ljava/lang/String;
+	FIELD b materials [[Ljava/lang/Object;
 	METHOD a register (Lhk;)V

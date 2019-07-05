@@ -1,1 +1,2 @@
 CLASS ta net/minecraft/item/tool/Hatchet
+	FIELD bk effectiveBlocks [Luu;

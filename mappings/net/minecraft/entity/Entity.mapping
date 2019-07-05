@@ -1,5 +1,6 @@
 CLASS sn net/minecraft/entity/Entity
 	FIELD aD entityId I
+	FIELD aE renderDistanceMultiplier D
 	FIELD aG passenger Lsn;
 	FIELD aH vehicle Lsn;
 	FIELD aI level Lfd;
@@ -25,6 +26,9 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD bg width F
 	FIELD bh height F
 	FIELD bk fallDistance F
+	FIELD bl prevRenderX D
+	FIELD bm prevRenderY D
+	FIELD bn prevRenderZ D
 	FIELD bs rand Ljava/util/Random;
 	FIELD bv fire I
 	FIELD bz air I
@@ -36,10 +40,12 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD U baseTick ()V
 	METHOD W isAlive ()Z
 	METHOD a handleStatus (B)V
+	METHOD a shouldRenderAtDistance (D)Z
 	METHOD a setVelocity (DDD)V
 	METHOD a getBrightnessAtEyes (F)F
 	METHOD a movementInputToVelocity (FFF)V
 	METHOD a dropItem (IIF)Lhl;
+	METHOD a shouldRenderFrom (Lbt;)Z
 	METHOD a onStruckByLightning (Lc;)V
 	METHOD a interact (Lgs;)Z
 	METHOD a dropItem (Liz;F)Lhl;
@@ -72,6 +78,8 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD i startRiding (Lsn;)V
 	METHOD m getMountedHeightOffset ()D
 	METHOD n canClimb ()Z
+	METHOD s_ tickRiding ()V
+	METHOD t_ afterSpawn ()V
 	METHOD w getStandingEyeHeight ()F
 	METHOD w_ tick ()V
 	METHOD x_ getEyeHeight ()F

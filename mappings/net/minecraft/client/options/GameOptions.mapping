@@ -1,4 +1,4 @@
-CLASS kv net/minecraft/sortme/GameOptions
+CLASS kv net/minecraft/client/options/GameOptions
 	FIELD C lastServer Ljava/lang/String;
 	FIELD I guiScale I
 	FIELD a music F
@@ -25,9 +25,9 @@ CLASS kv net/minecraft/sortme/GameOptions
 	FIELD v sneakKey Lqb;
 	FIELD w keyBindings [Lqb;
 	FIELD y difficulty I
-	METHOD a changeOption (Lht;I)V
 	METHOD a getKeybindName (I)Ljava/lang/String;
 		ARG 1 index
+	METHOD a changeOption (Lht;I)V
 	METHOD a parseFloat (Ljava/lang/String;)F
 		ARG 1 str
 	METHOD b saveOptions ()V

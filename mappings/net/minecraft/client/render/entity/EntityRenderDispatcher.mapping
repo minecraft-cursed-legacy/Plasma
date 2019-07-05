@@ -1,0 +1,2 @@
+CLASS th net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD o renderers Ljava/util/Map;

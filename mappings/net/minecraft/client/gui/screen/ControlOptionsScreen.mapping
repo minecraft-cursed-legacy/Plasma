@@ -1,4 +1,4 @@
-CLASS up net/minecraft/client/gui/screen/ControlsScreen
+CLASS up net/minecraft/client/gui/screen/ControlOptionsScreen
 	FIELD a title Ljava/lang/String;
 	FIELD i parent Lda;
 	FIELD j gameOptions Lkv;

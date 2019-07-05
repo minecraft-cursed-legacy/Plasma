@@ -1,1 +1,2 @@
 CLASS vf net/minecraft/util/hit/HitResult
+	FIELD a type Ljg;

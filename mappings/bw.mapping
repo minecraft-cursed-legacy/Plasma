@@ -1,0 +1,2 @@
+CLASS bw
+	METHOD a bindTexture (Ljava/lang/String;)V

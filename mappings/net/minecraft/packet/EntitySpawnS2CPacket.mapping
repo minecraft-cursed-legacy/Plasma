@@ -1,0 +1,4 @@
+CLASS so net/minecraft/packet/EntitySpawnS2CPacket
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I

@@ -4,6 +4,7 @@ CLASS da net/minecraft/client/gui/Screen
 	FIELD c width I
 	FIELD d height I
 	FIELD e buttons Ljava/util/List;
+	FIELD f passEvents Z
 	FIELD g textManager Lsj;
 	METHOD a tick ()V
 	METHOD a keyPressed (CI)V

@@ -4,6 +4,7 @@ CLASS hk net/minecraft/recipe/RecipeRegistry
 	METHOD a getInstance ()Lhk;
 	METHOD a addShapedRecipe (Liz;[Ljava/lang/Object;)V
 		ARG 1 output
+	METHOD a getCraftingOutput (Lmq;)Liz;
 	METHOD b getRecipes ()Ljava/util/List;
 	METHOD b addShapelessRecipe (Liz;[Ljava/lang/Object;)V
 		ARG 1 output

@@ -86,7 +86,8 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD bf id I
 	FIELD bg maxStackSize I
 	FIELD bk containerItemType Lgm;
-	FIELD c items [Lgm;
+	FIELD bl translationKey Ljava/lang/String;
+	FIELD c by_id [Lgm;
 	FIELD d shovelIron Lgm;
 	FIELD e pickaxeIron Lgm;
 	FIELD f hatchetIron Lgm;
@@ -112,11 +113,16 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD z pickaxeDiamond Lgm;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a getTranaslationKey ()Ljava/lang/String;
 	METHOD a setContainerItem (Lgm;)Lgm;
 		ARG 1 itemType
+	METHOD a getTranslationKey (Liz;)Ljava/lang/String;
 	METHOD a activate (Liz;Lfd;Lgs;)Liz;
 	METHOD a interact (Liz;Lgs;Lfd;IIII)Z
 	METHOD a setName (Ljava/lang/String;)Lgm;
+	METHOD a isEffectiveOn (Luu;)Z
 	METHOD d setMaxStackSize (I)Lgm;
+	METHOD f getNameColour (I)I
 	METHOD i getContainerItemType ()Lgm;
 	METHOD j hasContainerItemType ()Z
+	METHOD k getTranslatedName ()Ljava/lang/String;

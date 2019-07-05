@@ -13,3 +13,4 @@ CLASS bu net/minecraft/sortme/ToolMaterial
 	METHOD a getDurability ()I
 	METHOD b getMiningSpeed ()F
 	METHOD c getAttackDamage ()I
+	METHOD d getMiningLevel ()I

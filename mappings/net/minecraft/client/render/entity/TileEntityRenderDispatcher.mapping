@@ -1,3 +1,10 @@
 CLASS ll net/minecraft/client/render/entity/TileEntityRenderDispatcher
 	FIELD a INSTNACE Lll;
+	FIELD b renderOffsetX D
+	FIELD c renderOffsetY D
+	FIELD d renderOffsetZ D
+	FIELD e textureManager Lji;
+	FIELD f level Lfd;
+	FIELD g cameraEntity Lls;
+	FIELD n font Lsj;
 	METHOD a renderTileEntity (Low;DDDF)V

@@ -7,6 +7,7 @@ CLASS gs net/minecraft/entity/player/Player
 	FIELD g score I
 	FIELD j handSwinging Z
 	FIELD k handSwingTicks I
+	FIELD l name Ljava/lang/String;
 	FIELD m dimensionId I
 	FIELD u sleeping Z
 	FIELD v bedPosition Lbr;
@@ -17,13 +18,18 @@ CLASS gs net/minecraft/entity/player/Player
 	METHOD O hasSleptEnough ()Z
 	METHOD P getSleepTimer ()I
 	METHOD Q getSpawnPosition ()Lbr;
+	METHOD a openCraftingScreen (III)V
+	METHOD a openDispenserScreen (Laz;)V
 	METHOD a setPlayerSpawn (Lbr;)V
 	METHOD a spawnItem (Lhl;)V
 	METHOD a dropItem (Liz;)V
 	METHOD a dropItem (Liz;Z)V
 	METHOD a openChestScreen (Llw;)V
+	METHOD a openFurnaceScreen (Lsk;)V
 	METHOD a incrementStat (Lvr;)V
 	METHOD a increaseStat (Lvr;I)V
+	METHOD a openSignScreen (Lyk;)V
+	METHOD a wakeUp (ZZZ)V
 	METHOD am isBedPosValid ()Z
 	METHOD b trySleep (III)Lcw;
 	METHOD b updateCursorItem (Liz;)V

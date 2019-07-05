@@ -1,1 +1,5 @@
 CLASS co net/minecraft/client/gui/screen/OptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD i parent Lda;
+	FIELD j gameOptions Lkv;
+	FIELD l OPTIONS [Lht;

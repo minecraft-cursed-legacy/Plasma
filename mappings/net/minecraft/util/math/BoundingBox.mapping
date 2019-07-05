@@ -1,5 +1,0 @@
-CLASS eq net/minecraft/util/math/BoundingBox
-	FIELD b minY D
-	FIELD e maxY D
-	METHOD b expand (DDD)Leq;
-	METHOD b create (DDDDDD)Leq;

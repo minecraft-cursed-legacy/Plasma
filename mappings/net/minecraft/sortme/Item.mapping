@@ -35,5 +35,6 @@ CLASS iz net/minecraft/sortme/Item
 	METHOD b fromTag (Lnu;)V
 		ARG 1 tag
 	METHOD b isEffectiveOn (Luu;)Z
+	METHOD c isItemEqualIgnoreDamage (Liz;)Z
 	METHOD i getDamage ()I
 	METHOD k copy ()Liz;

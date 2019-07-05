@@ -1,4 +1,4 @@
-CLASS qq net/minecraft/client/ScreenScaler
+CLASS qq net/minecraft/client/util/ScreenScaler
 	FIELD a scaledWidth D
 	FIELD b scaledHeight D
 	FIELD c scale I

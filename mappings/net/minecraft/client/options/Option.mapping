@@ -1,5 +1,5 @@
 CLASS ht net/minecraft/client/options/Option
-	FIELD n isSlider Z
+	FIELD n slider Z
 	FIELD p translationKey Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
 		ARG 1 name

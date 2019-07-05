@@ -1,0 +1,9 @@
+CLASS ol net/minecraft/value/JsonUtils
+	METHOD a createNull ()Lgu;
+	METHOD a createArray (Ljava/lang/Iterable;)Lqe;
+	METHOD a createString (Ljava/lang/String;)Lqa;
+	METHOD a createObject (Ljava/util/Map;)Lqe;
+	METHOD a createArray ([Lgu;)Lqe;
+	METHOD b createTrue ()Lgu;
+	METHOD b createNumber (Ljava/lang/String;)Lgu;
+	METHOD c createFalse ()Lgu;

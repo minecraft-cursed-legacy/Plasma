@@ -1,0 +1,2 @@
+CLASS lb net/minecraft/value/JsonNodeProvider
+	METHOD b getValue ()Lgu;

@@ -4,7 +4,7 @@ CLASS fd net/minecraft/level/Level
 	FIELD h unusedIncrement I
 	FIELD i prevRainGradient F
 	FIELD j rainGradient F
-	FIELD k thunderGradientPrev F
+	FIELD k prevThunderGradient F
 	FIELD l thunderGradient F
 	FIELD q difficulty I
 	FIELD r rand Ljava/util/Random;

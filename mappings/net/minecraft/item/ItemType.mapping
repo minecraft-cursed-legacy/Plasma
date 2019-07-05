@@ -120,7 +120,7 @@ CLASS gm net/minecraft/item/ItemType
 	METHOD a postMine (Liz;IIIILls;)Z
 	METHOD a use (Liz;Lfd;Lgs;)Liz;
 	METHOD a inventoryTick (Liz;Lfd;Lsn;IZ)V
-	METHOD a useOnBlock (Liz;Lgs;Lfd;IIII)Z
+	METHOD a useOnTile (Liz;Lgs;Lfd;IIII)Z
 		ARG 4 x
 		ARG 5 y
 		ARG 6 z

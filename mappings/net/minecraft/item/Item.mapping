@@ -30,7 +30,9 @@ CLASS iz net/minecraft/item/Item
 		ARG 1 countToTake
 	METHOD a postMine (IIIILgs;)V
 	METHOD a applyDamage (ILsn;)V
+	METHOD a use (Lfd;Lgs;)Liz;
 	METHOD a inventoryTick (Lfd;Lsn;IZ)V
+	METHOD a useOnTile (Lgs;Lfd;IIII)Z
 	METHOD a isEqualIgnoreFlags (Liz;)Z
 	METHOD a interactWithEntity (Lls;)V
 	METHOD a postHit (Lls;Lgs;)V

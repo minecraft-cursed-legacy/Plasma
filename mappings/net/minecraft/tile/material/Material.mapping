@@ -17,10 +17,12 @@ CLASS ln net/minecraft/tile/material/Material
 	FIELD l WOOL Lln;
 	FIELD m FIRE Lln;
 	FIELD n SAND Lln;
+	FIELD p GLASS Lln;
 	FIELD s ICE Lln;
 	FIELD v CACTUS Lln;
 	FIELD w CLAY Lln;
 	FIELD z CAKE Lln;
+	METHOD a isSolid ()Z
 	METHOD c blocksMovement ()Z
 	METHOD d isLiquid ()Z
 	METHOD e isBurnable ()Z

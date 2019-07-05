@@ -1,18 +1,27 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD I inGameHud Lxi;
+	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD Z gameDir Ljava/io/File;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
-	FIELD aa savesDir Lnl;
+	FIELD aa levelStorage Lnl;
 	FIELD af gameDirectory Ljava/io/File;
+	FIELD c interactionManager Lob;
 	FIELD d actualWidth I
 	FIELD e actualHeight I
 	FIELD f level Lfd;
 	FIELD g worldRenderer Ln;
 	FIELD h player Ldc;
+	FIELD j particleManager Ldn;
+	FIELD k session Lgr;
+	FIELD o paused Z
+	FIELD p textureManager Lji;
 	FIELD q textRenderer Lsj;
 	FIELD r currentScreen Lda;
 	FIELD t gameRenderer Lpx;
-	FIELD z gameOptions Lkv;
+	FIELD w skipGameRender Z
+	FIELD y hitResult Lvf;
+	FIELD z options Lkv;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 6 isFullscreen
 	METHOD a updateScreenResolution (II)V
@@ -27,7 +36,9 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 playerName
 	METHOD b getGameDirectory ()Ljava/io/File;
 	METHOD c printOpenGLError (Ljava/lang/String;)V
+	METHOD g lockCursor ()V
 	METHOD j toggleFullscreen ()V
 	METHOD l hasLevel ()Z
+	METHOD m switchDimension ()V
 	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

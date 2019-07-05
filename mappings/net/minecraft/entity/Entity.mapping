@@ -1,16 +1,26 @@
 CLASS sn net/minecraft/entity/Entity
+	FIELD aD entityId I
 	FIELD aG passenger Lsn;
 	FIELD aH vehicle Lsn;
 	FIELD aI level Lfd;
+	FIELD aJ prevX D
+	FIELD aK prevY D
+	FIELD aL prevZ D
 	FIELD aM x D
 	FIELD aN y D
 	FIELD aO z D
 	FIELD aP velocityX D
 	FIELD aQ velocityY D
 	FIELD aR velocityZ D
+	FIELD aS yaw F
+	FIELD aT pitch F
+	FIELD aU prevYaw F
+	FIELD aV prevPitch F
+	FIELD aW boundingBox Leq;
 	FIELD aX onGround Z
 	FIELD bC immuneToFire Z
 	FIELD bD dataTracker Lud;
+	FIELD be removed Z
 	FIELD bf standingEyeHeight F
 	FIELD bg width F
 	FIELD bh height F
@@ -20,16 +30,27 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD bz air I
 	METHOD <init> (Lfd;)V
 		ARG 1 level
+	METHOD I getHeightOffset ()D
 	METHOD K remove ()V
+	METHOD L isInsideWall ()Z
+	METHOD U baseTick ()V
+	METHOD W isAlive ()Z
+	METHOD a handleStatus (B)V
+	METHOD a setVelocity (DDD)V
 	METHOD a getBrightnessAtEyes (F)F
+	METHOD a movementInputToVelocity (FFF)V
+	METHOD a dropItem (IIF)Lhl;
 	METHOD a onStruckByLightning (Lc;)V
 	METHOD a interact (Lgs;)Z
 	METHOD a dropItem (Liz;F)Lhl;
+	METHOD a isInFluid (Lln;)Z
 	METHOD a readCustomDataFromTag (Lnu;)V
 		ARG 1 tag
 	METHOD a damage (Lsn;I)Z
+	METHOD ab destroy ()V
 	METHOD ad getDataTracker ()Lud;
 	METHOD b initDataTracker ()V
+	METHOD b move (DDD)V
 	METHOD b handleFallDamage (F)V
 	METHOD b setSize (FF)V
 		ARG 1 width
@@ -39,11 +60,18 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD b writeCustomDataToTag (Lnu;)V
 		ARG 1 tag
 	METHOD c setPositionAndAngles (DDDFF)V
+	METHOD c setRotation (FF)V
+	METHOD c onKilledOther (Lsn;I)V
+	METHOD d toTag (Lnu;)V
 	METHOD e setPosition (DDD)V
+	METHOD e fromTag (Lnu;)V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
 	METHOD f distanceTo (Lsn;)F
+	METHOD g squaredDistanceTo (DDD)D
 	METHOD i startRiding (Lsn;)V
 	METHOD m getMountedHeightOffset ()D
 	METHOD n canClimb ()Z
+	METHOD w getStandingEyeHeight ()F
 	METHOD w_ tick ()V
+	METHOD x_ getEyeHeight ()F

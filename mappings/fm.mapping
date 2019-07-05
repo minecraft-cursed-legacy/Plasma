@@ -1,0 +1,2 @@
+CLASS fm
+	FIELD a LOGGER Ljava/util/logging/Logger;

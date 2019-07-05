@@ -1,0 +1,7 @@
+CLASS dc net/minecraft/client/player/BaseClientPlayer
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lfd;Lgr;I)V
+		ARG 1 minecraft
+		ARG 4 dimensionId
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+	METHOD d_ updateHealth (I)V

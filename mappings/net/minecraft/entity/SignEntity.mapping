@@ -1,1 +1,2 @@
 CLASS yk net/minecraft/entity/SignEntity
+	FIELD a lines [Ljava/lang/String;

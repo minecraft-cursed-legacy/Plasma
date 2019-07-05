@@ -1,0 +1,2 @@
+CLASS bt net/minecraft/util/math/Vec3f
+	METHOD b from (DDD)Lbt;

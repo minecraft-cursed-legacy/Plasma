@@ -1,1 +1,2 @@
 CLASS ve net/minecraft/tile/Bed
+	METHOD f findWakeUpPosition (Lfd;IIII)Lbr;

@@ -5,12 +5,29 @@ CLASS gs net/minecraft/entity/player/Player
 	FIELD d playerContainer Ldw;
 	FIELD e container Ldw;
 	FIELD g score I
+	FIELD j handSwinging Z
+	FIELD k handSwingTicks I
 	FIELD m dimensionId I
 	FIELD u sleeping Z
+	FIELD v bedPosition Lbr;
+	METHOD D dropSelectedItem ()V
+	METHOD E updateEyeHeight ()V
 	METHOD G getHeldItem ()Liz;
+	METHOD J swingHand ()V
+	METHOD O hasSleptEnough ()Z
+	METHOD P getSleepTimer ()I
+	METHOD Q getSpawnPosition ()Lbr;
+	METHOD a setPlayerSpawn (Lbr;)V
+	METHOD a spawnItem (Lhl;)V
 	METHOD a dropItem (Liz;)V
 	METHOD a dropItem (Liz;Z)V
+	METHOD a openChestScreen (Llw;)V
 	METHOD a incrementStat (Lvr;)V
 	METHOD a increaseStat (Lvr;I)V
-	METHOD b updateCursorStack (Liz;)V
+	METHOD am isBedPosValid ()Z
+	METHOD b trySleep (III)Lcw;
+	METHOD b updateCursorItem (Liz;)V
+	METHOD c interactWith (Lsn;)V
+	METHOD d attack (Lsn;)V
 	METHOD p_ respawn ()V
+	METHOD r closeContainer ()V

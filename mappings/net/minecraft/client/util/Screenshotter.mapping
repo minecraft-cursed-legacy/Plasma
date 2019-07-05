@@ -1,0 +1,2 @@
+CLASS hj net/minecraft/client/util/Screenshotter
+	FIELD a DATE_FORMAT Ljava/text/DateFormat;

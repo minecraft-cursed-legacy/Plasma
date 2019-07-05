@@ -1,1 +1,9 @@
 CLASS sk net/minecraft/entity/FurnaceEntity
+	FIELD a burnTime I
+	FIELD b fuelTime I
+	FIELD c cookTime I
+	FIELD i contents [Liz;
+	METHOD a getFuelTime (Liz;)I
+	METHOD b isBurning ()Z
+	METHOD k craftRecipe ()V
+	METHOD l canAcceptRecipeOutput ()Z

@@ -1,0 +1,3 @@
+CLASS pu
+	METHOD a addNode (Llb;)V
+	METHOD a addField (Lpn;)V

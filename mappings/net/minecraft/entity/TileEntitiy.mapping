@@ -9,6 +9,8 @@ CLASS ow net/minecraft/entity/TileEntitiy
 	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
 	METHOD a readIdentifyingData (Lnu;)V
 	METHOD b writeIdentifyingData (Lnu;)V
+	METHOD e getCachedId ()I
+	METHOD f getBlock ()Luu;
 	METHOD g isInvalid ()Z
 	METHOD i invalidate ()V
 	METHOD j validate ()V

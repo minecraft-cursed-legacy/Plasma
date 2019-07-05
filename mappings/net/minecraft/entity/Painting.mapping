@@ -1,4 +1,4 @@
-CLASS qv
+CLASS qv net/minecraft/entity/Painting
 	FIELD a dir I
 	FIELD b tileX I
 	FIELD c tileY I

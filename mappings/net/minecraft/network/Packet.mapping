@@ -1,1 +1,7 @@
-CLASS a net/minecraft/network/Packet
+CLASS ki net/minecraft/network/Packet
+	FIELD a ID_TO_CLASS Ljava/util/Map;
+	FIELD b CLASS_TO_ID Ljava/util/Map;
+	METHOD a create (I)Lki;
+	METHOD a register (IZZLjava/lang/Class;)V
+		ARG 0 id
+	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V

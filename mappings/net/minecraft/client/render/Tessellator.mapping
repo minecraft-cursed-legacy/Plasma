@@ -5,6 +5,7 @@ CLASS nw net/minecraft/client/render/Tessellator
 	METHOD a draw ()V
 	METHOD a size (DD)V
 	METHOD a pos (DDD)V
+	METHOD a vertex (DDDDD)V
 	METHOD a colour (FFF)V
 	METHOD a colour (FFFF)V
 	METHOD a start (I)V

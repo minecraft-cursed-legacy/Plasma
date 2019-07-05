@@ -1,2 +1,0 @@
-CLASS iw net/minecraft/packet/OpenScreenPacket
-	FIELD b screenId I

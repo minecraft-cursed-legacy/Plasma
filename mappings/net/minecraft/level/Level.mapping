@@ -2,9 +2,9 @@ CLASS fd net/minecraft/level/Level
 	FIELD B isClient Z
 	FIELD d players Ljava/util/List;
 	FIELD h unusedIncrement I
-	FIELD i rainGradientPrev F
+	FIELD i prevRainGradient F
 	FIELD j rainGradient F
-	FIELD k thunderGradientPrev F
+	FIELD k prevThunderGradient F
 	FIELD l thunderGradient F
 	FIELD q difficulty I
 	FIELD r rand Ljava/util/Random;

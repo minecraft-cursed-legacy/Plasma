@@ -87,7 +87,7 @@ CLASS gm net/minecraft/item/ItemType
 	FIELD bg maxStackSize I
 	FIELD bk containerItemType Lgm;
 	FIELD bl translationKey Ljava/lang/String;
-	FIELD c by_id [Lgm;
+	FIELD c byId [Lgm;
 	FIELD d shovelIron Lgm;
 	FIELD e pickaxeIron Lgm;
 	FIELD f hatchetIron Lgm;

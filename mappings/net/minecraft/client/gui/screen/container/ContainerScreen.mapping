@@ -5,7 +5,7 @@ CLASS id net/minecraft/client/gui/screen/container/ContainerScreen
 	FIELD l itemRenderer Lbb;
 	METHOD <init> (Ldw;)V
 		ARG 1 container
-	METHOD a drawBackground (F)V
+	METHOD a renderContainerBackground (F)V
 	METHOD a getSlot (II)Lgp;
 		ARG 1 mouseX
 		ARG 2 mouseY

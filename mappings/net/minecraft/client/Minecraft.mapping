@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD I inGameHud Lxi;
-	FIELD J isRunning Z
+	FIELD J running Z
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD Z gameDir Ljava/io/File;
@@ -44,5 +44,5 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD j toggleFullscreen ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
-	METHOD u isFancyGraphicsEnabled ()Z127
+	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

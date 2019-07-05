@@ -1,0 +1,2 @@
+CLASS dy net/minecraft/client/render/PaintingRenderer
+	FIELD a rand Ljava/util/Random;

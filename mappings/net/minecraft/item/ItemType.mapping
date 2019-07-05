@@ -117,11 +117,19 @@ CLASS gm net/minecraft/item/ItemType
 	METHOD a setContainerItem (Lgm;)Lgm;
 		ARG 1 itemType
 	METHOD a getTranslationKey (Liz;)Ljava/lang/String;
-	METHOD a activate (Liz;Lfd;Lgs;)Liz;
-	METHOD a interact (Liz;Lgs;Lfd;IIII)Z
+	METHOD a postMine (Liz;IIIILls;)Z
+	METHOD a use (Liz;Lfd;Lgs;)Liz;
+	METHOD a inventoryTick (Liz;Lfd;Lsn;IZ)V
+	METHOD a useOnBlock (Liz;Lgs;Lfd;IIII)Z
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD a interactWithEntity (Liz;Lls;)V
+	METHOD a postHit (Liz;Lls;Lls;)Z
 	METHOD a setName (Ljava/lang/String;)Lgm;
 	METHOD a isEffectiveOn (Luu;)Z
 	METHOD d setMaxStackSize (I)Lgm;
+	METHOD e setDurability (I)Lgm;
 	METHOD f getNameColour (I)I
 	METHOD i getContainerItemType ()Lgm;
 	METHOD j hasContainerItemType ()Z

@@ -9,6 +9,7 @@ CLASS ls net/minecraft/entity/LivingEntity
 	FIELD ae attackTime I
 	FIELD al limbDistance F
 	FIELD av despawnCounter I
+	FIELD az jumping Z
 	METHOD N isSleeping ()Z
 	METHOD R jump ()V
 	METHOD V onSpawnedFromSpawner ()V
@@ -23,6 +24,7 @@ CLASS ls net/minecraft/entity/LivingEntity
 	METHOD j getMobDrops ()I
 	METHOD j_ getHurtSound ()Ljava/lang/String;
 	METHOD k getSoundVolume ()F
+	METHOD l getLimitPerChunk ()I
 	METHOD o updateDespawnCounter ()V
 	METHOD x getLookPitchSpeed ()I
 	METHOD y cannotMove ()Z

@@ -1,1 +1,7 @@
 CLASS mq net/minecraft/inventory/CraftingInventory
+	FIELD a contents [Liz;
+	FIELD b width I
+	FIELD c container Ldw;
+	METHOD <init> (Ldw;II)V
+		ARG 2 width
+		ARG 3 height

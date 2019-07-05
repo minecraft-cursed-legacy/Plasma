@@ -2,3 +2,4 @@ CLASS dn net/minecraft/client/particle/ParticleManager
 	FIELD a level Lfd;
 	FIELD c textureManager Lji;
 	FIELD d rand Ljava/util/Random;
+	METHOD a addBlockBreakParticles (IIIII)V

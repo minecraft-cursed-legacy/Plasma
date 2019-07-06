@@ -48,5 +48,5 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
 	METHOD u isFancyGraphicsEnabled ()Z
-	METHOD v isAoEnabled ()Z
+	METHOD v isSmoothLightingEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

@@ -1,0 +1,6 @@
+CLASS uq net/minecraft/client/gui/Overlay
+	FIELD d itemRenderer Lbb;
+	FIELD f rand Ljava/util/Random;
+	FIELD g minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

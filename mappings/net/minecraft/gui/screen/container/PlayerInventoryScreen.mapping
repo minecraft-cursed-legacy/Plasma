@@ -1,3 +1,0 @@
-CLASS ue net/minecraft/gui/screen/container/PlayerInventoryScreen
-	FIELD l mouseX F
-	FIELD m mouseY F

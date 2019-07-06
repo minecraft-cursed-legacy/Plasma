@@ -36,6 +36,7 @@ CLASS kv net/minecraft/client/options/GameOptions
 		ARG 1 index
 	METHOD a getFloatValue (Lht;)F
 	METHOD a changeOption (Lht;I)V
+		ARG 1 option
 	METHOD a parseFloat (Ljava/lang/String;)F
 		ARG 1 str
 	METHOD b saveOptions ()V

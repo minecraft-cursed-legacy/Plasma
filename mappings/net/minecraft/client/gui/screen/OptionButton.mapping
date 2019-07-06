@@ -1,2 +1,0 @@
-CLASS ab net/minecraft/client/gui/screen/OptionButton
-	METHOD a getOption ()Lht;

@@ -1,4 +1,4 @@
-CLASS ki net/minecraft/network/Packet
+CLASS ki net/minecraft/network/AbstractPacket
 	FIELD a ID_TO_CLASS Ljava/util/Map;
 	FIELD b CLASS_TO_ID Ljava/util/Map;
 	METHOD a create (I)Lki;

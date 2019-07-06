@@ -31,6 +31,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD a updateScreenResolution (II)V
 		ARG 1 actualWidth
 		ARG 2 actualHeight
+	METHOD a renderDebugHudBackground (J)V
 	METHOD a openScreen (Lda;)V
 		ARG 1 screen
 	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;

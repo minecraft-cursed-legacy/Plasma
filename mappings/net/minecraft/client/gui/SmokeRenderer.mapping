@@ -1,3 +1,3 @@
-CLASS du net/minecraft/client/gui/ParticlesRenderer
+CLASS du net/minecraft/client/gui/SmokeRenderer
 	FIELD b minecraft Lnet/minecraft/client/Minecraft;
 	METHOD a render (F)V

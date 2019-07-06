@@ -1,6 +1,7 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	FIELD I inGameHud Lxi;
+	FIELD B soundHelper Lyo;
 	FIELD J running Z
+	FIELD K fpsDebugString Ljava/lang/String;
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD W attackCooldown I
@@ -21,6 +22,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD q textRenderer Lsj;
 	FIELD r currentScreen Lda;
 	FIELD t gameRenderer Lpx;
+	FIELD v overlay Luq;
 	FIELD w skipGameRender Z
 	FIELD y hitResult Lvf;
 	FIELD z options Lkv;
@@ -46,5 +48,12 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD k tick ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
+	METHOD o getDebugFirstLine ()Ljava/lang/String;
+	METHOD p getDebugSecondLine ()Ljava/lang/String;
+	METHOD q getDebugFourthLine ()Ljava/lang/String;
+	METHOD r getDebugThirdLine ()Ljava/lang/String;
+	METHOD t isHudHidden ()Z
 	METHOD u isFancyGraphicsEnabled ()Z
+	METHOD v isSmoothLightingEnabled ()Z
+	METHOD w isDebugHudEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

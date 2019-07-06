@@ -1,5 +1,8 @@
 CLASS kv net/minecraft/client/options/GameOptions
+	FIELD A thirdPerson Z
+	FIELD B debugHud Z
 	FIELD C lastServer Ljava/lang/String;
+	FIELD E cinematicMode Z
 	FIELD I guiScale I
 	FIELD J renderDistanceTranslationKeys [Ljava/lang/String;
 	FIELD K difficultyTranslationKeys [Ljava/lang/String;
@@ -31,11 +34,13 @@ CLASS kv net/minecraft/client/options/GameOptions
 	FIELD w keyBindings [Lqb;
 	FIELD x minecraft Lnet/minecraft/client/Minecraft;
 	FIELD y difficulty I
+	FIELD z hideHud Z
 	METHOD a load ()V
 	METHOD a getKeybindName (I)Ljava/lang/String;
 		ARG 1 index
 	METHOD a getFloatValue (Lht;)F
 	METHOD a changeOption (Lht;I)V
+		ARG 1 option
 	METHOD a parseFloat (Ljava/lang/String;)F
 		ARG 1 str
 	METHOD b saveOptions ()V

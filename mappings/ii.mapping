@@ -1,2 +1,3 @@
 CLASS ii
 	METHOD a getPathfindingFavour (III)F
+	METHOD a setTarget (Ldh;)V

@@ -1,5 +1,6 @@
-CLASS iz net/minecraft/sortme/Item
+CLASS iz net/minecraft/item/Item
 	FIELD a count I
+	FIELD b cooldown I
 	FIELD c itemId I
 	FIELD d damage I
 	METHOD <init> (III)V
@@ -25,16 +26,25 @@ CLASS iz net/minecraft/sortme/Item
 		ARG 2 count
 		ARG 3 damage
 	METHOD a getType ()Lgm;
+	METHOD a split (I)Liz;
+		ARG 1 countToTake
+	METHOD a postMine (IIIILgs;)V
 	METHOD a applyDamage (ILsn;)V
+	METHOD a use (Lfd;Lgs;)Liz;
+	METHOD a inventoryTick (Lfd;Lsn;IZ)V
+	METHOD a useOnTile (Lgs;Lfd;IIII)Z
 	METHOD a isEqualIgnoreFlags (Liz;)Z
 	METHOD a interactWithEntity (Lls;)V
+	METHOD a postHit (Lls;Lgs;)V
 	METHOD a toTag (Lnu;)Lnu;
 		ARG 1 tag
 	METHOD b setDamage (I)V
 	METHOD b onCrafted (Lfd;Lgs;)V
+	METHOD b copy (Liz;)Liz;
 	METHOD b fromTag (Lnu;)V
 		ARG 1 tag
 	METHOD b isEffectiveOn (Luu;)Z
 	METHOD c isItemEqualIgnoreDamage (Liz;)Z
 	METHOD i getDamage ()I
 	METHOD k copy ()Liz;
+	METHOD l getTranslationKey ()Ljava/lang/String;

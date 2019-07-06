@@ -1,1 +1,2 @@
 CLASS rk net/minecraft/item/Seeds
+	FIELD a cropTileId I

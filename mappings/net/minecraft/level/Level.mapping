@@ -20,6 +20,7 @@ CLASS fd net/minecraft/level/Level
 	METHOD a setTileEntity (IIILow;)V
 	METHOD a setLevelTime (J)V
 	METHOD a setSpawnPosition (Lbr;)V
+	METHOD a playLevelEvent (Lgs;IIIII)V
 	METHOD a getEntities (Ljava/lang/Class;Leq;)Ljava/util/List;
 	METHOD a getPlayerByName (Ljava/lang/String;)Lgs;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V

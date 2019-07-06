@@ -56,6 +56,7 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD a damage (Lsn;I)Z
 	METHOD ab destroy ()V
 	METHOD ad getDataTracker ()Lud;
+	METHOD af isTouchingWater ()Z
 	METHOD b initDataTracker ()V
 	METHOD b move (DDD)V
 	METHOD b handleFallDamage (F)V

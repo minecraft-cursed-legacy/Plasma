@@ -1,1 +1,2 @@
 CLASS wl net/minecraft/inventory/CraftingResultInventory
+	FIELD a contents [Liz;

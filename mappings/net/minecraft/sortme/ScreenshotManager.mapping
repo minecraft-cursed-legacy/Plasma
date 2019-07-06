@@ -1,4 +1,4 @@
 CLASS hj net/minecraft/sortme/ScreenshotManager
 	FIELD a dateFormat Ljava/text/DateFormat;
-	METHOD a (Ljava/io/File;II)Ljava/lang/String;
+	METHOD a takeScreenshot (Ljava/io/File;II)Ljava/lang/String;
 		ARG 0 directory

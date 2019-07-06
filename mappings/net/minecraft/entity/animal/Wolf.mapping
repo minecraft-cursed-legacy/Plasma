@@ -1,8 +1,22 @@
 CLASS gi net/minecraft/entity/animal/Wolf
+	FIELD a begging Z
+	FIELD b begAnimationProgress F
+	FIELD c lastBegAnimationProgress F
+	FIELD f wet Z
+	FIELD g canShakeWaterOff Z
+	FIELD h shakeProgress F
+	FIELD i lastShakeProgress F
 	METHOD A getOwner ()Ljava/lang/String;
 	METHOD B isSitting ()Z
 	METHOD C isAngry ()Z
+	METHOD D isTamed ()Z
+	METHOD a getShakeAnimationProgress (FF)F
 	METHOD a setOwner (Ljava/lang/String;)V
+	METHOD a spawnBoneParticles (Z)V
+		ARG 1 tamed
 	METHOD b setSitting (Z)V
+	METHOD b_ getWetBrightnessMultiplier (F)F
+	METHOD c getBegAnimationProgress (F)F
 	METHOD c setAngry (Z)V
 	METHOD d setHasOwner (Z)V
+	METHOD v isWet ()Z

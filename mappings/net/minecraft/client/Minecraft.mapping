@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	FIELD I inGameHud Lxi;
+	FIELD B soundHelper Lyo;
 	FIELD J running Z
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
@@ -20,6 +20,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD q textRenderer Lsj;
 	FIELD r currentScreen Lda;
 	FIELD t gameRenderer Lpx;
+	FIELD v overlay Luq;
 	FIELD w skipGameRender Z
 	FIELD y hitResult Lvf;
 	FIELD z options Lkv;
@@ -45,4 +46,5 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
 	METHOD u isFancyGraphicsEnabled ()Z
+	METHOD v isAoEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

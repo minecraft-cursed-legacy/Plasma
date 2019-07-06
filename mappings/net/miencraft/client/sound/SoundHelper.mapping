@@ -1,0 +1,11 @@
+CLASS yo net/miencraft/client/sound/SoundHelper
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD f gameOptions Lkv;
+	FIELD h rand Ljava/util/Random;
+	METHOD a playSound (Ljava/lang/String;FF)V
+	METHOD a (Lkv;)V
+		ARG 1 gameOptions
+	METHOD a setSoundPosition (Lls;F)V
+		ARG 1 entity
+	METHOD b playSound (Ljava/lang/String;FFFFF)V
+	METHOD c playBackgroundMusic ()V

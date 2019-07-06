@@ -1,2 +1,0 @@
-CLASS yo
-	METHOD b playSound (Ljava/lang/String;FFFFF)V

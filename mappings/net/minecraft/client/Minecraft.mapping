@@ -48,6 +48,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD k tick ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
+	METHOD t isHudHidden ()Z
 	METHOD u isFancyGraphicsEnabled ()Z
 	METHOD v isSmoothLightingEnabled ()Z
+	METHOD w isDebugHudEnabled ()Z
 	METHOD y getOperatingSystem ()Lpd;

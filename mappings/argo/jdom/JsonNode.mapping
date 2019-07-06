@@ -1,5 +1,5 @@
-CLASS gu net/minecraft/value/JsonNode
+CLASS gu argo/jdom/JsonNode
 	METHOD a getType ()Lat;
 	METHOD b getText ()Ljava/lang/String;
-	METHOD c getFields ()Ljava/util/Map;
+	METHOD c getFieldList ()Ljava/util/Map;
 	METHOD d getElements ()Ljava/util/List;

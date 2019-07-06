@@ -1,0 +1,5 @@
+CLASS cj net/minecraft/stat/StatSyncher
+	FIELD a busy Z
+	FIELD k session Lgr;
+	METHOD a getStatsFromServer ()V
+	METHOD a saveStats (Ljava/util/Map;)V

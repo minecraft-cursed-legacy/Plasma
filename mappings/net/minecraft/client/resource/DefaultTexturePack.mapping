@@ -1,0 +1,3 @@
+CLASS pa net/minecraft/client/resource/DefaultTexturePack
+	FIELD e iconTextureId I
+	FIELD f icon Ljava/awt/image/BufferedImage;

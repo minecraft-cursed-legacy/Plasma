@@ -1,4 +1,5 @@
 CLASS gs net/minecraft/entity/player/Player
+	FIELD D fishHook Llx;
 	FIELD a sleepTimer I
 	FIELD b spawnPos Lbr;
 	FIELD c inventory Lix;

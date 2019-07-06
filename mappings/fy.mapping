@@ -1,0 +1,2 @@
+CLASS fy
+	FIELD a logo Ljava/awt/image/BufferedImage;

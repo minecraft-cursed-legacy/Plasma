@@ -1,0 +1,2 @@
+CLASS cz net/minecraft/client/util/ResourceDownloadThread
+	FIELD a workingDirectory Ljava/io/File;

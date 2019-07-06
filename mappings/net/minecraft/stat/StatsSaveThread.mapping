@@ -1,0 +1,2 @@
+CLASS vj net/minecraft/stat/StatsSaveThread
+	FIELD b syncher Lcj;

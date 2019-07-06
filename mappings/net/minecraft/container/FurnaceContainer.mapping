@@ -1,0 +1,5 @@
+CLASS bm net/minecraft/container/FurnaceContainer
+	FIELD a furnace Lsk;
+	FIELD b cookTime I
+	FIELD c burnTime I
+	FIELD h fuelTime I

@@ -1,2 +1,0 @@
-CLASS cz
-	FIELD a workingDirectory Ljava/io/File;

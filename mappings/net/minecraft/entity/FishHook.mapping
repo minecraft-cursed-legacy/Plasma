@@ -1,4 +1,4 @@
-CLASS lx
+CLASS lx net/minecraft/entity/FishHook
 	FIELD a shake I
 	FIELD d xTile I
 	FIELD e yTile I

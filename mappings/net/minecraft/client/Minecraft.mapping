@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD B soundHelper Lyo;
 	FIELD J running Z
-	FIELD K fpsChunkUpdatesText Ljava/lang/String;
+	FIELD K fpsDebugString Ljava/lang/String;
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
 	FIELD W attackCooldown I
@@ -50,7 +50,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD m switchDimension ()V
 	METHOD o getDebugFirstLine ()Ljava/lang/String;
 	METHOD p getDebugSecondLine ()Ljava/lang/String;
-	METHOD q getDebugForthLine ()Ljava/lang/String;
+	METHOD q getDebugFourthLine ()Ljava/lang/String;
 	METHOD r getDebugThirdLine ()Ljava/lang/String;
 	METHOD t isHudHidden ()Z
 	METHOD u isFancyGraphicsEnabled ()Z

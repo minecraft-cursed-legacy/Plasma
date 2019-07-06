@@ -1,5 +1,5 @@
 CLASS kv net/minecraft/client/options/GameOptions
-	FIELD A thirdPersonPerspective Z
+	FIELD A thirdPerson Z
 	FIELD B debugHud Z
 	FIELD C lastServer Ljava/lang/String;
 	FIELD E cinematicMode Z

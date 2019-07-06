@@ -1,0 +1,9 @@
+CLASS i net/minecraft/client/resource/TexturePack
+	FIELD a name Ljava/lang/String;
+	FIELD b description Ljava/lang/String;
+	METHOD a (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance
+	METHOD b (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance
+	METHOD c bindIconTexture (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance

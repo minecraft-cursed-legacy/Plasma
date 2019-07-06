@@ -7,5 +7,5 @@ CLASS ki net/minecraft/packet/AbstractPacket
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V
 	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
-	METHOD a (Lti;)V
+	METHOD a handle (Lti;)V
 		ARG 1 handler

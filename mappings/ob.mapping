@@ -1,2 +1,3 @@
 CLASS ob
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD c tick ()V

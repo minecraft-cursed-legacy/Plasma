@@ -1,2 +1,0 @@
-CLASS pf
-	METHOD a disconnectClient (Ljava/lang/String;[Ljava/lang/Object;)V

@@ -9,5 +9,6 @@ CLASS ht net/minecraft/client/options/Option
 	METHOD a isSlider ()Z
 	METHOD a getById (I)Lht;
 		ARG 0 id
+	METHOD b isToggle ()Z
 	METHOD c getId ()I
 	METHOD d getTranslationKey ()Ljava/lang/String;

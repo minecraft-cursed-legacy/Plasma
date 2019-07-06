@@ -1,6 +1,11 @@
 CLASS kv net/minecraft/client/options/GameOptions
 	FIELD C lastServer Ljava/lang/String;
 	FIELD I guiScale I
+	FIELD J renderDistanceTranslationKeys [Ljava/lang/String;
+	FIELD K difficultyTranslationKeys [Ljava/lang/String;
+	FIELD L guiScaleTranslationKeys [Ljava/lang/String;
+	FIELD M performanceTranslationKeys [Ljava/lang/String;
+	FIELD N optionsFile Ljava/io/File;
 	FIELD a music F
 	FIELD b sound F
 	FIELD c mouseSensitivity F
@@ -24,12 +29,17 @@ CLASS kv net/minecraft/client/options/GameOptions
 	FIELD u fogKey Lqb;
 	FIELD v sneakKey Lqb;
 	FIELD w keyBindings [Lqb;
+	FIELD x minecraft Lnet/minecraft/client/Minecraft;
 	FIELD y difficulty I
+	METHOD a load ()V
 	METHOD a getKeybindName (I)Ljava/lang/String;
 		ARG 1 index
+	METHOD a getFloatValue (Lht;)F
 	METHOD a changeOption (Lht;I)V
 	METHOD a parseFloat (Ljava/lang/String;)F
 		ARG 1 str
 	METHOD b saveOptions ()V
 	METHOD b getKeybindKey (I)Ljava/lang/String;
 		ARG 1 index
+	METHOD b getBooleanValue (Lht;)Z
+	METHOD c getTranslatedValue (Lht;)Ljava/lang/String;

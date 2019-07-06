@@ -3,6 +3,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD J running Z
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
+	FIELD W attackCooldown I
 	FIELD Z gameDir Ljava/io/File;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
 	FIELD aa levelStorage Lnl;
@@ -42,6 +43,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD f scheduleStop ()V
 	METHOD g lockCursor ()V
 	METHOD j toggleFullscreen ()V
+	METHOD k tick ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
 	METHOD u isFancyGraphicsEnabled ()Z

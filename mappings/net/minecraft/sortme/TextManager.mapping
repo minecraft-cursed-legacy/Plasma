@@ -2,7 +2,7 @@ CLASS sj net/minecraft/sortme/TextManager
 	METHOD <init> (Lkv;Ljava/lang/String;Lji;)V
 		ARG 1 gameOptions
 	METHOD a getTextWidth (Ljava/lang/String;)I
-	METHOD a minecraft (Ljava/lang/String;III)V
+	METHOD a drawTextWithShadow (Ljava/lang/String;III)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y

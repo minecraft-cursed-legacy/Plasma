@@ -14,6 +14,8 @@ CLASS kd net/minecraft/level/biome/Biome
 	FIELD m SKY Lkd;
 	FIELD n biomeName Ljava/lang/String;
 	FIELD o colour1 I
+	FIELD p topBlock B
+	FIELD q underBlock B
 	FIELD r colour2 I
 	FIELD s monsters Ljava/util/List;
 	FIELD t creatures Ljava/util/List;
@@ -22,12 +24,16 @@ CLASS kd net/minecraft/level/biome/Biome
 	FIELD w precipitates Z
 	FIELD x biomes [Lkd;
 	METHOD a createBiomeArray ()V
+	METHOD a getBiome (DD)Lkd;
+		ARG 0 x
+		ARG 2 z
 	METHOD a getSkyColour (F)I
 		ARG 1 temperature
-	METHOD a getBiome (FF)Lkd;
-		ARG 0 x
-		ARG 1 z
-	METHOD a setColour_2 (I)Lkd;
+	METHOD a getClimateBiome (FF)Lkd;
+		ARG 0 temperature
+		ARG 1 rainfall
+	METHOD a foliageColour (I)Lkd;
+		ARG 1 colour
 	METHOD a setName (Ljava/lang/String;)Lkd;
 		ARG 1 name
 	METHOD a getTree (Ljava/util/Random;)Lpg;
@@ -35,7 +41,8 @@ CLASS kd net/minecraft/level/biome/Biome
 	METHOD a getSpawnList (Llk;)Ljava/util/List;
 		ARG 1 type
 	METHOD b setSnowy ()Lkd;
-	METHOD b setColour_1 (I)Lkd;
+	METHOD b grassColour (I)Lkd;
+		ARG 1 colour
 	METHOD c canSnow ()Z
 	METHOD d canRain ()Z
 	METHOD e setRainless ()Lkd;

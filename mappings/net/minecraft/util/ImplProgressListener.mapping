@@ -1,0 +1,8 @@
+CLASS mk net/minecraft/util/ImplProgressListener
+	FIELD b instance Lnet/minecraft/client/Minecraft;
+	FIELD c msg Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 instance
+	METHOD a (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD c notify (Ljava/lang/String;)V

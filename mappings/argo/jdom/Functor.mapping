@@ -1,0 +1,6 @@
+CLASS yp argo/jdom/Functor
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD a matchesNode (Ljava/lang/Object;)Z
+		ARG 1 jsonNode
+	METHOD b applyTo (Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 jsonNode

@@ -1,2 +1,0 @@
-CLASS yp net/minecraft/value/Value
-	METHOD a accepts (Ljava/lang/Object;)Z

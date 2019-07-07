@@ -14,8 +14,8 @@ CLASS kd net/minecraft/level/biome/Biome
 	FIELD m SKY Lkd;
 	FIELD n biomeName Ljava/lang/String;
 	FIELD o grassColour I
-	FIELD p topBlock B
-	FIELD q underBlock B
+	FIELD p topTileId B
+	FIELD q underTileId B
 	FIELD r foliageColour I
 	FIELD s monsters Ljava/util/List;
 	FIELD t creatures Ljava/util/List;

@@ -26,10 +26,15 @@ CLASS fd net/minecraft/level/Level
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a getClosestPlayerTo (Lsn;D)Lgs;
 	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
+	METHOD a (ZLyb;)V
+		ARG 2 listener
 	METHOD b spawnEntity (Lsn;)Z
 	METHOD b getEntities (Lsn;Leq;)Ljava/util/List;
 	METHOD d isAir (III)Z
-	METHOD d setBlockMeta (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d setTileMeta (IIII)V
 	METHOD e playLevelEvent (IIIII)V
 	METHOD f isDaylight ()Z
 	METHOD f isChunkLoaded (II)Z

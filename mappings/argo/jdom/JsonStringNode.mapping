@@ -1,0 +1,2 @@
+CLASS qa argo/jdom/JsonStringNode
+	FIELD a value Ljava/lang/String;

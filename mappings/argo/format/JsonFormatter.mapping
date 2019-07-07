@@ -1,0 +1,3 @@
+CLASS ml argo/format/JsonFormatter
+	METHOD a format (Lqe;)Ljava/lang/String;
+		ARG 1 jsonRootNode

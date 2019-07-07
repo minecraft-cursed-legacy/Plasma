@@ -1,2 +1,0 @@
-CLASS el argo/el
-	METHOD a format (Lgu;Ljava/io/Writer;)V

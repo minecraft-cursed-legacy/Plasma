@@ -1,0 +1,23 @@
+CLASS ka argo/jdom/JsonNodeSelectors
+	METHOD a anElement (I)Ljt;
+		ARG 0 index
+	METHOD a aField (Ljava/lang/String;)Ljt;
+		ARG 0 fieldName
+	METHOD a chainedJsonNodeSelector (Ljt;Ljt;)Ljt;
+		ARG 0 parent
+		ARG 1 child
+	METHOD a aField (Lqa;)Ljt;
+		ARG 0 fieldName
+	METHOD a aStringNode ([Ljava/lang/Object;)Ljt;
+		ARG 0 pathElements
+	METHOD a chainOn ([Ljava/lang/Object;Ljt;)Ljt;
+		ARG 0 pathElements
+		ARG 1 parentSelector
+	METHOD b anArrayNodeWithElement (I)Ljt;
+		ARG 0 index
+	METHOD b anObjectNodeWithField (Ljava/lang/String;)Ljt;
+		ARG 0 fieldName
+	METHOD b anArrayNode ([Ljava/lang/Object;)Ljt;
+		ARG 0 pathElements
+	METHOD c anObjectNode ([Ljava/lang/Object;)Ljt;
+		ARG 0 pathElements

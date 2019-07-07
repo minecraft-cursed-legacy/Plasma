@@ -1,4 +1,4 @@
-CLASS mk net/minecraft/util/ImplProgressListener
+CLASS mk net/minecraft/util/ProgressListenerImpl
 	FIELD b instance Lnet/minecraft/client/Minecraft;
 	FIELD c msg Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V

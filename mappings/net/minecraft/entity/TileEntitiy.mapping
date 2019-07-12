@@ -8,7 +8,9 @@ CLASS ow net/minecraft/entity/TileEntitiy
 	FIELD h invalid Z
 	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
 	METHOD a readIdentifyingData (Lnu;)V
+		ARG 1 tag
 	METHOD b writeIdentifyingData (Lnu;)V
+		ARG 1 tag
 	METHOD e getCachedId ()I
 	METHOD f getBlock ()Luu;
 	METHOD g isInvalid ()Z

@@ -1,2 +1,6 @@
 CLASS th net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD a INSTANCE Lth;
+	FIELD e textureManager Lji;
+	FIELD k options Lkv;
 	FIELD o renderers Ljava/util/Map;
+	FIELD p font Lsj;

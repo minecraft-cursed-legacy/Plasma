@@ -1,4 +1,4 @@
-CLASS ow net/minecraft/entity/TileEntitiy
+CLASS ow net/minecraft/entity/TileEntity
 	FIELD a ID_TO_CLASS Ljava/util/Map;
 	FIELD b CLASS_TO_ID Ljava/util/Map;
 	FIELD d level Lfd;

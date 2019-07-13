@@ -12,7 +12,7 @@ CLASS ow net/minecraft/entity/TileEntitiy
 	METHOD b writeIdentifyingData (Lnu;)V
 		ARG 1 tag
 	METHOD e getCachedId ()I
-	METHOD f getBlock ()Luu;
+	METHOD f getTile ()Luu;
 	METHOD g isInvalid ()Z
 	METHOD i invalidate ()V
 	METHOD j validate ()V

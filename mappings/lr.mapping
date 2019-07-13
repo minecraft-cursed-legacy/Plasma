@@ -1,0 +1,2 @@
+CLASS lr
+	FIELD g options Lkv;

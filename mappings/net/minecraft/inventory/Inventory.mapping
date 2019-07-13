@@ -1,6 +1,7 @@
 CLASS lw net/minecraft/inventory/Inventory
 	METHOD a getInvSize ()I
 	METHOD a takeInvItem (II)Liz;
+		ARG 1 index
 	METHOD a setInvItem (ILiz;)V
 	METHOD a_ canPlayerUse (Lgs;)Z
 	METHOD c getContainerName ()Ljava/lang/String;

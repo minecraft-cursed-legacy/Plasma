@@ -1,0 +1,4 @@
+CLASS og net/minecraft/inventory/DoubleInventory
+	FIELD a name Ljava/lang/String;
+	FIELD b left Llw;
+	FIELD c right Llw;

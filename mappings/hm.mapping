@@ -1,0 +1,4 @@
+CLASS hm
+	METHOD a fromTag (Lnu;)V
+		ARG 1 tag
+	METHOD b toTag (Lnu;)V

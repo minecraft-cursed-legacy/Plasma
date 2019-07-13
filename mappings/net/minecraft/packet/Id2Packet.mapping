@@ -1,1 +1,2 @@
 CLASS mp net/minecraft/packet/Id2Packet
+	FIELD a serverId Ljava/lang/String;

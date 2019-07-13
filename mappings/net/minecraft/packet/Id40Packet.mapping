@@ -1,1 +1,2 @@
 CLASS ux net/minecraft/packet/Id40Packet
+	FIELD a entityId I

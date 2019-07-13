@@ -1,1 +1,2 @@
 CLASS ai net/minecraft/packet/Id131Packet
+	FIELD a itemId S

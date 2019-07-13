@@ -1,3 +1,13 @@
 CLASS ti net/minecraft/network/PacketHandler
-	METHOD a onEntitySpawn (Lso;)V
+	METHOD a handlePlayerHealthUpdate (Leu;)V
+	METHOD a handleLevelTimeUpdate (Lhg;)V
+		ARG 1 packet
+	METHOD a handleOpenScreen (Liw;)V
+		ARG 1 packet
+	METHOD a handleCloseContainer (Lmn;)V
+		ARG 1 packet
+	METHOD a handleHandSwing (Lnm;)V
+	METHOD a handleEntitySpawn (Lso;)V
+		ARG 1 packet
+	METHOD a handleUpdateRain (Lvw;)V
 	METHOD c handle (Lki;)V

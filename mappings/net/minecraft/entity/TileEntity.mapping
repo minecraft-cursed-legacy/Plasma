@@ -1,4 +1,4 @@
-CLASS ow net/minecraft/entity/TileEntitiy
+CLASS ow net/minecraft/entity/TileEntity
 	FIELD a ID_TO_CLASS Ljava/util/Map;
 	FIELD b CLASS_TO_ID Ljava/util/Map;
 	FIELD d level Lfd;
@@ -8,9 +8,11 @@ CLASS ow net/minecraft/entity/TileEntitiy
 	FIELD h invalid Z
 	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
 	METHOD a readIdentifyingData (Lnu;)V
+		ARG 1 tag
 	METHOD b writeIdentifyingData (Lnu;)V
+		ARG 1 tag
 	METHOD e getCachedId ()I
-	METHOD f getBlock ()Luu;
+	METHOD f getTile ()Luu;
 	METHOD g isInvalid ()Z
 	METHOD i invalidate ()V
 	METHOD j validate ()V

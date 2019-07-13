@@ -1,0 +1,5 @@
+CLASS lv net/minecraft/item/TileItem
+	FIELD a tileId I
+	METHOD <init> (ILuu;)V
+		ARG 1 id
+		ARG 2 tile

@@ -1,0 +1,2 @@
+CLASS hg net/minecraft/packet/LevelTimeUpdateS2CPacket
+	FIELD a levelTime J

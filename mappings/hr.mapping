@@ -1,0 +1,2 @@
+CLASS hr
+	FIELD c rand Ljava/util/Random;

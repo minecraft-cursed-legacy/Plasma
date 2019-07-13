@@ -121,6 +121,9 @@ CLASS gm net/minecraft/item/ItemType
 	METHOD a use (Liz;Lfd;Lgs;)Liz;
 	METHOD a inventoryTick (Liz;Lfd;Lsn;IZ)V
 	METHOD a useOnTile (Liz;Lgs;Lfd;IIII)Z
+		ARG 1 item
+		ARG 2 player
+		ARG 3 level
 		ARG 4 x
 		ARG 5 y
 		ARG 6 z

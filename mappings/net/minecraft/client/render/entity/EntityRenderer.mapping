@@ -1,2 +1,4 @@
 CLASS gv net/minecraft/client/render/entity/EntityRenderer
+	FIELD f model Lko;
+	METHOD a setModel (Lko;)V
 	METHOD a render (Lls;IF)Z

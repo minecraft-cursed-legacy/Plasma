@@ -1,0 +1,2 @@
+CLASS jk net/minecraft/client/gui/screen/EditLevelScreen
+	FIELD a parent Lda;

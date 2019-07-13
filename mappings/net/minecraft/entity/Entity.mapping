@@ -48,6 +48,7 @@ CLASS sn net/minecraft/entity/Entity
 	METHOD a dropItem (IIF)Lhl;
 	METHOD a shouldRenderFrom (Lbt;)Z
 	METHOD a onStruckByLightning (Lc;)V
+	METHOD a setLevel (Lfd;)V
 	METHOD a interact (Lgs;)Z
 	METHOD a dropItem (Liz;F)Lhl;
 	METHOD a isInFluid (Lln;)Z

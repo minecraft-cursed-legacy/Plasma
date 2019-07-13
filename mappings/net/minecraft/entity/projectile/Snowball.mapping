@@ -1,4 +1,4 @@
-CLASS cf
+CLASS cf net/minecraft/entity/projectile/Snowball
 	FIELD a shake I
 	FIELD f xTile I
 	FIELD g yTile I

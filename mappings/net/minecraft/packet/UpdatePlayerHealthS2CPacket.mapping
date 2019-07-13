@@ -1,0 +1,2 @@
+CLASS eu net/minecraft/packet/UpdatePlayerHealthS2CPacket
+	FIELD a health I

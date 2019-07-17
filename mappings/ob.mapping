@@ -1,3 +1,7 @@
 CLASS ob
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD b (Lgs;)V
+		ARG 1 player
 	METHOD c tick ()V

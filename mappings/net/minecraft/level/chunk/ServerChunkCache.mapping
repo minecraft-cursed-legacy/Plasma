@@ -1,0 +1,3 @@
+CLASS ok net/minecraft/level/chunk/ServerChunkCache
+	METHOD <init> (Lfd;Lbf;Lcl;)V
+		ARG 1 level

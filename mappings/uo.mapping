@@ -1,0 +1,3 @@
+CLASS uo
+	METHOD a (IZ)V
+		ARG 1 keycode

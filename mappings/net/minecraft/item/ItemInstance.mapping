@@ -1,4 +1,4 @@
-CLASS iz net/minecraft/item/Item
+CLASS iz net/minecraft/item/ItemInstance
 	FIELD a count I
 	FIELD b cooldown I
 	FIELD c itemId I
@@ -16,6 +16,8 @@ CLASS iz net/minecraft/item/Item
 		ARG 1 itemType
 		ARG 2 count
 		ARG 3 damage
+	METHOD <init> (Lnu;)V
+		ARG 1 tag
 	METHOD <init> (Luu;)V
 		ARG 1 tile
 	METHOD <init> (Luu;I)V
@@ -33,6 +35,9 @@ CLASS iz net/minecraft/item/Item
 	METHOD a use (Lfd;Lgs;)Liz;
 	METHOD a inventoryTick (Lfd;Lsn;IZ)V
 	METHOD a useOnTile (Lgs;Lfd;IIII)Z
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
 	METHOD a isEqualIgnoreFlags (Liz;)Z
 	METHOD a interactWithEntity (Lls;)V
 	METHOD a postHit (Lls;Lgs;)V

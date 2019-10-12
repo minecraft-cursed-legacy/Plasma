@@ -4,6 +4,7 @@ CLASS ln net/minecraft/tile/material/Material
 	FIELD D burnable Z
 	FIELD E replaceable Z
 	FIELD G requiresTool Z
+	FIELD H pistonPushMode I
 	FIELD a AIR Lln;
 	FIELD b ORGANIC Lln;
 	FIELD c DIRT Lln;
@@ -18,17 +19,27 @@ CLASS ln net/minecraft/tile/material/Material
 	FIELD l WOOL Lln;
 	FIELD m FIRE Lln;
 	FIELD n SAND Lln;
+	FIELD o DOODADS Lln;
 	FIELD p GLASS Lln;
+	FIELD q TNT Lln;
+	FIELD r UNUSED_LOL Lln;
 	FIELD s ICE Lln;
+	FIELD t SNOW Lln;
+	FIELD u SNOW_BLOCK Lln;
 	FIELD v CACTUS Lln;
 	FIELD w CLAY Lln;
+	FIELD x PUMPKIN Lln;
+	FIELD y PORTAL Lln;
 	FIELD z CAKE Lln;
 	METHOD a isSolid ()Z
 	METHOD c blocksMovement ()Z
 	METHOD d isLiquid ()Z
 	METHOD e isBurnable ()Z
+	METHOD f replaceable ()Lln;
 	METHOD g isReplaceable ()Z
 	METHOD i doesRequireTool ()Z
-	METHOD k lightPassesThrough ()Lln;
+	METHOD j getPistonPushMode ()I
+	METHOD k breaksWhenPushed ()Lln;
+	METHOD l unpushable ()Lln;
 	METHOD n requiresTool ()Lln;
 	METHOD o burnable ()Lln;

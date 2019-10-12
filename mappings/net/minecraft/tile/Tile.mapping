@@ -55,6 +55,7 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD aa PISTON Luu;
 	FIELD ab PISTON_HEAD Lh;
 	FIELD ac WOOL Luu;
+	FIELD ad BLOCK_36 Lut;
 	FIELD ae DANDELION Lwb;
 	FIELD af ROSE Lwb;
 	FIELD ag MUSHROOM_1 Lwb;
@@ -111,8 +112,19 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD x STONEBRICK Luu;
 	FIELD y WOOD Luu;
 	FIELD z SAPLING Luu;
+	METHOD <init> (IILln;)V
+		ARG 1 id
+		ARG 2 texUVStart
+		ARG 3 material
+	METHOD <init> (ILln;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a setBoundingBox (FFFFFF)V
 	METHOD a getDropId (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
 	METHOD a sounds (Lct;)Luu;
+		ARG 1 sounds
 	METHOD a canPlaceAt (Lfd;III)Z
 		ARG 1 level
 		ARG 2 x
@@ -125,11 +137,28 @@ CLASS uu net/minecraft/tile/Tile
 		ARG 4 z
 		ARG 5 meta
 	METHOD a beforeDestroyedByExplosion (Lfd;IIIIF)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+		ARG 6 dropChance
 	METHOD a onTileAction (Lfd;IIIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 blockMeta
+	METHOD a (Lfd;IIILgs;)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD a (Lfd;IIILiz;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a onScheduledTick (Lfd;IIILjava/util/Random;)V
 		ARG 2 x
 		ARG 3 y
@@ -141,14 +170,51 @@ CLASS uu net/minecraft/tile/Tile
 	METHOD a getDropCount (Ljava/util/Random;)I
 	METHOD b onTileRemoved (Lfd;III)V
 		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b (Lfd;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD b activate (Lfd;IIILgs;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD b randomDisplayTick (Lfd;IIILjava/util/Random;)V
 	METHOD c isFullOpaque ()Z
+	METHOD c (Lfd;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD d isFullCube ()Z
 	METHOD d onDestroyedByExplosion (Lfd;III)V
 	METHOD e getTickrate ()I
 	METHOD e getCollisionShape (Lfd;III)Leq;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD e onPlaced (Lfd;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 facing
 	METHOD f emitsRedstonePower ()Z
 	METHOD f getOutlineShape (Lfd;III)Leq;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g drop (Lfd;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD h getPistonPushMode ()I
 	METHOD n getName ()Ljava/lang/String;

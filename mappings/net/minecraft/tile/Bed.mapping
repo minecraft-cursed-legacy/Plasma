@@ -1,2 +1,23 @@
 CLASS ve net/minecraft/tile/Bed
+	FIELD a SPAWN_OFFSETS [[I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a setOccupied (Lfd;IIIZ)V
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 isOccupied
+	METHOD d orientationOnly (I)I
+		ARG 0 meta
+	METHOD e isFoot (I)Z
+		ARG 0 meta
+	METHOD f isOccupied (I)Z
+		ARG 0 meta
 	METHOD f findWakeUpPosition (Lfd;IIII)Lbr;
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tries
+	METHOD r resetBoundingBox ()V

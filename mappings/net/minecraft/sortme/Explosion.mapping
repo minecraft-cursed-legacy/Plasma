@@ -1,0 +1,20 @@
+CLASS qx net/minecraft/sortme/Explosion
+	FIELD a causeFires Z
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e cause Lsn;
+	FIELD f power F
+	FIELD g damagedTiles Ljava/util/Set;
+	FIELD h random Ljava/util/Random;
+	FIELD i level Lfd;
+	METHOD <init> (Lfd;Lsn;DDDF)V
+		ARG 1 level
+		ARG 2 cause
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 power
+	METHOD a kaboomPhase1 ()V
+	METHOD a kaboomPhase2 (Z)V
+		ARG 1 showParticles

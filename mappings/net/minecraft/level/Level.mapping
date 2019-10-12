@@ -17,6 +17,12 @@ CLASS fd net/minecraft/level/Level
 	METHOD F resetWeather ()V
 	METHOD a getClosestPlayer (DDDD)Lgs;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a canPlaceTile (IIIIZI)Z
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 meta
 	METHOD a setTileEntity (IIILow;)V
 	METHOD a setLevelTime (J)V
 	METHOD a setSpawnPosition (Lbr;)V

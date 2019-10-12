@@ -123,6 +123,7 @@ CLASS gm net/minecraft/item/ItemType
 	METHOD a setContainerItem (Lgm;)Lgm;
 		ARG 1 itemType
 	METHOD a getTranslationKey (Liz;)Ljava/lang/String;
+		ARG 1 item
 	METHOD a postMine (Liz;IIIILls;)Z
 	METHOD a use (Liz;Lfd;Lgs;)Liz;
 		ARG 1 item

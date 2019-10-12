@@ -113,6 +113,17 @@ CLASS uu net/minecraft/tile/Tile
 	FIELD z SAPLING Luu;
 	METHOD a getDropId (ILjava/util/Random;)I
 	METHOD a sounds (Lct;)Luu;
+	METHOD a canPlaceAt (Lfd;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a canPlaceAt (Lfd;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
 	METHOD a beforeDestroyedByExplosion (Lfd;IIIIF)V
 	METHOD a onTileAction (Lfd;IIIII)V
 		ARG 2 x

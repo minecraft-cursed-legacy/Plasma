@@ -1,0 +1,4 @@
+CLASS wt
+	METHOD a (Lei;Ljava/util/List;)V
+		ARG 1 properties
+		ARG 2 list

@@ -3,6 +3,22 @@ CLASS cc net/minecraft/util/noise/SimplexNoise
 	FIELD b yOffset D
 	FIELD c zOffset D
 	FIELD d gradients [[I
+	FIELD e permutations [I
+	FIELD f UNSKEW_FACTOR_2D D
+	FIELD g SKEW_FACTOR_2D D
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 rand
+	METHOD a floor (D)I
+		ARG 0 value
+	METHOD a sample ([DDDIIDDD)V
+		ARG 1 array
+		ARG 2 x
+		ARG 4 y
+		ARG 6 xSize
+		ARG 7 ySize
+		ARG 8 xScale
+		ARG 10 yScale
 	METHOD a dot ([IDD)D
+		ARG 0 gArr
+		ARG 1 x
+		ARG 3 z

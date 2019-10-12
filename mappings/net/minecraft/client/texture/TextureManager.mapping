@@ -1,5 +1,7 @@
 CLASS ji net/minecraft/client/texture/TextureManager
+	FIELD g textureBinders Ljava/util/List;
 	FIELD i gameOptions Lkv;
 	METHOD a tick ()V
+	METHOD a add (Law;)V
 	METHOD b bindTexture (I)V
 	METHOD b getTextureId (Ljava/lang/String;)I

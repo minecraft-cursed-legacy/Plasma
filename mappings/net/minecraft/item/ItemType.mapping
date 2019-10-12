@@ -144,6 +144,7 @@ CLASS gm net/minecraft/item/ItemType
 		ARG 2 tile
 	METHOD a setName (Ljava/lang/String;)Lgm;
 	METHOD a isEffectiveOn (Luu;)Z
+		ARG 1 tile
 	METHOD b getTexturePosition (Liz;)I
 		ARG 1 item
 	METHOD d setMaxStackSize (I)Lgm;

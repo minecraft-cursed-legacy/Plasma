@@ -1,3 +1,4 @@
 CLASS bw net/minecraft/client/render/Renderer
 	METHOD a bindTexture (Ljava/lang/String;)V
 	METHOD a render (Lsn;DDDFF)V
+		ARG 1 boat

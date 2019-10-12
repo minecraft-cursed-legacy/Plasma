@@ -1,4 +1,4 @@
-CLASS xw net/minecraft/entity/class_8765432
+CLASS xw net/minecraft/entity/SomeEntity
 	METHOD <init> (Lfd;DDDDDD)V
 		ARG 1 level
 		ARG 2 x

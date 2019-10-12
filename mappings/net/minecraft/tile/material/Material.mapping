@@ -2,6 +2,7 @@ CLASS ln net/minecraft/tile/material/Material
 	FIELD A COBWEB Lln;
 	FIELD B PISTON Lln;
 	FIELD D burnable Z
+	FIELD E replaceable Z
 	FIELD G requiresTool Z
 	FIELD a AIR Lln;
 	FIELD b ORGANIC Lln;
@@ -26,6 +27,7 @@ CLASS ln net/minecraft/tile/material/Material
 	METHOD c blocksMovement ()Z
 	METHOD d isLiquid ()Z
 	METHOD e isBurnable ()Z
+	METHOD g isReplaceable ()Z
 	METHOD i doesRequireTool ()Z
 	METHOD k lightPassesThrough ()Lln;
 	METHOD n requiresTool ()Lln;

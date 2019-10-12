@@ -1,0 +1,6 @@
+CLASS jo net/minecraft/client/sortme/ReverseEntityComparatorThing
+	FIELD a reverseX D
+	FIELD b reverseY D
+	FIELD c reverseZ D
+	METHOD <init> (Lsn;)V
+		ARG 1 entity

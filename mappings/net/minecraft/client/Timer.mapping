@@ -1,0 +1,4 @@
+CLASS py net/minecraft/client/Timer
+	FIELD a tickrate F
+	METHOD <init> (F)V
+		ARG 1 tickrate

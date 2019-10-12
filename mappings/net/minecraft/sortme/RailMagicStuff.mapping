@@ -1,0 +1,4 @@
+CLASS vo net/minecraft/sortme/RailMagicStuff
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I

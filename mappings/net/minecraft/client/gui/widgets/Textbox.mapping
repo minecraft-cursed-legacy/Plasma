@@ -1,0 +1,6 @@
+CLASS ro net/minecraft/client/gui/widgets/Textbox
+	FIELD c manager Lsj;
+	METHOD <init> (Lda;Lsj;IIIILjava/lang/String;)V
+		ARG 1 screen
+		ARG 2 manager
+	METHOD b tick ()V

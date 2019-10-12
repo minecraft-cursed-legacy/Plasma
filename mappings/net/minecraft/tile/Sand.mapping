@@ -1,1 +1,2 @@
 CLASS gk net/minecraft/tile/Sand
+	FIELD a fallInstantly Z

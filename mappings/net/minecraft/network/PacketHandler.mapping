@@ -7,6 +7,8 @@ CLASS ti net/minecraft/network/PacketHandler
 	METHOD a handleCloseContainer (Lmn;)V
 		ARG 1 packet
 	METHOD a handleHandSwing (Lnm;)V
+	METHOD a onChatMessage (Lpe;)V
+		ARG 1 packet
 	METHOD a handleExplosion (Lrm;)V
 		ARG 1 packet
 	METHOD a handleEntitySpawn (Lso;)V

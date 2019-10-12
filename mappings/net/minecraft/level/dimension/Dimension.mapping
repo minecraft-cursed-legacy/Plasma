@@ -1,0 +1,4 @@
+CLASS xa net/minecraft/level/dimension/Dimension
+	METHOD a getByID (I)Lxa;
+		ARG 0 id
+	METHOD f canPlayerSleep ()Z

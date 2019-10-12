@@ -1,0 +1,3 @@
+CLASS hw net/minecraft/client/sortme/WaterColour
+	FIELD a map [I
+	METHOD a set ([I)V

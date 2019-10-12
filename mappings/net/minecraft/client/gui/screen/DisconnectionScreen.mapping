@@ -1,0 +1,7 @@
+CLASS ex net/minecraft/client/gui/screen/DisconnectionScreen
+	FIELD a line1 Ljava/lang/String;
+	FIELD i line2 Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 line1Key
+		ARG 2 line2Key
+		ARG 3 format

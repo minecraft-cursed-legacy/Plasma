@@ -8,6 +8,7 @@ CLASS fd net/minecraft/level/Level
 	FIELD l thunderGradient F
 	FIELD q difficulty I
 	FIELD r rand Ljava/util/Random;
+	FIELD t dimension Lxa;
 	FIELD v cache Lcl;
 	FIELD x properties Lei;
 	METHOD <init> (Lwt;Ljava/lang/String;Lxa;J)V

@@ -1,0 +1,2 @@
+CLASS tu net/minecraft/util/OperatingSystemIds
+	FIELD a ids [I

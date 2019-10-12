@@ -4,3 +4,7 @@ CLASS th net/minecraft/client/render/entity/EntityRenderDispatcher
 	FIELD k options Lkv;
 	FIELD o renderers Ljava/util/Map;
 	FIELD p font Lsj;
+	METHOD a get (Ljava/lang/Class;)Lbw;
+		ARG 1 entityClass
+	METHOD a get (Lsn;)Lbw;
+		ARG 1 entity

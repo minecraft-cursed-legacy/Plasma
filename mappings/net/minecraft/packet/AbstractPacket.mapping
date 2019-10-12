@@ -1,6 +1,7 @@
 CLASS ki net/minecraft/packet/AbstractPacket
 	FIELD a idToClass Ljava/util/Map;
 	FIELD b classToId Ljava/util/Map;
+	METHOD a length ()I
 	METHOD a create (I)Lki;
 	METHOD a register (IZZLjava/lang/Class;)V
 		ARG 0 id

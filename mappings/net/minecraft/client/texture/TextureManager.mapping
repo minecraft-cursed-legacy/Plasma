@@ -3,5 +3,6 @@ CLASS ji net/minecraft/client/texture/TextureManager
 	FIELD i gameOptions Lkv;
 	METHOD a tick ()V
 	METHOD a add (Law;)V
+	METHOD a readMap (Ljava/lang/String;)[I
 	METHOD b bindTexture (I)V
 	METHOD b getTextureId (Ljava/lang/String;)I

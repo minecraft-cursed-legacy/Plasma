@@ -1,0 +1,7 @@
+CLASS nn net/minecraft/client/render/entity/model/QuadrupedFarmAnimalModel
+	FIELD d cuboid1 Lps;
+	FIELD e cuboid2 Lps;
+	FIELD f cuboid3 Lps;
+	FIELD g cuboid4 Lps;
+	FIELD h cuboid5 Lps;
+	FIELD i cuboid6 Lps;

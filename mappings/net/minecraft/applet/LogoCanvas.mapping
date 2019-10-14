@@ -1,2 +1,2 @@
-CLASS fy net/minecraft/sortme/LogoCanvas
+CLASS fy net/minecraft/applet/LogoCanvas
 	FIELD a logo Ljava/awt/image/BufferedImage;

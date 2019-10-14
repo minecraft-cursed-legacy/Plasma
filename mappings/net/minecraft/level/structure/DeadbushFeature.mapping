@@ -1,0 +1,4 @@
+CLASS kt net/minecraft/level/structure/DeadbushFeature
+	FIELD a tileId I
+	METHOD <init> (I)V
+		ARG 1 tileId

@@ -1,4 +1,5 @@
 CLASS xp net/minecraft/level/TileView
+	METHOD a getBiomeSource ()Lxv;
 	METHOD a getTileId (III)I
 		ARG 1 x
 		ARG 2 y
@@ -7,4 +8,7 @@ CLASS xp net/minecraft/level/TileView
 	METHOD c getBrightness (III)F
 	METHOD e getTileMeta (III)I
 	METHOD f getMaterial (III)Lln;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD h canSuffocate (III)Z

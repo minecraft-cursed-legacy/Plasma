@@ -1,0 +1,7 @@
+CLASS q net/minecraft/applet/AppletMinecraft
+	FIELD a applet Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 applet
+		ARG 2 component
+		ARG 3 canvas
+		ARG 4 applet2

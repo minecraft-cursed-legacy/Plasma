@@ -1,2 +1,0 @@
-CLASS xo net/minecraft/level/structure/CaveMaybe
-	FIELD a tileId I

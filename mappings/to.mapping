@@ -1,0 +1,7 @@
+CLASS to
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 file
+	METHOD a (Llm;Lfd;Lnu;)V
+		ARG 0 chunk
+		ARG 1 level
+		ARG 2 tag

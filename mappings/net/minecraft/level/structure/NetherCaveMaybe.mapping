@@ -1,4 +1,0 @@
-CLASS qc net/minecraft/level/structure/NetherCaveMaybe
-	FIELD a tileId I
-	METHOD <init> (I)V
-		ARG 1 tileId

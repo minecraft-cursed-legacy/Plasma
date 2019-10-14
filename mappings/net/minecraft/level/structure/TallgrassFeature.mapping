@@ -1,0 +1,6 @@
+CLASS ap net/minecraft/level/structure/TallgrassFeature
+	FIELD a tileId I
+	FIELD b tileMeta I
+	METHOD <init> (II)V
+		ARG 1 tileId
+		ARG 2 tileMeta

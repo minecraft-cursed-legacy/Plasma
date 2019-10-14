@@ -1,0 +1,10 @@
+CLASS wt net/minecraft/level/dimension/DimensionData
+	METHOD a (Lei;)V
+		ARG 1 properties
+	METHOD a (Lei;Ljava/util/List;)V
+		ARG 1 properties
+		ARG 2 list
+	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD a getChunkIO (Lxa;)Lbf;
+		ARG 1 dimension
+	METHOD c getLevelProperties ()Lei;

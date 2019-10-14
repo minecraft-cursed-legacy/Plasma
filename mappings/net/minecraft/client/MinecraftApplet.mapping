@@ -1,2 +1,4 @@
 CLASS net/minecraft/client/MinecraftApplet
 	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a onAddNotify ()V
+	METHOD b onRemoveNotify ()V

@@ -1,0 +1,4 @@
+CLASS be net/minecraft/level/structure/MushroomFeature
+	FIELD a tileId I
+	METHOD <init> (I)V
+		ARG 1 tileId

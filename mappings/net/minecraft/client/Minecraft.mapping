@@ -4,6 +4,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD K fpsDebugString Ljava/lang/String;
 	FIELD P lastTickTime J
 	FIELD Q isFullscreen Z
+	FIELD S occlusionQueryTester Lcx;
 	FIELD W attackCooldown I
 	FIELD Z gameDir Ljava/io/File;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
@@ -17,6 +18,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD h player Ldc;
 	FIELD j particleManager Ldn;
 	FIELD k session Lgr;
+	FIELD n isApplet Z
 	FIELD o paused Z
 	FIELD p textureManager Lji;
 	FIELD q textRenderer Lsj;
@@ -28,6 +30,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD z options Lkv;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 6 isFullscreen
+	METHOD B startLoginThread ()V
 	METHOD a init ()V
 	METHOD a updateScreenResolution (II)V
 		ARG 1 actualWidth
@@ -39,7 +42,9 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 playerName
 	METHOD a start (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 playerName
+	METHOD a showGameStartupError (Lmh;)V
 	METHOD b getGameDirectory ()Ljava/io/File;
+	METHOD b onGameStartupFailure (Lmh;)V
 	METHOD c printOpenGLError (Ljava/lang/String;)V
 	METHOD d stop ()V
 	METHOD f scheduleStop ()V
@@ -48,6 +53,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD k tick ()V
 	METHOD l hasLevel ()Z
 	METHOD m switchDimension ()V
+	METHOD n getOcclusionQueryTester ()Lcx;
 	METHOD o getDebugFirstLine ()Ljava/lang/String;
 	METHOD p getDebugSecondLine ()Ljava/lang/String;
 	METHOD q getDebugFourthLine ()Ljava/lang/String;

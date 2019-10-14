@@ -1,0 +1,2 @@
+CLASS cu net/minecraft/client/util/Smoother
+	METHOD a smooth (FF)F

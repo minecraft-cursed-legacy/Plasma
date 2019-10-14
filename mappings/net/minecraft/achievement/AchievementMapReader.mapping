@@ -1,0 +1,4 @@
+CLASS b net/minecraft/achievement/AchievementMapReader
+	FIELD a INSTANCE Lb;
+	FIELD b map Ljava/util/Map;
+	METHOD a getById (I)Ljava/lang/String;

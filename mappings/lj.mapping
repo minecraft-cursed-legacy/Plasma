@@ -1,0 +1,3 @@
+CLASS lj
+	FIELD b column I
+	FIELD c line I

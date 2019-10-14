@@ -1,2 +1,0 @@
-CLASS fy net/minecraft/sortme/LogoCanvas
-	FIELD a logo Ljava/awt/image/BufferedImage;

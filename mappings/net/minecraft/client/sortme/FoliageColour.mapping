@@ -1,0 +1,3 @@
+CLASS jh net/minecraft/client/sortme/FoliageColour
+	FIELD a map [I
+	METHOD a set ([I)V

@@ -1,6 +1,0 @@
-CLASS iu
-	FIELD b xCentre I
-	FIELD c zCentre I
-	FIELD d dimensionId B
-	FIELD e scale B
-	FIELD f colours [B

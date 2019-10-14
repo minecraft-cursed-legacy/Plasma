@@ -1,3 +1,0 @@
-CLASS pm
-	METHOD a playLevelEvent (Lgs;IIIII)V
-	METHOD a addParticle (Ljava/lang/String;DDDDDD)V

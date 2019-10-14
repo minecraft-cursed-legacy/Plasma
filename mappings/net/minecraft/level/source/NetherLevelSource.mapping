@@ -1,0 +1,2 @@
+CLASS qn net/minecraft/level/source/NetherLevelSource
+	FIELD h rand Ljava/util/Random;

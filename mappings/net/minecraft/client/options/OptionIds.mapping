@@ -1,0 +1,2 @@
+CLASS fq net/minecraft/client/options/OptionIds
+	FIELD a ids [I

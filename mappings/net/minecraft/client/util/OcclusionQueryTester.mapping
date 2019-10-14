@@ -1,0 +1,3 @@
+CLASS cx net/minecraft/client/util/OcclusionQueryTester
+	FIELD a enabled Z
+	METHOD a isEnabled ()Z

@@ -1,4 +1,7 @@
 CLASS bw net/minecraft/client/render/Renderer
+	FIELD b dispatcher Lth;
 	METHOD a bindTexture (Ljava/lang/String;)V
 	METHOD a render (Lsn;DDDFF)V
 		ARG 1 entity
+	METHOD a setDispatcher (Lth;)V
+		ARG 1 dispatcher

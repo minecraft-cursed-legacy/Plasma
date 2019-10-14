@@ -1,3 +1,11 @@
 CLASS cl net/minecraft/level/source/LevelSource
 	METHOD a isChunkLoaded (II)Z
+	METHOD a decorate (Lcl;II)V
+		ARG 1 levelSource
+	METHOD b getChunk (II)Llm;
+		ARG 1 x
+		ARG 2 z
 	METHOD c toString ()Ljava/lang/String;
+	METHOD c (II)Llm;
+		ARG 1 x
+		ARG 2 z

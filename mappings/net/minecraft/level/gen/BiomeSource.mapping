@@ -1,0 +1,22 @@
+CLASS xv net/minecraft/level/gen/BiomeSource
+	FIELD d biomes [Lkd;
+	FIELD e noise1 Lug;
+	FIELD f noise2 Lug;
+	FIELD g noise3 Lug;
+	METHOD <init> (Lfd;)V
+		ARG 1 level
+	METHOD a getBiome (II)Lkd;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBiomes (IIII)[Lkd;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 xSize
+		ARG 4 zSize
+	METHOD a getBiomeInChunk (Lyy;)Lkd;
+	METHOD a ([DIIII)[D
+		ARG 1 array
+	METHOD a getBiomes ([Lkd;IIII)[Lkd;
+	METHOD b (II)D
+		ARG 1 x
+		ARG 2 z

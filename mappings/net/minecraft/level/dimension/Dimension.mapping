@@ -1,4 +1,9 @@
 CLASS xa net/minecraft/level/dimension/Dimension
+	FIELD a level Lfd;
 	METHOD a getByID (I)Lxa;
 		ARG 0 id
+	METHOD a (Lfd;)V
+		ARG 1 level
+	METHOD b createLevelSource ()Lcl;
+	METHOD c renderAsSkylands ()Z
 	METHOD f canPlayerSleep ()Z

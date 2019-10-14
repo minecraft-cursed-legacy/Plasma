@@ -1,5 +1,0 @@
-CLASS bt net/minecraft/util/math/Vec3f
-	FIELD a x D
-	FIELD b y D
-	FIELD c z D
-	METHOD b from (DDD)Lbt;

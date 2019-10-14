@@ -1,5 +1,0 @@
-CLASS fm
-	FIELD a LOGGER Ljava/util/logging/Logger;
-	FIELD b parentFolder Ljava/io/File;
-	FIELD c playersFolder Ljava/io/File;
-	FIELD d dataFolder Ljava/io/File;

@@ -1,4 +1,0 @@
-CLASS bf
-	METHOD a (Lfd;II)Llm;
-		ARG 2 xPos
-		ARG 3 zPos

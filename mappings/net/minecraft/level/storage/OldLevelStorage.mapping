@@ -1,0 +1,4 @@
+CLASS tq net/minecraft/level/storage/OldLevelStorage
+	FIELD a path Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file

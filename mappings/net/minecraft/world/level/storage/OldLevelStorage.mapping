@@ -1,2 +1,0 @@
-CLASS tq net/minecraft/world/level/storage/OldLevelStorage
-	FIELD a path Ljava/io/File;

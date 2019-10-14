@@ -18,6 +18,7 @@ CLASS fd net/minecraft/level/Level
 	METHOD F resetWeather ()V
 	METHOD a getClosestPlayer (DDDD)Lgs;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a setTileWithMetadata (IIIII)Z
 	METHOD a canPlaceTile (IIIIZI)Z
 		ARG 1 id
 		ARG 2 x
@@ -27,6 +28,8 @@ CLASS fd net/minecraft/level/Level
 	METHOD a setTileEntity (IIILow;)V
 	METHOD a setLevelTime (J)V
 	METHOD a setSpawnPosition (Lbr;)V
+	METHOD a canSpawnEntity (Leq;)Z
+		ARG 1 box
 	METHOD a playLevelEvent (Lgs;IIIII)V
 	METHOD a getEntities (Ljava/lang/Class;Leq;)Ljava/util/List;
 	METHOD a getPlayerByName (Ljava/lang/String;)Lgs;
@@ -49,6 +52,14 @@ CLASS fd net/minecraft/level/Level
 		ARG 2 listener
 	METHOD b spawnEntity (Lsn;)Z
 	METHOD b getEntities (Lsn;Leq;)Ljava/util/List;
+	METHOD c getChunkFromCache (II)Llm;
+		ARG 1 x
+		ARG 2 z
+	METHOD c setTileInChunk (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileId
 	METHOD d isAir (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -67,6 +78,10 @@ CLASS fd net/minecraft/level/Level
 	METHOD q disconnect ()V
 	METHOD s getSeed ()J
 	METHOD t getLevelTime ()J
+	METHOD t canRainAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD u getSpawnPosition ()Lbr;
 	METHOD x getProperties ()Lei;
 	METHOD z wakeUpSleepingPlayers ()V

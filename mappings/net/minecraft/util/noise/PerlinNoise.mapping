@@ -1,1 +1,10 @@
 CLASS am net/minecraft/util/noise/PerlinNoise
+	FIELD a xOffset D
+	FIELD b yOffset D
+	FIELD c zOffset D
+	FIELD d permutations [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a sample (DDD)D
+	METHOD a sample ([DDDDIIIDDDD)V
+		ARG 1 array

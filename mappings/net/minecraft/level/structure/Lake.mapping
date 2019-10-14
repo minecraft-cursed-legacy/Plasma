@@ -1,0 +1,4 @@
+CLASS dj net/minecraft/level/structure/Lake
+	FIELD a tileId I
+	METHOD <init> (I)V
+		ARG 1 tileId

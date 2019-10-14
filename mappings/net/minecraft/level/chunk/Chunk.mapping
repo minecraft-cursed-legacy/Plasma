@@ -1,0 +1,8 @@
+CLASS lm net/minecraft/level/chunk/Chunk
+	FIELD d level Lfd;
+	FIELD j x I
+	FIELD k z I
+	METHOD <init> (Lfd;II)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z

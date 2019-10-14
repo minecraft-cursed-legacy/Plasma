@@ -1,1 +1,10 @@
 CLASS ug net/minecraft/util/noise/SimplexOctaveNoise
+	FIELD a generators [Lcc;
+	FIELD b octaves I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 rand
+		ARG 2 octaves
+	METHOD a sample ([DDDIIDDD)[D
+		ARG 1 array
+	METHOD a sample ([DDDIIDDDD)[D
+		ARG 1 array

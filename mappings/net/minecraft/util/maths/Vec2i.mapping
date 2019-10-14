@@ -1,0 +1,11 @@
+CLASS yy net/minecraft/util/maths/Vec2i
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a hash (II)I
+		ARG 0 x
+		ARG 1 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

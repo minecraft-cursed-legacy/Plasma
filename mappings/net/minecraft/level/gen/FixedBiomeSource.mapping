@@ -1,0 +1,4 @@
+CLASS hd net/minecraft/level/gen/FixedBiomeSource
+	FIELD e biome Lkd;
+	METHOD <init> (Lkd;DD)V
+		ARG 1 biome

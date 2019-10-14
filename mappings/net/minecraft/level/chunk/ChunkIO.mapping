@@ -1,0 +1,11 @@
+CLASS bf net/minecraft/level/chunk/ChunkIO
+	METHOD a getChunk (Lfd;II)Llm;
+		ARG 1 level
+		ARG 2 xPos
+		ARG 3 zPos
+	METHOD a (Lfd;Llm;)V
+		ARG 1 level
+		ARG 2 chunk
+	METHOD b (Lfd;Llm;)V
+		ARG 1 level
+		ARG 2 chunk

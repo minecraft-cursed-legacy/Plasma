@@ -8,7 +8,7 @@
 
     2b. Where the concise name is better used / already used for another class, append the type to the end. e.g. Bed: (the tile is "Bed", the itemtype is "BedItem", and the entity is "BedEntity")
 
-3. Use [possibly outdated] cursed Mojang names where applicable. e.g Tile instead of Block
+3. Use outdated, cursed Mojang names where applicable. e.g Tile instead of Block
 
 4. The mappings are cursed. Feel free to make cursed names where appropriate
 

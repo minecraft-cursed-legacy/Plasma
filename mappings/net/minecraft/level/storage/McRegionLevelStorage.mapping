@@ -1,1 +1,3 @@
 CLASS hi net/minecraft/level/storage/McRegionLevelStorage
+	METHOD a (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+		ARG 1 file

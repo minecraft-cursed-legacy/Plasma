@@ -1,2 +1,0 @@
-CLASS cm
-	FIELD a FILTER_PATTERN Ljava/util/regex/Pattern;

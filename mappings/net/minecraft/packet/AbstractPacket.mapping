@@ -6,7 +6,9 @@ CLASS ki net/minecraft/packet/AbstractPacket
 	METHOD a register (IZZLjava/lang/Class;)V
 		ARG 0 id
 	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 in
 	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 out
 	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
 	METHOD a handle (Lti;)V
 		ARG 1 handler

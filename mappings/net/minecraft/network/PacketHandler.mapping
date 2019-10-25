@@ -1,4 +1,8 @@
 CLASS ti net/minecraft/network/PacketHandler
+	METHOD a (Lai;)V
+		ARG 1 packet
+	METHOD a (Ldi;)V
+		ARG 1 packet
 	METHOD a handlePlayerHealthUpdate (Leu;)V
 	METHOD a handleLevelTimeUpdate (Lhg;)V
 		ARG 1 packet

@@ -1,0 +1,2 @@
+CLASS cm net/minecraft/level/storage/McRegionFileFilter
+	FIELD a FILTER_PATTERN Ljava/util/regex/Pattern;

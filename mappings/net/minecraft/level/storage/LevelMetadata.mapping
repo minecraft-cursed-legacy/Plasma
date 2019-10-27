@@ -13,7 +13,7 @@ CLASS vb net/minecraft/level/storage/LevelMetadata
 	METHOD a getFileName ()Ljava/lang/String;
 	METHOD b getLevelName ()Ljava/lang/String;
 	METHOD c getFileSize ()J
-	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD compareTo (Ljava/lang/Object;)I
 		ARG 1 other
 	METHOD d getVersion ()Z
 	METHOD e getLastPlayedTime ()J

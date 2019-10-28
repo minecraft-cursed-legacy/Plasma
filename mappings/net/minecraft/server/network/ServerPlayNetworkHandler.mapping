@@ -1,8 +1,4 @@
 CLASS net/minecraft/class_117 net/minecraft/server/network/ServerPlayNetworkHandler
-	CLASS 2 net/minecraft/server/network/CleanDisconnectThread
-	CLASS 3 net/minecraft/server/network/CleanupThread
-	CLASS 4 net/minecraft/server/network/ReadThread
-	CLASS 1 net/minecraft/server/network/WriteThread
 	FIELD field_1291 writeThread Ljava/lang/Thread;
 	FIELD field_1292 readThread Ljava/lang/Thread;
 	METHOD method_1125 disconnectClient (Ljava/lang/String;[Ljava/lang/Object;)V

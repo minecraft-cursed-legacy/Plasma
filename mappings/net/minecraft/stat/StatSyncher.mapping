@@ -1,6 +1,5 @@
 CLASS net/minecraft/class_605 net/minecraft/stat/StatSyncher
-	CLASS 2 net/minecraft/stat/StatsFetcherThread
-	CLASS 1 net/minecraft/stat/StatsSaveThread
+	CLASS 1
 		FIELD field_2729 syncher Lnet/minecraft/class_605;
 	FIELD field_2715 busy Z
 	FIELD field_2725 session Lnet/minecraft/class_237;

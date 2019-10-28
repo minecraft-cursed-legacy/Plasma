@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_148 net/minecraft/recipe/RecipeRegistry
-	CLASS 1 net/minecraft/sortme/RecipeComparator
 	FIELD field_561 INSTANCE Lnet/minecraft/class_148;
 	FIELD field_562 recipes Ljava/util/List;
 	METHOD method_538 getInstance ()Lnet/minecraft/class_148;

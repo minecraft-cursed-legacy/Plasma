@@ -11,13 +11,13 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath "cuchaz:enigma:0.14.1.130"
-		classpath 'com.github.Chocohead:Stitch:fc82ff6'
 		classpath "commons-io:commons-io:2.6"
 		classpath "org.apache.commons:commons-compress:1.19"
 		classpath "com.google.guava:guava:28.0-jre"
 		classpath 'de.undercouch:gradle-download-task:3.4.3'
+		classpath "cuchaz:enigma:0.14.2.134"
 		classpath 'net.fabricmc:tiny-remapper:0.1.0.40' // TODO anything above this fails, bandaid fix.
+		classpath 'com.github.Chocohead:Stitch:fc82ff6'
 		classpath 'com.github.Chocohead:tiny-mappings-parser:337c8b6'
 	}
 }
@@ -59,8 +59,8 @@ configurations {
 }
 
 dependencies {
+	enigmaRuntime "cuchaz:enigma:0.14.2.134"
 	enigmaRuntime 'com.github.Chocohead:Stitch:fc82ff6'
-	enigmaRuntime "cuchaz:enigma:0.14.1.130"
 }
 
 def mappingsDir = file("mappings")

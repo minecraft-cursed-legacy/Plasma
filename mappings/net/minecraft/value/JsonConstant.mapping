@@ -1,5 +1,0 @@
-CLASS argo/jdom/JsonConstants net/minecraft/value/JsonConstant
-	FIELD NULL NULL Largo/jdom/JsonConstants;
-	FIELD TRUE TRUE Largo/jdom/JsonConstants;
-	FIELD FALSE FALSE Largo/jdom/JsonConstants;
-	FIELD jsonNodeType type Largo/jdom/JsonNodeType;

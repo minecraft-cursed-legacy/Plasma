@@ -1,5 +1,5 @@
-CLASS yl net/minecraft/entity/Minecart
-	FIELD d type I
-	FIELD e fuel I
-	FIELD f pushX D
-	FIELD g pushZ D
+CLASS net/minecraft/class_549 net/minecraft/entity/Minecart
+	FIELD field_2275 type I
+	FIELD field_2276 fuel I
+	FIELD field_2277 pushX D
+	FIELD field_2278 pushZ D

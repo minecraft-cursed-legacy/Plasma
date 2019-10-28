@@ -1,7 +1,7 @@
-CLASS up net/minecraft/client/gui/screen/ControlsScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i parent Lda;
-	FIELD j gameOptions Lkv;
+CLASS net/minecraft/class_587 net/minecraft/client/gui/screen/ControlsScreen
+	FIELD field_2537 title Ljava/lang/String;
+	FIELD field_2538 parent Lnet/minecraft/class_32;
+	FIELD field_2539 gameOptions Lnet/minecraft/class_322;
 	METHOD <init> (Lda;Lkv;)V
 		ARG 1 parent
 		ARG 2 gameOptions

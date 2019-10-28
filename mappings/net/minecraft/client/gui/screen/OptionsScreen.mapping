@@ -1,5 +1,5 @@
-CLASS co net/minecraft/client/gui/screen/OptionsScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i parent Lda;
-	FIELD j gameOptions Lkv;
-	FIELD l OPTIONS [Lht;
+CLASS net/minecraft/class_635 net/minecraft/client/gui/screen/OptionsScreen
+	FIELD field_2761 title Ljava/lang/String;
+	FIELD field_2762 parent Lnet/minecraft/class_32;
+	FIELD field_2763 gameOptions Lnet/minecraft/class_322;
+	FIELD field_2764 OPTIONS [Lnet/minecraft/class_271;

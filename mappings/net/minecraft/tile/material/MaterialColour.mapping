@@ -1,18 +1,18 @@
-CLASS dx net/minecraft/tile/material/MaterialColour
-	FIELD a BY_ID [Ldx;
-	FIELD b AIR Ldx;
-	FIELD c GRASS Ldx;
-	FIELD d SAND Ldx;
-	FIELD e WEB Ldx;
-	FIELD f LAVA Ldx;
-	FIELD g ICE Ldx;
-	FIELD h IRON Ldx;
-	FIELD i FOLIAGE Ldx;
-	FIELD j WHITE Ldx;
-	FIELD k CLAY Ldx;
-	FIELD l DIRT Ldx;
-	FIELD m STONE Ldx;
-	FIELD n WATER Ldx;
-	FIELD o WOOD Ldx;
-	FIELD p colour I
-	FIELD q id I
+CLASS net/minecraft/class_259 net/minecraft/tile/material/MaterialColour
+	FIELD field_2737 BY_ID [Lnet/minecraft/class_259;
+	FIELD field_2738 AIR Lnet/minecraft/class_259;
+	FIELD field_2739 GRASS Lnet/minecraft/class_259;
+	FIELD field_2740 SAND Lnet/minecraft/class_259;
+	FIELD field_2741 WEB Lnet/minecraft/class_259;
+	FIELD field_2742 LAVA Lnet/minecraft/class_259;
+	FIELD field_2743 ICE Lnet/minecraft/class_259;
+	FIELD field_2744 IRON Lnet/minecraft/class_259;
+	FIELD field_2745 FOLIAGE Lnet/minecraft/class_259;
+	FIELD field_2746 WHITE Lnet/minecraft/class_259;
+	FIELD field_2747 CLAY Lnet/minecraft/class_259;
+	FIELD field_2748 DIRT Lnet/minecraft/class_259;
+	FIELD field_2749 STONE Lnet/minecraft/class_259;
+	FIELD field_2750 WATER Lnet/minecraft/class_259;
+	FIELD field_2751 WOOD Lnet/minecraft/class_259;
+	FIELD field_2752 colour I
+	FIELD field_2753 id I

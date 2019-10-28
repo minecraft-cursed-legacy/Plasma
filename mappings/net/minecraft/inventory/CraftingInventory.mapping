@@ -1,7 +1,7 @@
-CLASS mq net/minecraft/inventory/CraftingInventory
-	FIELD a contents [Liz;
-	FIELD b width I
-	FIELD c container Ldw;
+CLASS net/minecraft/class_159 net/minecraft/inventory/CraftingInventory
+	FIELD field_1132 contents [Lnet/minecraft/class_31;
+	FIELD field_1133 width I
+	FIELD field_1134 container Lnet/minecraft/class_71;
 	METHOD <init> (Ldw;II)V
 		ARG 2 width
 		ARG 3 height

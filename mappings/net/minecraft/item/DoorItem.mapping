@@ -1,2 +1,2 @@
-CLASS hu net/minecraft/item/DoorItem
-	FIELD a material Lln;
+CLASS net/minecraft/class_177 net/minecraft/item/DoorItem
+	FIELD field_617 material Lnet/minecraft/class_15;

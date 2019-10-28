@@ -1,7 +1,7 @@
-CLASS vv net/minecraft/entity/projectile/ThrownEgg
-	FIELD a shake I
-	FIELD b xTile I
-	FIELD c yTile I
-	FIELD d zTile I
-	FIELD e inTile I
-	FIELD f inGround Z
+CLASS net/minecraft/class_499 net/minecraft/entity/projectile/ThrownEgg
+	FIELD field_2038 shake I
+	FIELD field_2039 xTile I
+	FIELD field_2040 yTile I
+	FIELD field_2041 zTile I
+	FIELD field_2042 inTile I
+	FIELD field_2043 inGround Z

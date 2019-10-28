@@ -1,1 +1,1 @@
-CLASS xz net/minecraft/server/player/ServerPlayer
+CLASS net/minecraft/class_614 net/minecraft/server/player/ServerPlayer

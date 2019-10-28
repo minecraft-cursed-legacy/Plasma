@@ -1,2 +1,2 @@
-CLASS ov net/minecraft/client/gui/screen/container/FurnaceScreen
-	FIELD l entity Lsk;
+CLASS net/minecraft/class_524 net/minecraft/client/gui/screen/container/FurnaceScreen
+	FIELD field_2191 entity Lnet/minecraft/class_138;

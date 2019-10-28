@@ -1,2 +1,2 @@
-CLASS lb net/minecraft/value/JsonNodeProvider
-	METHOD b getValue ()Lgu;
+CLASS argo/jdom/JsonNodeBuilder net/minecraft/value/JsonNodeProvider
+	METHOD build getValue ()Largo/jdom/JsonNode;

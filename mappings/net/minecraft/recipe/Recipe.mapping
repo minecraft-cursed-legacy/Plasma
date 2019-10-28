@@ -1,5 +1,5 @@
-CLASS dt net/minecraft/recipe/Recipe
-	METHOD a getIngredientCount ()I
-	METHOD a canCraft (Lmq;)Z
-	METHOD b getOutput ()Liz;
-	METHOD b craft (Lmq;)Liz;
+CLASS net/minecraft/class_160 net/minecraft/recipe/Recipe
+	METHOD method_2071 getIngredientCount ()I
+	METHOD method_2072 canCraft (Lnet/minecraft/class_159;)Z
+	METHOD method_2073 getOutput ()Lnet/minecraft/class_31;
+	METHOD method_2074 craft (Lnet/minecraft/class_159;)Lnet/minecraft/class_31;

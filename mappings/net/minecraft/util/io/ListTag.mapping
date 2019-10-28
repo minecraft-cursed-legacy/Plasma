@@ -1,8 +1,8 @@
-CLASS sp net/minecraft/util/io/ListTag
-	FIELD a data Ljava/util/List;
-	FIELD b listTypeId B
-	METHOD a get (I)Lij;
+CLASS net/minecraft/class_202 net/minecraft/util/io/ListTag
+	FIELD field_1659 data Ljava/util/List;
+	FIELD field_1660 listTypeId B
+	METHOD method_1396 get (I)Lnet/minecraft/class_187;
 		ARG 1 index
-	METHOD a add (Lij;)V
+	METHOD method_1397 add (Lnet/minecraft/class_187;)V
 		ARG 1 tag
-	METHOD c size ()I
+	METHOD method_1398 size ()I

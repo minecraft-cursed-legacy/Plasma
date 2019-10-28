@@ -1,7 +1,7 @@
-CLASS bw net/minecraft/client/render/Renderer
-	FIELD b dispatcher Lth;
-	METHOD a bindTexture (Ljava/lang/String;)V
-	METHOD a render (Lsn;DDDFF)V
+CLASS net/minecraft/class_579 net/minecraft/client/render/Renderer
+	FIELD field_2677 dispatcher Lnet/minecraft/class_578;
+	METHOD method_2026 bindTexture (Ljava/lang/String;)V
+	METHOD method_2022 render (Lnet/minecraft/class_57;DDDFF)V
 		ARG 1 entity
-	METHOD a setDispatcher (Lth;)V
+	METHOD method_2029 setDispatcher (Lnet/minecraft/class_578;)V
 		ARG 1 dispatcher

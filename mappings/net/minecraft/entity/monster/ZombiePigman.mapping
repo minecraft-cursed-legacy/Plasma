@@ -1,2 +1,2 @@
-CLASS ya net/minecraft/entity/monster/ZombiePigman
-	FIELD a anger I
+CLASS net/minecraft/class_535 net/minecraft/entity/monster/ZombiePigman
+	FIELD field_2242 anger I

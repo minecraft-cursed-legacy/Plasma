@@ -1,2 +1,2 @@
-CLASS fq net/minecraft/client/options/OptionIds
-	FIELD a ids [I
+CLASS net/minecraft/class_190 net/minecraft/client/options/OptionIds
+	FIELD field_665 ids [I

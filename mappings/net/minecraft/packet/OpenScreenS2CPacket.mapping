@@ -1,3 +1,3 @@
-CLASS iw net/minecraft/packet/OpenScreenS2CPacket
-	FIELD a containerId I
-	FIELD b screenId I
+CLASS net/minecraft/class_201 net/minecraft/packet/OpenScreenS2CPacket
+	FIELD field_741 containerId I
+	FIELD field_742 screenId I

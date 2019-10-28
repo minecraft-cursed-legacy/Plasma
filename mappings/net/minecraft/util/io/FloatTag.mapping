@@ -1,4 +1,4 @@
-CLASS p net/minecraft/util/io/FloatTag
-	FIELD a data F
+CLASS net/minecraft/class_358 net/minecraft/util/io/FloatTag
+	FIELD field_1336 data F
 	METHOD <init> (F)V
 		ARG 1 value

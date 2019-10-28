@@ -1,4 +1,0 @@
-CLASS xk
-	FIELD k netHandler Lnb;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnb;)V
-		ARG 1 minecraft

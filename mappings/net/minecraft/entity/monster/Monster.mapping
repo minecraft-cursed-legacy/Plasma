@@ -1,2 +1,2 @@
-CLASS gz net/minecraft/entity/monster/Monster
-	FIELD c attackDamage I
+CLASS net/minecraft/class_146 net/minecraft/entity/monster/Monster
+	FIELD field_547 attackDamage I

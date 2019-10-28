@@ -1,7 +1,0 @@
-CLASS xi
-	FIELD d syncher Lcj;
-	METHOD <init> (Lgr;Ljava/io/File;)V
-		ARG 1 session
-		ARG 2 file
-	METHOD a incrementStat (Lvr;I)V
-	METHOD d tick ()V

@@ -1,2 +1,2 @@
-CLASS eg net/minecraft/entity/JukeboxEntity
-	FIELD a recordId I
+CLASS net/minecraft/class_4 net/minecraft/entity/JukeboxEntity
+	FIELD field_4 recordId I

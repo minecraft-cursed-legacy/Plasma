@@ -1,2 +1,2 @@
-CLASS od net/minecraft/recipe/StewAndCookieRecipes
-	METHOD a register (Lhk;)V
+CLASS net/minecraft/class_318 net/minecraft/recipe/StewAndCookieRecipes
+	METHOD method_1045 register (Lnet/minecraft/class_148;)V

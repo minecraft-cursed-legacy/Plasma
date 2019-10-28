@@ -1,9 +1,9 @@
-CLASS vr net/minecraft/stat/Stat
-	FIELD b NUMBER_FORMAT Ljava/text/NumberFormat;
-	FIELD c DECIMAL_FORMAT Ljava/text/DecimalFormat;
-	FIELD e id I
-	FIELD f name Ljava/lang/String;
-	FIELD i NUMBER_FORMATTER Lwk;
-	FIELD j TIME_FORMATTER Lwk;
-	FIELD k DISTANCE_FORMATTER Lwk;
-	METHOD g register ()Lvr;
+CLASS net/minecraft/class_139 net/minecraft/stat/Stat
+	FIELD field_2023 NUMBER_FORMAT Ljava/text/NumberFormat;
+	FIELD field_2024 DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD field_2025 id I
+	FIELD field_2026 name Ljava/lang/String;
+	FIELD field_2029 NUMBER_FORMATTER Lnet/minecraft/class_498;
+	FIELD field_2030 TIME_FORMATTER Lnet/minecraft/class_498;
+	FIELD field_2031 DISTANCE_FORMATTER Lnet/minecraft/class_498;
+	METHOD method_1676 register ()Lnet/minecraft/class_139;

@@ -1,3 +1,3 @@
-CLASS pm net/minecraft/sortme/LevelListener
-	METHOD a playLevelEvent (Lgs;IIIII)V
-	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+CLASS net/minecraft/class_59 net/minecraft/sortme/LevelListener
+	METHOD method_1152 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
+	METHOD method_1153 addParticle (Ljava/lang/String;DDDDDD)V

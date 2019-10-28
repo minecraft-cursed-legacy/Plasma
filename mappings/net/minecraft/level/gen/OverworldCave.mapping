@@ -1,12 +1,12 @@
-CLASS sq net/minecraft/level/gen/OverworldCave
-	METHOD a generate (II[BDDD)V
+CLASS net/minecraft/class_415 net/minecraft/level/gen/OverworldCave
+	METHOD method_1399 generate (II[BDDD)V
 		ARG 1 centreX
 		ARG 2 centreZ
 		ARG 3 tileIdArray
 		ARG 4 x
 		ARG 6 y
 		ARG 8 z
-	METHOD a generate (II[BDDDFFFIID)V
+	METHOD method_1400 generate (II[BDDDFFFIID)V
 		ARG 1 centreX
 		ARG 2 centreZ
 		ARG 3 tileIdArray

@@ -1,7 +1,7 @@
-CLASS aw net/minecraft/client/render/TextureBinder
-	FIELD a grid [B
-	FIELD c render3d Z
-	FIELD f renderMode I
-	METHOD a setup ()V
-	METHOD a bindTexture (Lji;)V
+CLASS net/minecraft/class_336 net/minecraft/client/render/TextureBinder
+	FIELD field_1411 grid [B
+	FIELD field_1413 render3d Z
+	FIELD field_1416 renderMode I
+	METHOD method_1205 setup ()V
+	METHOD method_1206 bindTexture (Lnet/minecraft/class_76;)V
 		ARG 1 manager

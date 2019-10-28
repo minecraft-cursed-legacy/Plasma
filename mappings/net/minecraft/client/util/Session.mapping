@@ -1,2 +1,2 @@
-CLASS gr net/minecraft/client/util/Session
-	FIELD b username Ljava/lang/String;
+CLASS net/minecraft/class_237 net/minecraft/client/util/Session
+	FIELD field_872 username Ljava/lang/String;

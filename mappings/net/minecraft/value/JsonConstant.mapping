@@ -1,5 +1,5 @@
-CLASS vn net/minecraft/value/JsonConstant
-	FIELD a NULL Lvn;
-	FIELD b TRUE Lvn;
-	FIELD c FALSE Lvn;
-	FIELD d type Lat;
+CLASS argo/jdom/JsonConstants net/minecraft/value/JsonConstant
+	FIELD NULL NULL Largo/jdom/JsonConstants;
+	FIELD TRUE TRUE Largo/jdom/JsonConstants;
+	FIELD FALSE FALSE Largo/jdom/JsonConstants;
+	FIELD jsonNodeType type Largo/jdom/JsonNodeType;

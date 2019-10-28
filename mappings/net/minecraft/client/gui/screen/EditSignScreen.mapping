@@ -1,5 +1,5 @@
-CLASS yc net/minecraft/client/gui/screen/EditSignScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i entity Lyk;
+CLASS net/minecraft/class_615 net/minecraft/client/gui/screen/EditSignScreen
+	FIELD field_2655 title Ljava/lang/String;
+	FIELD field_2656 entity Lnet/minecraft/class_140;
 	METHOD <init> (Lyk;)V
 		ARG 1 entity

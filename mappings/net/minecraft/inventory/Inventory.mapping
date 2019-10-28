@@ -1,10 +1,10 @@
-CLASS lw net/minecraft/inventory/Inventory
-	METHOD a getInvSize ()I
-	METHOD a takeInvItem (II)Liz;
+CLASS net/minecraft/class_134 net/minecraft/inventory/Inventory
+	METHOD method_948 getInvSize ()I
+	METHOD method_949 takeInvItem (II)Lnet/minecraft/class_31;
 		ARG 1 index
-	METHOD a setInvItem (ILiz;)V
-	METHOD a_ canPlayerUse (Lgs;)Z
-	METHOD c getContainerName ()Ljava/lang/String;
-	METHOD d getMaxItemCount ()I
-	METHOD f_ getInvItem (I)Liz;
-	METHOD y_ markDirty ()V
+	METHOD method_950 setInvItem (ILnet/minecraft/class_31;)V
+	METHOD method_951 canPlayerUse (Lnet/minecraft/class_54;)Z
+	METHOD method_952 getContainerName ()Ljava/lang/String;
+	METHOD method_953 getMaxItemCount ()I
+	METHOD method_954 getInvItem (I)Lnet/minecraft/class_31;
+	METHOD method_947 markDirty ()V

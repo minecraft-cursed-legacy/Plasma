@@ -1,10 +1,10 @@
-CLASS th net/minecraft/client/render/entity/EntityRenderDispatcher
-	FIELD a INSTANCE Lth;
-	FIELD e textureManager Lji;
-	FIELD k options Lkv;
-	FIELD o renderers Ljava/util/Map;
-	FIELD p font Lsj;
-	METHOD a get (Ljava/lang/Class;)Lbw;
+CLASS net/minecraft/class_578 net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD field_2489 INSTANCE Lnet/minecraft/class_578;
+	FIELD field_2493 textureManager Lnet/minecraft/class_76;
+	FIELD field_2499 options Lnet/minecraft/class_322;
+	FIELD field_2503 renderers Ljava/util/Map;
+	FIELD field_2504 font Lnet/minecraft/class_34;
+	METHOD method_1918 get (Ljava/lang/Class;)Lnet/minecraft/class_579;
 		ARG 1 entityClass
-	METHOD a get (Lsn;)Lbw;
+	METHOD method_1919 get (Lnet/minecraft/class_57;)Lnet/minecraft/class_579;
 		ARG 1 entity

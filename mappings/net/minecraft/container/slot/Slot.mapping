@@ -1,17 +1,17 @@
-CLASS gp net/minecraft/container/slot/Slot
-	FIELD a id I
-	FIELD b x I
-	FIELD c y I
-	FIELD d invSlot I
-	FIELD e inventory Llw;
+CLASS net/minecraft/class_133 net/minecraft/container/slot/Slot
+	FIELD field_499 id I
+	FIELD field_500 x I
+	FIELD field_501 y I
+	FIELD field_502 invSlot I
+	FIELD field_503 inventory Lnet/minecraft/class_134;
 	METHOD <init> (Llw;III)V
 		ARG 3 x
 		ARG 4 y
-	METHOD a getItem ()Liz;
-	METHOD a takeItem (I)Liz;
-	METHOD a onCrafted (Liz;)V
-	METHOD b hasItem ()Z
-	METHOD b canInsert (Liz;)Z
-	METHOD c markDirty ()V
-	METHOD c setStack (Liz;)V
-	METHOD d getMaxStackCount ()I
+	METHOD method_472 getItem ()Lnet/minecraft/class_31;
+	METHOD method_473 takeItem (I)Lnet/minecraft/class_31;
+	METHOD method_474 onCrafted (Lnet/minecraft/class_31;)V
+	METHOD method_476 hasItem ()Z
+	METHOD method_477 canInsert (Lnet/minecraft/class_31;)Z
+	METHOD method_478 markDirty ()V
+	METHOD method_479 setStack (Lnet/minecraft/class_31;)V
+	METHOD method_480 getMaxStackCount ()I

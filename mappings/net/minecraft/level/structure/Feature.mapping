@@ -1,5 +1,5 @@
-CLASS pg net/minecraft/level/structure/Feature
-	METHOD a generate (Lfd;Ljava/util/Random;III)Z
+CLASS net/minecraft/class_239 net/minecraft/level/structure/Feature
+	METHOD method_1142 generate (Lnet/minecraft/class_18;Ljava/util/Random;III)Z
 		ARG 1 level
 		ARG 2 rand
 		ARG 3 x

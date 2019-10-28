@@ -1,2 +1,2 @@
-CLASS jy net/minecraft/recipe/UtilitiesAndSandstoneRecipes
-	METHOD a register (Lhk;)V
+CLASS net/minecraft/class_233 net/minecraft/recipe/UtilitiesAndSandstoneRecipes
+	METHOD method_784 register (Lnet/minecraft/class_148;)V

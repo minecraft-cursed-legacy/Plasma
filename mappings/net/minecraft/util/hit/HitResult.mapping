@@ -1,5 +1,5 @@
-CLASS vf net/minecraft/util/hit/HitResult
-	FIELD a type Ljg;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
+CLASS net/minecraft/class_27 net/minecraft/util/hit/HitResult
+	FIELD field_1983 type Lnet/minecraft/class_212;
+	FIELD field_1984 x I
+	FIELD field_1985 y I
+	FIELD field_1986 z I

@@ -1,5 +1,5 @@
-CLASS fu net/minecraft/client/gui/screen/TitleScreen
-	FIELD a RANDOM Ljava/util/Random;
-	FIELD i ticksOpened F
-	FIELD j splashMessage Ljava/lang/String;
-	FIELD l multiplayerButton Lke;
+CLASS net/minecraft/class_197 net/minecraft/client/gui/screen/TitleScreen
+	FIELD field_716 RANDOM Ljava/util/Random;
+	FIELD field_717 ticksOpened F
+	FIELD field_718 splashMessage Ljava/lang/String;
+	FIELD field_719 multiplayerButton Lnet/minecraft/class_33;

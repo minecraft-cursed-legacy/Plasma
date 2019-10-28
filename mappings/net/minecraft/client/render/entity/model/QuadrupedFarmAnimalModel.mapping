@@ -1,7 +1,7 @@
-CLASS nn net/minecraft/client/render/entity/model/QuadrupedFarmAnimalModel
-	FIELD d cuboid1 Lps;
-	FIELD e cuboid2 Lps;
-	FIELD f cuboid3 Lps;
-	FIELD g cuboid4 Lps;
-	FIELD h cuboid5 Lps;
-	FIELD i cuboid6 Lps;
+CLASS net/minecraft/class_491 net/minecraft/client/render/entity/model/QuadrupedFarmAnimalModel
+	FIELD field_2010 cuboid1 Lnet/minecraft/class_163;
+	FIELD field_2011 cuboid2 Lnet/minecraft/class_163;
+	FIELD field_2012 cuboid3 Lnet/minecraft/class_163;
+	FIELD field_2013 cuboid4 Lnet/minecraft/class_163;
+	FIELD field_2014 cuboid5 Lnet/minecraft/class_163;
+	FIELD field_2015 cuboid6 Lnet/minecraft/class_163;

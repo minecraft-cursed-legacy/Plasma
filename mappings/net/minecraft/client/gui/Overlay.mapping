@@ -1,10 +1,10 @@
-CLASS uq net/minecraft/client/gui/Overlay
-	FIELD d itemRenderer Lbb;
-	FIELD e chatMessages Ljava/util/List;
-	FIELD f rand Ljava/util/Random;
-	FIELD g minecraft Lnet/minecraft/client/Minecraft;
-	FIELD i jukeboxMessage Ljava/lang/String;
-	FIELD j jukeboxMessageTime I
+CLASS net/minecraft/class_588 net/minecraft/client/gui/Overlay
+	FIELD field_2544 itemRenderer Lnet/minecraft/class_92;
+	FIELD field_2545 chatMessages Ljava/util/List;
+	FIELD field_2546 rand Ljava/util/Random;
+	FIELD field_2547 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_2549 jukeboxMessage Ljava/lang/String;
+	FIELD field_2550 jukeboxMessageTime I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
-	METHOD a addChatMessage (Ljava/lang/String;)V
+	METHOD method_1949 addChatMessage (Ljava/lang/String;)V

@@ -1,4 +1,4 @@
-CLASS pp net/minecraft/util/io/IntTag
-	FIELD a data I
+CLASS net/minecraft/class_347 net/minecraft/util/io/IntTag
+	FIELD field_1312 data I
 	METHOD <init> (I)V
 		ARG 1 value

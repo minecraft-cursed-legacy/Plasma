@@ -1,16 +1,16 @@
-CLASS ud net/minecraft/entity/data/DataTracker
-	FIELD a dataIds Ljava/util/HashMap;
-	FIELD b data Ljava/util/Map;
-	METHOD a getByte (I)B
-	METHOD a startTracking (ILjava/lang/Object;)V
+CLASS net/minecraft/class_216 net/minecraft/entity/data/DataTracker
+	FIELD field_1740 dataIds Ljava/util/HashMap;
+	FIELD field_1741 data Ljava/util/Map;
+	METHOD method_1501 getByte (I)B
+	METHOD method_1502 startTracking (ILjava/lang/Object;)V
 		ARG 1 valueId
 		ARG 2 object
-	METHOD a (Ljava/io/DataInputStream;)Ljava/util/List;
+	METHOD method_1503 (Ljava/io/DataInputStream;)Ljava/util/List;
 		ARG 0 in
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD method_1504 write (Ljava/io/DataOutputStream;)V
 		ARG 1 out
-	METHOD a write (Ljava/io/DataOutputStream;Lma;)V
+	METHOD method_1505 write (Ljava/io/DataOutputStream;Lnet/minecraft/class_270;)V
 		ARG 0 out
-	METHOD b getInt (I)I
-	METHOD b setInt (ILjava/lang/Object;)V
-	METHOD c getString (I)Ljava/lang/String;
+	METHOD method_1508 getInt (I)I
+	METHOD method_1509 setInt (ILjava/lang/Object;)V
+	METHOD method_1510 getString (I)Ljava/lang/String;

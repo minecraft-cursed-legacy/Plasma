@@ -1,2 +1,2 @@
-CLASS z net/minecraft/recipe/ArmourRecipes
-	METHOD a register (Lhk;)V
+CLASS net/minecraft/class_470 net/minecraft/recipe/ArmourRecipes
+	METHOD method_1536 register (Lnet/minecraft/class_148;)V

@@ -1,2 +1,2 @@
-CLASS rw net/minecraft/tile/TileWithEntity
-	METHOD a_ createTileEntity ()Low;
+CLASS net/minecraft/class_395 net/minecraft/tile/TileWithEntity
+	METHOD method_1251 createTileEntity ()Lnet/minecraft/class_55;

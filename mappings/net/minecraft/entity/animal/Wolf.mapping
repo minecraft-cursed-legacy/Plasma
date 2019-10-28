@@ -1,22 +1,22 @@
-CLASS gi net/minecraft/entity/animal/Wolf
-	FIELD a begging Z
-	FIELD b begAnimationProgress F
-	FIELD c lastBegAnimationProgress F
-	FIELD f wet Z
-	FIELD g canShakeWaterOff Z
-	FIELD h shakeProgress F
-	FIELD i lastShakeProgress F
-	METHOD A getOwner ()Ljava/lang/String;
-	METHOD B isSitting ()Z
-	METHOD C isAngry ()Z
-	METHOD D isTamed ()Z
-	METHOD a getShakeAnimationProgress (FF)F
-	METHOD a setOwner (Ljava/lang/String;)V
-	METHOD a spawnBoneParticles (Z)V
+CLASS net/minecraft/class_121 net/minecraft/entity/animal/Wolf
+	FIELD field_368 begging Z
+	FIELD field_369 begAnimationProgress F
+	FIELD field_370 lastBegAnimationProgress F
+	FIELD field_371 wet Z
+	FIELD field_372 canShakeWaterOff Z
+	FIELD field_373 shakeProgress F
+	FIELD field_374 lastShakeProgress F
+	METHOD method_432 getOwner ()Ljava/lang/String;
+	METHOD method_433 isSitting ()Z
+	METHOD method_434 isAngry ()Z
+	METHOD method_425 isTamed ()Z
+	METHOD method_420 getShakeAnimationProgress (FF)F
+	METHOD method_426 setOwner (Ljava/lang/String;)V
+	METHOD method_427 spawnBoneParticles (Z)V
 		ARG 1 tamed
-	METHOD b setSitting (Z)V
-	METHOD b_ getWetBrightnessMultiplier (F)F
-	METHOD c getBegAnimationProgress (F)F
-	METHOD c setAngry (Z)V
-	METHOD d setHasOwner (Z)V
-	METHOD v isWet ()Z
+	METHOD method_428 setSitting (Z)V
+	METHOD method_421 getWetBrightnessMultiplier (F)F
+	METHOD method_422 getBegAnimationProgress (F)F
+	METHOD method_430 setAngry (Z)V
+	METHOD method_431 setHasOwner (Z)V
+	METHOD method_423 isWet ()Z

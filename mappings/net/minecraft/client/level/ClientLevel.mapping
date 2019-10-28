@@ -1,2 +1,2 @@
-CLASS mm net/minecraft/client/level/ClientLevel
-	FIELD D netHandler Lnb;
+CLASS net/minecraft/class_454 net/minecraft/client/level/ClientLevel
+	FIELD field_1723 netHandler Lnet/minecraft/class_219;

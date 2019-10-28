@@ -1,3 +1,3 @@
-CLASS ae net/minecraft/client/render/particle/NoteParticle
+CLASS net/minecraft/class_20 net/minecraft/client/render/particle/NoteParticle
 	METHOD <init> (Lfd;DDDDDDF)V
 		ARG 1 level

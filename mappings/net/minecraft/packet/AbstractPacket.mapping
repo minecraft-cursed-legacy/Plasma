@@ -1,14 +1,14 @@
-CLASS ki net/minecraft/packet/AbstractPacket
-	FIELD a idToClass Ljava/util/Map;
-	FIELD b classToId Ljava/util/Map;
-	METHOD a length ()I
-	METHOD a create (I)Lki;
-	METHOD a register (IZZLjava/lang/Class;)V
+CLASS net/minecraft/class_169 net/minecraft/packet/AbstractPacket
+	FIELD field_899 idToClass Ljava/util/Map;
+	FIELD field_900 classToId Ljava/util/Map;
+	METHOD method_798 length ()I
+	METHOD method_799 create (I)Lnet/minecraft/class_169;
+	METHOD method_800 register (IZZLjava/lang/Class;)V
 		ARG 0 id
-	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD method_806 read (Ljava/io/DataInputStream;)V
 		ARG 1 in
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD method_807 write (Ljava/io/DataOutputStream;)V
 		ARG 1 out
-	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lti;)V
+	METHOD method_804 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+	METHOD method_808 handle (Lnet/minecraft/class_240;)V
 		ARG 1 handler

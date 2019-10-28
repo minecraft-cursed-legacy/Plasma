@@ -1,4 +1,4 @@
-CLASS um net/minecraft/tile/Cake
+CLASS net/minecraft/class_463 net/minecraft/tile/Cake
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texUVStart

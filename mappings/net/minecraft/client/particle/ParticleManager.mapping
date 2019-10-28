@@ -1,11 +1,11 @@
-CLASS dn net/minecraft/client/particle/ParticleManager
-	FIELD a level Lfd;
-	FIELD c textureManager Lji;
-	FIELD d rand Ljava/util/Random;
-	METHOD a addTileClickParticle (IIII)V
+CLASS net/minecraft/class_75 net/minecraft/client/particle/ParticleManager
+	FIELD field_269 level Lnet/minecraft/class_18;
+	FIELD field_271 textureManager Lnet/minecraft/class_76;
+	FIELD field_272 rand Ljava/util/Random;
+	METHOD method_321 addTileClickParticle (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 facing
-	METHOD a addTileBreakParticles (IIIII)V
-	METHOD a addParticle (Lxw;)V
+	METHOD method_322 addTileBreakParticles (IIIII)V
+	METHOD method_325 addParticle (Lnet/minecraft/class_77;)V

@@ -1,2 +1,2 @@
-CLASS ux net/minecraft/packet/Id40Packet
-	FIELD a entityId I
+CLASS net/minecraft/class_438 net/minecraft/packet/Id40Packet
+	FIELD field_1975 entityId I

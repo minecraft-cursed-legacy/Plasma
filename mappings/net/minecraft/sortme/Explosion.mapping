@@ -1,13 +1,13 @@
-CLASS qx net/minecraft/sortme/Explosion
-	FIELD a causeFires Z
-	FIELD b x D
-	FIELD c y D
-	FIELD d z D
-	FIELD e cause Lsn;
-	FIELD f power F
-	FIELD g damagedTiles Ljava/util/Set;
-	FIELD h random Ljava/util/Random;
-	FIELD i level Lfd;
+CLASS net/minecraft/class_60 net/minecraft/sortme/Explosion
+	FIELD field_1391 causeFires Z
+	FIELD field_1392 x D
+	FIELD field_1393 y D
+	FIELD field_1394 z D
+	FIELD field_1395 cause Lnet/minecraft/class_57;
+	FIELD field_1396 power F
+	FIELD field_1397 damagedTiles Ljava/util/Set;
+	FIELD field_1398 random Ljava/util/Random;
+	FIELD field_1399 level Lnet/minecraft/class_18;
 	METHOD <init> (Lfd;Lsn;DDDF)V
 		ARG 1 level
 		ARG 2 cause
@@ -15,6 +15,6 @@ CLASS qx net/minecraft/sortme/Explosion
 		ARG 5 y
 		ARG 7 z
 		ARG 9 power
-	METHOD a kaboomPhase1 ()V
-	METHOD a kaboomPhase2 (Z)V
+	METHOD method_1195 kaboomPhase1 ()V
+	METHOD method_1196 kaboomPhase2 (Z)V
 		ARG 1 showParticles

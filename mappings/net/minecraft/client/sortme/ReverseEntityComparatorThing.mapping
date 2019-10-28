@@ -1,6 +1,6 @@
-CLASS jo net/minecraft/client/sortme/ReverseEntityComparatorThing
-	FIELD a reverseX D
-	FIELD b reverseY D
-	FIELD c reverseZ D
+CLASS net/minecraft/class_345 net/minecraft/client/sortme/ReverseEntityComparatorThing
+	FIELD field_1309 reverseX D
+	FIELD field_1310 reverseY D
+	FIELD field_1311 reverseZ D
 	METHOD <init> (Lsn;)V
 		ARG 1 entity

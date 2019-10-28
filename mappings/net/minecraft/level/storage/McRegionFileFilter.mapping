@@ -1,2 +1,2 @@
-CLASS cm net/minecraft/level/storage/McRegionFileFilter
-	FIELD a FILTER_PATTERN Ljava/util/regex/Pattern;
+CLASS net/minecraft/class_550 net/minecraft/level/storage/McRegionFileFilter
+	FIELD field_2291 FILTER_PATTERN Ljava/util/regex/Pattern;

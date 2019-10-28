@@ -1,4 +1,4 @@
-CLASS hn net/minecraft/util/io/ByteArrayTag
-	FIELD a data [B
+CLASS net/minecraft/class_165 net/minecraft/util/io/ByteArrayTag
+	FIELD field_576 data [B
 	METHOD <init> ([B)V
 		ARG 1 value

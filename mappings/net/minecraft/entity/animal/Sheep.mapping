@@ -1,5 +1,5 @@
-CLASS dl net/minecraft/entity/animal/Sheep
-	METHOD a setSheared (Z)V
-	METHOD e_ setColour (I)V
-	METHOD r getColour ()I
-	METHOD s isSheared ()Z
+CLASS net/minecraft/class_613 net/minecraft/entity/animal/Sheep
+	METHOD method_2045 setSheared (Z)V
+	METHOD method_2046 setColour (I)V
+	METHOD method_2047 getColour ()I
+	METHOD method_2048 isSheared ()Z

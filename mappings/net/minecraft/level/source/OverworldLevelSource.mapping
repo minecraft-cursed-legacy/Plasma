@@ -1,5 +1,5 @@
-CLASS yf net/minecraft/level/source/OverworldLevelSource
-	FIELD j rand Ljava/util/Random;
-	FIELD u cave Lfv;
+CLASS net/minecraft/class_538 net/minecraft/level/source/OverworldLevelSource
+	FIELD field_2254 rand Ljava/util/Random;
+	FIELD field_2265 cave Lnet/minecraft/class_105;
 	METHOD <init> (Lfd;J)V
 		ARG 1 level

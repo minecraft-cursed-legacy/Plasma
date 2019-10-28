@@ -1,21 +1,21 @@
-CLASS in net/minecraft/util/maths/MathsHelper
-	FIELD a TABLE [F
-	METHOD a sqrt (D)F
+CLASS net/minecraft/class_189 net/minecraft/util/maths/MathsHelper
+	FIELD field_664 TABLE [F
+	METHOD method_642 sqrt (D)F
 		ARG 0 value
-	METHOD a absMax (DD)D
+	METHOD method_643 absMax (DD)D
 		ARG 0 arg0
 		ARG 2 arg1
-	METHOD a sin (F)F
+	METHOD method_644 sin (F)F
 		ARG 0 value
-	METHOD a isStringEmpty (Ljava/lang/String;)Z
+	METHOD method_651 isStringEmpty (Ljava/lang/String;)Z
 		ARG 0 string
-	METHOD b floor (D)I
+	METHOD method_645 floor (D)I
 		ARG 0 value
-	METHOD b cos (F)F
+	METHOD method_646 cos (F)F
 		ARG 0 value
-	METHOD c sqrt (F)F
+	METHOD method_647 sqrt (F)F
 		ARG 0 value
-	METHOD d floor (F)I
+	METHOD method_648 floor (F)I
 		ARG 0 value
-	METHOD e abs (F)F
+	METHOD method_649 abs (F)F
 		ARG 0 value

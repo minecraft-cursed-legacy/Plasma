@@ -1,9 +1,9 @@
-CLASS nb net/minecraft/network/ClientPlayNetworkHandler
-	FIELD c rand Ljava/util/Random;
-	FIELD d disconnected Z
-	FIELD e netHandler Lpf;
-	FIELD f minecraft Lnet/minecraft/client/Minecraft;
-	FIELD g level Lmm;
-	METHOD a (I)Lsn;
+CLASS net/minecraft/class_219 net/minecraft/network/ClientPlayNetworkHandler
+	FIELD field_1969 rand Ljava/util/Random;
+	FIELD field_1970 disconnected Z
+	FIELD field_1971 netHandler Lnet/minecraft/class_117;
+	FIELD field_1972 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_1973 level Lnet/minecraft/class_454;
+	METHOD method_1645 (I)Lnet/minecraft/class_57;
 		ARG 1 id
-	METHOD b sendPacket (Lki;)V
+	METHOD method_1648 sendPacket (Lnet/minecraft/class_169;)V

@@ -1,6 +1,6 @@
-CLASS px net/minecraft/sortme/GameRenderer
-	FIELD j minecraft Lnet/minecraft/client/Minecraft;
-	FIELD n cinematicPitchSmoother Lcu;
-	FIELD o cinematicYawSmoother Lcu;
-	METHOD b (F)V
+CLASS net/minecraft/class_555 net/minecraft/sortme/GameRenderer
+	FIELD field_2349 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_2353 cinematicPitchSmoother Lnet/minecraft/class_12;
+	FIELD field_2354 cinematicYawSmoother Lnet/minecraft/class_12;
+	METHOD method_1844 (F)V
 		ARG 1 delta

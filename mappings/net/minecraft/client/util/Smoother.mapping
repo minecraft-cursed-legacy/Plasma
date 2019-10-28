@@ -1,2 +1,2 @@
-CLASS cu net/minecraft/client/util/Smoother
-	METHOD a smooth (FF)F
+CLASS net/minecraft/class_12 net/minecraft/client/util/Smoother
+	METHOD method_40 smooth (FF)F

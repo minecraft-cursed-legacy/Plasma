@@ -1,6 +1,6 @@
-CLASS wa net/minecraft/item/armour/Armour
-	FIELD bk armourSlot I
-	FIELD bo BASE_DURABILITY [I
+CLASS net/minecraft/class_500 net/minecraft/item/armour/Armour
+	FIELD field_2083 armourSlot I
+	FIELD field_2087 BASE_DURABILITY [I
 	METHOD <init> (IIII)V
 		ARG 1 id
 		ARG 4 slot

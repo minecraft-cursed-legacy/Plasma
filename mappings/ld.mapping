@@ -1,4 +1,0 @@
-CLASS ld
-	FIELD a file Ljava/io/File;
-	METHOD <init> (Ljava/io/File;)V
-		ARG 1 file

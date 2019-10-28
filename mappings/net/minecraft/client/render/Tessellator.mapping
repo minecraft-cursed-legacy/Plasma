@@ -1,16 +1,16 @@
-CLASS nw net/minecraft/client/render/Tessellator
-	FIELD a INSTANCE Lnw;
-	FIELD i width D
-	FIELD j height D
-	METHOD a draw ()V
-	METHOD a size (DD)V
-	METHOD a pos (DDD)V
-	METHOD a vertex (DDDDD)V
-	METHOD a colour (FFF)V
-	METHOD a colour (FFFF)V
-	METHOD a start (I)V
-	METHOD a colour (II)V
-	METHOD a colour (III)V
-	METHOD a colour (IIII)V
-	METHOD b start ()V
-	METHOD b colour (I)V
+CLASS net/minecraft/class_67 net/minecraft/client/render/Tessellator
+	FIELD field_2054 INSTANCE Lnet/minecraft/class_67;
+	FIELD field_2062 width D
+	FIELD field_2063 height D
+	METHOD method_1685 draw ()V
+	METHOD method_1686 size (DD)V
+	METHOD method_1687 pos (DDD)V
+	METHOD method_1688 vertex (DDDDD)V
+	METHOD method_1689 colour (FFF)V
+	METHOD method_1690 colour (FFFF)V
+	METHOD method_1691 start (I)V
+	METHOD method_1692 colour (II)V
+	METHOD method_1693 colour (III)V
+	METHOD method_1694 colour (IIII)V
+	METHOD method_1695 start ()V
+	METHOD method_1698 colour (I)V

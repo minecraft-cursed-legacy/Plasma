@@ -1,4 +1,4 @@
-CLASS sz net/minecraft/util/io/DoubleTag
-	FIELD a data D
+CLASS net/minecraft/class_419 net/minecraft/util/io/DoubleTag
+	FIELD field_1680 data D
 	METHOD <init> (D)V
 		ARG 1 value

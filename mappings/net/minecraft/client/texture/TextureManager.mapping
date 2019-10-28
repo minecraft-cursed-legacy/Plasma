@@ -1,8 +1,8 @@
-CLASS ji net/minecraft/client/texture/TextureManager
-	FIELD g textureBinders Ljava/util/List;
-	FIELD i gameOptions Lkv;
-	METHOD a tick ()V
-	METHOD a add (Law;)V
-	METHOD a readMap (Ljava/lang/String;)[I
-	METHOD b bindTexture (I)V
-	METHOD b getTextureId (Ljava/lang/String;)I
+CLASS net/minecraft/class_76 net/minecraft/client/texture/TextureManager
+	FIELD field_1251 textureBinders Ljava/util/List;
+	FIELD field_1253 gameOptions Lnet/minecraft/class_322;
+	METHOD method_1084 tick ()V
+	METHOD method_1087 add (Lnet/minecraft/class_336;)V
+	METHOD method_1092 readMap (Ljava/lang/String;)[I
+	METHOD method_1097 bindTexture (I)V
+	METHOD method_1100 getTextureId (Ljava/lang/String;)I

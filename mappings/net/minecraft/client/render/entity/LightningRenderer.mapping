@@ -1,1 +1,1 @@
-CLASS pi net/minecraft/client/render/entity/LightningRenderer
+CLASS net/minecraft/class_536 net/minecraft/client/render/entity/LightningRenderer

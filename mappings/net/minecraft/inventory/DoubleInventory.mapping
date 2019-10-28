@@ -1,4 +1,4 @@
-CLASS og net/minecraft/inventory/DoubleInventory
-	FIELD a name Ljava/lang/String;
-	FIELD b left Llw;
-	FIELD c right Llw;
+CLASS net/minecraft/class_320 net/minecraft/inventory/DoubleInventory
+	FIELD field_1215 name Ljava/lang/String;
+	FIELD field_1216 left Lnet/minecraft/class_134;
+	FIELD field_1217 right Lnet/minecraft/class_134;

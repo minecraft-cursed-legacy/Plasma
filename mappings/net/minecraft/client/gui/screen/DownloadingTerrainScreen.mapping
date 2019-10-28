@@ -1,1 +1,1 @@
-CLASS gg net/minecraft/client/gui/screen/DownloadingTerrainScreen
+CLASS net/minecraft/class_218 net/minecraft/client/gui/screen/DownloadingTerrainScreen

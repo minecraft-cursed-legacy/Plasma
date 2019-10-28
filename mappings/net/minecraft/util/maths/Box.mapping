@@ -1,12 +1,12 @@
-CLASS eq net/minecraft/util/maths/Box
-	FIELD a minX D
-	FIELD b minY D
-	FIELD c minZ D
-	FIELD d maxX D
-	FIELD e maxY D
-	FIELD f maxZ D
-	FIELD g uselessWasteOfMemory Ljava/util/List;
-	FIELD h thisIsAlwaysZero I
-	METHOD a create (DDDDDD)Leq;
-	METHOD b expand (DDD)Leq;
-	METHOD c averageDimension ()D
+CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
+	FIELD field_129 minX D
+	FIELD field_130 minY D
+	FIELD field_131 minZ D
+	FIELD field_132 maxX D
+	FIELD field_133 maxY D
+	FIELD field_134 maxZ D
+	FIELD field_135 uselessWasteOfMemory Ljava/util/List;
+	FIELD field_136 thisIsAlwaysZero I
+	METHOD method_87 create (DDDDDD)Lnet/minecraft/class_25;
+	METHOD method_93 expand (DDD)Lnet/minecraft/class_25;
+	METHOD method_106 averageDimension ()D

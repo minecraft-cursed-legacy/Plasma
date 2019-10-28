@@ -1,4 +1,4 @@
-CLASS ul net/minecraft/util/io/ShortTag
-	FIELD a data S
+CLASS net/minecraft/class_462 net/minecraft/util/io/ShortTag
+	FIELD field_1770 data S
 	METHOD <init> (S)V
 		ARG 1 value

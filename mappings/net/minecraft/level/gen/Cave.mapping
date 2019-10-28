@@ -1,13 +1,13 @@
-CLASS fv net/minecraft/level/gen/Cave
-	FIELD a range I
-	FIELD b rand Ljava/util/Random;
-	METHOD a generate (Lcl;Lfd;II[B)V
+CLASS net/minecraft/class_105 net/minecraft/level/gen/Cave
+	FIELD field_330 range I
+	FIELD field_331 rand Ljava/util/Random;
+	METHOD method_395 generate (Lnet/minecraft/class_51;Lnet/minecraft/class_18;II[B)V
 		ARG 1 levelSource
 		ARG 2 level
 		ARG 3 x
 		ARG 4 z
 		ARG 5 tileIdArray
-	METHOD a generate (Lfd;IIII[B)V
+	METHOD method_396 generate (Lnet/minecraft/class_18;IIII[B)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 z

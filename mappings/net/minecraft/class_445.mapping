@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_445
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 file
+	METHOD method_1480 (Lnet/minecraft/class_43;Lnet/minecraft/class_18;Lnet/minecraft/class_8;)V
+		ARG 0 chunk
+		ARG 1 level
+		ARG 2 tag

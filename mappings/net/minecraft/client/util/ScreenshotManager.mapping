@@ -1,4 +1,4 @@
-CLASS hj net/minecraft/client/util/ScreenshotManager
-	FIELD a dateFormat Ljava/text/DateFormat;
-	METHOD a takeScreenshot (Ljava/io/File;II)Ljava/lang/String;
+CLASS net/minecraft/class_260 net/minecraft/client/util/ScreenshotManager
+	FIELD field_1005 dateFormat Ljava/text/DateFormat;
+	METHOD method_908 takeScreenshot (Ljava/io/File;II)Ljava/lang/String;
 		ARG 0 directory

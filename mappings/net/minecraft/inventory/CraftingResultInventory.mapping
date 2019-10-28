@@ -1,2 +1,2 @@
-CLASS wl net/minecraft/inventory/CraftingResultInventory
-	FIELD a contents [Liz;
+CLASS net/minecraft/class_507 net/minecraft/inventory/CraftingResultInventory
+	FIELD field_2112 contents [Lnet/minecraft/class_31;

@@ -1,7 +1,7 @@
-CLASS fm net/minecraft/level/dimension/DimensionFile
-	FIELD a LOGGER Ljava/util/logging/Logger;
-	FIELD b parentFolder Ljava/io/File;
-	FIELD c playersFolder Ljava/io/File;
-	FIELD d dataFolder Ljava/io/File;
+CLASS net/minecraft/class_81 net/minecraft/level/dimension/DimensionFile
+	FIELD field_278 LOGGER Ljava/util/logging/Logger;
+	FIELD field_279 parentFolder Ljava/io/File;
+	FIELD field_280 playersFolder Ljava/io/File;
+	FIELD field_281 dataFolder Ljava/io/File;
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
 		ARG 1 file

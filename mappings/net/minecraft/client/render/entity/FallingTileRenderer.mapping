@@ -1,1 +1,1 @@
-CLASS gn net/minecraft/client/render/entity/FallingTileRenderer
+CLASS net/minecraft/class_230 net/minecraft/client/render/entity/FallingTileRenderer

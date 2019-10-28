@@ -1,10 +1,11 @@
-CLASS hk net/minecraft/recipe/RecipeRegistry
-	FIELD a INSTANCE Lhk;
-	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Lhk;
-	METHOD a addShapedRecipe (Liz;[Ljava/lang/Object;)V
+CLASS net/minecraft/class_148 net/minecraft/recipe/RecipeRegistry
+	CLASS 1 net/minecraft/sortme/RecipeComparator
+	FIELD field_561 INSTANCE Lnet/minecraft/class_148;
+	FIELD field_562 recipes Ljava/util/List;
+	METHOD method_538 getInstance ()Lnet/minecraft/class_148;
+	METHOD method_539 addShapedRecipe (Lnet/minecraft/class_31;[Ljava/lang/Object;)V
 		ARG 1 output
-	METHOD a getCraftingOutput (Lmq;)Liz;
-	METHOD b getRecipes ()Ljava/util/List;
-	METHOD b addShapelessRecipe (Liz;[Ljava/lang/Object;)V
+	METHOD method_540 getCraftingOutput (Lnet/minecraft/class_159;)Lnet/minecraft/class_31;
+	METHOD method_541 getRecipes ()Ljava/util/List;
+	METHOD method_542 addShapelessRecipe (Lnet/minecraft/class_31;[Ljava/lang/Object;)V
 		ARG 1 output

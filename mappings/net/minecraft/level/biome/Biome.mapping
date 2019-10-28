@@ -1,48 +1,48 @@
-CLASS kd net/minecraft/level/biome/Biome
-	FIELD a RAINFOREST Lkd;
-	FIELD b SWAMPLAND Lkd;
-	FIELD c SEASONAL_FOREST Lkd;
-	FIELD d FOREST Lkd;
-	FIELD e SAVANNA Lkd;
-	FIELD f SHRUBLAND Lkd;
-	FIELD g TAIGA Lkd;
-	FIELD h DESERT Lkd;
-	FIELD i PLAINS Lkd;
-	FIELD j ICE_DESERT Lkd;
-	FIELD k TUNDRA Lkd;
-	FIELD l NETHER Lkd;
-	FIELD m SKY Lkd;
-	FIELD n biomeName Ljava/lang/String;
-	FIELD o grassColour I
-	FIELD p topTileId B
-	FIELD q underTileId B
-	FIELD r foliageColour I
-	FIELD s monsters Ljava/util/List;
-	FIELD t creatures Ljava/util/List;
-	FIELD u waterCreatures Ljava/util/List;
-	FIELD v snows Z
-	FIELD w precipitates Z
-	FIELD x biomes [Lkd;
-	METHOD a createBiomeArray ()V
-	METHOD a getBiome (DD)Lkd;
+CLASS net/minecraft/class_153 net/minecraft/level/biome/Biome
+	FIELD field_875 RAINFOREST Lnet/minecraft/class_153;
+	FIELD field_876 SWAMPLAND Lnet/minecraft/class_153;
+	FIELD field_877 SEASONAL_FOREST Lnet/minecraft/class_153;
+	FIELD field_878 FOREST Lnet/minecraft/class_153;
+	FIELD field_879 SAVANNA Lnet/minecraft/class_153;
+	FIELD field_880 SHRUBLAND Lnet/minecraft/class_153;
+	FIELD field_881 TAIGA Lnet/minecraft/class_153;
+	FIELD field_882 DESERT Lnet/minecraft/class_153;
+	FIELD field_883 PLAINS Lnet/minecraft/class_153;
+	FIELD field_884 ICE_DESERT Lnet/minecraft/class_153;
+	FIELD field_885 TUNDRA Lnet/minecraft/class_153;
+	FIELD field_886 NETHER Lnet/minecraft/class_153;
+	FIELD field_887 SKY Lnet/minecraft/class_153;
+	FIELD field_888 biomeName Ljava/lang/String;
+	FIELD field_889 grassColour I
+	FIELD field_890 topTileId B
+	FIELD field_891 underTileId B
+	FIELD field_892 foliageColour I
+	FIELD field_893 monsters Ljava/util/List;
+	FIELD field_894 creatures Ljava/util/List;
+	FIELD field_895 waterCreatures Ljava/util/List;
+	FIELD field_896 snows Z
+	FIELD field_897 precipitates Z
+	FIELD field_898 biomes [Lnet/minecraft/class_153;
+	METHOD method_785 createBiomeArray ()V
+	METHOD method_786 getBiome (DD)Lnet/minecraft/class_153;
 		ARG 0 x
 		ARG 2 z
-	METHOD a getSkyColour (F)I
+	METHOD method_796 getSkyColour (F)I
 		ARG 1 temperature
-	METHOD a getClimateBiome (FF)Lkd;
+	METHOD method_787 getClimateBiome (FF)Lnet/minecraft/class_153;
 		ARG 0 temperature
 		ARG 1 rainfall
-	METHOD a setFoliageColour (I)Lkd;
+	METHOD method_788 setFoliageColour (I)Lnet/minecraft/class_153;
 		ARG 1 colour
-	METHOD a setName (Ljava/lang/String;)Lkd;
+	METHOD method_790 setName (Ljava/lang/String;)Lnet/minecraft/class_153;
 		ARG 1 name
-	METHOD a getTree (Ljava/util/Random;)Lpg;
+	METHOD method_797 getTree (Ljava/util/Random;)Lnet/minecraft/class_239;
 		ARG 1 rand
-	METHOD a getSpawnList (Llk;)Ljava/util/List;
+	METHOD method_789 getSpawnList (Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 type
-	METHOD b setSnowy ()Lkd;
-	METHOD b setGrassColour (I)Lkd;
+	METHOD method_791 setSnowy ()Lnet/minecraft/class_153;
+	METHOD method_792 setGrassColour (I)Lnet/minecraft/class_153;
 		ARG 1 colour
-	METHOD c canSnow ()Z
-	METHOD d canRain ()Z
-	METHOD e setRainless ()Lkd;
+	METHOD method_793 canSnow ()Z
+	METHOD method_794 canRain ()Z
+	METHOD method_795 setRainless ()Lnet/minecraft/class_153;

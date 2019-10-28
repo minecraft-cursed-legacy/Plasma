@@ -1,1 +1,1 @@
-CLASS jm net/minecraft/packet/Id24Packet
+CLASS net/minecraft/class_215 net/minecraft/packet/Id24Packet

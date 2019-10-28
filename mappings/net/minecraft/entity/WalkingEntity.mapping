@@ -1,4 +1,4 @@
-CLASS ii net/minecraft/entity/WalkingEntity
-	FIELD d entity Lsn;
-	METHOD a getPathfindingFavour (III)F
-	METHOD a setTarget (Ldh;)V
+CLASS net/minecraft/class_188 net/minecraft/entity/WalkingEntity
+	FIELD field_662 entity Lnet/minecraft/class_57;
+	METHOD method_641 getPathfindingFavour (III)F
+	METHOD method_635 setTarget (Lnet/minecraft/class_61;)V

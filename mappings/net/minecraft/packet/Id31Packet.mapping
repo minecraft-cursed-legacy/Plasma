@@ -1,1 +1,1 @@
-CLASS sv net/minecraft/packet/Id31Packet
+CLASS net/minecraft/class_418 net/minecraft/packet/Id31Packet

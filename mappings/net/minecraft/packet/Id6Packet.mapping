@@ -1,1 +1,1 @@
-CLASS rc net/minecraft/packet/Id6Packet
+CLASS net/minecraft/class_373 net/minecraft/packet/Id6Packet

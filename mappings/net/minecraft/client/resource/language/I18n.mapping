@@ -1,7 +1,7 @@
-CLASS do net/minecraft/client/resource/language/I18n
-	FIELD a storage Lnh;
-	METHOD a translate (Ljava/lang/String;)Ljava/lang/String;
+CLASS net/minecraft/class_629 net/minecraft/client/resource/language/I18n
+	FIELD field_2705 storage Lnet/minecraft/class_300;
+	METHOD method_2049 translate (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 key
-	METHOD a translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD method_2050 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 		ARG 0 key
 		ARG 1 arg

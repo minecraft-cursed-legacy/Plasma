@@ -1,36 +1,36 @@
-CLASS ub net/minecraft/client/gui/DrawableHelper
-	FIELD k zOffset F
-	METHOD a (IIII)V
+CLASS net/minecraft/class_584 net/minecraft/client/gui/DrawableHelper
+	FIELD field_2522 zOffset F
+	METHOD method_1931 (IIII)V
 		ARG 4 colour
-	METHOD a fill (IIIII)V
+	METHOD method_1932 fill (IIIII)V
 		ARG 1 x1
 		ARG 2 y1
 		ARG 3 x2
 		ARG 4 y2
 		ARG 5 colour
-	METHOD a fillGradient (IIIIII)V
+	METHOD method_1933 fillGradient (IIIIII)V
 		ARG 1 x1
 		ARG 2 y1
 		ARG 3 x2
 		ARG 4 y2
 		ARG 5 startColour
 		ARG 6 endColour
-	METHOD a drawTextWithShadowCentred (Lsj;Ljava/lang/String;III)V
+	METHOD method_1934 drawTextWithShadowCentred (Lnet/minecraft/class_34;Ljava/lang/String;III)V
 		ARG 1 textManager
 		ARG 2 text
 		ARG 3 x
 		ARG 4 y
 		ARG 5 colour
-	METHOD b (IIII)V
+	METHOD method_1935 (IIII)V
 		ARG 4 colour
-	METHOD b blit (IIIIII)V
+	METHOD method_1936 blit (IIIIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 u
 		ARG 4 v
 		ARG 5 width
 		ARG 6 height
-	METHOD b drawTextWithShadow (Lsj;Ljava/lang/String;III)V
+	METHOD method_1937 drawTextWithShadow (Lnet/minecraft/class_34;Ljava/lang/String;III)V
 		ARG 1 textManager
 		ARG 2 text
 		ARG 3 x

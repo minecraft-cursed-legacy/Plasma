@@ -1,1 +1,1 @@
-CLASS ev net/minecraft/packet/Id13Packet
+CLASS net/minecraft/class_37 net/minecraft/packet/Id13Packet

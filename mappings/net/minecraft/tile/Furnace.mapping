@@ -1,4 +1,4 @@
-CLASS tc net/minecraft/tile/Furnace
-	FIELD a rand Ljava/util/Random;
-	FIELD b lit Z
-	FIELD c SETTING_TILE Z
+CLASS net/minecraft/class_421 net/minecraft/tile/Furnace
+	FIELD field_1682 rand Ljava/util/Random;
+	FIELD field_1683 lit Z
+	FIELD field_1684 SETTING_TILE Z

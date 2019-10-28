@@ -1,5 +1,0 @@
-CLASS iv
-	METHOD <init> (Ldv;)V
-		ARG 1 statsScreen
-	METHOD a getStat (I)Ljava/lang/String;
-		ARG 1 statId

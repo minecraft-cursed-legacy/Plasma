@@ -1,6 +1,0 @@
-CLASS kr argo/jdom/JsonObject
-	FIELD a fields Ljava/util/Map;
-	METHOD <init> (Ljava/util/Map;)V
-		ARG 1 fields
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 that

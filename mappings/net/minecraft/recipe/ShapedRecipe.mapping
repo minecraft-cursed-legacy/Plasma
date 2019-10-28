@@ -1,12 +1,12 @@
-CLASS is net/minecraft/recipe/ShapedRecipe
-	FIELD a outputId I
-	FIELD b width I
-	FIELD c height I
-	FIELD d ingredients [Liz;
-	FIELD e output Liz;
+CLASS net/minecraft/class_193 net/minecraft/recipe/ShapedRecipe
+	FIELD field_698 outputId I
+	FIELD field_699 width I
+	FIELD field_700 height I
+	FIELD field_701 ingredients [Lnet/minecraft/class_31;
+	FIELD field_702 output Lnet/minecraft/class_31;
 	METHOD <init> (II[Liz;Liz;)V
 		ARG 1 width
 		ARG 2 height
 		ARG 3 ingredients
 		ARG 4 output
-	METHOD a matchesSmall (Lmq;IIZ)Z
+	METHOD method_652 matchesSmall (Lnet/minecraft/class_159;IIZ)Z

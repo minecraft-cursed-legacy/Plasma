@@ -1,1 +1,1 @@
-CLASS ig net/minecraft/packet/Id10Packet
+CLASS net/minecraft/class_184 net/minecraft/packet/Id10Packet

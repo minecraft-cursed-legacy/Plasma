@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_303
+	FIELD field_1175 texturePack Lnet/minecraft/class_285;
+	FIELD field_1177 defaultPack Lnet/minecraft/class_285;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 2 file

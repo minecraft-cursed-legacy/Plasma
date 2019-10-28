@@ -1,3 +1,4 @@
-CLASS oe net/minecraft/value/JsonArray
-	FIELD a elements Ljava/util/List;
-	METHOD a toList (Ljava/lang/Iterable;)Ljava/util/List;
+CLASS argo/jdom/JsonArray net/minecraft/value/JsonArray
+	CLASS 1 net/minecraft/value/JsonNodeArrayList
+	FIELD elements elements Ljava/util/List;
+	METHOD asList toList (Ljava/lang/Iterable;)Ljava/util/List;

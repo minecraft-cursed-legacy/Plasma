@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_251
+	FIELD field_930 file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file

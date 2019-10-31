@@ -1,4 +1,4 @@
-CLASS py net/minecraft/client/Timer
-	FIELD a tickrate F
+CLASS net/minecraft/class_559 net/minecraft/client/Timer
+	FIELD field_2368 tickrate F
 	METHOD <init> (F)V
 		ARG 1 tickrate

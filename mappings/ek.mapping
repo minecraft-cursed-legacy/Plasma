@@ -1,2 +1,0 @@
-CLASS ek
-	FIELD a image Ljava/awt/image/BufferedImage;

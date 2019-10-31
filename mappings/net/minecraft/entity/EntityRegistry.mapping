@@ -1,11 +1,11 @@
-CLASS jc net/minecraft/entity/EntityRegistry
-	FIELD a STRING_ID_TO_CLASS Ljava/util/Map;
-	FIELD b CLASS_TO_STRING_ID Ljava/util/Map;
-	FIELD c ID_TO_CLASS Ljava/util/Map;
-	FIELD d CLASS_TO_ID Ljava/util/Map;
-	METHOD a create (ILfd;)Lsn;
-	METHOD a register (Ljava/lang/Class;Ljava/lang/String;I)V
-	METHOD a create (Ljava/lang/String;Lfd;)Lsn;
-	METHOD a create (Lnu;Lfd;)Lsn;
-	METHOD a getId (Lsn;)I
-	METHOD b getStringId (Lsn;)Ljava/lang/String;
+CLASS net/minecraft/class_206 net/minecraft/entity/EntityRegistry
+	FIELD field_757 STRING_ID_TO_CLASS Ljava/util/Map;
+	FIELD field_758 CLASS_TO_STRING_ID Ljava/util/Map;
+	FIELD field_759 ID_TO_CLASS Ljava/util/Map;
+	FIELD field_760 CLASS_TO_ID Ljava/util/Map;
+	METHOD method_735 create (ILnet/minecraft/class_18;)Lnet/minecraft/class_57;
+	METHOD method_731 register (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD method_732 create (Ljava/lang/String;Lnet/minecraft/class_18;)Lnet/minecraft/class_57;
+	METHOD method_730 create (Lnet/minecraft/class_8;Lnet/minecraft/class_18;)Lnet/minecraft/class_57;
+	METHOD method_733 getId (Lnet/minecraft/class_57;)I
+	METHOD method_734 getStringId (Lnet/minecraft/class_57;)Ljava/lang/String;

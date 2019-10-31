@@ -1,7 +1,7 @@
-CLASS by net/minecraft/entity/projectile/ThrownSnowball
-	FIELD a shake I
-	FIELD b xTile I
-	FIELD c yTile I
-	FIELD d zTile I
-	FIELD e inTile I
-	FIELD f inGround Z
+CLASS net/minecraft/class_484 net/minecraft/entity/projectile/ThrownSnowball
+	FIELD field_1990 shake I
+	FIELD field_1991 xTile I
+	FIELD field_1992 yTile I
+	FIELD field_1993 zTile I
+	FIELD field_1994 inTile I
+	FIELD field_1995 inGround Z

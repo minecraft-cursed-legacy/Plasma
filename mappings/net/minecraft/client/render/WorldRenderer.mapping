@@ -1,7 +1,7 @@
-CLASS n net/minecraft/client/render/WorldRenderer
-	FIELD k level Lfd;
-	FIELD l textureManager Lji;
-	FIELD t client Lnet/minecraft/client/Minecraft;
-	METHOD a renderSky (F)V
-	METHOD c renderClouds (F)V
-	METHOD g renderStars ()V
+CLASS net/minecraft/class_471 net/minecraft/client/render/WorldRenderer
+	FIELD field_1805 level Lnet/minecraft/class_18;
+	FIELD field_1806 textureManager Lnet/minecraft/class_76;
+	FIELD field_1814 client Lnet/minecraft/client/Minecraft;
+	METHOD method_1539 renderSky (F)V
+	METHOD method_1556 renderClouds (F)V
+	METHOD method_1559 renderStars ()V

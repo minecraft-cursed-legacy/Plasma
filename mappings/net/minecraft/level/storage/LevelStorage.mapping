@@ -1,5 +1,5 @@
-CLASS nl net/minecraft/level/storage/LevelStorage
-	METHOD a getLevelFormat ()Ljava/lang/String;
-	METHOD a (Ljava/lang/String;Ljava/lang/String;)V
+CLASS net/minecraft/class_182 net/minecraft/level/storage/LevelStorage
+	METHOD method_1001 getLevelFormat ()Ljava/lang/String;
+	METHOD method_1005 (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 2 levelName
-	METHOD b getLevelData (Ljava/lang/String;)Lei;
+	METHOD method_1004 getLevelData (Ljava/lang/String;)Lnet/minecraft/class_7;

@@ -1,8 +1,8 @@
-CLASS iz net/minecraft/item/ItemInstance
-	FIELD a count I
-	FIELD b cooldown I
-	FIELD c itemId I
-	FIELD d damage I
+CLASS net/minecraft/class_31 net/minecraft/item/ItemInstance
+	FIELD field_751 count I
+	FIELD field_752 cooldown I
+	FIELD field_753 itemId I
+	FIELD field_754 damage I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 count
@@ -27,29 +27,29 @@ CLASS iz net/minecraft/item/ItemInstance
 		ARG 1 tile
 		ARG 2 count
 		ARG 3 damage
-	METHOD a getType ()Lgm;
-	METHOD a split (I)Liz;
+	METHOD method_694 getType ()Lnet/minecraft/class_124;
+	METHOD method_695 split (I)Lnet/minecraft/class_31;
 		ARG 1 countToTake
-	METHOD a postMine (IIIILgs;)V
-	METHOD a applyDamage (ILsn;)V
-	METHOD a use (Lfd;Lgs;)Liz;
-	METHOD a inventoryTick (Lfd;Lsn;IZ)V
-	METHOD a useOnTile (Lgs;Lfd;IIII)Z
+	METHOD method_696 postMine (IIIILnet/minecraft/class_54;)V
+	METHOD method_697 applyDamage (ILnet/minecraft/class_57;)V
+	METHOD method_698 use (Lnet/minecraft/class_18;Lnet/minecraft/class_54;)Lnet/minecraft/class_31;
+	METHOD method_699 inventoryTick (Lnet/minecraft/class_18;Lnet/minecraft/class_57;IZ)V
+	METHOD method_701 useOnTile (Lnet/minecraft/class_54;Lnet/minecraft/class_18;IIII)Z
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a isEqualIgnoreFlags (Liz;)Z
-	METHOD a interactWithEntity (Lls;)V
-	METHOD a postHit (Lls;Lgs;)V
-	METHOD a toTag (Lnu;)Lnu;
+	METHOD method_702 isEqualIgnoreFlags (Lnet/minecraft/class_31;)Z
+	METHOD method_704 interactWithEntity (Lnet/minecraft/class_127;)V
+	METHOD method_705 postHit (Lnet/minecraft/class_127;Lnet/minecraft/class_54;)V
+	METHOD method_706 toTag (Lnet/minecraft/class_8;)Lnet/minecraft/class_8;
 		ARG 1 tag
-	METHOD b setDamage (I)V
-	METHOD b onCrafted (Lfd;Lgs;)V
-	METHOD b copy (Liz;)Liz;
-	METHOD b fromTag (Lnu;)V
+	METHOD method_710 setDamage (I)V
+	METHOD method_711 onCrafted (Lnet/minecraft/class_18;Lnet/minecraft/class_54;)V
+	METHOD method_712 copy (Lnet/minecraft/class_31;)Lnet/minecraft/class_31;
+	METHOD method_713 fromTag (Lnet/minecraft/class_8;)V
 		ARG 1 tag
-	METHOD b isEffectiveOn (Luu;)Z
-	METHOD c isItemEqualIgnoreDamage (Liz;)Z
-	METHOD i getDamage ()I
-	METHOD k copy ()Liz;
-	METHOD l getTranslationKey ()Ljava/lang/String;
+	METHOD method_714 isEffectiveOn (Lnet/minecraft/class_17;)Z
+	METHOD method_716 isItemEqualIgnoreDamage (Lnet/minecraft/class_31;)Z
+	METHOD method_722 getDamage ()I
+	METHOD method_724 copy ()Lnet/minecraft/class_31;
+	METHOD method_726 getTranslationKey ()Ljava/lang/String;

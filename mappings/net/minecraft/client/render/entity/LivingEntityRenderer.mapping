@@ -1,1 +1,1 @@
-CLASS v net/minecraft/client/render/entity/LivingEntityRenderer
+CLASS net/minecraft/class_589 net/minecraft/client/render/entity/LivingEntityRenderer

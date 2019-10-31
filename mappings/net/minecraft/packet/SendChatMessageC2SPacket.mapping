@@ -1,2 +1,2 @@
-CLASS pe net/minecraft/packet/SendChatMessageC2SPacket
-	FIELD a message Ljava/lang/String;
+CLASS net/minecraft/class_340 net/minecraft/packet/SendChatMessageC2SPacket
+	FIELD field_1270 message Ljava/lang/String;

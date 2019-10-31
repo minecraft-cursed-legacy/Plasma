@@ -1,1 +1,1 @@
-CLASS ch net/minecraft/client/gui/screen/DeathScreen
+CLASS net/minecraft/class_630 net/minecraft/client/gui/screen/DeathScreen

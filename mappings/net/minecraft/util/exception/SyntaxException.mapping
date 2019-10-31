@@ -1,4 +1,4 @@
-CLASS xe net/minecraft/util/exception/SyntaxException
+CLASS argo/saj/InvalidSyntaxException net/minecraft/util/exception/SyntaxException
 	METHOD <init> (Ljava/lang/String;Let;)V
 		ARG 2 pos
 	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;Let;)V

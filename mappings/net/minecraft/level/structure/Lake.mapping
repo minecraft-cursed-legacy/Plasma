@@ -1,4 +1,4 @@
-CLASS dj net/minecraft/level/structure/Lake
-	FIELD a tileId I
+CLASS net/minecraft/class_624 net/minecraft/level/structure/Lake
+	FIELD field_2697 tileId I
 	METHOD <init> (I)V
 		ARG 1 tileId

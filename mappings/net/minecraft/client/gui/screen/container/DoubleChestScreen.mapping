@@ -1,4 +1,4 @@
-CLASS hp net/minecraft/client/gui/screen/container/DoubleChestScreen
-	FIELD l inv1 Llw;
-	FIELD m inv2 Llw;
-	FIELD n rows I
+CLASS net/minecraft/class_264 net/minecraft/client/gui/screen/container/DoubleChestScreen
+	FIELD field_1063 inv1 Lnet/minecraft/class_134;
+	FIELD field_1064 inv2 Lnet/minecraft/class_134;
+	FIELD field_1065 rows I

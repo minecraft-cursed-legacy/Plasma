@@ -1,9 +1,9 @@
-CLASS ey net/minecraft/recipe/SmeltingRecipeRegistry
-	FIELD a INSTANCE Ley;
-	FIELD b recipes Ljava/util/Map;
-	METHOD a getInstance ()Ley;
-	METHOD a getResult (I)Liz;
-	METHOD a addSmeltingRecipe (ILiz;)V
+CLASS net/minecraft/class_44 net/minecraft/recipe/SmeltingRecipeRegistry
+	FIELD field_170 INSTANCE Lnet/minecraft/class_44;
+	FIELD field_171 recipes Ljava/util/Map;
+	METHOD method_144 getInstance ()Lnet/minecraft/class_44;
+	METHOD method_145 getResult (I)Lnet/minecraft/class_31;
+	METHOD method_146 addSmeltingRecipe (ILnet/minecraft/class_31;)V
 		ARG 1 inputId
 		ARG 2 output
-	METHOD b getRecipes ()Ljava/util/Map;
+	METHOD method_147 getRecipes ()Ljava/util/Map;

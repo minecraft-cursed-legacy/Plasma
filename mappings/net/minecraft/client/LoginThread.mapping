@@ -1,2 +1,0 @@
-CLASS kp net/minecraft/client/LoginThread
-	FIELD a minecraft Lnet/minecraft/client/Minecraft;

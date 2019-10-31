@@ -1,4 +1,0 @@
-CLASS qg argo/jdom/ElementLeafFunctor
-	FIELD a index I
-	METHOD <init> (I)V
-		ARG 1 index

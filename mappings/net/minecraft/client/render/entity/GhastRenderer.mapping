@@ -1,1 +1,1 @@
-CLASS pq net/minecraft/client/render/entity/GhastRenderer
+CLASS net/minecraft/class_548 net/minecraft/client/render/entity/GhastRenderer

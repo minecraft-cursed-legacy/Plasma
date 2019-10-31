@@ -1,4 +1,4 @@
-CLASS yb net/minecraft/util/ProgressListener
-	METHOD a progressStagePercentage (I)V
-	METHOD b (Ljava/lang/String;)V
+CLASS net/minecraft/class_62 net/minecraft/util/ProgressListener
+	METHOD method_1794 progressStagePercentage (I)V
+	METHOD method_1795 (Ljava/lang/String;)V
 		ARG 1 message

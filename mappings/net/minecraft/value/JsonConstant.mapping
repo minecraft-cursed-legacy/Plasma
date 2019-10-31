@@ -1,5 +1,0 @@
-CLASS vn net/minecraft/value/JsonConstant
-	FIELD a NULL Lvn;
-	FIELD b TRUE Lvn;
-	FIELD c FALSE Lvn;
-	FIELD d type Lat;

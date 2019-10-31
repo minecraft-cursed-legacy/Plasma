@@ -1,1 +1,1 @@
-CLASS kb net/minecraft/packet/Id104Packet
+CLASS net/minecraft/class_236 net/minecraft/packet/Id104Packet

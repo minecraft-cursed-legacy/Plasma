@@ -1,1 +1,1 @@
-CLASS fn net/minecraft/packet/Id61Packet
+CLASS net/minecraft/class_85 net/minecraft/packet/Id61Packet

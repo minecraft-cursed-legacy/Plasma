@@ -1,12 +1,12 @@
-CLASS pk net/minecraft/level/gen/NetherCave
-	METHOD a generate (II[BDDD)V
+CLASS net/minecraft/class_344 net/minecraft/level/gen/NetherCave
+	METHOD method_1145 generate (II[BDDD)V
 		ARG 1 centreX
 		ARG 2 centreZ
 		ARG 3 tileIdArray
 		ARG 4 x
 		ARG 6 y
 		ARG 8 z
-	METHOD a generate (II[BDDDFFFIID)V
+	METHOD method_1146 generate (II[BDDDFFFIID)V
 		ARG 1 centreX
 		ARG 2 centreZ
 		ARG 3 tileIdArray

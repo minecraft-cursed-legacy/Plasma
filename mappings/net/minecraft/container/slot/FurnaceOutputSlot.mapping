@@ -1,2 +1,2 @@
-CLASS vq net/minecraft/container/slot/FurnaceOutputSlot
-	FIELD d player Lgs;
+CLASS net/minecraft/class_497 net/minecraft/container/slot/FurnaceOutputSlot
+	FIELD field_2021 player Lnet/minecraft/class_54;

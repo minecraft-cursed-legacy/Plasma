@@ -1,12 +1,12 @@
-CLASS ke net/minecraft/client/gui/widgets/Button
-	FIELD a width I
-	FIELD b height I
-	FIELD c x I
-	FIELD d y I
-	FIELD e text Ljava/lang/String;
-	FIELD f id I
-	FIELD g active Z
-	FIELD h visible Z
+CLASS net/minecraft/class_33 net/minecraft/client/gui/widgets/Button
+	FIELD field_1368 width I
+	FIELD field_1369 height I
+	FIELD field_1370 x I
+	FIELD field_1371 y I
+	FIELD field_1372 text Ljava/lang/String;
+	FIELD field_1373 id I
+	FIELD field_1374 active Z
+	FIELD field_1375 visible Z
 	METHOD <init> (IIIIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x
@@ -19,20 +19,20 @@ CLASS ke net/minecraft/client/gui/widgets/Button
 		ARG 2 x
 		ARG 3 y
 		ARG 4 text
-	METHOD a mouseReleased (II)V
+	METHOD method_1185 mouseReleased (II)V
 		ARG 1 mouseX
 		ARG 2 mouseY
-	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+	METHOD method_1186 render (Lnet/minecraft/client/Minecraft;II)V
 		ARG 1 minecraft
 		ARG 2 mouseX
 		ARG 3 mouseY
-	METHOD a getYImage (Z)I
+	METHOD method_1187 getYImage (Z)I
 		ARG 1 hovered
-	METHOD b postRender (Lnet/minecraft/client/Minecraft;II)V
+	METHOD method_1188 postRender (Lnet/minecraft/client/Minecraft;II)V
 		ARG 1 minecraft
 		ARG 2 mouseX
 		ARG 3 mouseY
-	METHOD c isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
+	METHOD method_1189 isMouseOver (Lnet/minecraft/client/Minecraft;II)Z
 		ARG 1 minecraft
 		ARG 2 mouseX
 		ARG 3 mouseY

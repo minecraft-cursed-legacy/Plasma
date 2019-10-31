@@ -1,4 +1,4 @@
-CLASS hd net/minecraft/level/gen/FixedBiomeSource
-	FIELD e biome Lkd;
+CLASS net/minecraft/class_152 net/minecraft/level/gen/FixedBiomeSource
+	FIELD field_554 biome Lnet/minecraft/class_153;
 	METHOD <init> (Lkd;DD)V
 		ARG 1 biome

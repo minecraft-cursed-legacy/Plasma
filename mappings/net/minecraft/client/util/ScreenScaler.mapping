@@ -1,12 +1,12 @@
-CLASS qq net/minecraft/client/util/ScreenScaler
-	FIELD a scaledWidth D
-	FIELD b scaledHeight D
-	FIELD c scale I
-	FIELD d ceilScaledWidth I
-	FIELD e ceilScaledHeight I
+CLASS net/minecraft/class_564 net/minecraft/client/util/ScreenScaler
+	FIELD field_2389 scaledWidth D
+	FIELD field_2390 scaledHeight D
+	FIELD field_2391 scale I
+	FIELD field_2392 ceilScaledWidth I
+	FIELD field_2393 ceilScaledHeight I
 	METHOD <init> (Lkv;II)V
 		ARG 1 gameOptions
 		ARG 2 width
 		ARG 3 height
-	METHOD a getScaledWidth ()I
-	METHOD b getScaledHeight ()I
+	METHOD method_1857 getScaledWidth ()I
+	METHOD method_1858 getScaledHeight ()I

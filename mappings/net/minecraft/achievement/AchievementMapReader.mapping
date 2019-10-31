@@ -1,4 +1,4 @@
-CLASS b net/minecraft/achievement/AchievementMapReader
-	FIELD a INSTANCE Lb;
-	FIELD b map Ljava/util/Map;
-	METHOD a getById (I)Ljava/lang/String;
+CLASS net/minecraft/class_404 net/minecraft/achievement/AchievementMapReader
+	FIELD field_1549 INSTANCE Lnet/minecraft/class_404;
+	FIELD field_1550 map Ljava/util/Map;
+	METHOD method_1271 getById (I)Ljava/lang/String;

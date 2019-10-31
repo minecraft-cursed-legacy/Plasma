@@ -1,11 +1,11 @@
-CLASS yo net/minecraft/client/sound/SoundHelper
-	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
-	FIELD f gameOptions Lkv;
-	FIELD h rand Ljava/util/Random;
-	METHOD a playSound (Ljava/lang/String;FF)V
-	METHOD a (Lkv;)V
+CLASS net/minecraft/class_617 net/minecraft/client/sound/SoundHelper
+	FIELD field_2667 soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD field_2672 gameOptions Lnet/minecraft/class_322;
+	FIELD field_2674 rand Ljava/util/Random;
+	METHOD method_2009 playSound (Ljava/lang/String;FF)V
+	METHOD method_2012 (Lnet/minecraft/class_322;)V
 		ARG 1 gameOptions
-	METHOD a setSoundPosition (Lls;F)V
+	METHOD method_2013 setSoundPosition (Lnet/minecraft/class_127;F)V
 		ARG 1 entity
-	METHOD b playSound (Ljava/lang/String;FFFFF)V
-	METHOD c playBackgroundMusic ()V
+	METHOD method_2015 playSound (Ljava/lang/String;FFFFF)V
+	METHOD method_2017 playBackgroundMusic ()V

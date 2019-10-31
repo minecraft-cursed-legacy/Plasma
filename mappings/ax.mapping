@@ -1,4 +1,0 @@
-CLASS ax
-	FIELD e mapStorage Liu;
-	METHOD <init> (Liu;BBBB)V
-		ARG 1 storage

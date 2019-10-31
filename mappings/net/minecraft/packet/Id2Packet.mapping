@@ -1,2 +1,2 @@
-CLASS mp net/minecraft/packet/Id2Packet
-	FIELD a serverId Ljava/lang/String;
+CLASS net/minecraft/class_281 net/minecraft/packet/Id2Packet
+	FIELD field_1130 serverId Ljava/lang/String;

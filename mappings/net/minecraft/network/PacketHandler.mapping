@@ -1,21 +1,21 @@
-CLASS ti net/minecraft/network/PacketHandler
-	METHOD a (Lai;)V
+CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
+	METHOD method_1469 (Lnet/minecraft/class_161;)V
 		ARG 1 packet
-	METHOD a (Ldi;)V
+	METHOD method_1438 (Lnet/minecraft/class_435;)V
 		ARG 1 packet
-	METHOD a handlePlayerHealthUpdate (Leu;)V
-	METHOD a handleLevelTimeUpdate (Lhg;)V
+	METHOD method_1440 handlePlayerHealthUpdate (Lnet/minecraft/class_36;)V
+	METHOD method_1444 handleLevelTimeUpdate (Lnet/minecraft/class_156;)V
 		ARG 1 packet
-	METHOD a handleOpenScreen (Liw;)V
+	METHOD method_1446 handleOpenScreen (Lnet/minecraft/class_201;)V
 		ARG 1 packet
-	METHOD a handleCloseContainer (Lmn;)V
+	METHOD method_1427 handleCloseContainer (Lnet/minecraft/class_276;)V
 		ARG 1 packet
-	METHOD a handleHandSwing (Lnm;)V
-	METHOD a onChatMessage (Lpe;)V
+	METHOD method_1428 handleHandSwing (Lnet/minecraft/class_305;)V
+	METHOD method_1431 onChatMessage (Lnet/minecraft/class_340;)V
 		ARG 1 packet
-	METHOD a handleExplosion (Lrm;)V
+	METHOD method_1458 handleExplosion (Lnet/minecraft/class_382;)V
 		ARG 1 packet
-	METHOD a handleEntitySpawn (Lso;)V
+	METHOD method_1462 handleEntitySpawn (Lnet/minecraft/class_414;)V
 		ARG 1 packet
-	METHOD a handleUpdateRain (Lvw;)V
-	METHOD c handle (Lki;)V
+	METHOD method_1467 handleUpdateRain (Lnet/minecraft/class_440;)V
+	METHOD method_1470 handle (Lnet/minecraft/class_169;)V

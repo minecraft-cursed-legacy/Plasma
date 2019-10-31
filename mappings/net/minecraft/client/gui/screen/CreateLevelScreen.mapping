@@ -1,3 +1,3 @@
-CLASS fj net/minecraft/client/gui/screen/CreateLevelScreen
-	FIELD a parent Lda;
-	METHOD k addButtons ()V
+CLASS net/minecraft/class_180 net/minecraft/client/gui/screen/CreateLevelScreen
+	FIELD field_631 parent Lnet/minecraft/class_32;
+	METHOD method_608 addButtons ()V

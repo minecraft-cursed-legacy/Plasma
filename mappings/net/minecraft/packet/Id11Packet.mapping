@@ -1,1 +1,1 @@
-CLASS af net/minecraft/packet/Id11Packet
+CLASS net/minecraft/class_64 net/minecraft/packet/Id11Packet

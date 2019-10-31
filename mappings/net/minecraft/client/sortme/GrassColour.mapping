@@ -1,4 +1,4 @@
-CLASS ia net/minecraft/client/sortme/GrassColour
-	FIELD a map [I
-	METHOD a get (DD)I
-	METHOD a set ([I)V
+CLASS net/minecraft/class_287 net/minecraft/client/sortme/GrassColour
+	FIELD field_1141 map [I
+	METHOD method_981 get (DD)I
+	METHOD method_982 set ([I)V

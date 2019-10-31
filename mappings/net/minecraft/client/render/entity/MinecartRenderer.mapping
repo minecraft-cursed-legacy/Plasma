@@ -1,2 +1,2 @@
-CLASS tb net/minecraft/client/render/entity/MinecartRenderer
-	FIELD a model Lko;
+CLASS net/minecraft/class_576 net/minecraft/client/render/entity/MinecartRenderer
+	FIELD field_2471 model Lnet/minecraft/class_173;

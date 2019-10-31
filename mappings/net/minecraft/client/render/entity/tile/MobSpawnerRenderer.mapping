@@ -1,2 +1,2 @@
-CLASS ag net/minecraft/client/render/entity/tile/MobSpawnerRenderer
-	FIELD b idToEntityMap Ljava/util/Map;
+CLASS net/minecraft/class_103 net/minecraft/client/render/entity/tile/MobSpawnerRenderer
+	FIELD field_329 idToEntityMap Ljava/util/Map;

@@ -1,2 +1,2 @@
-CLASS tk net/minecraft/client/player/ClientPlayer
-	FIELD bN networkHandler Lnb;
+CLASS net/minecraft/class_580 net/minecraft/client/player/ClientPlayer
+	FIELD field_2505 networkHandler Lnet/minecraft/class_219;

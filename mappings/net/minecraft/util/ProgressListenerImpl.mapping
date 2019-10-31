@@ -1,8 +1,8 @@
-CLASS mk net/minecraft/util/ProgressListenerImpl
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;
-	FIELD c message Ljava/lang/String;
+CLASS net/minecraft/class_452 net/minecraft/util/ProgressListenerImpl
+	FIELD field_1715 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_1716 message Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
-	METHOD a (Ljava/lang/String;)V
+	METHOD method_1491 (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD c notify (Ljava/lang/String;)V
+	METHOD method_1492 notify (Ljava/lang/String;)V

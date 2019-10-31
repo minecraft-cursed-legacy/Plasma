@@ -1,3 +1,3 @@
-CLASS hi net/minecraft/level/storage/McRegionLevelStorage
-	METHOD a (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+CLASS net/minecraft/class_157 net/minecraft/level/storage/McRegionLevelStorage
+	METHOD method_536 (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 		ARG 1 file

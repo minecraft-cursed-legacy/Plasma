@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_66
+	FIELD field_226 tesselator Lnet/minecraft/class_67;
+	FIELD field_229 level Lnet/minecraft/class_18;

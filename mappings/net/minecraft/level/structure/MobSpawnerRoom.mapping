@@ -1,3 +1,3 @@
-CLASS er net/minecraft/level/structure/MobSpawnerRoom
-	METHOD a getRandomChestItem (Ljava/util/Random;)Liz;
-	METHOD b getRandomEntity (Ljava/util/Random;)Ljava/lang/String;
+CLASS net/minecraft/class_30 net/minecraft/level/structure/MobSpawnerRoom
+	METHOD method_115 getRandomChestItem (Ljava/util/Random;)Lnet/minecraft/class_31;
+	METHOD method_116 getRandomEntity (Ljava/util/Random;)Ljava/lang/String;

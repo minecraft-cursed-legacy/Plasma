@@ -1,43 +1,43 @@
-CLASS da net/minecraft/client/gui/Screen
-	FIELD a lastClickedButton Lke;
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;
-	FIELD c width I
-	FIELD d height I
-	FIELD e buttons Ljava/util/List;
-	FIELD f passEvents Z
-	FIELD g textManager Lsj;
-	FIELD h smokeRenderer Ldu;
-	METHOD a tick ()V
-	METHOD a keyPressed (CI)V
+CLASS net/minecraft/class_32 net/minecraft/client/gui/Screen
+	FIELD field_150 lastClickedButton Lnet/minecraft/class_33;
+	FIELD field_151 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_152 width I
+	FIELD field_153 height I
+	FIELD field_154 buttons Ljava/util/List;
+	FIELD field_155 passEvents Z
+	FIELD field_156 textManager Lnet/minecraft/class_34;
+	FIELD field_157 smokeRenderer Lnet/minecraft/class_35;
+	METHOD method_122 tick ()V
+	METHOD method_117 keyPressed (CI)V
 		ARG 1 character
 		ARG 2 key
-	METHOD a renderBackground (I)V
+	METHOD method_123 renderBackground (I)V
 		ARG 1 alpha
-	METHOD a render (IIF)V
+	METHOD method_118 render (IIF)V
 		ARG 1 mouseX
 		ARG 2 mouseY
 		ARG 3 delta
-	METHOD a mouseClicked (III)V
+	METHOD method_124 mouseClicked (III)V
 		ARG 1 mouseX
 		ARG 2 mouseY
 		ARG 3 button
-	METHOD a buttonClicked (Lke;)V
+	METHOD method_120 buttonClicked (Lnet/minecraft/class_33;)V
 		ARG 1 button
-	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+	METHOD method_125 init (Lnet/minecraft/client/Minecraft;II)V
 		ARG 1 minecraft
 		ARG 2 width
 		ARG 3 height
-	METHOD a updateServer (ZI)V
-	METHOD b init ()V
-	METHOD b renderDirtBackground (I)V
+	METHOD method_126 updateServer (ZI)V
+	METHOD method_119 init ()V
+	METHOD method_127 renderDirtBackground (I)V
 		ARG 1 alpha
-	METHOD b mouseReleased (III)V
+	METHOD method_128 mouseReleased (III)V
 		ARG 1 mouseX
 		ARG 2 mouseY
 		ARG 3 button
-	METHOD c isPauseScreen ()Z
-	METHOD d getClipboardContents ()Ljava/lang/String;
-	METHOD f onMouseEvent ()V
-	METHOD g onKeyboardEvent ()V
-	METHOD h onClose ()V
-	METHOD i renderBackground ()V
+	METHOD method_121 isPauseScreen ()Z
+	METHOD method_129 getClipboardContents ()Ljava/lang/String;
+	METHOD method_131 onMouseEvent ()V
+	METHOD method_132 onKeyboardEvent ()V
+	METHOD method_133 onClose ()V
+	METHOD method_134 renderBackground ()V

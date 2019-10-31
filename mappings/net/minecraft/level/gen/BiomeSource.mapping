@@ -1,22 +1,22 @@
-CLASS xv net/minecraft/level/gen/BiomeSource
-	FIELD d biomes [Lkd;
-	FIELD e noise1 Lug;
-	FIELD f noise2 Lug;
-	FIELD g noise3 Lug;
+CLASS net/minecraft/class_519 net/minecraft/level/gen/BiomeSource
+	FIELD field_2238 biomes [Lnet/minecraft/class_153;
+	FIELD field_2239 noise1 Lnet/minecraft/class_458;
+	FIELD field_2240 noise2 Lnet/minecraft/class_458;
+	FIELD field_2241 noise3 Lnet/minecraft/class_458;
 	METHOD <init> (Lfd;)V
 		ARG 1 level
-	METHOD a getBiome (II)Lkd;
+	METHOD method_1787 getBiome (II)Lnet/minecraft/class_153;
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBiomes (IIII)[Lkd;
+	METHOD method_1788 getBiomes (IIII)[Lnet/minecraft/class_153;
 		ARG 1 x
 		ARG 2 z
 		ARG 3 xSize
 		ARG 4 zSize
-	METHOD a getBiomeInChunk (Lyy;)Lkd;
-	METHOD a ([DIIII)[D
+	METHOD method_1789 getBiomeInChunk (Lnet/minecraft/class_515;)Lnet/minecraft/class_153;
+	METHOD method_1790 ([DIIII)[D
 		ARG 1 array
-	METHOD a getBiomes ([Lkd;IIII)[Lkd;
-	METHOD b (II)D
+	METHOD method_1791 getBiomes ([Lnet/minecraft/class_153;IIII)[Lnet/minecraft/class_153;
+	METHOD method_1786 (II)D
 		ARG 1 x
 		ARG 2 z

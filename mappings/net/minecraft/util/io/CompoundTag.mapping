@@ -1,59 +1,59 @@
-CLASS nu net/minecraft/util/io/CompoundTag
-	FIELD a data Ljava/util/Map;
-	METHOD a put (Ljava/lang/String;B)V
+CLASS net/minecraft/class_8 net/minecraft/util/io/CompoundTag
+	FIELD field_1199 data Ljava/util/Map;
+	METHOD method_1012 put (Ljava/lang/String;B)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;D)V
+	METHOD method_1013 put (Ljava/lang/String;D)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;F)V
+	METHOD method_1014 put (Ljava/lang/String;F)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;I)V
+	METHOD method_1015 put (Ljava/lang/String;I)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;J)V
+	METHOD method_1016 put (Ljava/lang/String;J)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;Lij;)V
+	METHOD method_1017 put (Ljava/lang/String;Lnet/minecraft/class_187;)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_1019 put (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;Lnu;)V
+	METHOD method_1018 put (Ljava/lang/String;Lnet/minecraft/class_8;)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;S)V
+	METHOD method_1020 put (Ljava/lang/String;S)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;Z)V
+	METHOD method_1021 put (Ljava/lang/String;Z)V
 		ARG 1 key
 		ARG 2 item
-	METHOD a put (Ljava/lang/String;[B)V
+	METHOD method_1022 put (Ljava/lang/String;[B)V
 		ARG 1 key
 		ARG 2 item
-	METHOD b containsKey (Ljava/lang/String;)Z
+	METHOD method_1023 containsKey (Ljava/lang/String;)Z
 		ARG 1 key
-	METHOD c values ()Ljava/util/Collection;
-	METHOD c getByte (Ljava/lang/String;)B
+	METHOD method_1024 values ()Ljava/util/Collection;
+	METHOD method_1025 getByte (Ljava/lang/String;)B
 		ARG 1 key
-	METHOD d getShort (Ljava/lang/String;)S
+	METHOD method_1026 getShort (Ljava/lang/String;)S
 		ARG 1 key
-	METHOD e getInt (Ljava/lang/String;)I
+	METHOD method_1027 getInt (Ljava/lang/String;)I
 		ARG 1 key
-	METHOD f getLong (Ljava/lang/String;)J
+	METHOD method_1028 getLong (Ljava/lang/String;)J
 		ARG 1 key
-	METHOD g getFloat (Ljava/lang/String;)F
+	METHOD method_1029 getFloat (Ljava/lang/String;)F
 		ARG 1 key
-	METHOD h getDouble (Ljava/lang/String;)D
+	METHOD method_1030 getDouble (Ljava/lang/String;)D
 		ARG 1 key
-	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_1031 getString (Ljava/lang/String;)Ljava/lang/String;
 		ARG 1 key
-	METHOD j getByteArray (Ljava/lang/String;)[B
+	METHOD method_1032 getByteArray (Ljava/lang/String;)[B
 		ARG 1 key
-	METHOD k getCompoundTag (Ljava/lang/String;)Lnu;
+	METHOD method_1033 getCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_8;
 		ARG 1 key
-	METHOD l getListTag (Ljava/lang/String;)Lsp;
+	METHOD method_1034 getListTag (Ljava/lang/String;)Lnet/minecraft/class_202;
 		ARG 1 key
-	METHOD m getBoolean (Ljava/lang/String;)Z
+	METHOD method_1035 getBoolean (Ljava/lang/String;)Z

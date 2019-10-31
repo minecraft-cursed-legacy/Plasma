@@ -1,3 +1,0 @@
-CLASS ba argo/jdom/LeafFunctor
-	METHOD c typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
-		ARG 1 jsonNode

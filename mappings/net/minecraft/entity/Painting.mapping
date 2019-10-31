@@ -1,7 +1,7 @@
-CLASS qv net/minecraft/entity/Painting
-	FIELD a dir I
-	FIELD b tileX I
-	FIELD c tileY I
-	FIELD d tileZ I
-	FIELD e motive Liq;
-	METHOD b setDir (I)V
+CLASS net/minecraft/class_107 net/minecraft/entity/Painting
+	FIELD field_1384 dir I
+	FIELD field_1385 tileX I
+	FIELD field_1386 tileY I
+	FIELD field_1387 tileZ I
+	FIELD field_1388 motive Lnet/minecraft/class_191;
+	METHOD method_1191 setDir (I)V

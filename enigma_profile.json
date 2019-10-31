@@ -5,6 +5,10 @@
         },
         "jar_indexer" : {
             "id": "stitch:jar_indexer"
+        },
+	"obfuscation_test": {
+            "id": "stitch:intermediary_obfuscation_test",
+            "args": {}
         }
     }
 }

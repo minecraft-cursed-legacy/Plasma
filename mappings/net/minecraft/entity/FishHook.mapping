@@ -1,7 +1,7 @@
-CLASS lx net/minecraft/entity/FishHook
-	FIELD a shake I
-	FIELD d xTile I
-	FIELD e yTile I
-	FIELD f zTile I
-	FIELD g inTile I
-	FIELD h inGround Z
+CLASS net/minecraft/class_135 net/minecraft/entity/FishHook
+	FIELD field_1066 shake I
+	FIELD field_1069 xTile I
+	FIELD field_1070 yTile I
+	FIELD field_1071 zTile I
+	FIELD field_1072 inTile I
+	FIELD field_1073 inGround Z

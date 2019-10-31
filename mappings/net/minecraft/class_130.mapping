@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_130
+	FIELD field_492 image Ljava/awt/image/BufferedImage;

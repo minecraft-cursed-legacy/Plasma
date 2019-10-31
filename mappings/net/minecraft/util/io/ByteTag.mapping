@@ -1,4 +1,4 @@
-CLASS qp net/minecraft/util/io/ByteTag
-	FIELD a data B
+CLASS net/minecraft/class_360 net/minecraft/util/io/ByteTag
+	FIELD field_1356 data B
 	METHOD <init> (B)V
 		ARG 1 value

@@ -1,1 +1,1 @@
-CLASS qh net/minecraft/client/gui/screen/LevelSaveConflictScreen
+CLASS net/minecraft/class_562 net/minecraft/client/gui/screen/LevelSaveConflictScreen

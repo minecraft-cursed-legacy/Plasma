@@ -1,2 +1,2 @@
-CLASS jk net/minecraft/client/gui/screen/EditLevelScreen
-	FIELD a parent Lda;
+CLASS net/minecraft/class_341 net/minecraft/client/gui/screen/EditLevelScreen
+	FIELD field_1271 parent Lnet/minecraft/class_32;

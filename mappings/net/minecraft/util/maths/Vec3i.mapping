@@ -1,17 +1,17 @@
-CLASS d net/minecraft/util/maths/Vec3i
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD j hashcode I
+CLASS net/minecraft/class_29 net/minecraft/util/maths/Vec3i
+	FIELD field_140 x I
+	FIELD field_141 y I
+	FIELD field_142 z I
+	FIELD field_149 hashcode I
 	METHOD <init> (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a createHashcode (III)I
+	METHOD method_113 createHashcode (III)I
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
-	METHOD a getSquaredDistance (Ld;)F
+	METHOD method_114 getSquaredDistance (Lnet/minecraft/class_29;)F
 		ARG 1 vec3i
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object

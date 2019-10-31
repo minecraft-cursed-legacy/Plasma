@@ -1,4 +1,4 @@
-CLASS xo net/minecraft/level/structure/Spring
-	FIELD a tileId I
+CLASS net/minecraft/class_529 net/minecraft/level/structure/Spring
+	FIELD field_2209 tileId I
 	METHOD <init> (I)V
 		ARG 1 tileId

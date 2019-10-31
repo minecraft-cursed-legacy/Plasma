@@ -1,2 +1,2 @@
-CLASS td net/minecraft/client/render/entity/model/ChickenModel
-	FIELD a head Lps;
+CLASS net/minecraft/class_577 net/minecraft/client/render/entity/model/ChickenModel
+	FIELD field_2472 head Lnet/minecraft/class_163;

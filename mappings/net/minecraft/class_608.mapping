@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_608
+	FIELD field_2616 netHandler Lnet/minecraft/class_219;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnb;)V
+		ARG 1 minecraft

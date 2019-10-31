@@ -1,3 +1,3 @@
-CLASS du net/minecraft/client/gui/SmokeRenderer
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;
-	METHOD a render (F)V
+CLASS net/minecraft/class_35 net/minecraft/client/gui/SmokeRenderer
+	FIELD field_301 minecraft Lnet/minecraft/client/Minecraft;
+	METHOD method_352 render (F)V

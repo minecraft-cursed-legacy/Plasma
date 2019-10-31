@@ -1,7 +1,7 @@
-CLASS wf net/minecraft/util/maths/TilePos
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
+CLASS net/minecraft/class_339 net/minecraft/util/maths/TilePos
+	FIELD field_2100 x I
+	FIELD field_2101 y I
+	FIELD field_2102 z I
 	METHOD <init> (III)V
 		ARG 1 x
 		ARG 2 y

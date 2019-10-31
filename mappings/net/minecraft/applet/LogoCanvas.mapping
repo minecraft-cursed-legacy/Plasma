@@ -1,2 +1,2 @@
-CLASS fy net/minecraft/applet/LogoCanvas
-	FIELD a logo Ljava/awt/image/BufferedImage;
+CLASS net/minecraft/class_203 net/minecraft/applet/LogoCanvas
+	FIELD field_755 logo Ljava/awt/image/BufferedImage;

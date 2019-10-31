@@ -1,14 +1,14 @@
-CLASS ht net/minecraft/client/options/Option
-	FIELD n slider Z
-	FIELD p translationKey Ljava/lang/String;
+CLASS net/minecraft/class_271 net/minecraft/client/options/Option
+	FIELD field_1110 slider Z
+	FIELD field_1112 translationKey Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
 		ARG 1 name
 		ARG 2 id
 		ARG 3 translationKey
 		ARG 4 slider
-	METHOD a isSlider ()Z
-	METHOD a getById (I)Lht;
+	METHOD method_966 isSlider ()Z
+	METHOD method_967 getById (I)Lnet/minecraft/class_271;
 		ARG 0 id
-	METHOD b isToggle ()Z
-	METHOD c getId ()I
-	METHOD d getTranslationKey ()Ljava/lang/String;
+	METHOD method_968 isToggle ()Z
+	METHOD method_969 getId ()I
+	METHOD method_970 getTranslationKey ()Ljava/lang/String;

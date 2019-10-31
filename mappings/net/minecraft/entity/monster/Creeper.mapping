@@ -1,6 +1,6 @@
-CLASS gb net/minecraft/entity/monster/Creeper
-	FIELD a currentFuseTime I
-	FIELD b lastFuseTime I
-	METHOD e setFuseSpeed (I)V
-	METHOD s isCharged ()Z
-	METHOD v getFuseSpeed ()I
+CLASS net/minecraft/class_114 net/minecraft/entity/monster/Creeper
+	FIELD field_350 currentFuseTime I
+	FIELD field_351 lastFuseTime I
+	METHOD method_411 setFuseSpeed (I)V
+	METHOD method_412 isCharged ()Z
+	METHOD method_413 getFuseSpeed ()I

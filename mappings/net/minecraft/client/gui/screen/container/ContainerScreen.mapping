@@ -1,18 +1,18 @@
-CLASS id net/minecraft/client/gui/screen/container/ContainerScreen
-	FIELD a containerWidth I
-	FIELD i containerHeight I
-	FIELD j container Ldw;
-	FIELD l itemRenderer Lbb;
+CLASS net/minecraft/class_293 net/minecraft/client/gui/screen/container/ContainerScreen
+	FIELD field_1152 containerWidth I
+	FIELD field_1153 containerHeight I
+	FIELD field_1154 container Lnet/minecraft/class_71;
+	FIELD field_1155 itemRenderer Lnet/minecraft/class_92;
 	METHOD <init> (Ldw;)V
 		ARG 1 container
-	METHOD a renderContainerBackground (F)V
-	METHOD a getSlot (II)Lgp;
+	METHOD method_984 renderContainerBackground (F)V
+	METHOD method_986 getSlot (II)Lnet/minecraft/class_133;
 		ARG 1 mouseX
 		ARG 2 mouseY
-	METHOD a renderSlot (Lgp;)V
+	METHOD method_987 renderSlot (Lnet/minecraft/class_133;)V
 		ARG 1 slot
-	METHOD a isMouseOverSlot (Lgp;II)Z
+	METHOD method_988 isMouseOverSlot (Lnet/minecraft/class_133;II)Z
 		ARG 1 slot
 		ARG 2 mouseX
 		ARG 3 mouseY
-	METHOD k renderForeground ()V
+	METHOD method_985 renderForeground ()V

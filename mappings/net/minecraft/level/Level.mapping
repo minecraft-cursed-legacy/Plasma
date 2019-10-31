@@ -1,87 +1,87 @@
-CLASS fd net/minecraft/level/Level
-	FIELD B isClient Z
-	FIELD d players Ljava/util/List;
-	FIELD h unusedIncrement I
-	FIELD i prevRainGradient F
-	FIELD j rainGradient F
-	FIELD k prevThunderGradient F
-	FIELD l thunderGradient F
-	FIELD q difficulty I
-	FIELD r rand Ljava/util/Random;
-	FIELD t dimension Lxa;
-	FIELD v cache Lcl;
-	FIELD x properties Lei;
+CLASS net/minecraft/class_18 net/minecraft/level/Level
+	FIELD field_180 isClient Z
+	FIELD field_200 players Ljava/util/List;
+	FIELD field_204 unusedIncrement I
+	FIELD field_205 prevRainGradient F
+	FIELD field_206 rainGradient F
+	FIELD field_207 prevThunderGradient F
+	FIELD field_208 thunderGradient F
+	FIELD field_213 difficulty I
+	FIELD field_214 rand Ljava/util/Random;
+	FIELD field_216 dimension Lnet/minecraft/class_50;
+	FIELD field_218 cache Lnet/minecraft/class_51;
+	FIELD field_220 properties Lnet/minecraft/class_7;
 	METHOD <init> (Lwt;Ljava/lang/String;Lxa;J)V
 		ARG 4 seed
-	METHOD A canSkipNight ()Z
-	METHOD E initWeatherGradients ()V
-	METHOD F resetWeather ()V
-	METHOD a getClosestPlayer (DDDD)Lgs;
-	METHOD a playSound (DDDLjava/lang/String;FF)V
-	METHOD a setTileWithMetadata (IIIII)Z
-	METHOD a canPlaceTile (IIIIZI)Z
+	METHOD method_268 canSkipNight ()Z
+	METHOD method_272 initWeatherGradients ()V
+	METHOD method_273 resetWeather ()V
+	METHOD method_149 getClosestPlayer (DDDD)Lnet/minecraft/class_54;
+	METHOD method_150 playSound (DDDLjava/lang/String;FF)V
+	METHOD method_154 setTileWithMetadata (IIIII)Z
+	METHOD method_156 canPlaceTile (IIIIZI)Z
 		ARG 1 id
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 6 meta
-	METHOD a setTileEntity (IIILow;)V
-	METHOD a setLevelTime (J)V
-	METHOD a setSpawnPosition (Lbr;)V
-	METHOD a canSpawnEntity (Leq;)Z
+	METHOD method_157 setTileEntity (IIILnet/minecraft/class_55;)V
+	METHOD method_159 setLevelTime (J)V
+	METHOD method_276 setSpawnPosition (Lnet/minecraft/class_63;)V
+	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
-	METHOD a playLevelEvent (Lgs;IIIII)V
-	METHOD a getEntities (Ljava/lang/Class;Leq;)Ljava/util/List;
-	METHOD a getPlayerByName (Ljava/lang/String;)Lgs;
-	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a getClosestPlayerTo (Lsn;D)Lgs;
-	METHOD a createExplosion (Lsn;DDDF)Lqx;
+	METHOD method_173 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
+	METHOD method_175 getEntities (Ljava/lang/Class;Lnet/minecraft/class_25;)Ljava/util/List;
+	METHOD method_177 getPlayerByName (Ljava/lang/String;)Lnet/minecraft/class_54;
+	METHOD method_178 addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD method_186 getClosestPlayerTo (Lnet/minecraft/class_57;D)Lnet/minecraft/class_54;
+	METHOD method_187 createExplosion (Lnet/minecraft/class_57;DDDF)Lnet/minecraft/class_60;
 		ARG 1 cause
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 power
-	METHOD a createExplosion (Lsn;DDDFZ)Lqx;
+	METHOD method_188 createExplosion (Lnet/minecraft/class_57;DDDFZ)Lnet/minecraft/class_60;
 		ARG 1 cause
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 power
-	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
-	METHOD a (ZLyb;)V
+	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
+	METHOD method_195 (ZLnet/minecraft/class_62;)V
 		ARG 2 listener
-	METHOD b spawnEntity (Lsn;)Z
-	METHOD b getEntities (Lsn;Leq;)Ljava/util/List;
-	METHOD c getChunkFromCache (II)Llm;
+	METHOD method_210 spawnEntity (Lnet/minecraft/class_57;)Z
+	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
+	METHOD method_214 getChunkFromCache (II)Lnet/minecraft/class_43;
 		ARG 1 x
 		ARG 2 z
-	METHOD c setTileInChunk (IIII)Z
+	METHOD method_200 setTileInChunk (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tileId
-	METHOD d isAir (III)Z
+	METHOD method_234 isAir (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD d setTileMeta (IIII)V
-	METHOD e playLevelEvent (IIIII)V
-	METHOD f isDaylight ()Z
-	METHOD f isChunkLoaded (II)Z
+	METHOD method_215 setTileMeta (IIII)V
+	METHOD method_230 playLevelEvent (IIIII)V
+	METHOD method_220 isDaylight ()Z
+	METHOD method_238 isChunkLoaded (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkY
-	METHOD f setTile (IIII)Z
-	METHOD h setRainGradient (F)V
-	METHOD i isTileLoaded (III)Z
-	METHOD n getLightLevel (III)I
-	METHOD p removeTileEntity (III)V
-	METHOD q disconnect ()V
-	METHOD s getSeed ()J
-	METHOD t getLevelTime ()J
-	METHOD t canRainAt (III)Z
+	METHOD method_229 setTile (IIII)Z
+	METHOD method_289 setRainGradient (F)V
+	METHOD method_239 isTileLoaded (III)Z
+	METHOD method_255 getLightLevel (III)I
+	METHOD method_260 removeTileEntity (III)V
+	METHOD method_293 disconnect ()V
+	METHOD method_254 getSeed ()J
+	METHOD method_256 getLevelTime ()J
+	METHOD method_267 canRainAt (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD u getSpawnPosition ()Lbr;
-	METHOD x getProperties ()Lei;
-	METHOD z wakeUpSleepingPlayers ()V
+	METHOD method_258 getSpawnPosition ()Lnet/minecraft/class_63;
+	METHOD method_262 getProperties ()Lnet/minecraft/class_7;
+	METHOD method_266 wakeUpSleepingPlayers ()V

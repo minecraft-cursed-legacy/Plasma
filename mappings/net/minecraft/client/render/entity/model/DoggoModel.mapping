@@ -1,2 +1,2 @@
-CLASS o net/minecraft/client/render/entity/model/DoggoModel
-	FIELD a head Lps;
+CLASS net/minecraft/class_503 net/minecraft/client/render/entity/model/DoggoModel
+	FIELD field_2089 head Lnet/minecraft/class_163;

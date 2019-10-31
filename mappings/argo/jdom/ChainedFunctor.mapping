@@ -1,6 +1,0 @@
-CLASS j argo/jdom/ChainedFunctor
-	FIELD a parentJsonNodeSelector Ljt;
-	FIELD b childJsonNodeSelector Ljt;
-	METHOD <init> (Ljt;Ljt;)V
-		ARG 1 parentJsonNodeSelector
-		ARG 2 childJsonNodeSelector

@@ -1,4 +1,4 @@
-CLASS br net/minecraft/util/Vec3i
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
+CLASS net/minecraft/class_63 net/minecraft/util/Vec3i
+	FIELD field_1482 x I
+	FIELD field_1483 y I
+	FIELD field_1484 z I

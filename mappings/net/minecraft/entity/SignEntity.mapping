@@ -1,2 +1,2 @@
-CLASS yk net/minecraft/entity/SignEntity
-	FIELD a lines [Ljava/lang/String;
+CLASS net/minecraft/class_140 net/minecraft/entity/SignEntity
+	FIELD field_2269 lines [Ljava/lang/String;

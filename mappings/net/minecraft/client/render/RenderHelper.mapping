@@ -1,3 +1,3 @@
-CLASS u net/minecraft/client/render/RenderHelper
-	METHOD a disableLighting ()V
-	METHOD b enableLighting ()V
+CLASS net/minecraft/class_583 net/minecraft/client/render/RenderHelper
+	METHOD method_1927 disableLighting ()V
+	METHOD method_1930 enableLighting ()V

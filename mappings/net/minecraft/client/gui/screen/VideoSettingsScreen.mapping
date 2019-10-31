@@ -1,7 +1,7 @@
-CLASS nj net/minecraft/client/gui/screen/VideoSettingsScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i parent Lda;
-	FIELD j options Lkv;
-	FIELD l OPTIONS [Lht;
+CLASS net/minecraft/class_486 net/minecraft/client/gui/screen/VideoSettingsScreen
+	FIELD field_2000 title Ljava/lang/String;
+	FIELD field_2001 parent Lnet/minecraft/class_32;
+	FIELD field_2002 options Lnet/minecraft/class_322;
+	FIELD field_2003 OPTIONS [Lnet/minecraft/class_271;
 	METHOD <init> (Lda;Lkv;)V
 		ARG 1 parent

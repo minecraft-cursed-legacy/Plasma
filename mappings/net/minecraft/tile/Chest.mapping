@@ -1,2 +1,2 @@
-CLASS e net/minecraft/tile/Chest
-	FIELD a rand Ljava/util/Random;
+CLASS net/minecraft/class_110 net/minecraft/tile/Chest
+	FIELD field_337 rand Ljava/util/Random;

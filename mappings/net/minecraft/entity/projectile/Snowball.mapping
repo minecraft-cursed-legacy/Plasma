@@ -1,7 +1,7 @@
-CLASS cf net/minecraft/entity/projectile/Snowball
-	FIELD a shake I
-	FIELD f xTile I
-	FIELD g yTile I
-	FIELD h zTile I
-	FIELD i inTile I
-	FIELD j inGround Z
+CLASS net/minecraft/class_372 net/minecraft/entity/projectile/Snowball
+	FIELD field_2192 shake I
+	FIELD field_2197 xTile I
+	FIELD field_2198 yTile I
+	FIELD field_2199 zTile I
+	FIELD field_2200 inTile I
+	FIELD field_2201 inGround Z

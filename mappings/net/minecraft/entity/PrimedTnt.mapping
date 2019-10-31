@@ -1,2 +1,2 @@
-CLASS qw net/minecraft/entity/PrimedTnt
-	FIELD a fuse I
+CLASS net/minecraft/class_365 net/minecraft/entity/PrimedTnt
+	FIELD field_1390 fuse I

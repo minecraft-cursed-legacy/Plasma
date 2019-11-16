@@ -1,4 +1,4 @@
-# MCPmf :: Minecraft Cursed POMF (privately offered mapping files)
+# MCPmf :: Minecraft Cursed POMF (privately (but actually publicly) offered mapping files)
 
 Minecraft Cursed POMF is a set of client mappings for legacy minecraft versions.
 
@@ -27,7 +27,7 @@ To contribute, fork the project and clone it locally, and use enigma to map the 
 MCPomf started as a yarn fork, so tasks currently still reference yarn.
 
 1. Fork and clone the repo
-2. Run `./gradlew yarn` (Linux, macOS) or `gradlew yarn` (Windows)
+2. Run `./gradlew yarn` (Linux, macOS) or `.\gradlew yarn` (Windows)
 3. Profit
 
 ## Gradle

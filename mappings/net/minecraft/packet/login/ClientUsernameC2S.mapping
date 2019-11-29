@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_281 net/minecraft/packet/login/ClientUsernameC2S
+	FIELD field_1130 serverId Ljava/lang/String;

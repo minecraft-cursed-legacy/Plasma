@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_118 net/minecraft/packet/handshaking/HandshakeC2SPacket
-	FIELD field_1209 protocolVersion I

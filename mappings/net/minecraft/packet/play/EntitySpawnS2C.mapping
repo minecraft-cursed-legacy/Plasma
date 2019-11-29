@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_414 net/minecraft/packet/EntitySpawnS2CPacket
+CLASS net/minecraft/class_414 net/minecraft/packet/play/EntitySpawnS2C
 	FIELD field_1664 x I
 	FIELD field_1665 y I
 	FIELD field_1666 z I

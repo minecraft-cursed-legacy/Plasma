@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_10 net/minecraft/server/network/PendingConnection
+	FIELD field_353 logger Ljava/util/logging/Logger;
+	FIELD field_354 playNetworkHandler Lnet/minecraft/class_117;
+	FIELD field_355 closed Z
+	FIELD field_356 random Ljava/util/Random;
+	FIELD field_357 minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD field_358 timePassed I
+	FIELD field_360 handshakePacket Lnet/minecraft/class_118;
+	METHOD method_414 completeOrTimeOut ()V
+	METHOD method_417 drop (Ljava/lang/String;)V
+	METHOD method_419 complete (Lnet/minecraft/class_118;)V

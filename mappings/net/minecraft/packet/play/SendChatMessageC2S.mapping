@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_340 net/minecraft/packet/play/SendChatMessageC2S
+	FIELD field_1270 message Ljava/lang/String;

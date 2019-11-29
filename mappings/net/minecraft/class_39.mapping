@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_39
+	METHOD method_1409 logInfo (Ljava/lang/String;)V

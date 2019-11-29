@@ -1,5 +1,8 @@
 CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
-	METHOD method_1469 (Lnet/minecraft/class_161;)V
+	METHOD method_1427 handleCloseContainer (Lnet/minecraft/class_276;)V
+		ARG 1 packet
+	METHOD method_1428 handleHandSwing (Lnet/minecraft/class_305;)V
+	METHOD method_1431 onChatMessage (Lnet/minecraft/class_340;)V
 		ARG 1 packet
 	METHOD method_1438 (Lnet/minecraft/class_435;)V
 		ARG 1 packet
@@ -8,14 +11,11 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1446 handleOpenScreen (Lnet/minecraft/class_201;)V
 		ARG 1 packet
-	METHOD method_1427 handleCloseContainer (Lnet/minecraft/class_276;)V
-		ARG 1 packet
-	METHOD method_1428 handleHandSwing (Lnet/minecraft/class_305;)V
-	METHOD method_1431 onChatMessage (Lnet/minecraft/class_340;)V
-		ARG 1 packet
 	METHOD method_1458 handleExplosion (Lnet/minecraft/class_382;)V
 		ARG 1 packet
 	METHOD method_1462 handleEntitySpawn (Lnet/minecraft/class_414;)V
 		ARG 1 packet
 	METHOD method_1467 handleUpdateRain (Lnet/minecraft/class_440;)V
+	METHOD method_1469 (Lnet/minecraft/class_161;)V
+		ARG 1 packet
 	METHOD method_1470 handle (Lnet/minecraft/class_169;)V

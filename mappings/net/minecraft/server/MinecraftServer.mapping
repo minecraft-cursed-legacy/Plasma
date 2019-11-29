@@ -1,0 +1,16 @@
+CLASS net/minecraft/server/MinecraftServer
+	CLASS class_643 ServerThread
+	CLASS class_645 ConsoleInputThread
+	CLASS class_646 MagicalTimingHelperThread
+	FIELD field_2837 logger Ljava/util/logging/Logger;
+	FIELD field_2839 pendingConnectionManager Lnet/minecraft/class_9;
+	FIELD field_2840 serverProperties Lnet/minecraft/class_391;
+	FIELD field_2848 onlineMode Z
+	FIELD field_2849 spawnAnimals Z
+	FIELD field_2850 allowPvp Z
+	FIELD field_2851 AllowFlight Z
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD method_2160 getFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD method_2166 start ()Z
+	METHOD method_2167 logWarning (Ljava/lang/String;)V

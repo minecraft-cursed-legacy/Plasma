@@ -74,7 +74,7 @@ def versionFile = new File(cacheFilesMinecraft, "${minecraft_version}.json")
 def clientJar = new File(cacheFilesMinecraft, "${minecraft_version}-client.jar")
 def serverJar = new File(cacheFilesMinecraft, "${minecraft_version}-server.jar")
 def libraries = new File(cacheFilesMinecraft, "${minecraft_version}-libraries")
-def libs = new File("build/libs/")
+def libs = new File(buildDir, "libs")
 
 import groovy.io.FileType
 import groovy.json.JsonSlurper
@@ -333,7 +333,7 @@ task buildEnigma(type: Zip) {
 	from mappingsDir
 	include "**/*"
 	archiveName "yarn-enigma-${yarnVersion}.zip"
-	destinationDir(file("build/libs"))
+	destinationDir(libs)
 }
 
 task checkMappings {
@@ -399,7 +399,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 task tinyJar(type: Jar, dependsOn: "mergeTiny") {
 	outputs.upToDateWhen { return false }
 	archiveName = "yarn-${yarnVersion}.jar"
-	destinationDir(file("build/libs"))
+	destinationDir(libs)
 	classifier = ""
 	from(mergeTiny.fileOutput) {
 		rename { "mappings/mappings.tiny" }
@@ -443,7 +443,7 @@ tasks.build.dependsOn "compressTiny"
 tasks.build.dependsOn "buildEnigma"
 tasks.build.dependsOn "tinyJar"
 
-task mapNamedJar(dependsOn: mergeJars) {
+task mapNamedJar(dependsOn: [mergeJars, mergeTiny]) {
 	inputs.files downloadMcLibs.outputs.files.files
 	outputs.file(namedJar)
 
@@ -455,8 +455,7 @@ task mapNamedJar(dependsOn: mergeJars) {
 	doLast {
 		logger.lifecycle(":mapping minecraft to named")
 
-		def tinyInput = new File("build/libs/yarn-tiny-${yarnVersion}.gz")
-		mapJar(namedJar, mergedJar, tinyInput, libraries, "intermediary", "named")
+		mapJar(namedJar, mergedJar, mergeTiny.fileOutput, libraries, "intermediary", "named")
 	}
 }
 

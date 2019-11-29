@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_36 net/minecraft/packet/UpdatePlayerHealthS2CPacket
-	FIELD field_158 health I

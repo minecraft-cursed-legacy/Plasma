@@ -8,7 +8,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_2848 onlineMode Z
 	FIELD field_2849 spawnAnimals Z
 	FIELD field_2850 allowPvp Z
-	FIELD field_2851 AllowFlight Z
+	FIELD field_2851 allowFlight Z
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_2160 getFile (Ljava/lang/String;)Ljava/io/File;

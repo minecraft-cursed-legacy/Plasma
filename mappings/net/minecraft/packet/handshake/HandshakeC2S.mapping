@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_118 net/minecraft/packet/handshake/HandshakeC2S
+	FIELD field_1209 protocolVersion I

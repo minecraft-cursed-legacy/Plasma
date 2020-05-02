@@ -1,7 +1,8 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	CLASS class_636
 		FIELD field_2825 minecraft Lnet/minecraft/client/Minecraft;
-	CLASS class_639 net/minecraft/client/LoginThread
+	CLASS class_638 MinecraftWindowAdapter
+	CLASS class_639 LoginThread
 		FIELD field_2829 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_2766 soundHelper Lnet/minecraft/class_617;
 	FIELD field_2774 running Z
@@ -34,6 +35,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_2824 options Lnet/minecraft/class_322;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 6 isFullscreen
+	METHOD method_2102 showGameStartupError (Lnet/minecraft/class_447;)V
 	METHOD method_2104 startLoginThread ()V
 	METHOD method_2106 init ()V
 	METHOD method_2108 updateScreenResolution (II)V
@@ -46,7 +48,6 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 playerName
 	METHOD method_2121 start (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 playerName
-	METHOD method_2102 showGameStartupError (Lnet/minecraft/class_447;)V
 	METHOD method_2123 getGameDirectory ()Ljava/io/File;
 	METHOD method_2126 onGameStartupFailure (Lnet/minecraft/class_447;)V
 	METHOD method_2128 printOpenGLError (Ljava/lang/String;)V

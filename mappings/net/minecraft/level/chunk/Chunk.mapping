@@ -6,3 +6,6 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 1 level
 		ARG 2 x
 		ARG 3 z
+	METHOD method_859 getTileId (III)I
+	METHOD method_861 setTileWithMetadata (IIIII)Z
+	METHOD method_874 getHeight (II)I

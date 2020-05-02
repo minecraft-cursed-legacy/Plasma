@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_251
+CLASS net/minecraft/class_251 net/minecraft/level/chunk/LevelChunkLoader
 	FIELD field_930 file Ljava/io/File;
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 file

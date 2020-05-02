@@ -1,14 +1,17 @@
 CLASS net/minecraft/class_14 net/minecraft/level/TileView
-	METHOD method_1781 getBiomeSource ()Lnet/minecraft/class_519;
 	METHOD method_1776 getTileId (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD method_1777 getTileEntity (III)Lnet/minecraft/class_55;
-	METHOD method_1782 getBrightness (III)F
 	METHOD method_1778 getTileMeta (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1779 getMaterial (III)Lnet/minecraft/class_15;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD method_1780 canSuffocate (III)Z
+	METHOD method_1781 getBiomeSource ()Lnet/minecraft/class_519;
+	METHOD method_1782 getBrightness (III)F

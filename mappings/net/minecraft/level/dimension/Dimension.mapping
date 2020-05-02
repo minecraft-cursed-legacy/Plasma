@@ -1,9 +1,10 @@
 CLASS net/minecraft/class_50 net/minecraft/level/dimension/Dimension
 	FIELD field_2173 level Lnet/minecraft/class_18;
+	FIELD field_2174 biomeSource Lnet/minecraft/class_519;
+	METHOD method_1763 renderAsSkylands ()Z
+	METHOD method_1766 canPlayerSleep ()Z
 	METHOD method_1767 getByID (I)Lnet/minecraft/class_50;
 		ARG 0 id
 	METHOD method_1768 (Lnet/minecraft/class_18;)V
 		ARG 1 level
 	METHOD method_1772 createLevelSource ()Lnet/minecraft/class_51;
-	METHOD method_1763 renderAsSkylands ()Z
-	METHOD method_1766 canPlayerSleep ()Z

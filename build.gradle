@@ -31,8 +31,8 @@ plugins {
 def minecraft_version = "b1.7.3"
 
 def ENV = System.getenv()
-// Fetch build number from Jenkins
-def build_number = ENV.BUILD_NUMBER ?: "local"
+//def build_number = ENV.BUILD_NUMBER ?: "local"
+def build_number = 4
 
 def yarnVersion = "${minecraft_version}+build.$build_number"
 
@@ -398,7 +398,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 
 task tinyJar(type: Jar, dependsOn: "mergeTiny") {
 	outputs.upToDateWhen { return false }
-	archiveName = "yarn-${yarnVersion}.jar"
+	archiveName = "mcpomf-${yarnVersion}.jar"
 	destinationDir(libs)
 	classifier = ""
 	from(mergeTiny.fileOutput) {

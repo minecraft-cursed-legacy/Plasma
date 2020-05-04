@@ -3,7 +3,7 @@ CLASS net/minecraft/class_617 net/minecraft/client/sound/SoundHelper
 	FIELD field_2672 gameOptions Lnet/minecraft/class_322;
 	FIELD field_2674 rand Ljava/util/Random;
 	METHOD method_2009 playSound (Ljava/lang/String;FF)V
-	METHOD method_2012 (Lnet/minecraft/class_322;)V
+	METHOD method_2012 acceptOptions (Lnet/minecraft/class_322;)V
 		ARG 1 gameOptions
 	METHOD method_2013 setSoundPosition (Lnet/minecraft/class_127;F)V
 		ARG 1 entity

@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	CLASS class_636
+	CLASS class_636 TimerHackThread
 		FIELD field_2825 minecraft Lnet/minecraft/client/Minecraft;
 	CLASS class_638 MinecraftWindowAdapter
 	CLASS class_639 LoginThread
@@ -10,10 +10,14 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_2780 lastTickTime J
 	FIELD field_2781 isFullscreen Z
 	FIELD field_2783 occlusionQueryTester Lnet/minecraft/class_22;
+	FIELD field_2784 tickTimer Lnet/minecraft/class_559;
+	FIELD field_2785 resourceDownloadThread Lnet/minecraft/class_28;
 	FIELD field_2787 attackCooldown I
 	FIELD field_2790 gameDir Ljava/io/File;
 	FIELD field_2791 instance Lnet/minecraft/client/Minecraft;
 	FIELD field_2792 levelStorage Lnet/minecraft/class_182;
+	FIELD field_2795 waterTextureBinder Lnet/minecraft/class_593;
+	FIELD field_2796 lavaTextureBinder Lnet/minecraft/class_628;
 	FIELD field_2797 gameDirectory Ljava/io/File;
 	FIELD field_2801 interactionManager Lnet/minecraft/class_504;
 	FIELD field_2802 actualWidth I
@@ -28,12 +32,16 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_2814 textureManager Lnet/minecraft/class_76;
 	FIELD field_2815 textRenderer Lnet/minecraft/class_34;
 	FIELD field_2816 currentScreen Lnet/minecraft/class_32;
+	FIELD field_2817 progressListener Lnet/minecraft/class_452;
 	FIELD field_2818 gameRenderer Lnet/minecraft/class_555;
 	FIELD field_2820 overlay Lnet/minecraft/class_588;
 	FIELD field_2821 skipGameRender Z
 	FIELD field_2823 hitResult Lnet/minecraft/class_27;
 	FIELD field_2824 options Lnet/minecraft/class_322;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 3 applet
+		ARG 4 actualWidth
+		ARG 5 actualHeight
 		ARG 6 isFullscreen
 	METHOD method_2102 showGameStartupError (Lnet/minecraft/class_447;)V
 	METHOD method_2104 startLoginThread ()V

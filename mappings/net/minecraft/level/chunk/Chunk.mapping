@@ -1,11 +1,33 @@
 CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
+	FIELD field_954 tiles [B
 	FIELD field_956 level Lnet/minecraft/class_18;
+	FIELD field_960 heightmap [B
 	FIELD field_962 x I
 	FIELD field_963 z I
+	FIELD field_965 entities [Ljava/util/List;
 	METHOD <init> (Lfd;II)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 z
 	METHOD method_859 getTileId (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_861 setTileWithMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_862 placeTileEntity (IIILnet/minecraft/class_55;)V
+	METHOD method_868 addEntity (Lnet/minecraft/class_57;)V
+	METHOD method_869 removeEntity (Lnet/minecraft/class_57;I)V
 	METHOD method_874 getHeight (II)I
+	METHOD method_877 removeEntity (Lnet/minecraft/class_57;)V
+		ARG 1 entity
+	METHOD method_879 isAboveGround (III)Z
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+	METHOD method_888 (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_565 net/minecraft/client/gui/screen/DeleteConfirmationScreen
+	FIELD field_2394 parent Lnet/minecraft/class_32;

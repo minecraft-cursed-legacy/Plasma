@@ -1,6 +1,9 @@
 CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_180 isClient Z
 	FIELD field_187 time J
+	FIELD field_188 noPlayers Z
+	FIELD field_198 entities Ljava/util/List;
+	FIELD field_199 tileEntities Ljava/util/List;
 	FIELD field_200 players Ljava/util/List;
 	FIELD field_204 unusedIncrement I
 	FIELD field_205 prevRainGradient F
@@ -11,6 +14,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_214 rand Ljava/util/Random;
 	FIELD field_216 dimension Lnet/minecraft/class_50;
 	FIELD field_218 cache Lnet/minecraft/class_51;
+	FIELD field_219 dimensionData Lnet/minecraft/class_52;
 	FIELD field_220 properties Lnet/minecraft/class_7;
 	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_50;)V
 		ARG 1 level
@@ -34,6 +38,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 4 z
 		ARG 6 meta
 	METHOD method_157 setTileEntity (IIILnet/minecraft/class_55;)V
+	METHOD method_158 placeTile (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_159 setLevelTime (J)V
 	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
@@ -69,11 +77,15 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 z
 	METHOD method_215 setTileMeta (IIII)V
 	METHOD method_220 isDaylight ()Z
+	METHOD method_221 getRainGradient (F)F
+		ARG 1 tickProgress
 	METHOD method_222 getHeight (II)I
 		ARG 1 x
 		ARG 2 z
 	METHOD method_229 setTile (IIII)Z
 	METHOD method_230 playLevelEvent (IIIII)V
+	METHOD method_231 removeEntity (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_234 isAir (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -82,22 +94,33 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 chunkX
 		ARG 2 chunkY
 	METHOD method_239 isTileLoaded (III)Z
+	METHOD method_249 isAboveGroundCached (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_254 getSeed ()J
 	METHOD method_255 getLightLevel (III)I
 	METHOD method_256 getLevelTime ()J
+	METHOD method_257 isAboveGround (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_258 getSpawnPosition ()Lnet/minecraft/class_63;
 	METHOD method_260 removeTileEntity (III)V
 	METHOD method_262 getProperties ()Lnet/minecraft/class_7;
+	METHOD method_264 onPlayerDisconnect ()V
 	METHOD method_266 wakeUpSleepingPlayers ()V
 	METHOD method_267 canRainAt (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD method_268 canSkipNight ()Z
+	METHOD method_270 raining ()Z
 	METHOD method_272 initWeatherGradients ()V
 	METHOD method_273 resetWeather ()V
 	METHOD method_276 setSpawnPosition (Lnet/minecraft/class_63;)V
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
 	METHOD method_289 setRainGradient (F)V
+		ARG 1 gradient
 	METHOD method_293 disconnect ()V

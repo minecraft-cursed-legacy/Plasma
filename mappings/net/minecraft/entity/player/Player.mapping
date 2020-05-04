@@ -1,4 +1,6 @@
 CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
+	FIELD field_506 playerCloakUrl Ljava/lang/String;
+	FIELD field_508 bedPosition Lnet/minecraft/class_63;
 	FIELD field_514 fishHook Lnet/minecraft/class_135;
 	FIELD field_515 sleepTimer I
 	FIELD field_516 spawnPos Lnet/minecraft/class_63;
@@ -11,30 +13,29 @@ CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
 	FIELD field_528 name Ljava/lang/String;
 	FIELD field_529 dimensionId I
 	FIELD field_536 sleeping Z
-	FIELD field_508 bedPosition Lnet/minecraft/class_63;
-	METHOD method_501 dropSelectedItem ()V
-	METHOD method_499 updateEyeHeight ()V
-	METHOD method_502 getHeldItem ()Lnet/minecraft/class_31;
-	METHOD method_500 swingHand ()V
-	METHOD method_504 hasSleptEnough ()Z
 	METHOD method_483 getSleepTimer ()I
-	METHOD method_505 getSpawnPosition ()Lnet/minecraft/class_63;
 	METHOD method_484 openCraftingScreen (III)V
 	METHOD method_485 openDispenserScreen (Lnet/minecraft/class_137;)V
-	METHOD method_506 setPlayerSpawn (Lnet/minecraft/class_63;)V
-	METHOD method_508 spawnItem (Lnet/minecraft/class_142;)V
-	METHOD method_513 dropItem (Lnet/minecraft/class_31;)V
-	METHOD method_509 dropItem (Lnet/minecraft/class_31;Z)V
 	METHOD method_486 openChestScreen (Lnet/minecraft/class_134;)V
 	METHOD method_487 openFurnaceScreen (Lnet/minecraft/class_138;)V
-	METHOD method_512 incrementStat (Lnet/minecraft/class_139;)V
 	METHOD method_488 increaseStat (Lnet/minecraft/class_139;I)V
 	METHOD method_489 openSignScreen (Lnet/minecraft/class_140;)V
-	METHOD method_497 wakeUp (ZZZ)V
-	METHOD method_521 isBedPosValid ()Z
-	METHOD method_495 trySleep (III)Lnet/minecraft/class_141;
-	METHOD method_496 updateCursorItem (Lnet/minecraft/class_31;)V
-	METHOD method_515 interactWith (Lnet/minecraft/class_57;)V
-	METHOD method_516 attack (Lnet/minecraft/class_57;)V
 	METHOD method_492 respawn ()V
 	METHOD method_493 closeContainer ()V
+	METHOD method_495 trySleep (III)Lnet/minecraft/class_141;
+	METHOD method_496 updateCursorItem (Lnet/minecraft/class_31;)V
+	METHOD method_497 wakeUp (ZZZ)V
+	METHOD method_499 updateEyeHeight ()V
+	METHOD method_500 swingHand ()V
+	METHOD method_501 dropSelectedItem ()V
+	METHOD method_502 getHeldItem ()Lnet/minecraft/class_31;
+	METHOD method_504 hasSleptEnough ()Z
+	METHOD method_505 getSpawnPosition ()Lnet/minecraft/class_63;
+	METHOD method_506 setPlayerSpawn (Lnet/minecraft/class_63;)V
+	METHOD method_508 spawnItem (Lnet/minecraft/class_142;)V
+	METHOD method_509 dropItem (Lnet/minecraft/class_31;Z)V
+	METHOD method_512 incrementStat (Lnet/minecraft/class_139;)V
+	METHOD method_513 dropItem (Lnet/minecraft/class_31;)V
+	METHOD method_515 interactWith (Lnet/minecraft/class_57;)V
+	METHOD method_516 attack (Lnet/minecraft/class_57;)V
+	METHOD method_521 isBedPosValid ()Z

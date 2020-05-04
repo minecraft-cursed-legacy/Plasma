@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_40 net/minecraft/client/player/BaseClientPlayer
+CLASS net/minecraft/class_40 net/minecraft/entity/player/AbstractClientPlayer
 	FIELD field_162 minecraft Lnet/minecraft/client/Minecraft;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lfd;Lgr;I)V
 		ARG 1 minecraft

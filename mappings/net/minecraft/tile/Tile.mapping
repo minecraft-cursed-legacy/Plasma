@@ -25,6 +25,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1844 WEB Lnet/minecraft/class_17;
 	FIELD field_1845 TALLGRASS Lnet/minecraft/class_392;
 	FIELD field_1846 DEADBUSH Lnet/minecraft/class_204;
+	FIELD field_1847 name Ljava/lang/String;
 	FIELD field_1848 CROPS Lnet/minecraft/class_17;
 	FIELD field_1849 FARMLAND Lnet/minecraft/class_17;
 	FIELD field_1850 FURNACE Lnet/minecraft/class_17;
@@ -37,7 +38,6 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1857 WALL_SIGN Lnet/minecraft/class_17;
 	FIELD field_1858 LEVER Lnet/minecraft/class_17;
 	FIELD field_1859 WOODEN_PRESSURE_PLATE Lnet/minecraft/class_17;
-	FIELD field_1847 name Ljava/lang/String;
 	FIELD field_1860 DOOR_IRON Lnet/minecraft/class_17;
 	FIELD field_1861 STONE_PRESSURE_PLATE Lnet/minecraft/class_17;
 	FIELD field_1862 REDSTONE_ORE Lnet/minecraft/class_17;
@@ -93,6 +93,8 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1913 TRAPDOOR Lnet/minecraft/class_17;
 	FIELD field_1914 texUVStart I
 	FIELD field_1915 id I
+	FIELD field_1916 hardness F
+	FIELD field_1917 resistance F
 	FIELD field_1926 sounds Lnet/minecraft/class_475;
 	FIELD field_1928 STONE_SOUNDS Lnet/minecraft/class_475;
 	FIELD field_1929 WOOD_SOUNDS Lnet/minecraft/class_475;
@@ -120,60 +122,66 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	METHOD <init> (ILln;)V
 		ARG 1 id
 		ARG 2 material
-	METHOD method_1578 setBoundingBox (FFFFFF)V
-	METHOD method_1601 getDropId (ILjava/util/Random;)I
-		ARG 1 meta
-		ARG 2 random
-	METHOD method_1580 sounds (Lnet/minecraft/class_475;)Lnet/minecraft/class_17;
-		ARG 1 sounds
-	METHOD method_1567 canPlaceAt (Lnet/minecraft/class_18;III)Z
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD <init> (ILnet/minecraft/class_15;)V
+		ARG 1 id
 	METHOD method_1561 canPlaceAt (Lnet/minecraft/class_18;IIII)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
-	METHOD method_1625 beforeDestroyedByExplosion (Lnet/minecraft/class_18;IIIIF)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 meta
-		ARG 6 dropChance
 	METHOD method_1563 onTileAction (Lnet/minecraft/class_18;IIIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 blockMeta
+	METHOD method_1565 getTickrate ()I
+	METHOD method_1567 canPlaceAt (Lnet/minecraft/class_18;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1569 emitsRedstonePower ()Z
+	METHOD method_1574 getPistonPushMode ()I
+	METHOD method_1578 setBoundingBox (FFFFFF)V
+	METHOD method_1580 sounds (Lnet/minecraft/class_475;)Lnet/minecraft/class_17;
+		ARG 1 sounds
+	METHOD method_1581 (Lnet/minecraft/class_18;IIILnet/minecraft/class_31;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1583 setName (Ljava/lang/String;)Lnet/minecraft/class_17;
+	METHOD method_1585 setBlastResistance (F)Lnet/minecraft/class_17;
+	METHOD method_1587 setHardness (F)Lnet/minecraft/class_17;
+	METHOD method_1592 drop (Lnet/minecraft/class_18;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD method_1594 setUnbreakable ()Lnet/minecraft/class_17;
+	METHOD method_1596 getName ()Ljava/lang/String;
+	METHOD method_1601 getDropId (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD method_1602 onScheduledTick (Lnet/minecraft/class_18;IIILjava/util/Random;)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1603 getDropCount (Ljava/util/Random;)I
+	METHOD method_1606 onPlaced (Lnet/minecraft/class_18;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 facing
 	METHOD method_1608 (Lnet/minecraft/class_18;IIILnet/minecraft/class_54;)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 player
-	METHOD method_1581 (Lnet/minecraft/class_18;IIILnet/minecraft/class_31;)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_1602 onScheduledTick (Lnet/minecraft/class_18;IIILjava/util/Random;)V
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_1614 afterPlaced (Lnet/minecraft/class_18;IIILnet/minecraft/class_127;)V
-	METHOD method_1615 onEntityCollision (Lnet/minecraft/class_18;IIILnet/minecraft/class_57;)V
-	METHOD method_1628 afterBreak (Lnet/minecraft/class_18;Lnet/minecraft/class_54;IIII)V
-	METHOD method_1583 setName (Ljava/lang/String;)Lnet/minecraft/class_17;
-	METHOD method_1603 getDropCount (Ljava/util/Random;)I
-	METHOD method_1630 onTileRemoved (Lnet/minecraft/class_18;III)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
 	METHOD method_1609 (Lnet/minecraft/class_18;IIII)V
 		ARG 1 level
 		ARG 2 x
@@ -184,38 +192,37 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_1617 randomDisplayTick (Lnet/minecraft/class_18;IIILjava/util/Random;)V
-	METHOD method_1620 isFullOpaque ()Z
 	METHOD method_1611 (Lnet/minecraft/class_18;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_1623 isFullCube ()Z
 	METHOD method_1613 onDestroyedByExplosion (Lnet/minecraft/class_18;III)V
-	METHOD method_1565 getTickrate ()I
-	METHOD method_1624 getCollisionShape (Lnet/minecraft/class_18;III)Lnet/minecraft/class_25;
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD method_1606 onPlaced (Lnet/minecraft/class_18;IIII)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 facing
-	METHOD method_1569 emitsRedstonePower ()Z
+	METHOD method_1614 afterPlaced (Lnet/minecraft/class_18;IIILnet/minecraft/class_127;)V
+	METHOD method_1615 onEntityCollision (Lnet/minecraft/class_18;IIILnet/minecraft/class_57;)V
+	METHOD method_1617 randomDisplayTick (Lnet/minecraft/class_18;IIILjava/util/Random;)V
+	METHOD method_1620 isFullOpaque ()Z
 	METHOD method_1622 getOutlineShape (Lnet/minecraft/class_18;III)Lnet/minecraft/class_25;
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_1592 drop (Lnet/minecraft/class_18;IIII)V
+	METHOD method_1623 isFullCube ()Z
+	METHOD method_1624 getCollisionShape (Lnet/minecraft/class_18;III)Lnet/minecraft/class_25;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1625 beforeDestroyedByExplosion (Lnet/minecraft/class_18;IIIIF)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
-	METHOD method_1574 getPistonPushMode ()I
-	METHOD method_1596 getName ()Ljava/lang/String;
+		ARG 6 dropChance
+	METHOD method_1628 afterBreak (Lnet/minecraft/class_18;Lnet/minecraft/class_54;IIII)V
+	METHOD method_1630 onTileRemoved (Lnet/minecraft/class_18;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

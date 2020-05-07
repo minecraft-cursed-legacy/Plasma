@@ -10,6 +10,7 @@ CLASS net/minecraft/client/MinecraftApplet
 		FIELD field_2835 applet Lnet/minecraft/client/MinecraftApplet;
 		METHOD <init> (Lnet/minecraft/client/MinecraftApplet;)V
 			ARG 1 applet
+	FIELD field_2831 appletCanvas Ljava/awt/Canvas;
 	FIELD field_2832 minecraft Lnet/minecraft/client/Minecraft;
 	METHOD method_2153 onAddNotify ()V
 	METHOD method_2154 onRemoveNotify ()V

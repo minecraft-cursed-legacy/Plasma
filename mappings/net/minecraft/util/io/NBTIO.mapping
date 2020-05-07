@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_83 net/minecraft/util/io/NBTIO
+	METHOD method_335 writeTag (Lnet/minecraft/class_8;Ljava/io/DataOutput;)V
+	METHOD method_336 writeGzipped (Lnet/minecraft/class_8;Ljava/io/OutputStream;)V
+	METHOD method_337 readTag (Ljava/io/DataInput;)Lnet/minecraft/class_8;
+	METHOD method_338 readGzipped (Ljava/io/InputStream;)Lnet/minecraft/class_8;

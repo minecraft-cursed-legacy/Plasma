@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_303 net/minecraft/client/TexturePackManager
+	FIELD field_1175 texturePack Lnet/minecraft/class_285;
+	FIELD field_1176 packs Ljava/util/List;
+	FIELD field_1177 defaultPack Lnet/minecraft/class_285;
+	FIELD field_1179 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_1180 texturepacksFolder Ljava/io/File;
+	FIELD field_1181 currentPackName Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 2 file
+	METHOD method_998 findTexturePacks ()V
+	METHOD method_999 applyTexturePack (Lnet/minecraft/class_285;)Z
+		ARG 1 pack

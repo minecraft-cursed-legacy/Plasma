@@ -3,5 +3,8 @@ CLASS net/minecraft/class_81 net/minecraft/level/dimension/DimensionFile
 	FIELD field_279 parentFolder Ljava/io/File;
 	FIELD field_280 playersFolder Ljava/io/File;
 	FIELD field_281 dataFolder Ljava/io/File;
+	FIELD field_282 lastUpdate J
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
 		ARG 1 file
+		ARG 2 worldName
+	METHOD method_332 getParentFolder ()Ljava/io/File;

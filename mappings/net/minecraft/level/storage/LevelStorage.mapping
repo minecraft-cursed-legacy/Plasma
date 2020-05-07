@@ -1,5 +1,8 @@
 CLASS net/minecraft/class_182 net/minecraft/level/storage/LevelStorage
 	METHOD method_1001 getLevelFormat ()Ljava/lang/String;
+	METHOD method_1002 getMetadata ()Ljava/util/List;
+	METHOD method_1004 getLevelData (Ljava/lang/String;)Lnet/minecraft/class_7;
 	METHOD method_1005 (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 2 levelName
-	METHOD method_1004 getLevelData (Ljava/lang/String;)Lnet/minecraft/class_7;
+	METHOD method_1007 isOld (Ljava/lang/String;)Z
+	METHOD method_1009 createDimensionFile (Ljava/lang/String;Z)Lnet/minecraft/class_52;

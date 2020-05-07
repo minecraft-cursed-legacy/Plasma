@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_504
+CLASS net/minecraft/class_504 net/minecraft/client/ClientInteractionManager
 	FIELD field_2104 minecraft Lnet/minecraft/client/Minecraft;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft

@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_592 net/minecraft/client/resource/ZippedTexturePack
+	FIELD field_2562 zipFile Ljava/util/zip/ZipFile;
+	FIELD field_2564 icon Ljava/awt/image/BufferedImage;
+	FIELD field_2565 file Ljava/io/File;

@@ -398,7 +398,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 
 task tinyJar(type: Jar, dependsOn: "mergeTiny") {
 	outputs.upToDateWhen { return false }
-	archiveName = "mcpomf-${yarnVersion}.jar"
+	archiveName = "plasma-${yarnVersion}.jar"
 	destinationDir(libs)
 	classifier = ""
 	from(mergeTiny.fileOutput) {

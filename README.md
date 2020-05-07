@@ -1,6 +1,6 @@
-# MCPmf :: Minecraft Cursed POMF (privately (but actually publicly) offered mapping files)
+# Plasma (originally Minecraft Cursed POMF)
 
-Minecraft Cursed POMF is a set of client mappings for legacy minecraft versions.
+Plasma is a set of mappings for legacy minecraft versions.
 
 The gradle used for this is mostly still based of yarn's, so improvements to the gradle tasks are welcome.
 

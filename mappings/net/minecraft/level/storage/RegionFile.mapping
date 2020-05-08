@@ -1,0 +1,67 @@
+CLASS net/minecraft/class_353 net/minecraft/level/storage/RegionFile
+	CLASS class_354 ChunkBuffer
+		FIELD field_1324 x I
+		FIELD field_1325 z I
+		METHOD <init> (Lnet/minecraft/class_353;II)V
+			ARG 2 x
+			ARG 3 z
+	FIELD field_1315 emptySector [B
+	FIELD field_1316 fileName Ljava/io/File;
+	FIELD field_1317 file Ljava/io/RandomAccessFile;
+	FIELD field_1318 offsets [I
+	FIELD field_1319 timestamps [I
+	FIELD field_1320 sectorFree Ljava/util/ArrayList;
+	FIELD field_1321 sizeDelta I
+	FIELD field_1322 lastModified J
+	METHOD method_1158 getSizeDelta ()I
+	METHOD method_1159 getChunkDataInputStream (II)Ljava/io/DataInputStream;
+		ARG 1 x
+		ARG 2 z
+	METHOD method_1160 setOffset (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 offset
+	METHOD method_1161 write (II[BI)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 data
+		ARG 4 length
+	METHOD method_1162 write (I[BI)V
+		ARG 1 sector
+		ARG 2 data
+		ARG 3 length
+	METHOD method_1163 debug (Ljava/lang/String;)V
+		ARG 1 in
+	METHOD method_1164 debug (Ljava/lang/String;IIILjava/lang/String;)V
+		ARG 1 mode
+		ARG 2 x
+		ARG 3 z
+		ARG 4 count
+		ARG 5 in
+	METHOD method_1165 debug (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 1 mode
+		ARG 2 x
+		ARG 3 z
+		ARG 4 in
+	METHOD method_1166 close ()V
+	METHOD method_1167 getChunkDataOutputStream (II)Ljava/io/DataOutputStream;
+		ARG 1 x
+		ARG 2 z
+	METHOD method_1168 writeTimestamp (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 timestamp
+	METHOD method_1169 debugln (Ljava/lang/String;)V
+		ARG 1 in
+	METHOD method_1170 debugln (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 1 mode
+		ARG 2 x
+		ARG 3 z
+		ARG 4 in
+	METHOD method_1171 offsetHasData (II)Z
+	METHOD method_1172 outOfBounds (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD method_1173 getOffset (II)I
+		ARG 1 x
+		ARG 2 z

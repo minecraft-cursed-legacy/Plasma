@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_634 net/minecraft/level/storage/OldRegionComparable
+	FIELD field_2754 file Ljava/io/File;
+	FIELD field_2755 x I
+	FIELD field_2756 z I
+	METHOD method_2095 getFile ()Ljava/io/File;
+	METHOD method_2097 getX ()I
+	METHOD method_2098 getZ ()I

@@ -1,3 +1,14 @@
 CLASS net/minecraft/class_157 net/minecraft/level/storage/McRegionLevelStorage
-	METHOD method_536 (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
-		ARG 1 file
+	METHOD method_535 convertChunks (Ljava/io/File;Ljava/util/ArrayList;IILnet/minecraft/class_62;)V
+		ARG 1 levelDir
+		ARG 2 comparableList
+		ARG 3 startCount
+		ARG 4 endCount
+	METHOD method_536 scanLevelDir (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+		ARG 1 levelDir
+		ARG 2 comparableList
+		ARG 3 fileList
+	METHOD method_537 deleteOldFiles (Ljava/util/ArrayList;IILnet/minecraft/class_62;)V
+		ARG 1 fileList
+		ARG 2 startCount
+		ARG 3 endCount

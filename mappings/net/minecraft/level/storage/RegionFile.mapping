@@ -27,6 +27,9 @@ CLASS net/minecraft/class_353 net/minecraft/level/storage/RegionFile
 		ARG 3 data
 		ARG 4 length
 	METHOD method_1162 write (I[BI)V
+		ARG 1 sector
+		ARG 2 data
+		ARG 3 length
 	METHOD method_1163 debug (Ljava/lang/String;)V
 		ARG 1 in
 	METHOD method_1164 debug (Ljava/lang/String;IIILjava/lang/String;)V
@@ -55,7 +58,10 @@ CLASS net/minecraft/class_353 net/minecraft/level/storage/RegionFile
 		ARG 2 x
 		ARG 3 z
 		ARG 4 in
+	METHOD method_1171 offsetHasData (II)Z
 	METHOD method_1172 outOfBounds (II)Z
+		ARG 1 x
+		ARG 2 z
 	METHOD method_1173 getOffset (II)I
 		ARG 1 x
 		ARG 2 z

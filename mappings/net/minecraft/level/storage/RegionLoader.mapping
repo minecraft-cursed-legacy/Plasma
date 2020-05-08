@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_379 net/minecraft/level/storage/RegionLoader
+	FIELD field_1429 regionCache Ljava/util/Map;
+	METHOD method_1212 clearCache ()V
+	METHOD method_1213 getRegion (Ljava/io/File;II)Lnet/minecraft/class_353;
+		ARG 0 levelDir
+		ARG 1 x
+		ARG 2 z

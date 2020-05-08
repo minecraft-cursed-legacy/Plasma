@@ -5,4 +5,6 @@ CLASS net/minecraft/class_182 net/minecraft/level/storage/LevelStorage
 	METHOD method_1005 (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 2 levelName
 	METHOD method_1007 isOld (Ljava/lang/String;)Z
+	METHOD method_1008 convertLevel (Ljava/lang/String;Lnet/minecraft/class_62;)Z
+		ARG 1 levelDir
 	METHOD method_1009 createDimensionFile (Ljava/lang/String;Z)Lnet/minecraft/class_52;

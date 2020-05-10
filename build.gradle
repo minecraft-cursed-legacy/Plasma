@@ -17,7 +17,7 @@ buildscript {
 		classpath 'de.undercouch:gradle-download-task:3.4.3'
 		classpath "cuchaz:enigma:0.14.2.134"
 		classpath 'net.fabricmc:tiny-remapper:0.1.0.40' // TODO anything above this fails, bandaid fix.
-		classpath 'com.github.Chocohead:Stitch:fc82ff6'
+		classpath 'com.github.Chocohead:Stitch:f955c99'
 		classpath 'com.github.Chocohead:tiny-mappings-parser:337c8b6'
 	}
 }
@@ -60,7 +60,7 @@ configurations {
 
 dependencies {
 	enigmaRuntime "cuchaz:enigma:0.14.2.134"
-	enigmaRuntime 'com.github.Chocohead:Stitch:fc82ff6'
+	enigmaRuntime 'com.github.Chocohead:Stitch:f955c99'
 }
 
 def mappingsDir = file("mappings")
@@ -89,6 +89,7 @@ import com.google.common.io.Files
 import cuchaz.enigma.command.CheckMappingsCommand
 import cuchaz.enigma.command.ConvertMappingsCommand
 
+import net.fabricmc.stitch.commands.CommandCorrectMappingUnions
 import net.fabricmc.stitch.commands.CommandFixNesting
 import net.fabricmc.stitch.commands.CommandMergeTiny
 import net.fabricmc.stitch.commands.CommandRewriteIntermediary
@@ -393,6 +394,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 		]
 
 		new CommandMergeTiny().run(args)
+		CommandCorrectMappingUnions.run(outputFile, "intermediary", "named")
 	}
 }
 

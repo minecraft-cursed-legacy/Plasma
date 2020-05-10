@@ -394,7 +394,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 		]
 
 		new CommandMergeTiny().run(args)
-		CommandCorrectMappingUnions.run(outputFile, "intermediary", "named")
+		CommandCorrectMappingUnions.run(outputFile.toPath(), "intermediary", "named")
 	}
 }
 

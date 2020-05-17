@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_39 net/minecraft/server/command/CommandSource
+	METHOD method_1409 sendFeedback (Ljava/lang/String;)V
+		ARG 1 feedback
+	METHOD method_1410 getName ()Ljava/lang/String;

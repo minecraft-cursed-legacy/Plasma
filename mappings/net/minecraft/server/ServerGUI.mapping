@@ -1,1 +1,7 @@
 CLASS net/minecraft/class_481 net/minecraft/server/ServerGUI
+	FIELD field_1977 LOGGER Ljava/util/logging/Logger;
+	FIELD field_1978 server Lnet/minecraft/server/MinecraftServer;
+	METHOD method_1650 createStatsPane ()Ljavax/swing/JComponent;
+	METHOD method_1651 createServerGUI (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD method_1653 createPlayersPane ()Ljavax/swing/JComponent;
+	METHOD method_1654 createLogAndChatPane ()Ljavax/swing/JComponent;

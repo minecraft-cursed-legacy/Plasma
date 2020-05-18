@@ -186,15 +186,15 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	METHOD method_1596 getName ()Ljava/lang/String;
 	METHOD method_1601 getDropId (ILjava/util/Random;)I
 		ARG 1 meta
-		ARG 2 random
+		ARG 2 rand
 	METHOD method_1602 onScheduledTick (Lnet/minecraft/class_18;IIILjava/util/Random;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 random
+		ARG 5 rand
 	METHOD method_1603 getDropCount (Ljava/util/Random;)I
-		ARG 1 random
+		ARG 1 rand
 	METHOD method_1606 onPlaced (Lnet/minecraft/class_18;IIII)V
 		ARG 1 level
 		ARG 2 x
@@ -238,7 +238,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 random
+		ARG 5 rand
 	METHOD method_1620 isFullOpaque ()Z
 	METHOD method_1622 getOutlineShape (Lnet/minecraft/class_18;III)Lnet/minecraft/class_25;
 		ARG 1 level

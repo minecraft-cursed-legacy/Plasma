@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_331 net/minecraft/client/render/entity/TileEntityRenderDispatcher
-	FIELD field_1552 INSTNACE Lnet/minecraft/class_331;
+	FIELD field_1552 INSTANCE Lnet/minecraft/class_331;
 	FIELD field_1553 renderOffsetX D
 	FIELD field_1554 renderOffsetY D
 	FIELD field_1555 renderOffsetZ D

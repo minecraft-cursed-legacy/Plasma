@@ -1,4 +1,10 @@
-CLASS net/minecraft/class_245 net/minecraft/client/render/entity/EntityRenderer
-	FIELD field_910 model Lnet/minecraft/class_173;
-	METHOD method_815 setModel (Lnet/minecraft/class_173;)V
-	METHOD method_825 render (Lnet/minecraft/class_127;IF)Z
+CLASS net/minecraft/class_579 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_2677 dispatcher Lnet/minecraft/class_578;
+	METHOD method_2022 render (Lnet/minecraft/class_57;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD method_2026 bindTexture (Ljava/lang/String;)V
+	METHOD method_2029 setDispatcher (Lnet/minecraft/class_578;)V
+		ARG 1 dispatcher

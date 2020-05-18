@@ -2,6 +2,7 @@ CLASS net/minecraft/class_471 net/minecraft/client/render/WorldRenderer
 	FIELD field_1805 level Lnet/minecraft/class_18;
 	FIELD field_1806 textureManager Lnet/minecraft/class_76;
 	FIELD field_1814 client Lnet/minecraft/client/Minecraft;
+	FIELD field_1815 tileRenderer Lnet/minecraft/class_13;
 	METHOD method_1539 renderSky (F)V
 	METHOD method_1551 getDebugFirstLine ()Ljava/lang/String;
 	METHOD method_1555 getDebugSecondLine ()Ljava/lang/String;

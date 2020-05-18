@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_92 net/minecraft/client/render/ItemRenderer
+CLASS net/minecraft/class_92 net/minecraft/client/render/entity/ItemRenderer
 	FIELD field_1709 rand Ljava/util/Random;
 	METHOD method_1488 (Lnet/minecraft/class_34;Lnet/minecraft/class_76;Lnet/minecraft/class_31;II)V
 		ARG 3 item

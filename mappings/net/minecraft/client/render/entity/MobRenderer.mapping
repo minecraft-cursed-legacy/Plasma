@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_245 net/minecraft/client/render/entity/MobRenderer
+	FIELD field_910 model Lnet/minecraft/class_173;
+	METHOD method_815 setModel (Lnet/minecraft/class_173;)V
+	METHOD method_825 render (Lnet/minecraft/class_127;IF)Z

@@ -76,6 +76,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 z
 	METHOD method_215 setTileMeta (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
 	METHOD method_220 isDaylight ()Z
 	METHOD method_221 getRainGradient (F)F
 		ARG 1 tickProgress
@@ -109,6 +113,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_260 removeTileEntity (III)V
 	METHOD method_262 getProperties ()Lnet/minecraft/class_7;
 	METHOD method_264 onPlayerDisconnect ()V
+	METHOD method_265 hasRedstonePower (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_266 wakeUpSleepingPlayers ()V
 	METHOD method_267 canRainAt (III)Z
 		ARG 1 x

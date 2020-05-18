@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_106 net/minecraft/client/render/PaintingRenderer
-	FIELD field_332 rand Ljava/util/Random;

@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_330 net/minecraft/client/render/entity/tile/TileEntityRenderer
 	FIELD field_1235 renderDispatcher Lnet/minecraft/class_331;
+	METHOD method_1065 setRenderDispatcher (Lnet/minecraft/class_331;)V
+		ARG 1 renderDispatcher
 	METHOD method_1066 render (Lnet/minecraft/class_55;DDDF)V
 		ARG 1 entity
 		ARG 2 x

@@ -16,7 +16,7 @@ CLASS net/minecraft/class_584 net/minecraft/client/gui/DrawableHelper
 		ARG 5 startColour
 		ARG 6 endColour
 	METHOD method_1934 drawTextWithShadowCentred (Lnet/minecraft/class_34;Ljava/lang/String;III)V
-		ARG 1 textManager
+		ARG 1 renderer
 		ARG 2 text
 		ARG 3 x
 		ARG 4 y
@@ -31,7 +31,7 @@ CLASS net/minecraft/class_584 net/minecraft/client/gui/DrawableHelper
 		ARG 5 width
 		ARG 6 height
 	METHOD method_1937 drawTextWithShadow (Lnet/minecraft/class_34;Ljava/lang/String;III)V
-		ARG 1 textManager
+		ARG 1 renderer
 		ARG 2 text
 		ARG 3 x
 		ARG 4 y

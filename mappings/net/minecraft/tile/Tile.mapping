@@ -55,7 +55,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1874 PISTON Lnet/minecraft/class_17;
 	FIELD field_1875 PISTON_HEAD Lnet/minecraft/class_205;
 	FIELD field_1876 WOOL Lnet/minecraft/class_17;
-	FIELD field_1877 BLOCK_36 Lnet/minecraft/class_469;
+	FIELD field_1877 MOVING_PISTON Lnet/minecraft/class_469;
 	FIELD field_1878 DANDELION Lnet/minecraft/class_473;
 	FIELD field_1879 ROSE Lnet/minecraft/class_473;
 	FIELD field_1880 MUSHROOM_1 Lnet/minecraft/class_473;

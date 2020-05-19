@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_469 net/minecraft/tile/Block36
-	METHOD <init> (I)V
-		ARG 1 id

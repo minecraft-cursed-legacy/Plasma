@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_469 net/minecraft/tile/MovingPiston
+	METHOD <init> (I)V
+		ARG 1 id

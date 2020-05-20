@@ -18,6 +18,7 @@ CLASS net/minecraft/class_459 net/minecraft/util/noise/SimplexNoise
 		ARG 7 ySize
 		ARG 8 xScale
 		ARG 10 yScale
+		ARG 12 zScale
 	METHOD method_1760 dot ([IDD)D
 		ARG 0 gArr
 		ARG 1 x

@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_209 net/minecraft/util/noise/PerlinOctaveNoise
+	METHOD method_1513 sample (DD)D
+	METHOD method_1514 sample ([DDDDIIIDDD)[D
+	METHOD method_1515 sample ([DIIIIDDD)[D

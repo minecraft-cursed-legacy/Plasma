@@ -26,10 +26,10 @@ CLASS net/minecraft/class_153 net/minecraft/level/biome/Biome
 	METHOD method_785 createBiomeArray ()V
 	METHOD method_786 getBiome (DD)Lnet/minecraft/class_153;
 		ARG 0 temperature
-		ARG 1 humidity
+		ARG 1 rainfall
 	METHOD method_787 getClimateBiome (FF)Lnet/minecraft/class_153;
 		ARG 0 temperature
-		ARG 1 humidity
+		ARG 1 rainfall
 	METHOD method_788 setFoliageColour (I)Lnet/minecraft/class_153;
 		ARG 1 colour
 	METHOD method_789 getSpawnList (Lnet/minecraft/class_238;)Ljava/util/List;

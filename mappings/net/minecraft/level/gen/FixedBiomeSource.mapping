@@ -1,10 +1,10 @@
 CLASS net/minecraft/class_152 net/minecraft/level/gen/FixedBiomeSource
 	FIELD field_554 biome Lnet/minecraft/class_153;
 	FIELD field_555 temperature D
-	FIELD field_556 humidity D
+	FIELD field_556 rainfall D
 	METHOD <init> (Lkd;DD)V
 		ARG 1 biome
 	METHOD <init> (Lnet/minecraft/class_153;DD)V
 		ARG 1 biome
 		ARG 2 temperature
-		ARG 4 humidity
+		ARG 4 rainfall

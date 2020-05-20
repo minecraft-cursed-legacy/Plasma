@@ -1,11 +1,11 @@
 CLASS net/minecraft/class_538 net/minecraft/level/source/OverworldLevelSource
-	FIELD field_2245 biomeInfluenceNoise Lnet/minecraft/class_209;
+	FIELD field_2245 biomeNoise Lnet/minecraft/class_209;
 	FIELD field_2246 depthNoise Lnet/minecraft/class_209;
 	FIELD field_2247 treeNoise Lnet/minecraft/class_209;
 	FIELD field_2248 interpolationNoises [D
 	FIELD field_2249 upperInterpolationNoises [D
 	FIELD field_2250 lowerInterpolationNoises [D
-	FIELD field_2251 biomeInfluenceNoises [D
+	FIELD field_2251 biomeNoises [D
 	FIELD field_2252 depthNoises [D
 	FIELD field_2253 unusedVals [[I
 	FIELD field_2254 rand Ljava/util/Random;
@@ -32,7 +32,7 @@ CLASS net/minecraft/class_538 net/minecraft/level/source/OverworldLevelSource
 		ARG 2 chunkZ
 		ARG 3 tiles
 		ARG 4 biomes
-	METHOD method_1798 populateNoise (II[B[Lnet/minecraft/class_153;[D)V
+	METHOD method_1798 shapeChunk (II[B[Lnet/minecraft/class_153;[D)V
 		ARG 1 chunkX
 		ARG 2 chunkZ
 		ARG 3 tiles

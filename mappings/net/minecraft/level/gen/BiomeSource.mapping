@@ -10,7 +10,7 @@ CLASS net/minecraft/class_519 net/minecraft/level/gen/BiomeSource
 		ARG 1 level
 	METHOD <init> (Lnet/minecraft/class_18;)V
 		ARG 1 level
-	METHOD method_1786 getTemperatureAt (II)D
+	METHOD method_1786 getTemperature (II)D
 		ARG 1 x
 		ARG 2 z
 	METHOD method_1787 getBiome (II)Lnet/minecraft/class_153;

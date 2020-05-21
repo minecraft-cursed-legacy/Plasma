@@ -20,6 +20,7 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	METHOD method_862 placeTileEntity (IIILnet/minecraft/class_55;)V
 	METHOD method_868 addEntity (Lnet/minecraft/class_57;)V
 	METHOD method_869 removeEntity (Lnet/minecraft/class_57;I)V
+	METHOD method_873 generateHeightmap ()V
 	METHOD method_874 getHeight (II)I
 	METHOD method_877 removeEntity (Lnet/minecraft/class_57;)V
 		ARG 1 entity

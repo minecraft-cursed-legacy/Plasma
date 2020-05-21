@@ -1,5 +1,48 @@
 CLASS net/minecraft/class_538 net/minecraft/level/source/OverworldLevelSource
+	FIELD field_2245 biomeNoise Lnet/minecraft/class_209;
+	FIELD field_2246 depthNoise Lnet/minecraft/class_209;
+	FIELD field_2247 treeNoise Lnet/minecraft/class_209;
+	FIELD field_2248 interpolationNoises [D
+	FIELD field_2249 upperInterpolationNoises [D
+	FIELD field_2250 lowerInterpolationNoises [D
+	FIELD field_2251 biomeNoises [D
+	FIELD field_2252 depthNoises [D
+	FIELD field_2253 unusedVals [[I
 	FIELD field_2254 rand Ljava/util/Random;
+	FIELD field_2255 upperInterpolationNoise Lnet/minecraft/class_209;
+	FIELD field_2256 lowerInterpolationNoise Lnet/minecraft/class_209;
+	FIELD field_2257 interpolationNoise Lnet/minecraft/class_209;
+	FIELD field_2258 beachNoise Lnet/minecraft/class_209;
+	FIELD field_2259 surfaceDepthNoise Lnet/minecraft/class_209;
+	FIELD field_2260 level Lnet/minecraft/class_18;
+	FIELD field_2261 noises [D
+	FIELD field_2262 sandNoises [D
+	FIELD field_2263 gravelNoises [D
+	FIELD field_2264 surfaceDepthNoises [D
 	FIELD field_2265 cave Lnet/minecraft/class_105;
+	FIELD field_2266 biomes [Lnet/minecraft/class_153;
+	FIELD field_2267 temperatureNoises [D
 	METHOD <init> (Lfd;J)V
 		ARG 1 level
+	METHOD <init> (Lnet/minecraft/class_18;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD method_1797 buildSurface (II[B[Lnet/minecraft/class_153;)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 tiles
+		ARG 4 biomes
+	METHOD method_1798 shapeChunk (II[B[Lnet/minecraft/class_153;[D)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 tiles
+		ARG 4 biomes
+		ARG 5 temperatures
+	METHOD method_1799 calculateNoise ([DIIIIII)[D
+		ARG 1 noises
+		ARG 2 chunkX
+		ARG 3 chunkY
+		ARG 4 chunkZ
+		ARG 5 noiseResolutionX
+		ARG 6 noiseResolutionY
+		ARG 7 noiseResolutionZ

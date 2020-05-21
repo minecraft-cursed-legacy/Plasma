@@ -25,24 +25,24 @@ CLASS net/minecraft/class_153 net/minecraft/level/biome/Biome
 	FIELD field_898 biomes [Lnet/minecraft/class_153;
 	METHOD method_785 createBiomeArray ()V
 	METHOD method_786 getBiome (DD)Lnet/minecraft/class_153;
-		ARG 0 x
-		ARG 2 z
-	METHOD method_796 getSkyColour (F)I
-		ARG 1 temperature
+		ARG 0 temperature
+		ARG 1 rainfall
 	METHOD method_787 getClimateBiome (FF)Lnet/minecraft/class_153;
 		ARG 0 temperature
 		ARG 1 rainfall
 	METHOD method_788 setFoliageColour (I)Lnet/minecraft/class_153;
 		ARG 1 colour
-	METHOD method_790 setName (Ljava/lang/String;)Lnet/minecraft/class_153;
-		ARG 1 name
-	METHOD method_797 getTree (Ljava/util/Random;)Lnet/minecraft/class_239;
-		ARG 1 rand
 	METHOD method_789 getSpawnList (Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 type
+	METHOD method_790 setName (Ljava/lang/String;)Lnet/minecraft/class_153;
+		ARG 1 name
 	METHOD method_791 setSnowy ()Lnet/minecraft/class_153;
 	METHOD method_792 setGrassColour (I)Lnet/minecraft/class_153;
 		ARG 1 colour
 	METHOD method_793 canSnow ()Z
 	METHOD method_794 canRain ()Z
 	METHOD method_795 setRainless ()Lnet/minecraft/class_153;
+	METHOD method_796 getSkyColour (F)I
+		ARG 1 temperature
+	METHOD method_797 getTree (Ljava/util/Random;)Lnet/minecraft/class_239;
+		ARG 1 rand

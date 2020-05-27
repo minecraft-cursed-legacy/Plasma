@@ -4,7 +4,9 @@ CLASS net/minecraft/class_133 net/minecraft/container/slot/Slot
 	FIELD field_501 y I
 	FIELD field_502 invSlot I
 	FIELD field_503 inventory Lnet/minecraft/class_134;
-	METHOD <init> (Llw;III)V
+	METHOD <init> (Lnet/minecraft/class_134;III)V
+		ARG 1 inventory
+		ARG 2 index
 		ARG 3 x
 		ARG 4 y
 	METHOD method_472 getItem ()Lnet/minecraft/class_31;

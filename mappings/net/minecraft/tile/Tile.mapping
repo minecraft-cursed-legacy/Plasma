@@ -121,17 +121,10 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1948 STONEBRICK Lnet/minecraft/class_17;
 	FIELD field_1949 WOOD Lnet/minecraft/class_17;
 	FIELD field_1950 SAPLING Lnet/minecraft/class_17;
-	METHOD <init> (IILln;)V
-		ARG 1 id
-		ARG 2 texUVStart
-		ARG 3 material
 	METHOD <init> (IILnet/minecraft/class_15;)V
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 material
-	METHOD <init> (ILln;)V
-		ARG 1 id
-		ARG 2 material
 	METHOD <init> (ILnet/minecraft/class_15;)V
 		ARG 1 id
 		ARG 2 material

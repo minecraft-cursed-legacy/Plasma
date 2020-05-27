@@ -1,4 +1,4 @@
 CLASS net/minecraft/class_194 net/minecraft/client/gui/screen/TexturePackScreen
 	FIELD field_703 parent Lnet/minecraft/class_32;
-	METHOD <init> (Lda;)V
+	METHOD <init> (Lnet/minecraft/class_32;)V
 		ARG 1 parent

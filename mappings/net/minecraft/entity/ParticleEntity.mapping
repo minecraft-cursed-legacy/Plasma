@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_77 net/minecraft/entity/ParticleEntity
-	METHOD <init> (Lfd;DDDDDD)V
+	METHOD <init> (Lnet/minecraft/class_18;DDDDDD)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y

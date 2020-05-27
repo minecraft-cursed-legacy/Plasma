@@ -2,5 +2,5 @@ CLASS net/minecraft/class_345 net/minecraft/client/sortme/ReverseEntityComparato
 	FIELD field_1309 reverseX D
 	FIELD field_1310 reverseY D
 	FIELD field_1311 reverseZ D
-	METHOD <init> (Lsn;)V
+	METHOD <init> (Lnet/minecraft/class_57;)V
 		ARG 1 entity

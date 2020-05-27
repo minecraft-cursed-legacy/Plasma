@@ -23,8 +23,6 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 dimensionData
 		ARG 3 dimension
 		ARG 4 seed
-	METHOD <init> (Lwt;Ljava/lang/String;Lxa;J)V
-		ARG 4 seed
 	METHOD method_149 getClosestPlayer (DDDD)Lnet/minecraft/class_54;
 	METHOD method_150 playSound (DDDLjava/lang/String;FF)V
 	METHOD method_154 setTileWithMetadata (IIIII)Z

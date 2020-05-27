@@ -2,7 +2,7 @@ CLASS net/minecraft/class_597 net/minecraft/client/gui/widgets/Slider
 	FIELD field_2591 value F
 	FIELD field_2592 dragged Z
 	FIELD field_2593 option Lnet/minecraft/class_271;
-	METHOD <init> (IIILht;Ljava/lang/String;F)V
+	METHOD <init> (IIILnet/minecraft/class_271;Ljava/lang/String;F)V
 		ARG 1 id
 		ARG 2 x
 		ARG 3 y

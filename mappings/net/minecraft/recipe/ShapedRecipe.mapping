@@ -4,7 +4,7 @@ CLASS net/minecraft/class_193 net/minecraft/recipe/ShapedRecipe
 	FIELD field_700 height I
 	FIELD field_701 ingredients [Lnet/minecraft/class_31;
 	FIELD field_702 output Lnet/minecraft/class_31;
-	METHOD <init> (II[Liz;Liz;)V
+	METHOD <init> (II[Lnet/minecraft/class_31;Lnet/minecraft/class_31;)V
 		ARG 1 width
 		ARG 2 height
 		ARG 3 ingredients

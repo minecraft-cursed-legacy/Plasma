@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_198 net/minecraft/level/storage/MapStorage
 	CLASS class_199
 		FIELD field_733 mapStorage Lnet/minecraft/class_198;
-		METHOD <init> (Liu;BBBB)V
+		METHOD <init> (Lnet/minecraft/class_198;BBBB)V
 			ARG 1 storage
 	FIELD field_720 xCentre I
 	FIELD field_721 zCentre I

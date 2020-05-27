@@ -6,8 +6,6 @@ CLASS net/minecraft/class_519 net/minecraft/level/gen/BiomeSource
 	FIELD field_2239 temperatureNoise Lnet/minecraft/class_458;
 	FIELD field_2240 rainfallNoise Lnet/minecraft/class_458;
 	FIELD field_2241 detailNoise Lnet/minecraft/class_458;
-	METHOD <init> (Lfd;)V
-		ARG 1 level
 	METHOD <init> (Lnet/minecraft/class_18;)V
 		ARG 1 level
 	METHOD method_1786 getTemperature (II)D

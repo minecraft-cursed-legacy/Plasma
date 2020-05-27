@@ -7,23 +7,23 @@ CLASS net/minecraft/class_31 net/minecraft/item/ItemInstance
 		ARG 1 id
 		ARG 2 count
 		ARG 3 damage
-	METHOD <init> (Lgm;)V
+	METHOD <init> (Lnet/minecraft/class_124;)V
 		ARG 1 itemType
-	METHOD <init> (Lgm;I)V
+	METHOD <init> (Lnet/minecraft/class_124;I)V
 		ARG 1 itemType
 		ARG 2 count
-	METHOD <init> (Lgm;II)V
+	METHOD <init> (Lnet/minecraft/class_124;II)V
 		ARG 1 itemType
 		ARG 2 count
 		ARG 3 damage
-	METHOD <init> (Lnu;)V
+	METHOD <init> (Lnet/minecraft/class_8;)V
 		ARG 1 tag
-	METHOD <init> (Luu;)V
+	METHOD <init> (Lnet/minecraft/class_17;)V
 		ARG 1 tile
-	METHOD <init> (Luu;I)V
+	METHOD <init> (Lnet/minecraft/class_17;I)V
 		ARG 1 tile
 		ARG 2 count
-	METHOD <init> (Luu;II)V
+	METHOD <init> (Lnet/minecraft/class_17;II)V
 		ARG 1 tile
 		ARG 2 count
 		ARG 3 damage

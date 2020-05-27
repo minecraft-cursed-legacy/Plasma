@@ -1,6 +1,4 @@
 CLASS net/minecraft/class_34 net/minecraft/client/render/TextRenderer
-	METHOD <init> (Lkv;Ljava/lang/String;Lji;)V
-		ARG 1 gameOptions
 	METHOD <init> (Lnet/minecraft/class_322;Ljava/lang/String;Lnet/minecraft/class_76;)V
 		ARG 1 options
 	METHOD method_1901 getTextWidth (Ljava/lang/String;)I

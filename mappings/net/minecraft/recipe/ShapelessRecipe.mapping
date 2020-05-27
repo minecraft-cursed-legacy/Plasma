@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_453 net/minecraft/recipe/ShapelessRecipe
 	FIELD field_1719 output Lnet/minecraft/class_31;
 	FIELD field_1720 input Ljava/util/List;
-	METHOD <init> (Liz;Ljava/util/List;)V
+	METHOD <init> (Lnet/minecraft/class_31;Ljava/util/List;)V
 		ARG 1 output
+		ARG 2 inputs

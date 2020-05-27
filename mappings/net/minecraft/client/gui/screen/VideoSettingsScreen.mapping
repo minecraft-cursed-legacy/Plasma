@@ -3,5 +3,5 @@ CLASS net/minecraft/class_486 net/minecraft/client/gui/screen/VideoSettingsScree
 	FIELD field_2001 parent Lnet/minecraft/class_32;
 	FIELD field_2002 options Lnet/minecraft/class_322;
 	FIELD field_2003 OPTIONS [Lnet/minecraft/class_271;
-	METHOD <init> (Lda;Lkv;)V
+	METHOD <init> (Lnet/minecraft/class_32;Lnet/minecraft/class_322;)V
 		ARG 1 parent

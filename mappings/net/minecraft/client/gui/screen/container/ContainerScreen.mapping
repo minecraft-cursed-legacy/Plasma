@@ -3,7 +3,7 @@ CLASS net/minecraft/class_293 net/minecraft/client/gui/screen/container/Containe
 	FIELD field_1153 containerHeight I
 	FIELD field_1154 container Lnet/minecraft/class_71;
 	FIELD field_1155 itemRenderer Lnet/minecraft/class_92;
-	METHOD <init> (Ldw;)V
+	METHOD <init> (Lnet/minecraft/class_71;)V
 		ARG 1 container
 	METHOD method_984 renderContainerBackground (F)V
 	METHOD method_986 getSlot (II)Lnet/minecraft/class_133;

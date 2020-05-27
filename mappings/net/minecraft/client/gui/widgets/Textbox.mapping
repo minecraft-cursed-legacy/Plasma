@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_181 net/minecraft/client/gui/widgets/Textbox
-	FIELD field_2422 manager Lnet/minecraft/class_34;
-	METHOD <init> (Lda;Lsj;IIIILjava/lang/String;)V
+	FIELD field_2422 font Lnet/minecraft/class_34;
+	METHOD <init> (Lnet/minecraft/class_32;Lnet/minecraft/class_34;IIIILjava/lang/String;)V
 		ARG 1 screen
-		ARG 2 manager
+		ARG 2 font
 	METHOD method_1882 tick ()V

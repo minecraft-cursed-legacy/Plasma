@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_262 net/minecraft/item/TileItem
 	FIELD field_1062 tileId I
-	METHOD <init> (ILuu;)V
+	METHOD <init> (ILnet/minecraft/class_17;)V
 		ARG 1 id
 		ARG 2 tile

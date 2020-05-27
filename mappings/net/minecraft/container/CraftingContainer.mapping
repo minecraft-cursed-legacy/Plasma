@@ -2,5 +2,6 @@ CLASS net/minecraft/class_196 net/minecraft/container/CraftingContainer
 	FIELD field_708 inventory Lnet/minecraft/class_159;
 	FIELD field_709 result Lnet/minecraft/class_134;
 	FIELD field_710 level Lnet/minecraft/class_18;
-	METHOD <init> (Lix;Lfd;III)V
+	METHOD <init> (Lnet/minecraft/class_136;Lnet/minecraft/class_18;III)V
 		ARG 1 playerInventory
+		ARG 2 level

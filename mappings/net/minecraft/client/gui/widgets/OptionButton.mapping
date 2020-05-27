@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_465 net/minecraft/client/gui/widgets/OptionButton
 	FIELD field_1771 option Lnet/minecraft/class_271;
-	METHOD <init> (IIILht;Ljava/lang/String;)V
+	METHOD <init> (IIILnet/minecraft/class_271;Ljava/lang/String;)V
 		ARG 1 id
 		ARG 2 x
 		ARG 3 y

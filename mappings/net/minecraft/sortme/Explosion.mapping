@@ -8,7 +8,7 @@ CLASS net/minecraft/class_60 net/minecraft/sortme/Explosion
 	FIELD field_1397 damagedTiles Ljava/util/Set;
 	FIELD field_1398 random Ljava/util/Random;
 	FIELD field_1399 level Lnet/minecraft/class_18;
-	METHOD <init> (Lfd;Lsn;DDDF)V
+	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_57;DDDF)V
 		ARG 1 level
 		ARG 2 cause
 		ARG 3 x

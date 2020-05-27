@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_91 net/minecraft/client/gui/screen/StatsScreen
 	CLASS class_99
-		METHOD <init> (Ldv;)V
+		METHOD <init> (Lnet/minecraft/class_91;)V
 			ARG 1 statsScreen
 		METHOD method_381 getStat (I)Ljava/lang/String;
 			ARG 1 statId

@@ -4,7 +4,7 @@ CLASS net/minecraft/class_564 net/minecraft/client/util/ScreenScaler
 	FIELD field_2391 scale I
 	FIELD field_2392 ceilScaledWidth I
 	FIELD field_2393 ceilScaledHeight I
-	METHOD <init> (Lkv;II)V
+	METHOD <init> (Lnet/minecraft/class_322;II)V
 		ARG 1 gameOptions
 		ARG 2 width
 		ARG 3 height

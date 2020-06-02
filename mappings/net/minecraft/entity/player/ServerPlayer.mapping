@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_69 net/minecraft/entity/player/ServerPlayer
+	FIELD field_255 packetHandler Lnet/minecraft/class_11;

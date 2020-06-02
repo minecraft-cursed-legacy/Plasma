@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_168
+	METHOD method_609 updatePlayer (Lnet/minecraft/class_54;)V

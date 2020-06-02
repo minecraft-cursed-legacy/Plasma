@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_41 net/minecraft/client/PlayerKeypressManager
+	FIELD field_2532 perpendicularMovement F
+	FIELD field_2533 parallelMovement F
+	FIELD field_2535 jump Z
+	FIELD field_2536 sneak Z
+	METHOD method_1940 resetKeys ()V
+	METHOD method_1941 onKeyPressed (IZ)V
+		ARG 1 keycode
+		ARG 2 pressed
+	METHOD method_1942 updatePlayer (Lnet/minecraft/class_54;)V

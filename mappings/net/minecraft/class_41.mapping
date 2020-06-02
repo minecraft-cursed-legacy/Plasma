@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_41
-	METHOD method_1941 (IZ)V
-		ARG 1 keycode

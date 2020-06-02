@@ -5,6 +5,8 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	FIELD field_962 x I
 	FIELD field_963 z I
 	FIELD field_965 entities [Ljava/util/List;
+	FIELD field_966 decorated Z
+	FIELD field_970 lastUpdate J
 	METHOD <init> (Lnet/minecraft/class_18;II)V
 		ARG 1 level
 		ARG 2 x

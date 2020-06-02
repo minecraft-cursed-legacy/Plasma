@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_167 net/minecraft/server/ServerPlayerView
+	FIELD field_2132 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_2134 viewRadius I
+	FIELD field_2135 directions [[I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;II)V
+		ARG 1 server
+		ARG 3 viewRadius
+	METHOD method_1748 addPlayer (Lnet/minecraft/class_69;)V
+	METHOD method_1750 getViewRadiusInTiles ()I

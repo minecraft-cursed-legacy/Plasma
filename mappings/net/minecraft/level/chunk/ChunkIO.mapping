@@ -3,7 +3,7 @@ CLASS net/minecraft/class_243 net/minecraft/level/chunk/ChunkIO
 		ARG 1 level
 		ARG 2 xPos
 		ARG 3 zPos
-	METHOD method_812 (Lnet/minecraft/class_18;Lnet/minecraft/class_43;)V
+	METHOD method_812 saveChunk (Lnet/minecraft/class_18;Lnet/minecraft/class_43;)V
 		ARG 1 level
 		ARG 2 chunk
 	METHOD method_814 (Lnet/minecraft/class_18;Lnet/minecraft/class_43;)V

@@ -11,7 +11,7 @@ CLASS net/minecraft/class_51 net/minecraft/level/source/LevelSource
 	METHOD method_1806 getChunk (II)Lnet/minecraft/class_43;
 		ARG 1 x
 		ARG 2 z
-	METHOD method_1807 (II)Lnet/minecraft/class_43;
+	METHOD method_1807 loadChunk (II)Lnet/minecraft/class_43;
 		ARG 1 x
 		ARG 2 z
 	METHOD method_1808 toString ()Ljava/lang/String;

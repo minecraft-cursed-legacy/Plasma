@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_275
-	FIELD field_2385 name Ljava/lang/String;
-	FIELD field_2386 invSize I
-	FIELD field_2387 contents [Lnet/minecraft/class_31;

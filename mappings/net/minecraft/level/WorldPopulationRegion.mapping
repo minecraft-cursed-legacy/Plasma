@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_42 net/minecraft/level/WorldPopulationRegion
+	FIELD field_168 chunks [[Lnet/minecraft/class_43;
+	FIELD field_169 level Lnet/minecraft/class_18;

@@ -15,3 +15,4 @@ CLASS net/minecraft/class_14 net/minecraft/level/TileView
 	METHOD method_1780 canSuffocate (III)Z
 	METHOD method_1781 getBiomeSource ()Lnet/minecraft/class_519;
 	METHOD method_1782 getBrightness (III)F
+	METHOD method_1783 isFullOpaque (III)Z

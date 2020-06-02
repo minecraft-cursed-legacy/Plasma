@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_413 net/minecraft/client/MovementManager
+	FIELD field_1661 keys [Z
+	FIELD field_1662 options Lnet/minecraft/class_322;
+	METHOD <init> (Lnet/minecraft/class_322;)V
+		ARG 1 options

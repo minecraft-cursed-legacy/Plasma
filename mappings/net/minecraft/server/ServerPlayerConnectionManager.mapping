@@ -1,0 +1,35 @@
+CLASS net/minecraft/class_166 net/minecraft/server/ServerPlayerConnectionManager
+	FIELD field_577 logger Ljava/util/logging/Logger;
+	FIELD field_578 players Ljava/util/List;
+	FIELD field_579 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_580 playerViews [Lnet/minecraft/class_167;
+	FIELD field_581 maxPlayerCount I
+	FIELD field_582 bannedPlayers Ljava/util/Set;
+	FIELD field_583 ipBans Ljava/util/Set;
+	FIELD field_586 bannedPlayersFile Ljava/io/File;
+	FIELD field_587 bannedIPsFile Ljava/io/File;
+	FIELD field_588 operatorsFile Ljava/io/File;
+	FIELD field_589 whiteListFile Ljava/io/File;
+	FIELD field_591 whitelisted Z
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD method_549 getViewRadiusInTiles ()I
+	METHOD method_551 getPlayerView (I)Lnet/minecraft/class_167;
+		ARG 1 dimension
+	METHOD method_554 (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_557 connectPlayer (Lnet/minecraft/class_10;Ljava/lang/String;)Lnet/minecraft/class_69;
+		ARG 1 connect
+		ARG 2 name
+	METHOD method_575 updateDimension (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_580 loadBanList ()V
+	METHOD method_582 cannotJoin (Ljava/lang/String;)Z
+	METHOD method_583 saveBanList ()V
+	METHOD method_585 loadIPBanList ()V
+	METHOD method_587 saveIPBanList ()V
+	METHOD method_588 sendChatMessage (Ljava/lang/String;)V
+	METHOD method_589 loadOperatorList ()V
+	METHOD method_591 saveOperatorList ()V
+	METHOD method_593 loadWhitelist ()V
+	METHOD method_594 saveWhitelist ()V

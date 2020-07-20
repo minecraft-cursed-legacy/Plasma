@@ -306,11 +306,11 @@ task mergeJars(dependsOn: [remapClientJar, remapServerJar]) {
 	}
 }
 
-task setupYarn(dependsOn: mergeJars) {
+task setupPlasma(dependsOn: mergeJars) {
 
 }
 
-task yarn(dependsOn: setupYarn) {
+task plasma(dependsOn: setupPlasma) {
 	doLast {
 		ant.setLifecycleLogLevel "WARN"
 		ant.java(

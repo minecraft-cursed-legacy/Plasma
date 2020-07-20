@@ -3,6 +3,7 @@ CLASS net/minecraft/class_76 net/minecraft/client/texture/TextureManager
 	FIELD field_1253 gameOptions Lnet/minecraft/class_322;
 	METHOD method_1084 tick ()V
 	METHOD method_1087 add (Lnet/minecraft/class_336;)V
+	METHOD method_1088 glLoadImage (Ljava/awt/image/BufferedImage;)I
 	METHOD method_1092 readMap (Ljava/lang/String;)[I
 	METHOD method_1097 bindTexture (I)V
 	METHOD method_1100 getTextureId (Ljava/lang/String;)I

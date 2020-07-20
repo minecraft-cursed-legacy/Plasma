@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_321 net/minecraft/client/render/MapRenderer
+	FIELD field_1218 pixels [I
+	FIELD field_1219 image I
+	FIELD field_1220 options Lnet/minecraft/class_322;
+	FIELD field_1221 textRenderer Lnet/minecraft/class_34;
+	METHOD <init> (Lnet/minecraft/class_34;Lnet/minecraft/class_322;Lnet/minecraft/class_76;)V
+		ARG 1 textRenderer
+		ARG 2 options
+		ARG 3 textureManager
+	METHOD method_1046 renderMap (Lnet/minecraft/class_54;Lnet/minecraft/class_76;Lnet/minecraft/class_198;)V
+		ARG 1 player
+		ARG 2 textureManager
+		ARG 3 mapStorage

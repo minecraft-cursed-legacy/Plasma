@@ -75,7 +75,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1894 STAIRS_WOOD Lnet/minecraft/class_17;
 	FIELD field_1895 CHEST Lnet/minecraft/class_17;
 	FIELD field_1896 REDSTONE_DUST Lnet/minecraft/class_17;
-	FIELD field_1897 ORE_DIAMOND Lnet/minecraft/class_17;
+	FIELD field_1897 DIAMOND_ORE Lnet/minecraft/class_17;
 	FIELD field_1898 BLOCK_DIAMOND Lnet/minecraft/class_17;
 	FIELD field_1899 WORKBENCH Lnet/minecraft/class_17;
 	FIELD field_1900 material Lnet/minecraft/class_15;
@@ -118,7 +118,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1945 STONE Lnet/minecraft/class_17;
 	FIELD field_1946 GRASS Lnet/minecraft/class_476;
 	FIELD field_1947 DIRT Lnet/minecraft/class_17;
-	FIELD field_1948 STONEBRICK Lnet/minecraft/class_17;
+	FIELD field_1948 COBBLESTONE Lnet/minecraft/class_17;
 	FIELD field_1949 WOOD Lnet/minecraft/class_17;
 	FIELD field_1950 SAPLING Lnet/minecraft/class_17;
 	METHOD <init> (IILnet/minecraft/class_15;)V
@@ -139,6 +139,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 3 y
 		ARG 4 z
 		ARG 5 blockMeta
+	METHOD method_1564 raycast (Lnet/minecraft/class_18;IIILnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
 	METHOD method_1565 getTickrate ()I
 	METHOD method_1567 canPlaceAt (Lnet/minecraft/class_18;III)Z
 		ARG 1 level
@@ -196,7 +197,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 5 facing
 	METHOD method_1607 getTextureForSide (I)I
 		ARG 1 side
-	METHOD method_1608 (Lnet/minecraft/class_18;IIILnet/minecraft/class_54;)Z
+	METHOD method_1608 activate (Lnet/minecraft/class_18;IIILnet/minecraft/class_54;)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
@@ -208,7 +209,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 3 y
 		ARG 4 z
 		ARG 5 id
-	METHOD method_1610 activate (Lnet/minecraft/class_18;IIILnet/minecraft/class_54;)V
+	METHOD method_1610 onPunched (Lnet/minecraft/class_18;IIILnet/minecraft/class_54;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
@@ -255,6 +256,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 1 side
 		ARG 2 meta
 	METHOD method_1628 afterBreak (Lnet/minecraft/class_18;Lnet/minecraft/class_54;IIII)V
+	METHOD method_1629 getDropMeta (I)I
 	METHOD method_1630 onTileRemoved (Lnet/minecraft/class_18;III)V
 		ARG 1 level
 		ARG 2 x

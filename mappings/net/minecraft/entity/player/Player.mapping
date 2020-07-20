@@ -23,6 +23,9 @@ CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
 	METHOD method_492 respawn ()V
 	METHOD method_493 closeContainer ()V
 	METHOD method_495 trySleep (III)Lnet/minecraft/class_141;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_496 updateCursorItem (Lnet/minecraft/class_31;)V
 	METHOD method_497 wakeUp (ZZZ)V
 	METHOD method_499 updateEyeHeight ()V

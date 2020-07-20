@@ -41,6 +41,9 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_159 setLevelTime (J)V
+	METHOD method_160 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
+	METHOD method_161 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;Z)Lnet/minecraft/class_27;
+	METHOD method_162 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;ZZ)Lnet/minecraft/class_27;
 	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
 	METHOD method_173 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
@@ -68,6 +71,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tileId
+	METHOD method_202 updateRedstone (IIIIII)V
 	METHOD method_210 spawnEntity (Lnet/minecraft/class_57;)Z
 	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
 	METHOD method_214 getChunkFromCache (II)Lnet/minecraft/class_43;

@@ -1,1 +1,35 @@
 CLASS net/minecraft/class_208 net/minecraft/level/source/SkylandsLevelSource
+	FIELD field_761 heightmapNoise1 Lnet/minecraft/class_209;
+	FIELD field_762 heightmapNoise2 Lnet/minecraft/class_209;
+	FIELD field_763 noiseGen8 Lnet/minecraft/class_209;
+	FIELD field_764 noiseSamples3 [D
+	FIELD field_765 noiseSamples4 [D
+	FIELD field_766 noiseSamples5 [D
+	FIELD field_767 noiseSamples1 [D
+	FIELD field_768 noiseSamples2 [D
+	FIELD field_770 rand Ljava/util/Random;
+	FIELD field_771 heightmapNoise4 Lnet/minecraft/class_209;
+	FIELD field_772 heightmapNoise5 Lnet/minecraft/class_209;
+	FIELD field_773 heightmapNoise3 Lnet/minecraft/class_209;
+	FIELD field_774 noiseGen4 Lnet/minecraft/class_209;
+	FIELD field_775 noiseGen5 Lnet/minecraft/class_209;
+	FIELD field_776 level Lnet/minecraft/class_18;
+	FIELD field_777 heightmap [D
+	FIELD field_781 cave Lnet/minecraft/class_105;
+	FIELD field_782 biomes [Lnet/minecraft/class_153;
+	METHOD <init> (Lnet/minecraft/class_18;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD method_737 buildSurface (II[B[Lnet/minecraft/class_153;)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 tiles
+		ARG 4 biomes
+	METHOD method_738 shapeChunk (II[B[Lnet/minecraft/class_153;[D)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD method_739 generateNoise ([DIIIIII)[D
+		ARG 1 noises
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize

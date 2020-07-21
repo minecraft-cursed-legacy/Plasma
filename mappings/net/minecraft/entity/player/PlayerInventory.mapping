@@ -5,17 +5,25 @@ CLASS net/minecraft/class_136 net/minecraft/entity/player/PlayerInventory
 	FIELD field_748 player Lnet/minecraft/class_54;
 	FIELD field_749 dirty Z
 	FIELD field_750 cursorStack Lnet/minecraft/class_31;
+	METHOD <init> (Lnet/minecraft/class_54;)V
+		ARG 1 player
+	METHOD method_671 pickupItem (Lnet/minecraft/class_31;)Z
+		ARG 1 item
 	METHOD method_673 toTag (Lnet/minecraft/class_202;)Lnet/minecraft/class_202;
 	METHOD method_675 getHeldItem ()Lnet/minecraft/class_31;
-	METHOD method_692 scrollInHotbar (I)V
+	METHOD method_676 decreaseAmountOfItem (I)Z
 	METHOD method_677 setCursorItem (Lnet/minecraft/class_31;)V
 	METHOD method_678 fromTag (Lnet/minecraft/class_202;)V
 	METHOD method_679 isUsingEffectiveTool (Lnet/minecraft/class_17;)Z
-	METHOD method_676 decreaseAmountOfItem (I)Z
-	METHOD method_681 containsItem (Lnet/minecraft/class_31;)Z
-	METHOD method_693 getArmourItem (I)Lnet/minecraft/class_31;
 	METHOD method_680 damageArmour (I)V
+	METHOD method_681 containsItem (Lnet/minecraft/class_31;)Z
 	METHOD method_682 getSlotWithItem (I)I
 		ARG 1 id
+	METHOD method_683 findItem (Lnet/minecraft/class_31;)I
+		ARG 1 item
+	METHOD method_686 inventoryTick ()V
 	METHOD method_688 dropInventory ()V
 	METHOD method_689 getCursorItem ()Lnet/minecraft/class_31;
+	METHOD method_690 findNextEmptySlot ()I
+	METHOD method_692 scrollInHotbar (I)V
+	METHOD method_693 getArmourItem (I)Lnet/minecraft/class_31;

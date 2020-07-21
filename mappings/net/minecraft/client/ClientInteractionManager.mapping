@@ -2,6 +2,19 @@ CLASS net/minecraft/class_504 net/minecraft/client/ClientInteractionManager
 	FIELD field_2104 minecraft Lnet/minecraft/client/Minecraft;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD method_1712 useItem (Lnet/minecraft/class_54;Lnet/minecraft/class_18;Lnet/minecraft/class_31;)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+	METHOD method_1713 useItemOnTile (Lnet/minecraft/class_54;Lnet/minecraft/class_18;Lnet/minecraft/class_31;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD method_1717 createPlayer (Lnet/minecraft/class_18;)Lnet/minecraft/class_54;
+		ARG 1 level
 	METHOD method_1718 (Lnet/minecraft/class_54;)V
 		ARG 1 player
 	METHOD method_1720 tick ()V

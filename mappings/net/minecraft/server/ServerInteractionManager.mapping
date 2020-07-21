@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_70 net/minecraft/server/ServerInteractionManager
+	FIELD field_2309 player Lnet/minecraft/class_54;
+	FIELD field_2310 level Lnet/minecraft/class_73;
+	METHOD <init> (Lnet/minecraft/class_73;)V
+		ARG 1 level
+	METHOD method_1832 activateTile (Lnet/minecraft/class_54;Lnet/minecraft/class_18;Lnet/minecraft/class_31;IIII)Z
+		ARG 3 item

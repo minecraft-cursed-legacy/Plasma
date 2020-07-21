@@ -20,3 +20,4 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1470 handle (Lnet/minecraft/class_169;)V
 	METHOD method_1472 handleHandshake (Lnet/minecraft/class_118;)V
+	METHOD method_1473 loseConnection (Ljava/lang/String;[Ljava/lang/Object;)V

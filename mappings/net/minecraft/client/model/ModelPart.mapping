@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_163 net/minecraft/client/model/Cuboid
+CLASS net/minecraft/class_163 net/minecraft/client/model/ModelPart
 	FIELD field_2292 rotationPointX F
 	FIELD field_2293 rotationPointY F
 	FIELD field_2294 rotationPointZ F
@@ -9,4 +9,7 @@ CLASS net/minecraft/class_163 net/minecraft/client/model/Cuboid
 	FIELD field_2299 visible Z
 	FIELD field_2305 compiled Z
 	FIELD field_2306 list I
+	METHOD method_1815 render (F)V
 	METHOD method_1816 setRotationPoint (FFF)V
+	METHOD method_1817 addCuboid (FFFIII)V
+	METHOD method_1818 addCuboid (FFFIIIF)V

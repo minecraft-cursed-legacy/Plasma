@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_409 net/minecraft/client/render/entity/model/GhastModel
+	FIELD field_1572 body Lnet/minecraft/class_163;

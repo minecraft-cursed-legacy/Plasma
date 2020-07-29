@@ -8,6 +8,12 @@ CLASS net/minecraft/class_139 net/minecraft/stat/Stat
 	FIELD field_2029 NUMBER_FORMATTER Lnet/minecraft/class_498;
 	FIELD field_2030 TIME_FORMATTER Lnet/minecraft/class_498;
 	FIELD field_2031 DISTANCE_FORMATTER Lnet/minecraft/class_498;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Lnet/minecraft/class_498;)V
+		ARG 1 id
+		ARG 2 name
 	METHOD method_1676 register ()Lnet/minecraft/class_139;
 	METHOD method_1677 orphan ()Lnet/minecraft/class_139;
 	METHOD method_1678 isAchievement ()Z

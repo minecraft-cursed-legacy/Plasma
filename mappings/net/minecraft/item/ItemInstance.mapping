@@ -16,8 +16,6 @@ CLASS net/minecraft/class_31 net/minecraft/item/ItemInstance
 		ARG 1 itemType
 		ARG 2 count
 		ARG 3 damage
-	METHOD <init> (Lnet/minecraft/class_8;)V
-		ARG 1 tag
 	METHOD <init> (Lnet/minecraft/class_17;)V
 		ARG 1 tile
 	METHOD <init> (Lnet/minecraft/class_17;I)V
@@ -27,6 +25,8 @@ CLASS net/minecraft/class_31 net/minecraft/item/ItemInstance
 		ARG 1 tile
 		ARG 2 count
 		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_8;)V
+		ARG 1 tag
 	METHOD method_694 getType ()Lnet/minecraft/class_124;
 	METHOD method_695 split (I)Lnet/minecraft/class_31;
 		ARG 1 countToTake
@@ -52,4 +52,5 @@ CLASS net/minecraft/class_31 net/minecraft/item/ItemInstance
 	METHOD method_716 isItemEqualIgnoreDamage (Lnet/minecraft/class_31;)Z
 	METHOD method_722 getDamage ()I
 	METHOD method_724 copy ()Lnet/minecraft/class_31;
+	METHOD method_725 getTexturePosition ()I
 	METHOD method_726 getTranslationKey ()Ljava/lang/String;

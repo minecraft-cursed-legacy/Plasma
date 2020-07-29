@@ -12,5 +12,5 @@ CLASS net/minecraft/class_216 net/minecraft/entity/data/DataTracker
 	METHOD method_1505 write (Ljava/io/DataOutputStream;Lnet/minecraft/class_270;)V
 		ARG 0 out
 	METHOD method_1508 getInt (I)I
-	METHOD method_1509 setInt (ILjava/lang/Object;)V
+	METHOD method_1509 setData (ILjava/lang/Object;)V
 	METHOD method_1510 getString (I)Ljava/lang/String;

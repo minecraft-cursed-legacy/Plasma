@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_24 net/minecraft/achievement/Achievement
-	FIELD field_1202 collumn I
+	FIELD field_1202 column I
 	FIELD field_1203 row I
 	FIELD field_1204 parent Lnet/minecraft/class_24;
 	FIELD field_1205 achievementIcon Lnet/minecraft/class_31;

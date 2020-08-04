@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_304 net/minecraft/client/render/entity/model/CreeperModel
+	FIELD field_1182 head Lnet/minecraft/class_163;
+	FIELD field_1183 helmet Lnet/minecraft/class_163;
+	FIELD field_1184 torso Lnet/minecraft/class_163;
+	FIELD field_1185 rightBackLeg Lnet/minecraft/class_163;
+	FIELD field_1186 leftBackLeg Lnet/minecraft/class_163;
+	FIELD field_1187 rightFrontLeg Lnet/minecraft/class_163;
+	FIELD field_1188 leftFrontLeg Lnet/minecraft/class_163;

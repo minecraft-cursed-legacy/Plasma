@@ -1,1 +1,27 @@
 CLASS net/minecraft/class_24 net/minecraft/achievement/Achievement
+	FIELD field_1202 column I
+	FIELD field_1203 row I
+	FIELD field_1204 parent Lnet/minecraft/class_24;
+	FIELD field_1205 achievementIcon Lnet/minecraft/class_31;
+	FIELD field_1206 description Ljava/lang/String;
+	FIELD field_1207 challenge Z
+	FIELD field_1208 formattedString Lnet/minecraft/class_241;
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_124;Lnet/minecraft/class_24;)V
+		ARG 1 index
+		ARG 2 description
+		ARG 3 collumn
+		ARG 4 row
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_17;Lnet/minecraft/class_24;)V
+		ARG 1 index
+		ARG 2 description
+		ARG 3 collumn
+		ARG 4 row
+	METHOD <init> (ILjava/lang/String;IILnet/minecraft/class_31;Lnet/minecraft/class_24;)V
+		ARG 1 index
+		ARG 2 description
+		ARG 3 collumn
+		ARG 4 row
+	METHOD method_1040 challenge ()Lnet/minecraft/class_24;
+	METHOD method_1042 formatter (Lnet/minecraft/class_241;)Lnet/minecraft/class_24;
+	METHOD method_1043 getDescription ()Ljava/lang/String;
+	METHOD method_1044 isChallenge ()Z

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_498 net/minecraft/stat/StringFormatter
+	METHOD method_1725 format (I)Ljava/lang/String;
+		ARG 1 amount

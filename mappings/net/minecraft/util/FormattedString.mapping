@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_241 net/minecraft/util/FormattedString
+	METHOD method_809 format (Ljava/lang/String;)Ljava/lang/String;

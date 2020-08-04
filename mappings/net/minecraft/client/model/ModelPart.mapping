@@ -1,0 +1,23 @@
+CLASS net/minecraft/class_163 net/minecraft/client/model/ModelPart
+	FIELD field_2292 pivotX F
+	FIELD field_2293 pivotY F
+	FIELD field_2294 pivotZ F
+	FIELD field_2295 pitch F
+	FIELD field_2296 yaw F
+	FIELD field_2297 roll F
+	FIELD field_2298 mirror Z
+	FIELD field_2299 visible Z
+	FIELD field_2300 hidden Z
+	FIELD field_2301 vertices [Lnet/minecraft/class_290;
+	FIELD field_2303 xTexOffset I
+	FIELD field_2304 yTexOffset I
+	FIELD field_2305 compiled Z
+	FIELD field_2306 list I
+	METHOD <init> (II)V
+		ARG 1 xTexOffset
+		ARG 2 yTexOffset
+	METHOD method_1815 render (F)V
+	METHOD method_1816 setPivot (FFF)V
+	METHOD method_1817 addCuboid (FFFIII)V
+	METHOD method_1818 addCuboid (FFFIIIF)V
+	METHOD method_1821 compile (F)V

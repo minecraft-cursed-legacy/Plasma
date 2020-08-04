@@ -1,9 +1,20 @@
 CLASS net/minecraft/class_139 net/minecraft/stat/Stat
+	FIELD field_2022 statFormatter Lnet/minecraft/class_498;
 	FIELD field_2023 NUMBER_FORMAT Ljava/text/NumberFormat;
 	FIELD field_2024 DECIMAL_FORMAT Ljava/text/DecimalFormat;
 	FIELD field_2025 id I
 	FIELD field_2026 name Ljava/lang/String;
+	FIELD field_2027 orphaned Z
 	FIELD field_2029 NUMBER_FORMATTER Lnet/minecraft/class_498;
 	FIELD field_2030 TIME_FORMATTER Lnet/minecraft/class_498;
 	FIELD field_2031 DISTANCE_FORMATTER Lnet/minecraft/class_498;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Lnet/minecraft/class_498;)V
+		ARG 1 id
+		ARG 2 name
 	METHOD method_1676 register ()Lnet/minecraft/class_139;
+	METHOD method_1677 orphan ()Lnet/minecraft/class_139;
+	METHOD method_1678 isAchievement ()Z
+	METHOD method_1679 getName (I)Ljava/lang/String;

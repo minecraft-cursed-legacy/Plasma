@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_87 net/minecraft/client/render/entity/model/BipedModel
+	FIELD field_619 head Lnet/minecraft/class_163;
+	FIELD field_620 helmet Lnet/minecraft/class_163;
+	FIELD field_621 body Lnet/minecraft/class_163;
+	FIELD field_622 rightArm Lnet/minecraft/class_163;
+	FIELD field_623 leftArm Lnet/minecraft/class_163;
+	FIELD field_624 rightLeg Lnet/minecraft/class_163;
+	FIELD field_625 leftLeg Lnet/minecraft/class_163;
+	FIELD field_626 deadmau5Ears Lnet/minecraft/class_163;
+	FIELD field_627 cloak Lnet/minecraft/class_163;
+	FIELD field_628 holdingItem Z
+	FIELD field_629 sneaking Z
+	FIELD field_630 aiming Z
+	METHOD method_605 renderDeadMau5Ears (F)V
+	METHOD method_606 renderCloak (F)V

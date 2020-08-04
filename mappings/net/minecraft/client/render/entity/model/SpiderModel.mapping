@@ -1,1 +1,12 @@
 CLASS net/minecraft/class_571 net/minecraft/client/render/entity/model/SpiderModel
+	FIELD field_2448 head Lnet/minecraft/class_163;
+	FIELD field_2449 thorax Lnet/minecraft/class_163;
+	FIELD field_2450 abdomen Lnet/minecraft/class_163;
+	FIELD field_2451 rightBackLeg Lnet/minecraft/class_163;
+	FIELD field_2452 leftBackLeg Lnet/minecraft/class_163;
+	FIELD field_2453 rightBackMiddleLeg Lnet/minecraft/class_163;
+	FIELD field_2454 leftBackMiddleLeg Lnet/minecraft/class_163;
+	FIELD field_2455 rightFrontMiddleLeg Lnet/minecraft/class_163;
+	FIELD field_2456 leftFrontMiddleLeg Lnet/minecraft/class_163;
+	FIELD field_2457 rightFrontLeg Lnet/minecraft/class_163;
+	FIELD field_2458 leftFrontLeg Lnet/minecraft/class_163;

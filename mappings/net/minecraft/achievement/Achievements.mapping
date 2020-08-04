@@ -1,11 +1,15 @@
 CLASS net/minecraft/class_23 net/minecraft/achievement/Achievements
+	FIELD field_108 leftmostCollumn I
+	FIELD field_109 topmostCollumn I
+	FIELD field_110 rightmostCollumn I
+	FIELD field_111 lowestRow I
 	FIELD field_112 ACHIEVEMENTS Ljava/util/List;
 	FIELD field_113 OPEN_INVENTORY Lnet/minecraft/class_24;
 	FIELD field_114 MINE_WOOD Lnet/minecraft/class_24;
 	FIELD field_115 CRAFT_WORKBENCH Lnet/minecraft/class_24;
 	FIELD field_116 CRAFT_PICKAXE Lnet/minecraft/class_24;
 	FIELD field_117 CRAFT_FURNACE Lnet/minecraft/class_24;
-	FIELD field_118 AQUIRE_IRON Lnet/minecraft/class_24;
+	FIELD field_118 ACQUIRE_IRON Lnet/minecraft/class_24;
 	FIELD field_119 CRAFT_HOE Lnet/minecraft/class_24;
 	FIELD field_120 MAKE_BREAD Lnet/minecraft/class_24;
 	FIELD field_121 BAKE_CAKE Lnet/minecraft/class_24;

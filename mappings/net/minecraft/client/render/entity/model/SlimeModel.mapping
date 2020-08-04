@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_493 net/minecraft/client/render/entity/model/SlimeModel
+	FIELD field_2016 body Lnet/minecraft/class_163;
+	FIELD field_2017 rightEye Lnet/minecraft/class_163;
+	FIELD field_2018 leftEye Lnet/minecraft/class_163;
+	FIELD field_2019 mouth Lnet/minecraft/class_163;

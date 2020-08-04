@@ -32,7 +32,7 @@ def minecraft_version = "b1.7.3"
 
 def ENV = System.getenv()
 //def build_number = ENV.BUILD_NUMBER ?: "local"
-def build_number = 13
+def build_number = 14
 
 def yarnVersion = "${minecraft_version}+build.$build_number"
 

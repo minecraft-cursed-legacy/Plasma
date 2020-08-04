@@ -10,6 +10,6 @@
 
 3. Use outdated, cursed Mojang names where applicable. e.g Tile instead of Block
 
-4. The mappings are cursed. Feel free to make cursed names where appropriate
+4. ~~The mappings are cursed. Feel free to make cursed names where appropriate~~ not really anymore
 
 5. Notwithstanding these rules, the name must still make some sense

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_225 net/minecraft/tile/entity/Chest
+	FIELD field_846 contents [Lnet/minecraft/class_31;

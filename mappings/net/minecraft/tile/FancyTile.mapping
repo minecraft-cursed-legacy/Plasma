@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_307 net/minecraft/tile/FancyTile
+	FIELD field_1192 fastGraphics Z
+	METHOD <init> (IILnet/minecraft/class_15;Z)V
+		ARG 4 opaque

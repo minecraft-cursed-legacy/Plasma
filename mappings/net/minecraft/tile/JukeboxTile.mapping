@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_88 net/minecraft/tile/JukeboxTile
+	METHOD <init> (II)V
+		ARG 1 id
+	METHOD method_349 setRecord (Lnet/minecraft/class_18;IIII)V
+		ARG 5 recordId

@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_396 net/minecraft/tile/RedstoneOre
-	FIELD field_1527 isLit Z
-	METHOD <init> (IIZ)V
-		ARG 3 isLit
-	METHOD method_1252 onTouch (Lnet/minecraft/class_18;III)V

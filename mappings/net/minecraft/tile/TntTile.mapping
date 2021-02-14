@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_132 net/minecraft/tile/TntTile
+	METHOD <init> (II)V
+		ARG 1 id

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_299 net/minecraft/tile/LeavesTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 meta
+	METHOD method_991 setFastGraphics (Z)V
+		ARG 1 fast

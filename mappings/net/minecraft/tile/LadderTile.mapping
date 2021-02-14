@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_627 net/minecraft/tile/LadderTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texUVStart

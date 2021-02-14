@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_323 net/minecraft/tile/ButtonTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texUVStart

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_492 net/minecraft/tile/FarmlandTile
+	METHOD <init> (I)V
+		ARG 1 id

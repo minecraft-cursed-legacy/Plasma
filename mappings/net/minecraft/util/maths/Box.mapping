@@ -5,8 +5,39 @@ CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
 	FIELD field_132 maxX D
 	FIELD field_133 maxY D
 	FIELD field_134 maxZ D
-	FIELD field_135 uselessWasteOfMemory Ljava/util/List;
+	FIELD field_135 cache Ljava/util/List;
 	FIELD field_136 thisIsAlwaysZero I
-	METHOD method_87 create (DDDDDD)Lnet/minecraft/class_25;
-	METHOD method_93 expand (DDD)Lnet/minecraft/class_25;
 	METHOD method_106 averageDimension ()D
+	METHOD method_86 add (DDD)Lnet/minecraft/class_25;
+		ARG 1 xMod
+		ARG 3 yMod
+		ARG 5 zMod
+	METHOD method_87 create (DDDDDD)Lnet/minecraft/class_25;
+		ARG 0 x0
+		ARG 2 y0
+		ARG 4 z0
+		ARG 6 x1
+		ARG 8 y1
+		ARG 10 z1
+	METHOD method_93 expand (DDD)Lnet/minecraft/class_25;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_94 getOrCreate (DDDDDD)Lnet/minecraft/class_25;
+		ARG 0 x0
+		ARG 2 y0
+		ARG 4 z0
+		ARG 6 x1
+		ARG 8 y1
+		ARG 10 z1
+	METHOD method_98 move (DDD)Lnet/minecraft/class_25;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_99 set (DDDDDD)Lnet/minecraft/class_25;
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ

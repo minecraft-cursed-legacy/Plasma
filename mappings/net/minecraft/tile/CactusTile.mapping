@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_329 net/minecraft/tile/CactusTile
+	METHOD <init> (II)V
+		ARG 1 id

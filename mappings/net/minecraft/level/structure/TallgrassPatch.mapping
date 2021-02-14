@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_623 net/minecraft/level/structure/TallgrassFeature
+CLASS net/minecraft/class_623 net/minecraft/level/structure/TallgrassPatch
 	FIELD field_2693 tileId I
 	FIELD field_2694 tileMeta I
 	METHOD <init> (II)V

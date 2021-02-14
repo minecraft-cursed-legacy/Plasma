@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_231 net/minecraft/level/structure/MushroomPatch
+	FIELD field_858 tileId I
+	METHOD <init> (I)V
+		ARG 1 tileId

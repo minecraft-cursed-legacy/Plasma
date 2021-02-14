@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_60 net/minecraft/sortme/Explosion
+CLASS net/minecraft/class_60 net/minecraft/level/Explosion
 	FIELD field_1391 causeFires Z
 	FIELD field_1392 x D
 	FIELD field_1393 y D

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_279 net/minecraft/client/sortme/WaterColour
-	FIELD field_1129 map [I
-	METHOD method_972 set ([I)V

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_334 net/minecraft/client/sortme/FoliageColour
-	FIELD field_1243 map [I
-	METHOD method_1081 set ([I)V

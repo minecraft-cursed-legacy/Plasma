@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_567 net/minecraft/sortme/LevelMonsterSpawner
+CLASS net/minecraft/class_567 net/minecraft/level/LevelMonsterSpawner
 	METHOD method_1868 (Lnet/minecraft/class_18;II)Lnet/minecraft/class_339;
 		ARG 0 level
 	METHOD method_1870 (Lnet/minecraft/class_18;ZZ)I

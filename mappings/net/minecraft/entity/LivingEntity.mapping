@@ -21,6 +21,7 @@ CLASS net/minecraft/class_127 net/minecraft/entity/LivingEntity
 	METHOD method_918 playAmbientSound ()V
 	METHOD method_919 onSpawnedFromSpawner ()V
 	METHOD method_932 isOnLadder ()Z
+	METHOD method_933 dropLoot ()V
 	METHOD method_935 canSpawn ()Z
 	METHOD method_937 updateDespawnCounter ()V
 	METHOD method_938 onKilledBy (Lnet/minecraft/class_57;)V

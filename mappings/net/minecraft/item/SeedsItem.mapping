@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_380 net/minecraft/item/SeedsItem
+	FIELD field_1430 cropTileId I

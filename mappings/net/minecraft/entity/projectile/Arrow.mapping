@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_410 net/minecraft/entity/projectile/ArrowEntity
+CLASS net/minecraft/class_410 net/minecraft/entity/projectile/Arrow
 	FIELD field_1574 player Z
 	FIELD field_1575 shake I
 	FIELD field_1577 xTile I

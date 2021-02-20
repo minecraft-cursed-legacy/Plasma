@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_289 net/minecraft/level/structure/ClayDisk
+	FIELD field_1144 clayId I
+	FIELD field_1145 size I
+	METHOD <init> (I)V
+		ARG 1 size

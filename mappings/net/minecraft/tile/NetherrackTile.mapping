@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_544 net/minecraft/tile/NetherrackTile
+	METHOD <init> (II)V
+		ARG 1 id

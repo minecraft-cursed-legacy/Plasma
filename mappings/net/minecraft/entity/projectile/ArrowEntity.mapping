@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_410 net/minecraft/entity/projectile/ArrowEntity
-	FIELD field_1574 player Z
-	FIELD field_1575 shake I
-	FIELD field_1577 xTile I
-	FIELD field_1578 yTile I
-	FIELD field_1579 zTile I
-	FIELD field_1580 inTile I
-	FIELD field_1581 inData I
-	FIELD field_1582 inGround Z

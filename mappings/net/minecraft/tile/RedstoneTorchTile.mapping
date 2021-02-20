@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_619 net/minecraft/tile/RedstoneTorchTile
+	FIELD field_2685 lit Z

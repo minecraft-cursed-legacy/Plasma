@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_4 net/minecraft/tile/entity/Jukebox
+	FIELD field_4 recordId I

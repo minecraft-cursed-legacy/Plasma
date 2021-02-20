@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_137 net/minecraft/entity/DispenserEntity
-	FIELD field_714 contents [Lnet/minecraft/class_31;
-	FIELD field_715 rand Ljava/util/Random;
-	METHOD method_665 getItemToDispense ()Lnet/minecraft/class_31;

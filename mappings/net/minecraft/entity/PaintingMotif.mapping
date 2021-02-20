@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_191 net/minecraft/entity/PaintingMotif
+	FIELD field_666 id Ljava/lang/String;
+	FIELD field_667 width I
+	FIELD field_668 height I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 4 width
+		ARG 5 height

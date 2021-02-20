@@ -1,0 +1,17 @@
+CLASS net/minecraft/class_567 net/minecraft/level/LevelMonsterSpawner
+	METHOD method_1868 (Lnet/minecraft/class_18;II)Lnet/minecraft/class_339;
+		ARG 0 level
+	METHOD method_1870 (Lnet/minecraft/class_18;ZZ)I
+		ARG 0 level
+	METHOD method_1871 canSpawnEntity (Lnet/minecraft/class_238;Lnet/minecraft/class_18;III)Z
+		ARG 0 type
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1872 (Lnet/minecraft/class_127;Lnet/minecraft/class_18;FFF)V
+		ARG 0 entity
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

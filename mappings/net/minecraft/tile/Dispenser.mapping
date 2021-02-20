@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_526 net/minecraft/tile/Dispenser
-	FIELD field_2206 rand Ljava/util/Random;

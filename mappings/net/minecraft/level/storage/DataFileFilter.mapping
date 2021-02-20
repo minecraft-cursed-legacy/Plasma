@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_387 net/minecraft/level/storage/DataFileFilter
+	FIELD field_1485 dataFilterPattern Ljava/util/regex/Pattern;
+	METHOD accept (Ljava/io/File;Ljava/lang/String;)Z
+		ARG 1 file

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_463 net/minecraft/tile/CakeTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texUVStart

@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_421 net/minecraft/tile/Furnace
-	FIELD field_1682 rand Ljava/util/Random;
-	FIELD field_1683 lit Z
-	FIELD field_1684 SETTING_TILE Z

@@ -141,6 +141,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 5 blockMeta
 	METHOD method_1564 raycast (Lnet/minecraft/class_18;IIILnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
 	METHOD method_1565 getTickrate ()I
+	METHOD method_1566 isValidPosition (Lnet/minecraft/class_18;III)Z
 	METHOD method_1567 canPlaceAt (Lnet/minecraft/class_18;III)Z
 		ARG 1 level
 		ARG 2 x
@@ -178,6 +179,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	METHOD method_1594 setUnbreakable ()Lnet/minecraft/class_17;
 	METHOD method_1595 getHardness ()F
 	METHOD method_1596 getName ()Ljava/lang/String;
+	METHOD method_1600 getTint (Lnet/minecraft/class_14;III)I
 	METHOD method_1601 getDropId (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 rand

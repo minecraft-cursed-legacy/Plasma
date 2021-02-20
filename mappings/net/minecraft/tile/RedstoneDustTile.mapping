@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_408 net/minecraft/tile/RedstoneDustTile
+	METHOD method_1286 activateRedstone (Lnet/minecraft/class_18;IIIIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1
+	METHOD method_1288 getSignalStrength (Lnet/minecraft/class_18;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 currentSignalStrength
+	METHOD method_1289 redstoneUpdate (Lnet/minecraft/class_18;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_242 net/minecraft/item/Dye
-	FIELD field_907 NAMES [Ljava/lang/String;
-	FIELD field_908 COLOURS [I

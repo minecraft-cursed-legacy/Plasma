@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_623 net/minecraft/level/structure/TallgrassFeature
-	FIELD field_2693 tileId I
-	FIELD field_2694 tileMeta I
-	METHOD <init> (II)V
-		ARG 1 tileId
-		ARG 2 tileMeta

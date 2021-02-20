@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_104 net/minecraft/tile/entity/MobSpawner
+	FIELD field_2681 delay I
+	FIELD field_2682 entityRotation D
+	FIELD field_2683 lastEntityRotation D
+	FIELD field_2684 entityId Ljava/lang/String;
+	METHOD method_2034 isPlayerInRange ()Z
+	METHOD method_2035 setEntityId (Ljava/lang/String;)V
+		ARG 1 id
+	METHOD method_2036 resetDelay ()V
+	METHOD method_2037 getEntityId ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_59 net/minecraft/level/LevelListener
+	METHOD method_1152 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
+	METHOD method_1153 addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD method_1156 drawCloak (Lnet/minecraft/class_57;)V

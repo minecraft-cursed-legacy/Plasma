@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_473 net/minecraft/tile/Plant
-	METHOD method_1683 canPlantOnTopOf (I)Z
-		ARG 1 id

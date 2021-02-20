@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_246 net/minecraft/level/structure/DeadbushFeature
-	FIELD field_911 tileId I
-	METHOD <init> (I)V
-		ARG 1 tileId

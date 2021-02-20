@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_191 net/minecraft/entity/PaintingMotive
-	FIELD field_666 id Ljava/lang/String;
-	FIELD field_667 width I
-	FIELD field_668 height I

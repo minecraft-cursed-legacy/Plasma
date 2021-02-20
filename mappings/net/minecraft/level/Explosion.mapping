@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_60 net/minecraft/level/Explosion
+	FIELD field_1391 causeFires Z
+	FIELD field_1392 x D
+	FIELD field_1393 y D
+	FIELD field_1394 z D
+	FIELD field_1395 cause Lnet/minecraft/class_57;
+	FIELD field_1396 power F
+	FIELD field_1397 damagedTiles Ljava/util/Set;
+	FIELD field_1398 random Ljava/util/Random;
+	FIELD field_1399 level Lnet/minecraft/class_18;
+	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_57;DDDF)V
+		ARG 1 level
+		ARG 2 cause
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 power
+	METHOD method_1195 kaboomPhase1 ()V
+	METHOD method_1196 kaboomPhase2 (Z)V
+		ARG 1 showParticles

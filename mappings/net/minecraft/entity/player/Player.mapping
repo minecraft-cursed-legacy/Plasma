@@ -20,6 +20,7 @@ CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
 	METHOD method_487 openFurnaceScreen (Lnet/minecraft/class_138;)V
 	METHOD method_488 increaseStat (Lnet/minecraft/class_139;I)V
 	METHOD method_489 openSignScreen (Lnet/minecraft/class_140;)V
+	METHOD method_491 onEntityCollision (Lnet/minecraft/class_57;I)V
 	METHOD method_492 respawn ()V
 	METHOD method_493 closeContainer ()V
 	METHOD method_495 trySleep (III)Lnet/minecraft/class_141;

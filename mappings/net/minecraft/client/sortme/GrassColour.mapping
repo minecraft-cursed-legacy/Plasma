@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_287 net/minecraft/client/sortme/GrassColour
-	FIELD field_1141 map [I
-	METHOD method_981 get (DD)I
-	METHOD method_982 set ([I)V

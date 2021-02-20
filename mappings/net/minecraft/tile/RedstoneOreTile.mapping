@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_396 net/minecraft/tile/RedstoneOreTile
+	FIELD field_1527 isLit Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 3 isLit
+	METHOD method_1252 onTouch (Lnet/minecraft/class_18;III)V

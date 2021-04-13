@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_445 net/minecraft/level/chunk/DimensionFileChunkIO
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 file
+	METHOD method_1479 loadChunk (Lnet/minecraft/class_18;Lnet/minecraft/class_8;)Lnet/minecraft/class_43;
+		ARG 0 level
+		ARG 1 tag
+	METHOD method_1480 (Lnet/minecraft/class_43;Lnet/minecraft/class_18;Lnet/minecraft/class_8;)V
+		ARG 0 chunk
+		ARG 1 level
+		ARG 2 tag

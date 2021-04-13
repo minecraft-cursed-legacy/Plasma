@@ -1,9 +1,12 @@
 CLASS net/minecraft/class_452 net/minecraft/util/ProgressListenerImpl
+	FIELD field_1714 submessage Ljava/lang/String;
 	FIELD field_1715 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_1716 message Ljava/lang/String;
+	FIELD field_1717 lastTimeMillis J
 	FIELD field_1718 ignoreGameRunning Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
 	METHOD method_1491 notifyWithGameRunning (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD method_1492 notify (Ljava/lang/String;)V
+		ARG 1 message

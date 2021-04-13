@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_219 net/minecraft/network/ClientPlayNetworkHandler
+	FIELD field_1968 levelData Lnet/minecraft/class_53;
 	FIELD field_1969 rand Ljava/util/Random;
 	FIELD field_1970 disconnected Z
 	FIELD field_1971 netHandler Lnet/minecraft/class_117;

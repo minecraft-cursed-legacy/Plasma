@@ -12,10 +12,12 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_208 thunderGradient F
 	FIELD field_213 difficulty I
 	FIELD field_214 rand Ljava/util/Random;
+	FIELD field_215 generating Z
 	FIELD field_216 dimension Lnet/minecraft/class_50;
 	FIELD field_218 cache Lnet/minecraft/class_51;
 	FIELD field_219 dimensionData Lnet/minecraft/class_52;
 	FIELD field_220 properties Lnet/minecraft/class_7;
+	FIELD field_222 data Lnet/minecraft/class_53;
 	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_50;)V
 		ARG 1 level
 		ARG 2 dimension
@@ -66,6 +68,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
 	METHOD method_195 saveLevel (ZLnet/minecraft/class_62;)V
 		ARG 2 listener
+	METHOD method_197 createLevelSource ()Lnet/minecraft/class_51;
 	METHOD method_200 setTileInChunk (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -74,6 +77,8 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_202 updateRedstone (IIIIII)V
 	METHOD method_210 spawnEntity (Lnet/minecraft/class_57;)Z
 	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
+	METHOD method_212 computeSpawnPosition ()V
+	METHOD method_213 getThunderGradient (F)F
 	METHOD method_214 getChunkFromCache (II)Lnet/minecraft/class_43;
 		ARG 1 x
 		ARG 2 z
@@ -131,6 +136,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_276 setSpawnPosition (Lnet/minecraft/class_63;)V
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
+	METHOD method_284 getSkyColour (F)Lnet/minecraft/class_26;
 	METHOD method_289 setRainGradient (F)V
 		ARG 1 gradient
 	METHOD method_293 disconnect ()V

@@ -1,0 +1,29 @@
+CLASS net/minecraft/class_96 net/minecraft/stat/StatManager
+	FIELD field_2604 achievements Ljava/util/Map;
+	FIELD field_2605 stats Ljava/util/Map;
+	FIELD field_2606 dirty Z
+	FIELD field_2607 syncher Lnet/minecraft/class_605;
+	METHOD <init> (Lnet/minecraft/class_237;Ljava/io/File;)V
+		ARG 1 session
+		ARG 2 file
+	METHOD method_1983 getStats ()Ljava/util/Map;
+	METHOD method_1984 method_1984 (Ljava/lang/String;)Ljava/util/Map;
+	METHOD method_1985 getDebugString (Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/String;
+		ARG 0 username
+		ARG 1 sessionId
+	METHOD method_1986 loadAchievementsFrom (Ljava/util/Map;)V
+		ARG 1 stats
+	METHOD method_1987 setStat (Ljava/util/Map;Lnet/minecraft/class_139;I)V
+	METHOD method_1988 hasAchievement (Lnet/minecraft/class_24;)Z
+		ARG 1 achievement
+	METHOD method_1989 getStatAmount (Lnet/minecraft/class_139;)I
+		ARG 1 stat
+	METHOD method_1990 incrementStat (Lnet/minecraft/class_139;I)V
+		ARG 1 stat
+		ARG 2 amount
+	METHOD method_1993 canGetAchievement (Lnet/minecraft/class_24;)Z
+		ARG 1 achievement
+	METHOD method_1994 sync ()V
+	METHOD method_1995 loadStatsFrom (Ljava/util/Map;)V
+		ARG 1 stats
+	METHOD method_1996 tick ()V

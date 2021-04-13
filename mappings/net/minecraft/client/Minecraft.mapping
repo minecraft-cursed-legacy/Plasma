@@ -6,6 +6,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		FIELD field_2829 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_2766 soundHelper Lnet/minecraft/class_617;
 	FIELD field_2768 texturePackManager Lnet/minecraft/class_303;
+	FIELD field_2773 statManager Lnet/minecraft/class_96;
 	FIELD field_2774 running Z
 	FIELD field_2775 fpsDebugString Ljava/lang/String;
 	FIELD field_2780 lastTickTime J

@@ -5,3 +5,5 @@ CLASS net/minecraft/class_605 net/minecraft/stat/StatSyncher
 	FIELD field_2725 session Lnet/minecraft/class_237;
 	METHOD method_2051 getStatsFromServer ()V
 	METHOD method_2060 saveStats (Ljava/util/Map;)V
+	METHOD method_2061 sync (Ljava/util/Map;Ljava/io/File;Ljava/io/File;Ljava/io/File;)V
+	METHOD method_2064 sync (Ljava/util/Map;)V

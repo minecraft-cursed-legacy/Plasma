@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_53 net/minecraft/level/LevelData
+	FIELD field_550 dimensionData Lnet/minecraft/class_52;
+	FIELD field_551 mapStorages Ljava/util/Map;
+	FIELD field_552 mapStorageValues Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_52;)V
+		ARG 1 data
+	METHOD method_523 flush ()V
+	METHOD method_524 writeToFile (Lnet/minecraft/class_58;)V
+		ARG 1 mapStorage
+	METHOD method_525 getOrCreateMapStorage (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/class_58;
+		ARG 1 mapStorageClass
+		ARG 2 name
+	METHOD method_527 setMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
+		ARG 1 key
+		ARG 2 storage

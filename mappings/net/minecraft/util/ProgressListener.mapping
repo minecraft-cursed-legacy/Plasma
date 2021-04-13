@@ -2,3 +2,5 @@ CLASS net/minecraft/class_62 net/minecraft/util/ProgressListener
 	METHOD method_1794 progressStagePercentage (I)V
 	METHOD method_1795 notifyIgnoreGameRunning (Ljava/lang/String;)V
 		ARG 1 message
+	METHOD method_1796 notifySubMessage (Ljava/lang/String;)V
+		ARG 1 message

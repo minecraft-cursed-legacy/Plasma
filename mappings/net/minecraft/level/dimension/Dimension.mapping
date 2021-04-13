@@ -1,10 +1,17 @@
 CLASS net/minecraft/class_50 net/minecraft/level/dimension/Dimension
 	FIELD field_2173 level Lnet/minecraft/class_18;
 	FIELD field_2174 biomeSource Lnet/minecraft/class_519;
+	FIELD field_2175 hasFog Z
+	FIELD field_2179 id I
+	METHOD method_1762 getSkyColour (FF)Lnet/minecraft/class_26;
+		ARG 1 temperature
+		ARG 2 humidity
 	METHOD method_1763 renderAsSkylands ()Z
+	METHOD method_1764 getCloudHeight ()F
 	METHOD method_1766 canPlayerSleep ()Z
 	METHOD method_1767 getByID (I)Lnet/minecraft/class_50;
 		ARG 0 id
-	METHOD method_1768 (Lnet/minecraft/class_18;)V
+	METHOD method_1768 setLevel (Lnet/minecraft/class_18;)V
 		ARG 1 level
+	METHOD method_1769 createBiomeSource ()V
 	METHOD method_1772 createLevelSource ()Lnet/minecraft/class_51;

@@ -1,6 +1,9 @@
 CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	FIELD field_954 tiles [B
 	FIELD field_956 level Lnet/minecraft/class_18;
+	FIELD field_957 data Lnet/minecraft/class_257;
+	FIELD field_958 skylight Lnet/minecraft/class_257;
+	FIELD field_959 blocklight Lnet/minecraft/class_257;
 	FIELD field_960 heightmap [B
 	FIELD field_962 x I
 	FIELD field_963 z I
@@ -11,6 +14,11 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 1 level
 		ARG 2 x
 		ARG 3 z
+	METHOD <init> (Lnet/minecraft/class_18;[BII)V
+		ARG 1 level
+		ARG 2 tiles
+		ARG 3 x
+		ARG 4 z
 	METHOD method_859 getTileId (III)I
 		ARG 1 x
 		ARG 2 y

@@ -1,7 +1,0 @@
-CLASS net/minecraft/class_96
-	FIELD field_2607 syncher Lnet/minecraft/class_605;
-	METHOD <init> (Lnet/minecraft/class_237;Ljava/io/File;)V
-		ARG 1 session
-		ARG 2 file
-	METHOD method_1990 incrementStat (Lnet/minecraft/class_139;I)V
-	METHOD method_1996 tick ()V

@@ -1,4 +1,13 @@
 CLASS net/minecraft/class_58 net/minecraft/level/storage/MapStorageBase
+	FIELD field_574 name Ljava/lang/String;
+	FIELD field_575 dirty Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_544 markDirty ()V
 	METHOD method_545 fromTag (Lnet/minecraft/class_8;)V
 		ARG 1 tag
+	METHOD method_546 setDirty (Z)V
+		ARG 1 dirty
+	METHOD method_547 isDirty ()Z
 	METHOD method_548 toTag (Lnet/minecraft/class_8;)V
+		ARG 1 tag

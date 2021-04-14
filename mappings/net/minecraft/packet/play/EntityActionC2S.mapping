@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_431 net/minecraft/packet/play/EntityActionC2S
+	FIELD field_1712 entityId I
+	FIELD field_1713 action I
+	METHOD <init> (Lnet/minecraft/class_57;I)V
+		ARG 1 entity
+		ARG 2 action

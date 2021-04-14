@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_394 net/minecraft/packet/play/EntityDeathS2C
+	FIELD field_1526 entityId I
+	METHOD <init> (I)V
+		ARG 1 entityId

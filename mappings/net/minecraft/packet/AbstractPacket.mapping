@@ -5,10 +5,11 @@ CLASS net/minecraft/class_169 net/minecraft/packet/AbstractPacket
 	METHOD method_799 create (I)Lnet/minecraft/class_169;
 	METHOD method_800 register (IZZLjava/lang/Class;)V
 		ARG 0 id
+	METHOD method_802 readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+	METHOD method_804 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
 	METHOD method_806 read (Ljava/io/DataInputStream;)V
 		ARG 1 in
 	METHOD method_807 write (Ljava/io/DataOutputStream;)V
 		ARG 1 out
-	METHOD method_804 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
-	METHOD method_808 handle (Lnet/minecraft/class_240;)V
+	METHOD method_808 apply (Lnet/minecraft/class_240;)V
 		ARG 1 handler

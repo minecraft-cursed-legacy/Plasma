@@ -1,1 +1,12 @@
 CLASS net/minecraft/class_382 net/minecraft/packet/play/CreateExplosionS2C
+	FIELD field_1432 x D
+	FIELD field_1433 y D
+	FIELD field_1434 z D
+	FIELD field_1435 radius F
+	FIELD field_1436 records Ljava/util/Set;
+	METHOD <init> (DDDFLjava/util/Set;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 radius
+		ARG 8 records

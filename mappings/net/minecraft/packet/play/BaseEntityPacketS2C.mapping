@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_437 net/minecraft/packet/play/BaseEntityPacketS2C
+	FIELD field_1748 entityId I
+	FIELD field_1749 x B
+	FIELD field_1750 y B
+	FIELD field_1751 z B
+	FIELD field_1752 yaw B
+	FIELD field_1753 pitch B
+	FIELD field_1754 sendingLook Z

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_432 net/minecraft/packet/play/UpdateSignC2S
+	FIELD field_1755 x I
+	FIELD field_1756 y I
+	FIELD field_1757 z I
+	FIELD field_1758 text [Ljava/lang/String;
+	METHOD <init> (III[Ljava/lang/String;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 text

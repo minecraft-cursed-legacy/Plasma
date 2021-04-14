@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_308 net/minecraft/packet/play/StartRidingS2C
-	FIELD field_1193 entity I
-	FIELD field_1194 vehicle I
-	METHOD <init> (Lnet/minecraft/class_57;Lnet/minecraft/class_57;)V
-		ARG 1 entity
-		ARG 2 vehicle

@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_161 net/minecraft/packet/Id131Packet
-	FIELD field_570 itemId S
-	FIELD field_571 itemid2 S

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_373 net/minecraft/packet/play/SpawnPositionS2C
+	FIELD field_1417 x I
+	FIELD field_1418 y I
+	FIELD field_1419 z I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

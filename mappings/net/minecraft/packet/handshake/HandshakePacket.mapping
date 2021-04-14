@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_281 net/minecraft/packet/handshake/HandshakePacket
+	FIELD field_1130 str Ljava/lang/String;
+		COMMENT In a C2S context this is the username while in an S2C context this is the connection hash.
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 str

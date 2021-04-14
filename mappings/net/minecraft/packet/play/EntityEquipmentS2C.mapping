@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_393 net/minecraft/packet/play/EntityEquipmentS2C
+	FIELD field_1522 entityId I
+	FIELD field_1523 slot I
+	FIELD field_1524 itemId I
+	FIELD field_1525 itemDamage I
+	METHOD <init> (IILnet/minecraft/class_31;)V
+		ARG 1 entityId
+		ARG 2 slot
+		ARG 3 stack

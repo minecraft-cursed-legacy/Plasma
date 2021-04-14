@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_441 net/minecraft/packet/play/MultiTileChangeS2C
+	FIELD field_2153 chunkX I
+	FIELD field_2154 chunkZ I
+	FIELD field_2155 coordinateArray [S
+	FIELD field_2156 typeArray [B
+	FIELD field_2157 metadataArray [B
+	FIELD field_2158 arraySize I

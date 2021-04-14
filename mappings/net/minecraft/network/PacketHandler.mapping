@@ -1,105 +1,105 @@
 CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
-	METHOD method_1422 onEntityInteract (Lnet/minecraft/class_1;)V
+	METHOD method_1422 handleEntityInteract (Lnet/minecraft/class_1;)V
 		ARG 1 packet
-	METHOD method_1423 onPlaceTile (Lnet/minecraft/class_145;)V
+	METHOD method_1423 handlePlaceTile (Lnet/minecraft/class_145;)V
 		ARG 1 packet
-	METHOD method_1424 onHeldSlotChange (Lnet/minecraft/class_170;)V
+	METHOD method_1424 handleHeldSlotChange (Lnet/minecraft/class_170;)V
 		ARG 1 packet
-	METHOD method_1425 onBasePlayer (Lnet/minecraft/class_184;)V
+	METHOD method_1425 handleBasePlayer (Lnet/minecraft/class_184;)V
 		ARG 1 packet
-	METHOD method_1426 onPlayerDigging (Lnet/minecraft/class_228;)V
+	METHOD method_1426 handlePlayerDigging (Lnet/minecraft/class_228;)V
 		ARG 1 packet
-	METHOD method_1427 onContainerClose (Lnet/minecraft/class_276;)V
+	METHOD method_1427 handleContainerClose (Lnet/minecraft/class_276;)V
 		ARG 1 packet
-	METHOD method_1428 onAnimation (Lnet/minecraft/class_305;)V
+	METHOD method_1428 handleAnimation (Lnet/minecraft/class_305;)V
 		ARG 1 packet
-	METHOD method_1429 onTransaction (Lnet/minecraft/class_325;)V
+	METHOD method_1429 handleTransaction (Lnet/minecraft/class_325;)V
 		ARG 1 packet
-	METHOD method_1430 onRespawn (Lnet/minecraft/class_335;)V
+	METHOD method_1430 handleRespawn (Lnet/minecraft/class_335;)V
 		ARG 1 packet
-	METHOD method_1431 onChatMessage (Lnet/minecraft/class_340;)V
+	METHOD method_1431 handleChatMessage (Lnet/minecraft/class_340;)V
 		ARG 1 packet
-	METHOD method_1432 onStance (Lnet/minecraft/class_357;)V
+	METHOD method_1432 handleStance (Lnet/minecraft/class_357;)V
 		ARG 1 packet
-	METHOD method_1433 onSlotClicked (Lnet/minecraft/class_363;)V
+	METHOD method_1433 handleSlotClicked (Lnet/minecraft/class_363;)V
 		ARG 1 packet
-	METHOD method_1434 onEntityAction (Lnet/minecraft/class_431;)V
+	METHOD method_1434 handleEntityAction (Lnet/minecraft/class_431;)V
 		ARG 1 packet
-	METHOD method_1435 onUpdateSign (Lnet/minecraft/class_432;)V
+	METHOD method_1435 handleUpdateSign (Lnet/minecraft/class_432;)V
 		ARG 1 packet
-	METHOD method_1436 onDisconnect (Lnet/minecraft/class_433;)V
+	METHOD method_1436 handleDisconnect (Lnet/minecraft/class_433;)V
 		ARG 1 packet
-	METHOD method_1437 onInvalidateState (Lnet/minecraft/class_434;)V
+	METHOD method_1437 handleInvalidateState (Lnet/minecraft/class_434;)V
 		ARG 1 packet
-	METHOD method_1438 onCollectItem (Lnet/minecraft/class_435;)V
+	METHOD method_1438 handleCollectItem (Lnet/minecraft/class_435;)V
 		ARG 1 packet
-	METHOD method_1439 onMapChunk (Lnet/minecraft/class_6;)V
+	METHOD method_1439 handleMapChunk (Lnet/minecraft/class_6;)V
 		ARG 1 packet
-	METHOD method_1440 onPlayerHealthUpdate (Lnet/minecraft/class_36;)V
+	METHOD method_1440 handlePlayerHealthUpdate (Lnet/minecraft/class_36;)V
 		ARG 1 packet
-	METHOD method_1441 onLightningStrike (Lnet/minecraft/class_45;)V
+	METHOD method_1441 handleLightningStrike (Lnet/minecraft/class_45;)V
 		ARG 1 packet
-	METHOD method_1442 onPlaySound (Lnet/minecraft/class_85;)V
+	METHOD method_1442 handlePlaySound (Lnet/minecraft/class_85;)V
 		ARG 1 packet
-	METHOD method_1443 onEntityVelocity (Lnet/minecraft/class_119;)V
+	METHOD method_1443 handleEntityVelocity (Lnet/minecraft/class_119;)V
 		ARG 1 packet
-	METHOD method_1444 onTimeUpdate (Lnet/minecraft/class_156;)V
+	METHOD method_1444 handleTimeUpdate (Lnet/minecraft/class_156;)V
 		ARG 1 packet
-	METHOD method_1445 onSlotUpdate (Lnet/minecraft/class_171;)V
+	METHOD method_1445 handleSlotUpdate (Lnet/minecraft/class_171;)V
 		ARG 1 packet
-	METHOD method_1446 onOpenContainer (Lnet/minecraft/class_201;)V
+	METHOD method_1446 handleOpenContainer (Lnet/minecraft/class_201;)V
 		ARG 1 packet
-	METHOD method_1447 onEntityStatus (Lnet/minecraft/class_210;)V
+	METHOD method_1447 handleEntityStatus (Lnet/minecraft/class_210;)V
 		ARG 1 packet
-	METHOD method_1448 onMobSpawn (Lnet/minecraft/class_215;)V
+	METHOD method_1448 handleMobSpawn (Lnet/minecraft/class_215;)V
 		ARG 1 packet
-	METHOD method_1449 onUseBed (Lnet/minecraft/class_234;)V
+	METHOD method_1449 handleUseBed (Lnet/minecraft/class_234;)V
 		ARG 1 packet
-	METHOD method_1450 onInventoryUpdate (Lnet/minecraft/class_236;)V
+	METHOD method_1450 handleInventoryUpdate (Lnet/minecraft/class_236;)V
 		ARG 1 packet
-	METHOD method_1451 onPlayerSpawn (Lnet/minecraft/class_272;)V
+	METHOD method_1451 handlePlayerSpawn (Lnet/minecraft/class_272;)V
 		ARG 1 packet
-	METHOD method_1452 onUpdateFurnaceProgress (Lnet/minecraft/class_292;)V
+	METHOD method_1452 handleUpdateFurnaceProgress (Lnet/minecraft/class_292;)V
 		ARG 1 packet
-	METHOD method_1453 onItemEntitySpawn (Lnet/minecraft/class_295;)V
+	METHOD method_1453 handleItemEntitySpawn (Lnet/minecraft/class_295;)V
 		ARG 1 packet
-	METHOD method_1454 onRideEntity (Lnet/minecraft/class_308;)V
+	METHOD method_1454 handleRideEntity (Lnet/minecraft/class_308;)V
 		ARG 1 packet
-	METHOD method_1455 onIncreaseStat (Lnet/minecraft/class_319;)V
+	METHOD method_1455 handleIncreaseStat (Lnet/minecraft/class_319;)V
 		ARG 1 packet
-	METHOD method_1456 onSpawnPosition (Lnet/minecraft/class_373;)V
+	METHOD method_1456 handleSpawnPosition (Lnet/minecraft/class_373;)V
 		ARG 1 packet
-	METHOD method_1457 onEntityTeleport (Lnet/minecraft/class_374;)V
+	METHOD method_1457 handleEntityTeleport (Lnet/minecraft/class_374;)V
 		ARG 1 packet
-	METHOD method_1458 onCreateExplosion (Lnet/minecraft/class_382;)V
+	METHOD method_1458 handleCreateExplosion (Lnet/minecraft/class_382;)V
 		ARG 1 packet
-	METHOD method_1459 onEntityEquipment (Lnet/minecraft/class_393;)V
+	METHOD method_1459 handleEntityEquipment (Lnet/minecraft/class_393;)V
 		ARG 1 packet
-	METHOD method_1460 onEntityDeath (Lnet/minecraft/class_394;)V
+	METHOD method_1460 handleEntityDeath (Lnet/minecraft/class_394;)V
 		ARG 1 packet
-	METHOD method_1461 onPreChunk (Lnet/minecraft/class_403;)V
+	METHOD method_1461 handlePreChunk (Lnet/minecraft/class_403;)V
 		ARG 1 packet
-	METHOD method_1462 onEntitySpawn (Lnet/minecraft/class_414;)V
+	METHOD method_1462 handleEntitySpawn (Lnet/minecraft/class_414;)V
 		ARG 1 packet
-	METHOD method_1463 onTileChange (Lnet/minecraft/class_436;)V
+	METHOD method_1463 handleTileChange (Lnet/minecraft/class_436;)V
 		ARG 1 packet
-	METHOD method_1464 onBaseEntity (Lnet/minecraft/class_437;)V
+	METHOD method_1464 handleBaseEntity (Lnet/minecraft/class_437;)V
 		ARG 1 packet
-	METHOD method_1465 onEntityMetadata (Lnet/minecraft/class_438;)V
+	METHOD method_1465 handleEntityMetadata (Lnet/minecraft/class_438;)V
 		ARG 1 packet
-	METHOD method_1466 onPainting (Lnet/minecraft/class_439;)V
+	METHOD method_1466 handlePainting (Lnet/minecraft/class_439;)V
 		ARG 1 packet
-	METHOD method_1467 onNote (Lnet/minecraft/class_440;)V
+	METHOD method_1467 handleNote (Lnet/minecraft/class_440;)V
 		ARG 1 packet
-	METHOD method_1468 onMultiTileChange (Lnet/minecraft/class_441;)V
+	METHOD method_1468 handleMultiTileChange (Lnet/minecraft/class_441;)V
 		ARG 1 packet
-	METHOD method_1469 onMapData (Lnet/minecraft/class_161;)V
+	METHOD method_1469 handleMapData (Lnet/minecraft/class_161;)V
 		ARG 1 packet
 	METHOD method_1470 error (Lnet/minecraft/class_169;)V
 		ARG 1 packet
-	METHOD method_1471 onHandshake (Lnet/minecraft/class_281;)V
+	METHOD method_1471 handleHandshake (Lnet/minecraft/class_281;)V
 		ARG 1 packet
-	METHOD method_1472 onLoginRequest (Lnet/minecraft/class_118;)V
+	METHOD method_1472 handleLoginRequest (Lnet/minecraft/class_118;)V
 		ARG 1 packet
 	METHOD method_1473 onSocketClosed (Ljava/lang/String;[Ljava/lang/Object;)V
 		ARG 1 reason

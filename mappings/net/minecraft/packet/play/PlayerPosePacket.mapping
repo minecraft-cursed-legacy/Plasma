@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_37 net/minecraft/packet/play/PlayerPositionAndLookPacket
+CLASS net/minecraft/class_37 net/minecraft/packet/play/PlayerPosePacket
 	METHOD <init> (DDDDFFZ)V
 		ARG 1 x
 		ARG 3 y

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_64 net/minecraft/packet/play/PlayerPositionC2S
+CLASS net/minecraft/class_64 net/minecraft/packet/play/PlayerPositionPacket
 	METHOD <init> (DDDDZ)V
 		ARG 1 x
 		ARG 3 y

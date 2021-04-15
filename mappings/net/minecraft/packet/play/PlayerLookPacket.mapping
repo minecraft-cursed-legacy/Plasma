@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_489 net/minecraft/packet/play/PlayerLookPacket
+	METHOD <init> (FFZ)V
+		ARG 1 yaw
+		ARG 2 pitch
+		ARG 3 onGround

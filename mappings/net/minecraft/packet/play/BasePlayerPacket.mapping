@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_184 net/minecraft/packet/play/BasePlayerC2S
+CLASS net/minecraft/class_184 net/minecraft/packet/play/BasePlayerPacket
 	FIELD field_636 x D
 	FIELD field_637 y D
 	FIELD field_638 z D

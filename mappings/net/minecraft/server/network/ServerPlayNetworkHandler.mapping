@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_117 net/minecraft/server/network/ServerPlayNetworkHandler
-	FIELD field_1291 writeThread Ljava/lang/Thread;
-	FIELD field_1292 readThread Ljava/lang/Thread;
-	METHOD method_1125 disconnectClient (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD method_1131 getIPAddress ()Ljava/net/SocketAddress;

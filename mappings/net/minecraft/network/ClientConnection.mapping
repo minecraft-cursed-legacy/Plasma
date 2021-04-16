@@ -1,0 +1,38 @@
+CLASS net/minecraft/class_117 net/minecraft/network/ClientConnection
+	FIELD field_1274 LOCK Ljava/lang/Object;
+	FIELD field_1275 READ_THREADS I
+	FIELD field_1276 WRITE_THREADS I
+	FIELD field_1280 lock Ljava/lang/Object;
+	FIELD field_1281 socket Ljava/net/Socket;
+	FIELD field_1282 socketAddress Ljava/net/SocketAddress;
+	FIELD field_1283 dataInput Ljava/io/DataInputStream;
+	FIELD field_1284 dataOutput Ljava/io/DataOutputStream;
+	FIELD field_1285 canDisconnect Z
+	FIELD field_1287 queuedPackets Ljava/util/List;
+	FIELD field_1288 queuedChunkDataPackets Ljava/util/List;
+	FIELD field_1289 handler Lnet/minecraft/class_240;
+	FIELD field_1290 disconnected Z
+	FIELD field_1291 writeThread Ljava/lang/Thread;
+	FIELD field_1292 readThread Ljava/lang/Thread;
+	FIELD field_1293 closed Z
+	FIELD field_1294 disconnectMessage Ljava/lang/String;
+	FIELD field_1295 disconnectArgs [Ljava/lang/Object;
+	FIELD field_1296 lastKeepAliveTicks I
+	FIELD field_1297 writtenBytes I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lnet/minecraft/class_240;)V
+		ARG 1 socket
+		ARG 2 name
+		ARG 3 handler
+	METHOD method_1122 interrupt ()V
+	METHOD method_1123 sendPacket (Lnet/minecraft/class_169;)V
+		ARG 1 packet
+	METHOD method_1124 handleException (Ljava/lang/Exception;)V
+		ARG 1 exception
+	METHOD method_1125 disconnectClient (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 message
+		ARG 2 args
+	METHOD method_1128 setHandler (Lnet/minecraft/class_240;)V
+		ARG 1 handler
+	METHOD method_1131 getIPAddress ()Ljava/net/SocketAddress;
+	METHOD method_1133 disconnect ()V
+	METHOD method_1135 getQueuedChunkDataPacketsSize ()I

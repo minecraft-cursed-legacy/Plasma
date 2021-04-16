@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_295 net/minecraft/packet/play/ItemEntitySpawnS2C
+	FIELD field_1156 entityId I
+	FIELD field_1157 x I
+	FIELD field_1158 y I
+	FIELD field_1159 z I
+	FIELD field_1160 velocityX B
+	FIELD field_1161 velocityY B
+	FIELD field_1162 velocityZ B
+	FIELD field_1163 itemid I
+	FIELD field_1164 count I
+	FIELD field_1165 damage I
+	METHOD <init> (Lnet/minecraft/class_142;)V
+		ARG 1 itemEntity

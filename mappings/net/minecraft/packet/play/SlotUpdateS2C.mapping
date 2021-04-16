@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_171 net/minecraft/packet/play/SlotUpdateS2C
+	FIELD field_593 containerId I
+	FIELD field_594 slotIndex I
+	FIELD field_595 item Lnet/minecraft/class_31;
+	METHOD <init> (IILnet/minecraft/class_31;)V
+		ARG 1 containerId
+		ARG 2 slotIndex
+		ARG 3 item

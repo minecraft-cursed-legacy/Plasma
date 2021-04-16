@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_64 net/minecraft/packet/play/PlayerPositionPacket
+	METHOD <init> (DDDDZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 stance
+		ARG 7 z
+		ARG 9 onGround

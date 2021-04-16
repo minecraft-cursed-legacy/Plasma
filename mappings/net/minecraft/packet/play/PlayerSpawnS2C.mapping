@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_272 net/minecraft/packet/play/PlayerSpawnS2C
+	FIELD field_1114 entityId I
+	FIELD field_1115 name Ljava/lang/String;
+	FIELD field_1116 x I
+	FIELD field_1117 y I
+	FIELD field_1118 z I
+	FIELD field_1119 yaw B
+	FIELD field_1120 pitch B
+	FIELD field_1121 heldItemId I
+	METHOD <init> (Lnet/minecraft/class_54;)V
+		ARG 1 player

@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_215 net/minecraft/packet/play/MobSpawnS2C
+	FIELD field_797 pitch B
+	FIELD field_798 dataTracker Lnet/minecraft/class_216;
+	FIELD field_799 data Ljava/util/List;
+	FIELD field_800 entityId I
+	FIELD field_801 rawId B
+	FIELD field_802 x I
+	FIELD field_803 y I
+	FIELD field_804 z I
+	FIELD field_805 yaw B
+	METHOD <init> (Lnet/minecraft/class_127;)V
+		ARG 1 entity
+	METHOD method_747 getData ()Ljava/util/List;

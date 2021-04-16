@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_170 net/minecraft/packet/play/HeldSlotChangeC2S
+	FIELD field_592 slotIndex I
+	METHOD <init> (I)V
+		ARG 1 slotIndex

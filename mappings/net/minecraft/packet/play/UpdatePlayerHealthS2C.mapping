@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_36 net/minecraft/packet/play/UpdatePlayerHealthS2C
 	FIELD field_158 health I
+	METHOD <init> (I)V
+		ARG 1 health

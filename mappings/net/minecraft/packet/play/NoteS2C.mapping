@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_440 net/minecraft/packet/play/NoteS2C
+	FIELD field_2047 x I
+	FIELD field_2048 y I
+	FIELD field_2049 z I
+	FIELD field_2050 instrument I
+	FIELD field_2051 pitch I
+	METHOD <init> (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 instrument
+		ARG 5 pitch

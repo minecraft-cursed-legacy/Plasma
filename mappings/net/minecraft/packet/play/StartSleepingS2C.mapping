@@ -1,1 +1,12 @@
 CLASS net/minecraft/class_234 net/minecraft/packet/play/StartSleepingS2C
+	FIELD field_864 entityId I
+	FIELD field_865 x I
+	FIELD field_866 y I
+	FIELD field_867 z I
+	FIELD field_868 inBed I
+	METHOD <init> (Lnet/minecraft/class_57;IIII)V
+		ARG 1 entity
+		ARG 2 inbed
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

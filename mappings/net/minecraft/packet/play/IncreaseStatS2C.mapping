@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_319 net/minecraft/packet/play/IncreaseStatS2C
+	FIELD field_1213 statId I
+	FIELD field_1214 by I
+	METHOD <init> (II)V
+		ARG 1 statId
+		ARG 2 by

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_201 net/minecraft/packet/play/OpenContainerS2C
+	FIELD field_741 containerId I
+	FIELD field_742 inventoryType I
+	FIELD field_743 title Ljava/lang/String;
+	FIELD field_744 slots I
+	METHOD <init> (IILjava/lang/String;I)V
+		ARG 1 containerId
+		ARG 2 inventoryType
+		ARG 3 title
+		ARG 4 slots

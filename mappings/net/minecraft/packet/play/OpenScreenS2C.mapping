@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_201 net/minecraft/packet/play/OpenScreenS2C
-	FIELD field_741 containerId I
-	FIELD field_742 screenId I

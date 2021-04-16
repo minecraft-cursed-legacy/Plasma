@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_184 net/minecraft/packet/play/BasePlayerPacket
+	FIELD field_636 x D
+	FIELD field_637 y D
+	FIELD field_638 z D
+	FIELD field_639 stance D
+	FIELD field_640 yaw F
+	FIELD field_641 pitch F
+	FIELD field_642 onGround Z
+	FIELD field_643 sendingPos Z
+	FIELD field_644 sendingLook Z
+	METHOD <init> (Z)V
+		ARG 1 onGround

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_45 net/minecraft/packet/play/LightningStrikeS2C
+	FIELD field_172 entityId I
+	FIELD field_173 x I
+	FIELD field_174 y I
+	FIELD field_175 z I
+	FIELD field_176 thisIsAlwaysTrueYeef I
+	METHOD <init> (Lnet/minecraft/class_57;)V
+		ARG 1 entity

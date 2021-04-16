@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_363 net/minecraft/packet/play/SlotClickedC2S
+	FIELD field_1362 containerId I
+	FIELD field_1363 slotIndex I
+	FIELD field_1364 rightClick I
+	FIELD field_1365 actionType S
+	FIELD field_1366 item Lnet/minecraft/class_31;
+	FIELD field_1367 holdingShift Z
+	METHOD <init> (IIIZLnet/minecraft/class_31;S)V
+		ARG 1 containerId
+		ARG 2 slotIndex
+		ARG 3 rightClick
+		ARG 4 holdingShift
+		ARG 5 item
+		ARG 6 actionType

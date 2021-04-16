@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_161 net/minecraft/packet/play/MapDataS2C
+	FIELD field_571 mapId S
+	FIELD field_572 text [B
+	METHOD <init> (SS[B)V
+		ARG 2 mapId
+		ARG 3 text

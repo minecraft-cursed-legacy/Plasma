@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_325 net/minecraft/packet/play/TransactionS2C
+	FIELD field_1222 containerId I
+	FIELD field_1223 actionType S
+	FIELD field_1224 accepted Z
+	METHOD <init> (ISZ)V
+		ARG 1 containerId
+		ARG 2 actionType
+		ARG 3 accepted

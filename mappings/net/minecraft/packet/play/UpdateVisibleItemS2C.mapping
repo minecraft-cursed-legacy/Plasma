@@ -1,9 +1,0 @@
-CLASS net/minecraft/class_393 net/minecraft/packet/play/UpdateVisibleItemS2C
-	FIELD field_1522 entity I
-	FIELD field_1523 type I
-	FIELD field_1524 itemId I
-	FIELD field_1525 itemDamage I
-	METHOD <init> (IILnet/minecraft/class_31;)V
-		ARG 1 entity
-		ARG 2 type
-		ARG 3 item

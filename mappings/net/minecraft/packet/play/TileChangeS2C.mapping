@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_436 net/minecraft/packet/play/TileChangeS2C
+	FIELD field_1735 x I
+	FIELD field_1736 y I
+	FIELD field_1737 z I
+	FIELD field_1738 tileId I
+	FIELD field_1739 metadata I
+	METHOD <init> (IIILnet/minecraft/class_18;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 level

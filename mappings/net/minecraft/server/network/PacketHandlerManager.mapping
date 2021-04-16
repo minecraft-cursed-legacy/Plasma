@@ -1,0 +1,17 @@
+CLASS net/minecraft/class_9 net/minecraft/server/network/PacketHandlerManager
+	FIELD field_28 logger Ljava/util/logging/Logger;
+	FIELD field_29 listening Z
+	FIELD field_30 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_31 socket Ljava/net/ServerSocket;
+	FIELD field_32 listeningThread Ljava/lang/Thread;
+	FIELD field_34 loginHandlers Ljava/util/ArrayList;
+	FIELD field_35 playHandlers Ljava/util/ArrayList;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
+		ARG 1 server
+		ARG 2 address
+		ARG 3 port
+	METHOD method_34 handlePendingConnections ()V
+	METHOD method_37 addLoginHandler (Lnet/minecraft/class_10;)V
+		ARG 1 handler
+	METHOD method_38 addPlayHandler (Lnet/minecraft/class_11;)V
+		ARG 1 handler

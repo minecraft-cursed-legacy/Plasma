@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_117 net/minecraft/network/ClientConnection
+CLASS net/minecraft/class_117 net/minecraft/network/Connection
 	FIELD field_1274 LOCK Ljava/lang/Object;
 	FIELD field_1275 READ_THREADS I
 	FIELD field_1276 WRITE_THREADS I

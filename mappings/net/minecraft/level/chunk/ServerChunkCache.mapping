@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_326 net/minecraft/level/chunk/ServerChunkCache
-	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_243;Lnet/minecraft/class_51;)V
-		ARG 1 level

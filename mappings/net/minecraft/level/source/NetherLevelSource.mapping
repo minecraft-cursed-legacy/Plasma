@@ -1,3 +1,8 @@
 CLASS net/minecraft/class_359 net/minecraft/level/source/NetherLevelSource
 	FIELD field_1344 rand Ljava/util/Random;
 	FIELD field_1350 level Lnet/minecraft/class_18;
+	FIELD field_1355 cave Lnet/minecraft/class_105;
+	METHOD method_1180 shapeChunk (II[B)V
+	METHOD method_1181 calculateNoise ([DIIIIII)[D
+		ARG 1 noiseArray
+	METHOD method_1182 buildSurface (II[B)V

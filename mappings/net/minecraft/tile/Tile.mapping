@@ -58,8 +58,8 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1877 MOVING_PISTON Lnet/minecraft/class_469;
 	FIELD field_1878 DANDELION Lnet/minecraft/class_473;
 	FIELD field_1879 ROSE Lnet/minecraft/class_473;
-	FIELD field_1880 MUSHROOM_1 Lnet/minecraft/class_473;
-	FIELD field_1881 MUSHROOM_2 Lnet/minecraft/class_473;
+	FIELD field_1880 BROWN_MUSHROOM Lnet/minecraft/class_473;
+	FIELD field_1881 RED_MUSHROOM Lnet/minecraft/class_473;
 	FIELD field_1882 BLOCK_GOLD Lnet/minecraft/class_17;
 	FIELD field_1883 BLOCK_IRON Lnet/minecraft/class_17;
 	FIELD field_1884 DOUBLE_STONE_SLAB Lnet/minecraft/class_17;
@@ -95,6 +95,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1915 id I
 	FIELD field_1916 hardness F
 	FIELD field_1917 resistance F
+	FIELD field_1919 opaque Z
 	FIELD field_1920 minX D
 	FIELD field_1921 minY D
 	FIELD field_1922 minZ D
@@ -115,6 +116,9 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	FIELD field_1938 TICKS_RANDOMLY [Z
 	FIELD field_1939 FULL_OPAQUE [Z
 	FIELD field_1940 HAS_TILE_ENTITY [Z
+	FIELD field_1942 IS_AIR [Z
+	FIELD field_1943 LUMINANCES [I
+	FIELD field_1944 MULTIPLE_STATES [Z
 	FIELD field_1945 STONE Lnet/minecraft/class_17;
 	FIELD field_1946 GRASS Lnet/minecraft/class_476;
 	FIELD field_1947 DIRT Lnet/minecraft/class_17;
@@ -134,12 +138,17 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
+	METHOD method_1562 intersectsInLevel (Lnet/minecraft/class_18;IIILnet/minecraft/class_25;Ljava/util/ArrayList;)V
+		ARG 6 intersections
 	METHOD method_1563 onTileAction (Lnet/minecraft/class_18;IIIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 blockMeta
 	METHOD method_1564 raycast (Lnet/minecraft/class_18;IIILnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1565 getTickrate ()I
 	METHOD method_1566 isValidPosition (Lnet/minecraft/class_18;III)Z
 	METHOD method_1567 canPlaceAt (Lnet/minecraft/class_18;III)Z
@@ -149,6 +158,8 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 4 z
 	METHOD method_1569 emitsRedstonePower ()Z
 	METHOD method_1574 getPistonPushMode ()I
+	METHOD method_1577 luminance (F)Lnet/minecraft/class_17;
+		ARG 1 luminance
 	METHOD method_1578 setBoundingBox (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
@@ -163,22 +174,26 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_1583 setName (Ljava/lang/String;)Lnet/minecraft/class_17;
+	METHOD method_1583 name (Ljava/lang/String;)Lnet/minecraft/class_17;
 	METHOD method_1584 setTicksRandomly (Z)Lnet/minecraft/class_17;
 		ARG 1 ticksRandomly
-	METHOD method_1585 setBlastResistance (F)Lnet/minecraft/class_17;
+	METHOD method_1585 blastResistance (F)Lnet/minecraft/class_17;
 		ARG 1 resistance
-	METHOD method_1587 setHardness (F)Lnet/minecraft/class_17;
+	METHOD method_1587 hardness (F)Lnet/minecraft/class_17;
 		ARG 1 hardness
+	METHOD method_1591 multipleStates ()Lnet/minecraft/class_17;
 	METHOD method_1592 drop (Lnet/minecraft/class_18;IIII)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
+	METHOD method_1593 afterTileItemCreated ()V
 	METHOD method_1594 setUnbreakable ()Lnet/minecraft/class_17;
 	METHOD method_1595 getHardness ()F
 	METHOD method_1596 getName ()Ljava/lang/String;
+	METHOD method_1598 isOpaque ()Z
+	METHOD method_1599 nonOpaque ()Lnet/minecraft/class_17;
 	METHOD method_1600 getTint (Lnet/minecraft/class_14;III)I
 	METHOD method_1601 getDropId (ILjava/util/Random;)I
 		ARG 1 meta

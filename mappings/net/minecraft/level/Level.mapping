@@ -14,6 +14,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_214 rand Ljava/util/Random;
 	FIELD field_215 generating Z
 	FIELD field_216 dimension Lnet/minecraft/class_50;
+	FIELD field_217 listeners Ljava/util/List;
 	FIELD field_218 cache Lnet/minecraft/class_51;
 	FIELD field_219 dimensionData Lnet/minecraft/class_52;
 	FIELD field_220 properties Lnet/minecraft/class_7;
@@ -43,15 +44,24 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_159 setLevelTime (J)V
+		ARG 1 time
 	METHOD method_160 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
 	METHOD method_161 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;Z)Lnet/minecraft/class_27;
 	METHOD method_162 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;ZZ)Lnet/minecraft/class_27;
+	METHOD method_164 getLightLevel (Lnet/minecraft/class_56;III)I
+	METHOD method_165 setLightLevel (Lnet/minecraft/class_56;IIII)V
 	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
 	METHOD method_173 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
 	METHOD method_175 getEntities (Ljava/lang/Class;Lnet/minecraft/class_25;)Ljava/util/List;
+	METHOD method_176 getOrCreateMapStorage (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/class_58;
+		ARG 1 clazz
+		ARG 2 name
 	METHOD method_177 getPlayerByName (Ljava/lang/String;)Lnet/minecraft/class_54;
 	METHOD method_178 addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD method_180 putMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
+		ARG 1 name
+	METHOD method_183 addListener (Lnet/minecraft/class_59;)V
 	METHOD method_186 getClosestPlayerTo (Lnet/minecraft/class_57;D)Lnet/minecraft/class_54;
 	METHOD method_187 createExplosion (Lnet/minecraft/class_57;DDDF)Lnet/minecraft/class_60;
 		ARG 1 cause
@@ -66,9 +76,11 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 6 z
 		ARG 8 power
 	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
+		ARG 1 entity
 	METHOD method_195 saveLevel (ZLnet/minecraft/class_62;)V
 		ARG 2 listener
 	METHOD method_197 createLevelSource ()Lnet/minecraft/class_51;
+	METHOD method_199 getChunk (II)Lnet/minecraft/class_43;
 	METHOD method_200 setTileInChunk (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -79,6 +91,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
 	METHOD method_212 computeSpawnPosition ()V
 	METHOD method_213 getThunderGradient (F)F
+		ARG 1 tickProgress
 	METHOD method_214 getChunkFromCache (II)Lnet/minecraft/class_43;
 		ARG 1 x
 		ARG 2 z
@@ -93,14 +106,20 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_222 getHeight (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD method_228 getOceanFloorHeight (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD method_229 setTile (IIII)Z
 	METHOD method_230 playLevelEvent (IIIII)V
 	METHOD method_231 removeEntity (Lnet/minecraft/class_57;)V
-		ARG 1 entity
+	METHOD method_233 getSurfaceHeight (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD method_234 isAir (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_236 removeEntityFromChunk (Lnet/minecraft/class_57;)V
 	METHOD method_238 isChunkLoaded (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkY
@@ -109,6 +128,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_251 checkSessionLock ()V
 	METHOD method_254 getSeed ()J
 	METHOD method_255 getLightLevel (III)I
 	METHOD method_256 getLevelTime ()J
@@ -130,12 +150,15 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_268 canSkipNight ()Z
+	METHOD method_269 thundering ()Z
 	METHOD method_270 raining ()Z
+	METHOD method_271 prepareSaveLevel ()V
 	METHOD method_272 initWeatherGradients ()V
 	METHOD method_273 resetWeather ()V
 	METHOD method_276 setSpawnPosition (Lnet/minecraft/class_63;)V
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
+	METHOD method_281 removeListener (Lnet/minecraft/class_59;)V
 	METHOD method_284 getSkyColour (F)Lnet/minecraft/class_26;
 	METHOD method_289 setRainGradient (F)V
 		ARG 1 gradient

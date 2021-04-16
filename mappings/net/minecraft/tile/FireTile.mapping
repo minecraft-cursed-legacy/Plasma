@@ -1,1 +1,9 @@
 CLASS net/minecraft/class_474 net/minecraft/tile/FireTile
+	FIELD field_2307 flammabilities [I
+	FIELD field_2308 spreadabilities [I
+	METHOD <init> (II)V
+		ARG 1 id
+	METHOD method_1822 setFlammability (III)V
+		ARG 1 tileId
+		ARG 2 flammability
+		ARG 3 spreadabilities

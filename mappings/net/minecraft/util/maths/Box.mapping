@@ -19,6 +19,7 @@ CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
 		ARG 6 x1
 		ARG 8 y1
 		ARG 10 z1
+	METHOD method_90 intersects (Lnet/minecraft/class_25;)Z
 	METHOD method_93 expand (DDD)Lnet/minecraft/class_25;
 		ARG 1 x
 		ARG 3 y

@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_417 net/minecraft/level/LightCalculator
+	FIELD field_1673 type Lnet/minecraft/class_56;
+	METHOD method_1401 propagateLight (IIIIII)Z
+	METHOD method_1402 calculateLight (Lnet/minecraft/class_18;)V

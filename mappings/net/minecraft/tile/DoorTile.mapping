@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_252 net/minecraft/tile/DoorTile
+	METHOD method_838 setBoundingBox (I)V
+		ARG 1 meta

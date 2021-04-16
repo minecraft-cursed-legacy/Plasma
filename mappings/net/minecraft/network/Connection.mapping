@@ -5,8 +5,8 @@ CLASS net/minecraft/class_117 net/minecraft/network/Connection
 	FIELD field_1280 lock Ljava/lang/Object;
 	FIELD field_1281 socket Ljava/net/Socket;
 	FIELD field_1282 socketAddress Ljava/net/SocketAddress;
-	FIELD field_1283 dataInput Ljava/io/DataInputStream;
-	FIELD field_1284 dataOutput Ljava/io/DataOutputStream;
+	FIELD field_1283 input Ljava/io/DataInputStream;
+	FIELD field_1284 output Ljava/io/DataOutputStream;
 	FIELD field_1285 canSend Z
 	FIELD field_1286 handledPackets Ljava/util/List;
 	FIELD field_1287 queuedPackets Ljava/util/List;

@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 	METHOD method_1422 handleEntityInteract (Lnet/minecraft/class_1;)V
 		ARG 1 packet
-	METHOD method_1423 handlePlaceTile (Lnet/minecraft/class_145;)V
+	METHOD method_1423 handleItemUse (Lnet/minecraft/class_145;)V
 		ARG 1 packet
 	METHOD method_1424 handleHeldSlotChange (Lnet/minecraft/class_170;)V
 		ARG 1 packet
@@ -33,7 +33,7 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1438 handleCollectItem (Lnet/minecraft/class_435;)V
 		ARG 1 packet
-	METHOD method_1439 handleMapChunk (Lnet/minecraft/class_6;)V
+	METHOD method_1439 handleChunk (Lnet/minecraft/class_6;)V
 		ARG 1 packet
 	METHOD method_1440 handlePlayerHealthUpdate (Lnet/minecraft/class_36;)V
 		ARG 1 packet
@@ -53,7 +53,7 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1448 handleMobSpawn (Lnet/minecraft/class_215;)V
 		ARG 1 packet
-	METHOD method_1449 handleUseBed (Lnet/minecraft/class_234;)V
+	METHOD method_1449 handleStartSleeping (Lnet/minecraft/class_234;)V
 		ARG 1 packet
 	METHOD method_1450 handleInventoryUpdate (Lnet/minecraft/class_236;)V
 		ARG 1 packet
@@ -63,7 +63,7 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1453 handleItemEntitySpawn (Lnet/minecraft/class_295;)V
 		ARG 1 packet
-	METHOD method_1454 handleRideEntity (Lnet/minecraft/class_308;)V
+	METHOD method_1454 handleStartRiding (Lnet/minecraft/class_308;)V
 		ARG 1 packet
 	METHOD method_1455 handleIncreaseStat (Lnet/minecraft/class_319;)V
 		ARG 1 packet
@@ -71,13 +71,13 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1457 handleEntityTeleport (Lnet/minecraft/class_374;)V
 		ARG 1 packet
-	METHOD method_1458 handleCreateExplosion (Lnet/minecraft/class_382;)V
+	METHOD method_1458 handleExplosion (Lnet/minecraft/class_382;)V
 		ARG 1 packet
 	METHOD method_1459 handleEntityEquipment (Lnet/minecraft/class_393;)V
 		ARG 1 packet
 	METHOD method_1460 handleEntityDeath (Lnet/minecraft/class_394;)V
 		ARG 1 packet
-	METHOD method_1461 handlePreChunk (Lnet/minecraft/class_403;)V
+	METHOD method_1461 handlePrepareChunk (Lnet/minecraft/class_403;)V
 		ARG 1 packet
 	METHOD method_1462 handleEntitySpawn (Lnet/minecraft/class_414;)V
 		ARG 1 packet
@@ -87,7 +87,7 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1465 handleEntityMetadata (Lnet/minecraft/class_438;)V
 		ARG 1 packet
-	METHOD method_1466 handlePainting (Lnet/minecraft/class_439;)V
+	METHOD method_1466 handleSpawnPainting (Lnet/minecraft/class_439;)V
 		ARG 1 packet
 	METHOD method_1467 handleNote (Lnet/minecraft/class_440;)V
 		ARG 1 packet

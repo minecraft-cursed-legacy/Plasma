@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_276 net/minecraft/packet/play/CloseContainerC2S
-	FIELD field_1123 containerId I
-	METHOD <init> (I)V
-		ARG 1 containerId

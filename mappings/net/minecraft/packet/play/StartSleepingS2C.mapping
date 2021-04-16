@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_234 net/minecraft/packet/play/UseBedS2C
+CLASS net/minecraft/class_234 net/minecraft/packet/play/StartSleepingS2C
 	FIELD field_864 entityId I
 	FIELD field_865 x I
 	FIELD field_866 y I

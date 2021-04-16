@@ -3,7 +3,7 @@ CLASS net/minecraft/class_414 net/minecraft/packet/play/EntitySpawnS2C
 	FIELD field_1664 x I
 	FIELD field_1665 y I
 	FIELD field_1666 z I
-	FIELD field_1670 type I
+	FIELD field_1670 typeId I
 	FIELD field_1671 flag I
 	METHOD <init> (Lnet/minecraft/class_57;I)V
 		ARG 1 entity

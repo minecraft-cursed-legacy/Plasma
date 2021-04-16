@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_145 net/minecraft/packet/play/ItemUseC2S
+	FIELD field_542 x I
+	FIELD field_543 y I
+	FIELD field_544 z I
+	FIELD field_545 direction I
+	FIELD field_546 item Lnet/minecraft/class_31;
+	METHOD <init> (IIIILnet/minecraft/class_31;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 direction
+		ARG 5 item

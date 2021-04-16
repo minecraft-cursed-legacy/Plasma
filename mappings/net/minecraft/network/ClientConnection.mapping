@@ -7,7 +7,8 @@ CLASS net/minecraft/class_117 net/minecraft/network/ClientConnection
 	FIELD field_1282 socketAddress Ljava/net/SocketAddress;
 	FIELD field_1283 dataInput Ljava/io/DataInputStream;
 	FIELD field_1284 dataOutput Ljava/io/DataOutputStream;
-	FIELD field_1285 canDisconnect Z
+	FIELD field_1285 canSend Z
+	FIELD field_1286 handledPackets Ljava/util/List;
 	FIELD field_1287 queuedPackets Ljava/util/List;
 	FIELD field_1288 queuedChunkDataPackets Ljava/util/List;
 	FIELD field_1289 handler Lnet/minecraft/class_240;
@@ -36,3 +37,7 @@ CLASS net/minecraft/class_117 net/minecraft/network/ClientConnection
 	METHOD method_1131 getIPAddress ()Ljava/net/SocketAddress;
 	METHOD method_1133 disconnect ()V
 	METHOD method_1135 getQueuedChunkDataPacketsSize ()I
+	METHOD method_1137 poll ()Z
+		COMMENT Sends the first queued packet.
+	METHOD method_1139 read ()Z
+		COMMENT Handles the last recieved packet.

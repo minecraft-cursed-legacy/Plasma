@@ -16,8 +16,8 @@ buildscript {
 		classpath "com.google.guava:guava:28.0-jre"
 		classpath 'de.undercouch:gradle-download-task:3.4.3'
 		classpath "cuchaz:enigma-cli:0.27.1"
-		classpath 'net.fabricmc:tiny-remapper:0.3.1.72' // TODO anything above this fails, bandaid fix.
-		classpath 'com.github.Chocohead:Stitch:f955c99'
+		classpath 'net.fabricmc:tiny-remapper:0.1.0.40' //Newer versions will need createMappingsProvider updating
+		classpath 'com.github.Chocohead:Stitch:8befa96'
 		classpath 'com.github.Chocohead:tiny-mappings-parser:337c8b6'
 	}
 }
@@ -60,8 +60,7 @@ configurations {
 
 dependencies {
 	enigmaRuntime "cuchaz:enigma-swing:0.27.1"
-	enigmaRuntime 'com.github.Chocohead:Stitch:f955c99'
-	enigmaRuntime "org.benf:cfr:0.150"
+	enigmaRuntime 'com.github.Chocohead:Stitch:8befa96'
 }
 
 def mappingsDir = file("mappings")
@@ -315,7 +314,7 @@ task plasma(dependsOn: setupPlasma) {
 	doLast {
 		ant.setLifecycleLogLevel "WARN"
 		ant.java(
-			classname: 'cuchaz.enigma.Main',
+			classname: 'cuchaz.enigma.gui.Main',
 			classpath: configurations.enigmaRuntime.asPath,
 			fork: true,
 			spawn: true

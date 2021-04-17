@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_11 net/minecraft/server/network/ServerPlayerPacketHandler
-	FIELD field_916 LOGGER Ljava/util/logging/Logger;
-	FIELD field_920 player Lnet/minecraft/class_69;
-	METHOD method_833 leaveTheGame (Ljava/lang/String;)V
-	METHOD method_835 send (Lnet/minecraft/class_169;)V

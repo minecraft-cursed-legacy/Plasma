@@ -1,9 +1,4 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	CLASS class_636 TimerHackThread
-		FIELD field_2825 minecraft Lnet/minecraft/client/Minecraft;
-	CLASS class_638 MinecraftWindowAdapter
-	CLASS class_639 LoginThread
-		FIELD field_2829 minecraft Lnet/minecraft/client/Minecraft;
 	FIELD field_2766 soundHelper Lnet/minecraft/class_617;
 	FIELD field_2768 texturePackManager Lnet/minecraft/class_303;
 	FIELD field_2773 statManager Lnet/minecraft/class_96;
@@ -20,6 +15,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_2790 gameDir Ljava/io/File;
 	FIELD field_2791 instance Lnet/minecraft/client/Minecraft;
 	FIELD field_2792 levelStorage Lnet/minecraft/class_182;
+	FIELD field_2793 serverIp Ljava/lang/String;
+	FIELD field_2794 serverPort I
 	FIELD field_2795 waterTextureBinder Lnet/minecraft/class_593;
 	FIELD field_2796 lavaTextureBinder Lnet/minecraft/class_628;
 	FIELD field_2797 gameDirectory Ljava/io/File;
@@ -59,6 +56,9 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_2113 setLevel (Lnet/minecraft/class_18;)V
 	METHOD method_2114 notifyStatus (Lnet/minecraft/class_18;Ljava/lang/String;)V
 	METHOD method_2116 getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+	METHOD method_2117 setConnectionInfo (Ljava/lang/String;I)V
+		ARG 1 serverIp
+		ARG 2 serverPort
 	METHOD method_2118 loadSoundFromDir (Ljava/lang/String;Ljava/io/File;)V
 	METHOD method_2119 start (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 playerName
@@ -86,3 +86,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_2148 isSmoothLightingEnabled ()Z
 	METHOD method_2149 isDebugHudEnabled ()Z
 	METHOD method_2151 getOperatingSystem ()Lnet/minecraft/class_531;
+	CLASS class_636 TimerHackThread
+		FIELD field_2825 minecraft Lnet/minecraft/client/Minecraft;
+	CLASS class_638 MinecraftWindowAdapter
+	CLASS class_639 LoginThread
+		FIELD field_2829 minecraft Lnet/minecraft/client/Minecraft;

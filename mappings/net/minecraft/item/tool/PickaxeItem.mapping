@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_116 net/minecraft/item/tool/Pickaxe
+CLASS net/minecraft/class_116 net/minecraft/item/tool/PickaxeItem
 	FIELD field_352 effectiveBlocks [Lnet/minecraft/class_17;
 	METHOD <init> (ILnet/minecraft/class_428;)V
 		ARG 1 id

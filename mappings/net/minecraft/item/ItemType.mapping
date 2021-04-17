@@ -114,22 +114,18 @@ CLASS net/minecraft/class_124 net/minecraft/item/ItemType
 	FIELD field_491 pickaxeDiamond Lnet/minecraft/class_124;
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD method_443 getTranslationKey ()Ljava/lang/String;
+	METHOD method_437 postMine (Lnet/minecraft/class_31;IIIILnet/minecraft/class_127;)Z
+	METHOD method_438 (Lnet/minecraft/class_31;Lnet/minecraft/class_17;)F
+		ARG 1 item
+		ARG 2 tile
+	METHOD method_439 getTexturePosition (Lnet/minecraft/class_31;)I
+		ARG 1 item
+	METHOD method_440 getNameColour (I)I
 	METHOD method_441 getTexturePosition (I)I
 		ARG 1 damage
-	METHOD method_452 setTexturePosition (II)Lnet/minecraft/class_124;
-		ARG 1 x
-		ARG 2 y
-	METHOD method_453 setContainerItem (Lnet/minecraft/class_124;)Lnet/minecraft/class_124;
-		ARG 1 itemType
 	METHOD method_442 getTranslationKey (Lnet/minecraft/class_31;)Ljava/lang/String;
 		ARG 1 item
-	METHOD method_437 postMine (Lnet/minecraft/class_31;IIIILnet/minecraft/class_127;)Z
-	METHOD method_451 use (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_54;)Lnet/minecraft/class_31;
-		ARG 1 item
-		ARG 2 level
-		ARG 3 player
-	METHOD method_454 inventoryTick (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_57;IZ)V
+	METHOD method_443 getTranslationKey ()Ljava/lang/String;
 	METHOD method_444 useOnTile (Lnet/minecraft/class_31;Lnet/minecraft/class_54;Lnet/minecraft/class_18;IIII)Z
 		ARG 1 item
 		ARG 2 player
@@ -138,19 +134,28 @@ CLASS net/minecraft/class_124 net/minecraft/item/ItemType
 		ARG 5 y
 		ARG 6 z
 		ARG 7 facing
-	METHOD method_455 interactWithEntity (Lnet/minecraft/class_31;Lnet/minecraft/class_127;)V
 	METHOD method_446 postHit (Lnet/minecraft/class_31;Lnet/minecraft/class_127;Lnet/minecraft/class_127;)Z
-	METHOD method_438 (Lnet/minecraft/class_31;Lnet/minecraft/class_17;)F
-		ARG 1 item
-		ARG 2 tile
-	METHOD method_456 setName (Ljava/lang/String;)Lnet/minecraft/class_124;
+	METHOD method_448 shouldRenderLikeStick ()Z
+	METHOD method_449 shouldRotate180 ()Z
 	METHOD method_450 isEffectiveOn (Lnet/minecraft/class_17;)Z
 		ARG 1 tile
-	METHOD method_439 getTexturePosition (Lnet/minecraft/class_31;)I
+	METHOD method_451 use (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_54;)Lnet/minecraft/class_31;
 		ARG 1 item
+		ARG 2 level
+		ARG 3 player
+	METHOD method_452 setTexturePosition (II)Lnet/minecraft/class_124;
+		ARG 1 x
+		ARG 2 y
+	METHOD method_453 setContainerItem (Lnet/minecraft/class_124;)Lnet/minecraft/class_124;
+		ARG 1 itemType
+	METHOD method_454 inventoryTick (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_57;IZ)V
+	METHOD method_455 interactWithEntity (Lnet/minecraft/class_31;Lnet/minecraft/class_127;)V
+	METHOD method_456 setName (Ljava/lang/String;)Lnet/minecraft/class_124;
+	METHOD method_458 setTexturePosition (I)Lnet/minecraft/class_124;
+		ARG 1 texturePosition
 	METHOD method_460 setMaxStackSize (I)Lnet/minecraft/class_124;
+		ARG 1 maxStackSize
 	METHOD method_463 setDurability (I)Lnet/minecraft/class_124;
-	METHOD method_440 getNameColour (I)I
 	METHOD method_467 getContainerItemType ()Lnet/minecraft/class_124;
 	METHOD method_468 hasContainerItemType ()Z
 	METHOD method_469 getTranslatedName ()Ljava/lang/String;

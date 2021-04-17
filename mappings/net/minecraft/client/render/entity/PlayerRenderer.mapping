@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_86 net/minecraft/client/render/entity/PlayerRenderer
+	FIELD field_294 headRenderer Lnet/minecraft/class_87;

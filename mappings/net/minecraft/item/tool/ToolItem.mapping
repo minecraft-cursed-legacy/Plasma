@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_632 net/minecraft/item/tool/ToolItem
+	FIELD field_2711 toolMaterial Lnet/minecraft/class_428;

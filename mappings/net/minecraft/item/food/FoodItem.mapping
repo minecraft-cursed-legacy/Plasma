@@ -1,5 +1,8 @@
-CLASS net/minecraft/class_554 net/minecraft/item/food/Food
+CLASS net/minecraft/class_554 net/minecraft/item/food/FoodItem
 	FIELD field_2325 healAmount I
 	FIELD field_2326 wolfFood Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 3 wolfFood
 	METHOD method_1835 getHealAmount ()I
 	METHOD method_1836 canWolvesEat ()Z

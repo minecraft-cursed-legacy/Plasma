@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_500 net/minecraft/item/armour/Armour
+CLASS net/minecraft/class_500 net/minecraft/item/armour/ArmourItem
 	FIELD field_2083 armourSlot I
 	FIELD field_2087 BASE_DURABILITY [I
 	METHOD <init> (IIII)V

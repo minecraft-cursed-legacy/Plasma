@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_533 net/minecraft/item/PlaceableTileItem
+	FIELD field_2216 tileId I

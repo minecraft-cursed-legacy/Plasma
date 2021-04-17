@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_420 net/minecraft/item/tool/Hatchet
+CLASS net/minecraft/class_420 net/minecraft/item/tool/HatchetItem
 	FIELD field_1681 effectiveBlocks [Lnet/minecraft/class_17;
 	METHOD <init> (ILnet/minecraft/class_428;)V
 		ARG 1 id

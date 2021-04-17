@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_501 net/minecraft/item/tool/Shovel
-	FIELD field_2088 effectiveBlocks [Lnet/minecraft/class_17;

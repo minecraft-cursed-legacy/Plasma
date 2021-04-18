@@ -8,9 +8,14 @@ CLASS net/minecraft/class_55 net/minecraft/tile/entity/TileEntity
 	FIELD field_1242 invalid Z
 	METHOD method_1067 register (Ljava/lang/Class;Ljava/lang/String;)V
 	METHOD method_1069 getCachedId ()I
+	METHOD method_1070 createInitialChunkDataPacket ()Lnet/minecraft/class_169;
 	METHOD method_1071 isInvalid ()Z
 	METHOD method_1072 invalidate ()V
 	METHOD method_1073 validate ()V
+	METHOD method_1074 squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_1075 getTile ()Lnet/minecraft/class_17;
 	METHOD method_1076 tick ()V
 	METHOD method_1077 readIdentifyingData (Lnet/minecraft/class_8;)V

@@ -1,9 +1,10 @@
 CLASS net/minecraft/server/MinecraftServer
 	FIELD field_2837 logger Ljava/util/logging/Logger;
-	FIELD field_2839 pendingConnectionManager Lnet/minecraft/class_9;
+	FIELD field_2839 packetHandlerManager Lnet/minecraft/class_9;
 	FIELD field_2840 serverProperties Lnet/minecraft/class_391;
 	FIELD field_2841 levels [Lnet/minecraft/class_73;
-	FIELD field_2842 playerConnectionManager Lnet/minecraft/class_166;
+	FIELD field_2842 playerManager Lnet/minecraft/class_166;
+	FIELD field_2847 entityTrackers [Lnet/minecraft/class_488;
 	FIELD field_2848 onlineMode Z
 	FIELD field_2849 spawnAnimals Z
 	FIELD field_2850 allowPvp Z
@@ -13,6 +14,8 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_2855 pendingCommands Ljava/util/List;
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD method_2157 getWorld (I)Lnet/minecraft/class_73;
+		ARG 1 dimensionId
 	METHOD method_2159 loadLevels (Lnet/minecraft/class_182;Ljava/lang/String;J)V
 	METHOD method_2160 getFile (Ljava/lang/String;)Ljava/io/File;
 		ARG 1 location

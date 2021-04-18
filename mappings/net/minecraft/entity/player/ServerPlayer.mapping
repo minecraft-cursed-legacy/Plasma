@@ -3,6 +3,8 @@ CLASS net/minecraft/class_69 net/minecraft/entity/player/ServerPlayer
 	FIELD field_256 server Lnet/minecraft/server/MinecraftServer;
 	FIELD field_259 visibleItems [Lnet/minecraft/class_31;
 	FIELD field_261 interactionManager Lnet/minecraft/class_70;
+	FIELD field_264 trackedChunkList Ljava/util/List;
+	FIELD field_265 trackedChunkSet Ljava/util/Set;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_18;Ljava/lang/String;Lnet/minecraft/class_70;)V
 		ARG 1 server
 		ARG 3 name

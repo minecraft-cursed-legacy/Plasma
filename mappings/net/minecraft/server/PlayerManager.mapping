@@ -2,7 +2,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/PlayerManager
 	FIELD field_577 logger Ljava/util/logging/Logger;
 	FIELD field_578 players Ljava/util/List;
 	FIELD field_579 server Lnet/minecraft/server/MinecraftServer;
-	FIELD field_580 playerViews [Lnet/minecraft/class_167;
+	FIELD field_580 chunkTrackers [Lnet/minecraft/class_167;
 	FIELD field_581 maxPlayerCount I
 	FIELD field_582 bannedPlayers Ljava/util/Set;
 	FIELD field_583 ipBans Ljava/util/Set;

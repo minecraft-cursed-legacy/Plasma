@@ -14,10 +14,11 @@ CLASS net/minecraft/class_174 net/minecraft/server/network/EntityTrackerEntry
 	FIELD field_611 entityX D
 	FIELD field_612 entityY D
 	FIELD field_613 entityZ D
-	FIELD field_615 shouldSendVelocityUpdate Z
+	FIELD field_615 sendVelocityUpdates Z
 	METHOD <init> (Lnet/minecraft/class_57;IIZ)V
 		ARG 1 entity
 		ARG 2 radius
+		ARG 4 sendVelocityUpdates
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
 	METHOD method_596 sendDeathPacket ()V
@@ -36,5 +37,5 @@ CLASS net/minecraft/class_174 net/minecraft/server/network/EntityTrackerEntry
 		ARG 1 packet
 	METHOD method_603 startTracking (Ljava/util/List;)V
 		ARG 1 players
-	METHOD method_604 (Lnet/minecraft/class_69;)V
+	METHOD method_604 stopTrackingWithDeath (Lnet/minecraft/class_69;)V
 		ARG 1 player

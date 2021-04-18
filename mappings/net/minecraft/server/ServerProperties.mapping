@@ -2,6 +2,8 @@ CLASS net/minecraft/class_391 net/minecraft/server/ServerProperties
 	FIELD field_1519 logger Ljava/util/logging/Logger;
 	FIELD field_1520 properties Ljava/util/Properties;
 	FIELD field_1521 propertiesFile Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 propertiesFile
 	METHOD method_1245 generate ()V
 	METHOD method_1246 getInteger (Ljava/lang/String;I)I
 		ARG 1 key

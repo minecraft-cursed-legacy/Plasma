@@ -8,3 +8,5 @@ CLASS net/minecraft/class_81 net/minecraft/level/dimension/DimensionFile
 		ARG 1 file
 		ARG 2 worldName
 	METHOD method_332 getParentFolder ()Ljava/io/File;
+	METHOD method_333 getPlayerData (Ljava/lang/String;)Lnet/minecraft/class_8;
+		ARG 1 playerName

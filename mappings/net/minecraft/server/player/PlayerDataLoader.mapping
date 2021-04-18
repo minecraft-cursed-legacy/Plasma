@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_168 net/minecraft/server/player/PlayerDataLoader
+	METHOD method_609 savePlayerData (Lnet/minecraft/class_54;)V
+		ARG 1 player
+	METHOD method_610 loadPlayerData (Lnet/minecraft/class_54;)V
+		ARG 1 player

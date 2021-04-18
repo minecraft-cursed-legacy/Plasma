@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_70 net/minecraft/server/ServerInteractionManager
+CLASS net/minecraft/class_70 net/minecraft/server/player/ServerInteractionManager
 	FIELD field_2309 player Lnet/minecraft/class_54;
 	FIELD field_2310 level Lnet/minecraft/class_73;
 	METHOD <init> (Lnet/minecraft/class_73;)V

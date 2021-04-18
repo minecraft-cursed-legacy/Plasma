@@ -34,8 +34,9 @@ CLASS net/minecraft/class_117 net/minecraft/network/Connection
 		ARG 2 args
 	METHOD method_1128 setHandler (Lnet/minecraft/class_240;)V
 		ARG 1 handler
+	METHOD method_1129 completeOrTimeOut ()V
 	METHOD method_1131 getIPAddress ()Ljava/net/SocketAddress;
-	METHOD method_1133 disconnect ()V
+	METHOD method_1133 disconnectClient ()V
 	METHOD method_1135 getQueuedChunkDataPacketsSize ()I
 	METHOD method_1137 poll ()Z
 		COMMENT Sends the first queued packet.

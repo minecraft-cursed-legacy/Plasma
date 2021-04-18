@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_166 net/minecraft/server/PlayerManager
+CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	FIELD field_577 logger Ljava/util/logging/Logger;
 	FIELD field_578 players Ljava/util/List;
 	FIELD field_579 server Lnet/minecraft/server/MinecraftServer;
@@ -6,11 +6,13 @@ CLASS net/minecraft/class_166 net/minecraft/server/PlayerManager
 	FIELD field_581 maxPlayerCount I
 	FIELD field_582 bannedPlayers Ljava/util/Set;
 	FIELD field_583 ipBans Ljava/util/Set;
+	FIELD field_584 operators Ljava/util/Set;
 	FIELD field_585 whitelist Ljava/util/Set;
 	FIELD field_586 bannedPlayersFile Ljava/io/File;
 	FIELD field_587 bannedIPsFile Ljava/io/File;
 	FIELD field_588 operatorsFile Ljava/io/File;
 	FIELD field_589 whiteListFile Ljava/io/File;
+	FIELD field_590 playerDataLoader Lnet/minecraft/class_168;
 	FIELD field_591 whitelistEnabled Z
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 server
@@ -22,10 +24,13 @@ CLASS net/minecraft/class_166 net/minecraft/server/PlayerManager
 		ARG 7 distance
 		ARG 9 dimensionId
 		ARG 10 acketclass_169
-	METHOD method_551 getPlayerView (I)Lnet/minecraft/class_167;
+	METHOD method_551 getChunkTracker (I)Lnet/minecraft/class_167;
 		ARG 1 dimension
 	METHOD method_554 (Lnet/minecraft/class_69;)V
 		ARG 1 player
+	METHOD method_556 sendLevelUpdate (Lnet/minecraft/class_69;Lnet/minecraft/class_73;)V
+		ARG 1 player
+		ARG 2 level
 	METHOD method_557 connectPlayer (Lnet/minecraft/class_10;Ljava/lang/String;)Lnet/minecraft/class_69;
 		ARG 1 connect
 		ARG 2 name
@@ -37,20 +42,51 @@ CLASS net/minecraft/class_166 net/minecraft/server/PlayerManager
 		ARG 8 distance
 		ARG 10 dimensionId
 		ARG 11 packet
+	METHOD method_559 sendPacketToAll (Lnet/minecraft/class_169;)V
+		ARG 1 packet
+	METHOD method_560 sendPacketToAllInLevel (Lnet/minecraft/class_169;I)V
+		ARG 1 packet
+		ARG 2 dimensionId
+	METHOD method_561 ban (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD method_562 sendPacket (Ljava/lang/String;Lnet/minecraft/class_169;)Z
+		ARG 1 playerName
+		ARG 2 packet
 	METHOD method_563 sendChatMessage (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 player
 		ARG 2 message
+	METHOD method_567 pardon (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD method_568 getPlayerNames ()Ljava/lang/String;
+	METHOD method_570 banIp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD method_571 savePlayerData ()V
+	METHOD method_573 pardonIp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD method_574 getWhitelist ()Ljava/util/Set;
 	METHOD method_575 updateDimension (Lnet/minecraft/class_69;)V
 		ARG 1 player
+	METHOD method_576 op (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD method_577 invalidate ()V
+	METHOD method_579 deop (Ljava/lang/String;)V
+		ARG 1 playerName
 	METHOD method_580 loadBanList ()V
+	METHOD method_581 sendContainerUpdate (Lnet/minecraft/class_69;)V
+		ARG 1 player
 	METHOD method_582 cannotJoin (Ljava/lang/String;)Z
 	METHOD method_583 saveBanList ()V
 	METHOD method_585 loadIPBanList ()V
 	METHOD method_586 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_69;
 		ARG 1 name
 	METHOD method_587 saveIPBanList ()V
-	METHOD method_588 sendChatMessage (Ljava/lang/String;)V
+	METHOD method_588 broadcastChatMessage (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD method_589 loadOperatorList ()V
+	METHOD method_590 whitelist (Ljava/lang/String;)V
+		ARG 1 playerName
 	METHOD method_591 saveOperatorList ()V
+	METHOD method_592 unwhitelist (Ljava/lang/String;)V
+		ARG 1 playerName
 	METHOD method_593 loadWhitelist ()V
 	METHOD method_594 saveWhitelist ()V

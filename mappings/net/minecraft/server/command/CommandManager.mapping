@@ -1,7 +1,10 @@
 CLASS net/minecraft/class_426 net/minecraft/server/command/CommandManager
 	FIELD field_1686 LOGGER Ljava/util/logging/Logger;
 	FIELD field_1687 server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD method_1411 processCommand (Lnet/minecraft/class_38;)V
+		ARG 1 command
 	METHOD method_1412 parseIntOrElse (Ljava/lang/String;I)I
 		ARG 1 stringToParse
 		ARG 2 orElse
@@ -9,4 +12,7 @@ CLASS net/minecraft/class_426 net/minecraft/server/command/CommandManager
 		ARG 1 commandSourceName
 		ARG 2 message
 	METHOD method_1414 processWhitelistCommand (Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/class_39;)V
+		ARG 1 commandSourceName
+		ARG 2 command
 	METHOD method_1415 sendHelp (Lnet/minecraft/class_39;)V
+		ARG 1 commandSource

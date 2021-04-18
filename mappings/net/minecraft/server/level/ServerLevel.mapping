@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_73 net/minecraft/server/level/ServerLevel
 	FIELD field_273 chunkCache Lnet/minecraft/class_79;
+	FIELD field_275 shouldSave Z

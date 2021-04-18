@@ -25,6 +25,7 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	FIELD field_1620 chunkIndex I
 	FIELD field_1621 chunkZ I
 	FIELD field_1623 onGround Z
+	FIELD field_1627 shouldSendVelocityUpdate Z
 	FIELD field_1628 inCobweb Z
 	FIELD field_1630 removed Z
 	FIELD field_1631 standingEyeHeight F
@@ -84,7 +85,9 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	METHOD method_1370 tick ()V
 	METHOD method_1371 move (DDD)V
 	METHOD method_1375 setLevel (Lnet/minecraft/class_18;)V
+		ARG 1 level
 	METHOD method_1376 startRiding (Lnet/minecraft/class_57;)V
+	METHOD method_1377 getInventory ()[Lnet/minecraft/class_31;
 	METHOD method_1378 getStandingEyeHeight ()F
 	METHOD method_1383 onStruckByLightning (Lnet/minecraft/class_411;)V
 	METHOD method_1384 tickRiding ()V

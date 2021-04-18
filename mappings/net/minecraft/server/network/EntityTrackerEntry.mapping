@@ -1,0 +1,40 @@
+CLASS net/minecraft/class_174 net/minecraft/server/network/EntityTrackerEntry
+	FIELD field_597 entity Lnet/minecraft/class_57;
+	FIELD field_598 radius I
+	FIELD field_600 x I
+	FIELD field_601 y I
+	FIELD field_602 z I
+	FIELD field_603 yaw I
+	FIELD field_604 pitch I
+	FIELD field_605 velocityX D
+	FIELD field_606 velocityY D
+	FIELD field_607 velocityZ D
+	FIELD field_608 updatesSent I
+	FIELD field_610 trackers Ljava/util/Set;
+	FIELD field_611 entityX D
+	FIELD field_612 entityY D
+	FIELD field_613 entityZ D
+	FIELD field_615 shouldSendVelocityUpdate Z
+	METHOD <init> (Lnet/minecraft/class_57;IIZ)V
+		ARG 1 entity
+		ARG 2 radius
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_596 sendDeathPacket ()V
+	METHOD method_597 stopTracking (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_598 sendPacket (Lnet/minecraft/class_169;)V
+		COMMENT Sends a packet to all players tracking this entity.
+		COMMENT <p>If the entity being tracked is a player, no packet is sent to it.</p>
+		ARG 1 packet
+	METHOD method_600 createSpawnPacket ()Lnet/minecraft/class_169;
+	METHOD method_601 startTracking (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_602 sendPacketToAll (Lnet/minecraft/class_169;)V
+		COMMENT Sends a packet to all players tracking this entity.
+		COMMENT <p>If the entity being tracked is a player, it too is sent a packet.</p>
+		ARG 1 packet
+	METHOD method_603 startTracking (Ljava/util/List;)V
+		ARG 1 players
+	METHOD method_604 (Lnet/minecraft/class_69;)V
+		ARG 1 player

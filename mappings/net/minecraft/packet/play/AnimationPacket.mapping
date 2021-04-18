@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_305 net/minecraft/packet/play/AnimationC2S
+CLASS net/minecraft/class_305 net/minecraft/packet/play/AnimationPacket
 	FIELD field_1189 entityId I
 	FIELD field_1190 animationType I
 	METHOD <init> (Lnet/minecraft/class_57;I)V

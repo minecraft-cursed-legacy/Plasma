@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_432 net/minecraft/packet/play/UpdateSignC2S
+CLASS net/minecraft/class_432 net/minecraft/packet/play/UpdateSignPacket
 	FIELD field_1755 x I
 	FIELD field_1756 y I
 	FIELD field_1757 z I

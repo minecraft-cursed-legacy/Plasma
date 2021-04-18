@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_335 net/minecraft/packet/play/RespawnPacket
+	FIELD field_1244 onGround B
+	METHOD <init> (B)V
+		ARG 1 onGround

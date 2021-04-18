@@ -1,0 +1,30 @@
+CLASS net/minecraft/class_80 net/minecraft/util/Int2ObjectLinkedHashMap
+	FIELD field_859 entries [Lnet/minecraft/class_232;
+	METHOD method_771 clear ()V
+	METHOD method_772 getByHash (I)Ljava/lang/Object;
+		ARG 1 hash
+	METHOD method_773 indexOf (II)I
+		ARG 0 i1
+		ARG 1 i2
+	METHOD method_774 put (IILjava/lang/Object;I)V
+		ARG 1 indexHash
+		ARG 2 hash
+		ARG 3 value
+		ARG 4 index
+	METHOD method_775 put (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_776 fill ([Lnet/minecraft/class_232;)V
+		ARG 1 array
+	METHOD method_777 containsHash (I)Z
+		ARG 1 hash
+	METHOD method_778 getEntryByHash (I)Lnet/minecraft/class_232;
+		ARG 1 hash
+	METHOD method_779 get (I)Ljava/lang/Object;
+		ARG 1 index
+	METHOD method_780 getEntry (I)Lnet/minecraft/class_232;
+		ARG 1 index
+	METHOD method_782 hashCode (I)I
+		ARG 0 num
+	METHOD method_783 expand (I)V
+		ARG 1 size

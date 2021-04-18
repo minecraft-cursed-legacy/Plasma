@@ -1,0 +1,24 @@
+CLASS net/minecraft/class_488 net/minecraft/server/network/EntityTracker
+	FIELD field_2005 trackedEntities Lnet/minecraft/class_80;
+	FIELD field_2006 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_2007 trackingRadius I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;I)V
+		ARG 1 server
+	METHOD method_1664 (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_1665 add (Lnet/minecraft/class_57;)V
+		ARG 1 entity
+	METHOD method_1666 startTracking (Lnet/minecraft/class_57;II)V
+		ARG 1 entity
+		ARG 2 radius
+	METHOD method_1667 startTracking (Lnet/minecraft/class_57;IIZ)V
+		ARG 1 entity
+		ARG 2 radius
+	METHOD method_1668 sendPacketToTrackers (Lnet/minecraft/class_57;Lnet/minecraft/class_169;)V
+		ARG 1 entity
+		ARG 2 packet
+	METHOD method_1669 onDeath (Lnet/minecraft/class_57;)V
+		ARG 1 entity
+	METHOD method_1670 sendPacketToAllTrackers (Lnet/minecraft/class_57;Lnet/minecraft/class_169;)V
+		ARG 1 entity
+		ARG 2 packet

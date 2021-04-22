@@ -23,7 +23,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 		ARG 5 z
 		ARG 7 distance
 		ARG 9 dimensionId
-		ARG 10 acketclass_169
+		ARG 10 packet
 	METHOD method_551 getChunkTracker (I)Lnet/minecraft/class_167;
 		ARG 1 dimension
 	METHOD method_554 (Lnet/minecraft/class_69;)V

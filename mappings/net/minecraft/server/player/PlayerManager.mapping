@@ -17,7 +17,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 server
 	METHOD method_549 getViewRadiusInTiles ()I
-	METHOD method_550 sendPacketToPlayersAround (DDDDILnet/minecraft/class_169;)V
+	METHOD method_550 sendPacketInRadius (DDDDILnet/minecraft/class_169;)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
@@ -37,7 +37,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	METHOD method_557 connectPlayer (Lnet/minecraft/class_10;Ljava/lang/String;)Lnet/minecraft/class_69;
 		ARG 1 handler
 		ARG 2 name
-	METHOD method_558 sendPacketToPlayersAround (Lnet/minecraft/class_54;DDDDILnet/minecraft/class_169;)V
+	METHOD method_558 sendPacketInRadius (Lnet/minecraft/class_54;DDDDILnet/minecraft/class_169;)V
 		ARG 1 except
 		ARG 2 x
 		ARG 4 y

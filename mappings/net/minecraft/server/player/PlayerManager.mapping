@@ -9,9 +9,9 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	FIELD field_584 operators Ljava/util/Set;
 	FIELD field_585 whitelist Ljava/util/Set;
 	FIELD field_586 bannedPlayersFile Ljava/io/File;
-	FIELD field_587 bannedIPsFile Ljava/io/File;
+	FIELD field_587 bannedIpsFile Ljava/io/File;
 	FIELD field_588 operatorsFile Ljava/io/File;
-	FIELD field_589 whiteListFile Ljava/io/File;
+	FIELD field_589 whitelistFile Ljava/io/File;
 	FIELD field_590 playerDataLoader Lnet/minecraft/class_168;
 	FIELD field_591 whitelistEnabled Z
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
@@ -28,11 +28,14 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 		ARG 1 dimension
 	METHOD method_554 (Lnet/minecraft/class_69;)V
 		ARG 1 player
+	METHOD method_555 respawn (Lnet/minecraft/class_69;I)Lnet/minecraft/class_69;
+		ARG 1 player
+		ARG 2 dimensionId
 	METHOD method_556 sendLevelUpdate (Lnet/minecraft/class_69;Lnet/minecraft/class_73;)V
 		ARG 1 player
 		ARG 2 level
 	METHOD method_557 connectPlayer (Lnet/minecraft/class_10;Ljava/lang/String;)Lnet/minecraft/class_69;
-		ARG 1 connect
+		ARG 1 handler
 		ARG 2 name
 	METHOD method_558 sendPacketToPlayersAround (Lnet/minecraft/class_54;DDDDILnet/minecraft/class_169;)V
 		ARG 1 except
@@ -75,11 +78,14 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	METHOD method_581 sendContainerUpdate (Lnet/minecraft/class_69;)V
 		ARG 1 player
 	METHOD method_582 cannotJoin (Ljava/lang/String;)Z
+		ARG 1 player
 	METHOD method_583 saveBanList ()V
-	METHOD method_585 loadIPBanList ()V
+	METHOD method_584 isOperator (Ljava/lang/String;)Z
+		ARG 1 player
+	METHOD method_585 loadIpBanList ()V
 	METHOD method_586 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_69;
 		ARG 1 name
-	METHOD method_587 saveIPBanList ()V
+	METHOD method_587 saveIpBanList ()V
 	METHOD method_588 broadcastChatMessage (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD method_589 loadOperatorList ()V

@@ -29,13 +29,13 @@ CLASS net/minecraft/class_117 net/minecraft/network/Connection
 		ARG 1 packet
 	METHOD method_1124 handleException (Ljava/lang/Exception;)V
 		ARG 1 exception
-	METHOD method_1125 disconnectClient (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD method_1125 disconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 		ARG 1 message
 		ARG 2 args
 	METHOD method_1128 setHandler (Lnet/minecraft/class_240;)V
 		ARG 1 handler
 	METHOD method_1129 completeOrTimeOut ()V
-	METHOD method_1131 getIPAddress ()Ljava/net/SocketAddress;
+	METHOD method_1131 getAddress ()Ljava/net/SocketAddress;
 	METHOD method_1133 disconnectClient ()V
 	METHOD method_1135 getQueuedChunkDataPacketsSize ()I
 	METHOD method_1137 poll ()Z

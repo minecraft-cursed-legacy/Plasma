@@ -28,6 +28,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 4 seed
 	METHOD method_149 getClosestPlayer (DDDD)Lnet/minecraft/class_54;
 	METHOD method_150 playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 sound
 	METHOD method_154 setTileWithMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -59,6 +63,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 name
 	METHOD method_177 getPlayerByName (Ljava/lang/String;)Lnet/minecraft/class_54;
 	METHOD method_178 addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 particle
 	METHOD method_180 putMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
 		ARG 1 name
 	METHOD method_183 addListener (Lnet/minecraft/class_59;)V
@@ -77,6 +82,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 8 power
 	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
 		ARG 1 entity
+		ARG 2 sound
 	METHOD method_195 saveLevel (ZLnet/minecraft/class_62;)V
 		ARG 2 listener
 	METHOD method_197 createLevelSource ()Lnet/minecraft/class_51;
@@ -100,12 +106,15 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 meta
+	METHOD method_219 drawCloak (Lnet/minecraft/class_57;)V
 	METHOD method_220 isDaylight ()Z
 	METHOD method_221 getRainGradient (F)F
 		ARG 1 tickProgress
 	METHOD method_222 getHeight (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD method_226 onEntityRemoved (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_228 getOceanFloorHeight (II)I
 		ARG 1 x
 		ARG 2 z
@@ -137,6 +146,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_258 getSpawnPosition ()Lnet/minecraft/class_63;
+	METHOD method_259 getLevelSource ()Lnet/minecraft/class_51;
 	METHOD method_260 removeTileEntity (III)V
 	METHOD method_262 getProperties ()Lnet/minecraft/class_7;
 	METHOD method_264 onPlayerDisconnect ()V

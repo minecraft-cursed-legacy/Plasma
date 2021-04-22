@@ -3,8 +3,10 @@ CLASS net/minecraft/class_488 net/minecraft/server/network/EntityTracker
 	FIELD field_2005 trackedEntityMap Lnet/minecraft/class_80;
 	FIELD field_2006 server Lnet/minecraft/server/MinecraftServer;
 	FIELD field_2007 maxTrackingRadius I
+	FIELD field_2008 dimensionId I
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;I)V
 		ARG 1 server
+		ARG 2 dimensionId
 	METHOD method_1663 tick ()V
 	METHOD method_1664 remove (Lnet/minecraft/class_69;)V
 		ARG 1 player

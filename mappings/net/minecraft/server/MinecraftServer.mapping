@@ -27,6 +27,8 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_2163 isRunning (Lnet/minecraft/server/MinecraftServer;)Z
 		ARG 0 server
 	METHOD method_2164 processQueuedCommands ()V
+	METHOD method_2165 getEntityTracker (I)Lnet/minecraft/class_488;
+		ARG 1 dimensionId
 	METHOD method_2166 start ()Z
 	METHOD method_2167 logWarning (Ljava/lang/String;)V
 	METHOD method_2169 saveChunks ()V

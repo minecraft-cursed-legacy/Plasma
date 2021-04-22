@@ -1,6 +1,8 @@
 CLASS net/minecraft/class_71 net/minecraft/container/Container
 	FIELD field_2734 slots Ljava/util/List;
 	FIELD field_2735 currentContainerId I
+	FIELD field_2736 listeners Ljava/util/List;
+	METHOD method_2076 addListener (Lnet/minecraft/class_633;)V
 	METHOD method_2077 setProperty (II)V
 		ARG 1 id
 		ARG 2 value
@@ -9,6 +11,7 @@ CLASS net/minecraft/class_71 net/minecraft/container/Container
 	METHOD method_2083 getItems ()Ljava/util/List;
 	METHOD method_2084 getSlot (I)Lnet/minecraft/class_133;
 	METHOD method_2086 transferSlot (I)Lnet/minecraft/class_31;
+		ARG 1 index
 	METHOD method_2087 onClosed (Lnet/minecraft/class_54;)V
 	METHOD method_2088 onContentsChanged (Lnet/minecraft/class_134;)V
 	METHOD method_2094 canUse (Lnet/minecraft/class_54;)Z

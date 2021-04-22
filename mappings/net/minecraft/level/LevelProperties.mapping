@@ -65,6 +65,6 @@ CLASS net/minecraft/class_7 net/minecraft/level/LevelProperties
 		ARG 1 time
 	METHOD method_7 updateProperties (Lnet/minecraft/class_8;Lnet/minecraft/class_8;)V
 		ARG 1 tag
-		ARG 2 playerDaya
+		ARG 2 playerData
 	METHOD method_8 setName (Ljava/lang/String;)V
 		ARG 1 levelName

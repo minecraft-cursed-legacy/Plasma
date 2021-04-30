@@ -59,7 +59,7 @@ CLASS net/minecraft/class_240 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD method_1451 handlePlayerSpawn (Lnet/minecraft/class_272;)V
 		ARG 1 packet
-	METHOD method_1452 handleUpdateFurnaceProgress (Lnet/minecraft/class_292;)V
+	METHOD method_1452 handleUpdateProperty (Lnet/minecraft/class_292;)V
 		ARG 1 packet
 	METHOD method_1453 handleItemEntitySpawn (Lnet/minecraft/class_295;)V
 		ARG 1 packet

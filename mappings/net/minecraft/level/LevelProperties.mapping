@@ -14,32 +14,57 @@ CLASS net/minecraft/class_7 net/minecraft/level/LevelProperties
 	FIELD field_25 rainTime I
 	FIELD field_26 thundering Z
 	FIELD field_27 thunderTime I
-	METHOD method_27 setSpawnX (I)V
-	METHOD method_5 setSpawnPosition (III)V
-	METHOD method_6 setTime (J)V
-	METHOD method_8 setName (Ljava/lang/String;)V
-	METHOD method_28 setPlayerData (Lnet/minecraft/class_8;)V
-	METHOD method_7 updateProperties (Lnet/minecraft/class_8;Lnet/minecraft/class_8;)V
+	METHOD <init> (JLjava/lang/String;)V
+		ARG 1 seed
+		ARG 3 levelName
+	METHOD <init> (Lnet/minecraft/class_7;)V
+		ARG 1 properties
+	METHOD <init> (Lnet/minecraft/class_8;)V
+		ARG 1 tag
 	METHOD method_10 setThundering (Z)V
+		ARG 1 thundering
 	METHOD method_11 getSeed ()J
-	METHOD method_29 setSpawnY (I)V
-	METHOD method_13 setSizeOnDisk (J)V
-	METHOD method_14 setRaining (Z)V
-	METHOD method_15 getSpawnX ()I
-	METHOD method_30 setSpawnZ (I)V
-	METHOD method_17 getSpawnY ()I
-	METHOD method_4 setVersion (I)V
-	METHOD method_18 getSpawnZ ()I
 	METHOD method_12 setThunderTime (I)V
-	METHOD method_19 getTime ()J
+		ARG 1 thunderTime
+	METHOD method_13 setSizeOnDisk (J)V
+		ARG 1 sizeOnDisk
+	METHOD method_14 setRaining (Z)V
+		ARG 1 raining
+	METHOD method_15 getSpawnX ()I
 	METHOD method_16 setRainTime (I)V
+		ARG 1 rainTime
+	METHOD method_17 getSpawnY ()I
+	METHOD method_18 getSpawnZ ()I
+	METHOD method_19 getTime ()J
 	METHOD method_20 getSizeOnDisk ()J
-	METHOD method_31 getPlayerData ()Lnet/minecraft/class_8;
 	METHOD method_21 getDimensionId ()I
-	METHOD method_32 getName ()Ljava/lang/String;
 	METHOD method_22 getVersion ()I
-	METHOD method_33 getLastPlayed ()J
 	METHOD method_23 isThundering ()Z
 	METHOD method_24 getThunderTime ()I
 	METHOD method_25 isRaining ()Z
 	METHOD method_26 getRainTime ()I
+	METHOD method_27 setSpawnX (I)V
+		ARG 1 spawnX
+	METHOD method_28 setPlayerData (Lnet/minecraft/class_8;)V
+		ARG 1 playerData
+	METHOD method_29 setSpawnY (I)V
+		ARG 1 spawnY
+	METHOD method_3 toTag ()Lnet/minecraft/class_8;
+	METHOD method_30 setSpawnZ (I)V
+		ARG 1 spawnZ
+	METHOD method_31 getPlayerData ()Lnet/minecraft/class_8;
+	METHOD method_32 getName ()Ljava/lang/String;
+	METHOD method_33 getLastPlayed ()J
+	METHOD method_4 setVersion (I)V
+		ARG 1 version
+	METHOD method_5 setSpawnPosition (III)V
+		ARG 1 spawnX
+		ARG 2 spawnY
+		ARG 3 spawnZ
+	METHOD method_6 setTime (J)V
+		ARG 1 time
+	METHOD method_7 updateProperties (Lnet/minecraft/class_8;Lnet/minecraft/class_8;)V
+		ARG 1 tag
+		ARG 2 playerData
+	METHOD method_8 setName (Ljava/lang/String;)V
+		ARG 1 levelName

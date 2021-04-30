@@ -1,8 +1,8 @@
-CLASS net/minecraft/class_292 net/minecraft/packet/play/UpdateFurnaceProgressS2C
+CLASS net/minecraft/class_292 net/minecraft/packet/play/UpdatePropertyS2C
 	FIELD field_1149 containerId I
 	FIELD field_1150 progressBar I
 	FIELD field_1151 value I
 	METHOD <init> (III)V
 		ARG 1 containerId
-		ARG 2 progressBar
+		ARG 2 property
 		ARG 3 value

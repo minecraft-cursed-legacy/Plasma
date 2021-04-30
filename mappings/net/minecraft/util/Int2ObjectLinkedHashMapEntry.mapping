@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_232 net/minecraft/util/Int2ObjectLinkedHashMapEntry
+	FIELD field_2113 hash I
+	FIELD field_2114 value Ljava/lang/Object;
+	FIELD field_2115 next Lnet/minecraft/class_232;
+	FIELD field_2116 indexHash I
+	METHOD <init> (IILjava/lang/Object;Lnet/minecraft/class_232;)V
+		ARG 1 indexHash
+		ARG 2 hash
+		ARG 3 value
+		ARG 4 next
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_1726 getHash ()I
+	METHOD method_1727 getValue ()Ljava/lang/Object;

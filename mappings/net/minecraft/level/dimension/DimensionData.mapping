@@ -8,4 +8,7 @@ CLASS net/minecraft/class_52 net/minecraft/level/dimension/DimensionData
 		ARG 1 dimension
 	METHOD method_1735 checkSessionLock ()V
 	METHOD method_1736 getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
 	METHOD method_1737 getLevelProperties ()Lnet/minecraft/class_7;
+	METHOD method_1738 getPlayerLoader ()Lnet/minecraft/class_168;
+	METHOD method_1739 invalidate ()V

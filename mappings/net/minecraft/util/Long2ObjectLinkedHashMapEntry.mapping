@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_102 net/minecraft/util/Long2ObjectLinkedHashMapEntry
+	FIELD field_1358 hash J
+	FIELD field_1359 value Ljava/lang/Object;
+	FIELD field_1360 next Lnet/minecraft/class_102;
+	FIELD field_1361 indexHash I
+	METHOD <init> (IJLjava/lang/Object;Lnet/minecraft/class_102;)V
+		ARG 1 indexHash
+		ARG 2 hash
+		ARG 4 value
+		ARG 5 next
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_1183 getHash ()J
+	METHOD method_1184 getValue ()Ljava/lang/Object;

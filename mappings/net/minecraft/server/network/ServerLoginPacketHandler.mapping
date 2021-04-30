@@ -5,7 +5,8 @@ CLASS net/minecraft/class_10 net/minecraft/server/network/ServerLoginPacketHandl
 	FIELD field_356 rand Ljava/util/Random;
 	FIELD field_357 server Lnet/minecraft/server/MinecraftServer;
 	FIELD field_358 timeElapsed I
-	FIELD field_360 handshakePacket Lnet/minecraft/class_118;
+	FIELD field_359 username Ljava/lang/String;
+	FIELD field_360 loginRequestPacket Lnet/minecraft/class_118;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
 		ARG 1 server
 		ARG 2 socket
@@ -13,4 +14,8 @@ CLASS net/minecraft/class_10 net/minecraft/server/network/ServerLoginPacketHandl
 	METHOD method_414 completeOrTimeOut ()V
 	METHOD method_417 drop (Ljava/lang/String;)V
 		ARG 1 reason
+	METHOD method_418 getDebugString ()Ljava/lang/String;
+		COMMENT Returns a debug string used for identification.
+		COMMENT <p>If the login packet has been receivied, this returns {@code Username[ip.address]}</p>
+		COMMENT <p>Else if the login packet has not been receivied, this only returns the connection's ip address</p>
 	METHOD method_419 complete (Lnet/minecraft/class_118;)V

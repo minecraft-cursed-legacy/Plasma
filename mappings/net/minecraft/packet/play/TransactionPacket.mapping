@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_325 net/minecraft/packet/play/TransactionS2C
+CLASS net/minecraft/class_325 net/minecraft/packet/play/TransactionPacket
 	FIELD field_1222 containerId I
 	FIELD field_1223 actionType S
 	FIELD field_1224 accepted Z

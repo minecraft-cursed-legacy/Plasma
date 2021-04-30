@@ -19,7 +19,11 @@ CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
 	METHOD method_486 openChestScreen (Lnet/minecraft/class_134;)V
 	METHOD method_487 openFurnaceScreen (Lnet/minecraft/class_138;)V
 	METHOD method_488 increaseStat (Lnet/minecraft/class_139;I)V
+		ARG 1 state
+		ARG 2 amount
 	METHOD method_489 openSignScreen (Lnet/minecraft/class_140;)V
+	METHOD method_490 sendTranslatedMessage (Ljava/lang/String;)V
+		ARG 1 key
 	METHOD method_491 onEntityCollision (Lnet/minecraft/class_57;I)V
 	METHOD method_492 respawn ()V
 	METHOD method_493 closeContainer ()V
@@ -36,6 +40,10 @@ CLASS net/minecraft/class_54 net/minecraft/entity/player/Player
 	METHOD method_504 hasSleptEnough ()Z
 	METHOD method_505 getSpawnPosition ()Lnet/minecraft/class_63;
 	METHOD method_506 setPlayerSpawn (Lnet/minecraft/class_63;)V
+	METHOD method_507 getRespawnPos (Lnet/minecraft/class_18;Lnet/minecraft/class_63;)Lnet/minecraft/class_63;
+		COMMENT Finds a valid respawn position.
+		ARG 0 level
+		ARG 1 respawnPos
 	METHOD method_508 spawnItem (Lnet/minecraft/class_142;)V
 	METHOD method_509 dropItem (Lnet/minecraft/class_31;Z)V
 	METHOD method_512 incrementStat (Lnet/minecraft/class_139;)V

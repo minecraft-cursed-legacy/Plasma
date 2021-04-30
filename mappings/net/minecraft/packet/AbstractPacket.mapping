@@ -1,15 +1,21 @@
 CLASS net/minecraft/class_169 net/minecraft/packet/AbstractPacket
 	FIELD field_899 idToClass Ljava/util/Map;
 	FIELD field_900 classToId Ljava/util/Map;
+	FIELD field_901 s2cPackets Ljava/util/Set;
+	FIELD field_902 c2sPackets Ljava/util/Set;
 	FIELD field_906 hasChunkData Z
 	METHOD method_798 length ()I
 	METHOD method_799 create (I)Lnet/minecraft/class_169;
 		ARG 0 id
 	METHOD method_800 register (IZZLjava/lang/Class;)V
 		ARG 0 id
+		ARG 1 s2c
+		ARG 2 c2s
+		ARG 3 clazz
 	METHOD method_802 readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
 	METHOD method_803 create (Ljava/io/DataInputStream;Z)Lnet/minecraft/class_169;
 		ARG 0 dataInput
+		ARG 1 serverSide
 	METHOD method_804 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
 	METHOD method_805 getId ()I
 	METHOD method_806 read (Ljava/io/DataInputStream;)V

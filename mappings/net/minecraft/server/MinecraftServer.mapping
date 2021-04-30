@@ -1,9 +1,11 @@
 CLASS net/minecraft/server/MinecraftServer
 	FIELD field_2837 logger Ljava/util/logging/Logger;
-	FIELD field_2839 pendingConnectionManager Lnet/minecraft/class_9;
+	FIELD field_2839 packetHandlerManager Lnet/minecraft/class_9;
 	FIELD field_2840 serverProperties Lnet/minecraft/class_391;
 	FIELD field_2841 levels [Lnet/minecraft/class_73;
-	FIELD field_2842 playerConnectionManager Lnet/minecraft/class_166;
+	FIELD field_2842 playerManager Lnet/minecraft/class_166;
+	FIELD field_2843 stopped Z
+	FIELD field_2847 entityTrackers [Lnet/minecraft/class_488;
 	FIELD field_2848 onlineMode Z
 	FIELD field_2849 spawnAnimals Z
 	FIELD field_2850 allowPvp Z
@@ -13,13 +15,20 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_2855 pendingCommands Ljava/util/List;
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD method_2156 stopRunning ()V
+	METHOD method_2157 getWorld (I)Lnet/minecraft/class_73;
+		ARG 1 dimensionId
 	METHOD method_2159 loadLevels (Lnet/minecraft/class_182;Ljava/lang/String;J)V
 	METHOD method_2160 getFile (Ljava/lang/String;)Ljava/io/File;
 		ARG 1 location
 	METHOD method_2162 queueCommand (Ljava/lang/String;Lnet/minecraft/class_39;)V
 		ARG 1 commandString
 		ARG 2 source
+	METHOD method_2163 isRunning (Lnet/minecraft/server/MinecraftServer;)Z
+		ARG 0 server
 	METHOD method_2164 processQueuedCommands ()V
+	METHOD method_2165 getEntityTracker (I)Lnet/minecraft/class_488;
+		ARG 1 dimensionId
 	METHOD method_2166 start ()Z
 	METHOD method_2167 logWarning (Ljava/lang/String;)V
 	METHOD method_2169 saveChunks ()V

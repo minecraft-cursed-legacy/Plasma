@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_247 net/minecraft/server/gui/ServerStatsGUIComponent
+	FIELD field_914 labels [Ljava/lang/String;
+	METHOD method_829 update ()V
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics
+	CLASS 1
+		METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V
+			ARG 1 event

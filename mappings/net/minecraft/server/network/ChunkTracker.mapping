@@ -1,0 +1,42 @@
+CLASS net/minecraft/class_167 net/minecraft/server/network/ChunkTracker
+	FIELD field_2129 trackers Ljava/util/List;
+	FIELD field_2130 trackedChunkMap Lnet/minecraft/class_101;
+	FIELD field_2131 trackedChunks Ljava/util/List;
+	FIELD field_2132 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_2133 dimensionId I
+	FIELD field_2134 viewRadius I
+	FIELD field_2135 directions [[I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;II)V
+		ARG 1 server
+		ARG 2 dimensionId
+		ARG 3 viewRadius
+	METHOD method_1741 getWorld ()Lnet/minecraft/class_73;
+	METHOD method_1744 getEntry (IIZ)Lnet/minecraft/class_167$class_514;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 create
+	METHOD method_1745 startTracking (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_1747 clear ()V
+	METHOD method_1748 stopTracking (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	METHOD method_1750 getViewRadiusInTiles ()I
+	METHOD method_1751 (Lnet/minecraft/class_69;)V
+		ARG 1 player
+	CLASS class_514 ChunkTrackerEntry
+		FIELD field_2137 trackers Ljava/util/List;
+		FIELD field_2138 chunkX I
+		FIELD field_2139 chunkY I
+		FIELD field_2140 chunkPos Lnet/minecraft/class_515;
+		FIELD field_2142 arraySize I
+		METHOD <init> (Lnet/minecraft/class_167;II)V
+			ARG 2 chunkX
+			ARG 3 chunkY
+		METHOD method_1754 startTracking (Lnet/minecraft/class_69;)V
+			ARG 1 player
+		METHOD method_1755 sendToTrackers (Lnet/minecraft/class_169;)V
+			ARG 1 packet
+		METHOD method_1756 sendInitialChunkDataPacket (Lnet/minecraft/class_55;)V
+			ARG 1 tileEntity
+		METHOD method_1757 stopTracking (Lnet/minecraft/class_69;)V
+			ARG 1 player

@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_633 net/minecraft/container/ContainerListener
+	METHOD method_2099 updateProperty (Lnet/minecraft/class_71;II)V
+		ARG 1 container
+		ARG 2 property
+		ARG 3 value
+	METHOD method_2100 updateSlot (Lnet/minecraft/class_71;ILnet/minecraft/class_31;)V
+		ARG 1 container
+		ARG 2 slot
+		ARG 3 item
+	METHOD method_2101 sendContainerUpdate (Lnet/minecraft/class_71;Ljava/util/List;)V
+		ARG 1 container
+		ARG 2 items

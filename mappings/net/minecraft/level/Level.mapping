@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_180 isClient Z
 	FIELD field_187 time J
-	FIELD field_188 noPlayers Z
+	FIELD field_188 allPlayersSleeping Z
 	FIELD field_198 entities Ljava/util/List;
 	FIELD field_199 tileEntities Ljava/util/List;
 	FIELD field_200 players Ljava/util/List;
@@ -18,6 +18,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	FIELD field_218 cache Lnet/minecraft/class_51;
 	FIELD field_219 dimensionData Lnet/minecraft/class_52;
 	FIELD field_220 properties Lnet/minecraft/class_7;
+	FIELD field_221 forceLoadChunks Z
 	FIELD field_222 data Lnet/minecraft/class_53;
 	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_50;)V
 		ARG 1 level
@@ -32,6 +33,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 3 y
 		ARG 5 z
 		ARG 7 sound
+	METHOD method_151 computeWeatherGradients (F)I
+	METHOD method_152 getTileAtSurface (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD method_154 setTileWithMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -148,8 +153,9 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_258 getSpawnPosition ()Lnet/minecraft/class_63;
 	METHOD method_259 getLevelSource ()Lnet/minecraft/class_51;
 	METHOD method_260 removeTileEntity (III)V
+	METHOD method_261 getDimensionData ()Lnet/minecraft/class_52;
 	METHOD method_262 getProperties ()Lnet/minecraft/class_7;
-	METHOD method_264 onPlayerDisconnect ()V
+	METHOD method_264 areAllPlayersSleeping ()V
 	METHOD method_265 hasRedstonePower (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -169,6 +175,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
 	METHOD method_281 removeListener (Lnet/minecraft/class_59;)V
+	METHOD method_283 revalidateSpawnPos ()V
 	METHOD method_284 getSkyColour (F)Lnet/minecraft/class_26;
 	METHOD method_289 setRainGradient (F)V
 		ARG 1 gradient

@@ -1,1 +1,17 @@
 CLASS net/minecraft/class_390 net/minecraft/level/chunk/ClientChunkCache
+	FIELD field_1509 cachedX I
+	FIELD field_1510 cachedZ I
+	FIELD field_1511 nullChunk Lnet/minecraft/class_43;
+	FIELD field_1512 chunkGenerator Lnet/minecraft/class_51;
+	FIELD field_1513 io Lnet/minecraft/class_243;
+	FIELD field_1514 cache [Lnet/minecraft/class_43;
+	FIELD field_1515 level Lnet/minecraft/class_18;
+	FIELD field_1516 cachedChunk Lnet/minecraft/class_43;
+	FIELD field_1517 spawnX I
+	FIELD field_1518 spawnZ I
+	METHOD method_1242 setSpawnChunk (II)V
+		ARG 1 spawnX
+		ARG 2 spawnZ
+	METHOD method_1243 isSpawnChunk (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ

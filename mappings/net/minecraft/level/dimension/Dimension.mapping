@@ -14,4 +14,5 @@ CLASS net/minecraft/class_50 net/minecraft/level/dimension/Dimension
 	METHOD method_1768 setLevel (Lnet/minecraft/class_18;)V
 		ARG 1 level
 	METHOD method_1769 createBiomeSource ()V
+	METHOD method_1770 isValidSpawnPos (II)Z
 	METHOD method_1772 createLevelSource ()Lnet/minecraft/class_51;

@@ -65,7 +65,10 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_2120 createOrLoadWorld (Ljava/lang/String;Ljava/lang/String;J)V
 	METHOD method_2121 start (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 		ARG 0 playerName
+	METHOD method_2122 respawn (ZI)V
 	METHOD method_2123 getGameDirectory ()Ljava/io/File;
+	METHOD method_2124 handleClientCommand (Ljava/lang/String;)Z
+		ARG 1 chatMessage
 	METHOD method_2125 convertWorldFormat (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_2126 onGameStartupFailure (Lnet/minecraft/class_447;)V
 	METHOD method_2128 printOpenGLError (Ljava/lang/String;)V
@@ -74,7 +77,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD method_2133 lockCursor ()V
 	METHOD method_2136 toggleFullscreen ()V
 	METHOD method_2137 tick ()V
-	METHOD method_2138 hasLevel ()Z
+	METHOD method_2138 isConnectedToServer ()Z
 	METHOD method_2139 switchDimension ()V
 	METHOD method_2140 getOcclusionQueryTester ()Lnet/minecraft/class_22;
 	METHOD method_2141 getDebugFirstLine ()Ljava/lang/String;

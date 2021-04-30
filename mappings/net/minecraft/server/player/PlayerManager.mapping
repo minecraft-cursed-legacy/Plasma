@@ -5,7 +5,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	FIELD field_580 chunkTrackers [Lnet/minecraft/class_167;
 	FIELD field_581 maxPlayerCount I
 	FIELD field_582 bannedPlayers Ljava/util/Set;
-	FIELD field_583 ipBans Ljava/util/Set;
+	FIELD field_583 bannedIps Ljava/util/Set;
 	FIELD field_584 operators Ljava/util/Set;
 	FIELD field_585 whitelist Ljava/util/Set;
 	FIELD field_586 bannedPlayersFile Ljava/io/File;

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_77 net/minecraft/client/render/particle/Particle
+CLASS net/minecraft/class_77 net/minecraft/client/particle/Particle
 	METHOD <init> (Lnet/minecraft/class_18;DDDDDD)V
 		ARG 1 level
 		ARG 2 x

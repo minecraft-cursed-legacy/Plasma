@@ -2,10 +2,17 @@ CLASS net/minecraft/class_67 net/minecraft/client/render/Tessellator
 	FIELD field_2054 INSTANCE Lnet/minecraft/class_67;
 	FIELD field_2062 width D
 	FIELD field_2063 height D
+	FIELD field_2076 tessellating Z
 	METHOD method_1685 draw ()V
 	METHOD method_1686 size (DD)V
 	METHOD method_1687 pos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_1688 vertex (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_1689 colour (FFF)V
 	METHOD method_1690 colour (FFFF)V
 	METHOD method_1691 start (I)V

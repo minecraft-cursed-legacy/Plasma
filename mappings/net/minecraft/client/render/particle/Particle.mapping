@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_77 net/minecraft/client/render/particle/Particle
+	METHOD <init> (Lnet/minecraft/class_18;DDDDDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD method_2000 calculateVelocity (F)Lnet/minecraft/class_77;
+		ARG 1 delta
+	METHOD method_2002 (Lnet/minecraft/class_67;FFFFFF)V
+		ARG 1 tessellator

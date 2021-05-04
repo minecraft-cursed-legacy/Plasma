@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_546 net/minecraft/client/render/entity/tile/SignModel
+	FIELD field_2418 plate Lnet/minecraft/class_163;
+	FIELD field_2419 post Lnet/minecraft/class_163;
+	METHOD method_1875 render ()V

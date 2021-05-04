@@ -1,4 +1,30 @@
 CLASS net/minecraft/class_92 net/minecraft/client/render/entity/ItemRenderer
 	FIELD field_1709 rand Ljava/util/Random;
+	METHOD method_1483 (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+	METHOD method_1485 fillTessellator (Lnet/minecraft/class_67;IIIII)V
+		ARG 1 tessellator
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 color
+	METHOD method_1486 renderItemInstance (Lnet/minecraft/class_34;Lnet/minecraft/class_76;IIIII)V
+		ARG 1 textRenderer
+		ARG 2 textureManager
+		ARG 3 itemId
+		ARG 4 damage
+		ARG 5 texturePosition
+		ARG 6 x
+		ARG 7 y
+	METHOD method_1487 renderItemInstance (Lnet/minecraft/class_34;Lnet/minecraft/class_76;Lnet/minecraft/class_31;II)V
+		ARG 1 textRenderer
+		ARG 2 textureManager
+		ARG 3 itemInstance
+		ARG 4 x
+		ARG 5 y
 	METHOD method_1488 (Lnet/minecraft/class_34;Lnet/minecraft/class_76;Lnet/minecraft/class_31;II)V
 		ARG 3 item
+		ARG 4 x
+		ARG 5 y

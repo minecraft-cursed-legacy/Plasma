@@ -34,7 +34,7 @@ def ENV = System.getenv()
 //def build_number = ENV.BUILD_NUMBER ?: "local"
 def build_number = 18
 
-def yarnVersion = "${minecraft_version}+build.$build_number"
+def plasmaVersion = "${minecraft_version}+build.$build_number"
 
 
 repositories {
@@ -333,7 +333,7 @@ task plasma(dependsOn: setupPlasma) {
 task buildEnigma(type: Zip) {
 	from mappingsDir
 	include "**/*"
-	archiveName "yarn-enigma-${yarnVersion}.zip"
+	archiveName "plasma-enigma-${plasmaVersion}.zip"
 	destinationDir(libs)
 }
 
@@ -357,8 +357,8 @@ task buildYarnTiny(dependsOn: "mergeJars", type: FileOutput) {
 		libs.mkdirs()
 	}
 
-	def yarnTiny = new File(tempDir, "yarn-mappings.tiny")
-	fileOutput = yarnTiny
+	def plasmaTiny = new File(tempDir, "plasma-mappings.tiny")
+	fileOutput = plasmaTiny
 
 	outputs.upToDateWhen { return false }
 
@@ -369,7 +369,7 @@ task buildYarnTiny(dependsOn: "mergeJars", type: FileOutput) {
 			"enigma",
 			mappingsDir.getAbsolutePath(),
 			"tiny:intermediary:named",
-			yarnTiny.getAbsolutePath()
+			plasmaTiny.getAbsolutePath()
 		]
 
 		new ConvertMappingsCommand().run(args)
@@ -377,7 +377,7 @@ task buildYarnTiny(dependsOn: "mergeJars", type: FileOutput) {
 }
 
 task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutput) {
-	def yarnTinyInput = buildYarnTiny.fileOutput
+	def plasmaTinyInput = buildYarnTiny.fileOutput
 
 	def outputFile = new File(tempDir, "mappings.tiny")
 	outputs.file(outputFile)
@@ -386,10 +386,10 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 	outputs.upToDateWhen { return false }
 
 	doLast {
-		logger.lifecycle(":merging yarn and intermediary")
+		logger.lifecycle(":merging plasma and intermediary")
 		String[] args = [
 			downloadIntermediary.dest.getAbsolutePath(),
-			yarnTinyInput.getAbsolutePath(),
+			plasmaTinyInput.getAbsolutePath(),
 			outputFile.getAbsolutePath()
 		]
 
@@ -400,7 +400,7 @@ task mergeTiny(dependsOn: [downloadIntermediary, buildYarnTiny], type: FileOutpu
 
 task tinyJar(type: Jar, dependsOn: "mergeTiny") {
 	outputs.upToDateWhen { return false }
-	archiveName = "plasma-${yarnVersion}.jar"
+	archiveName = "plasma-${plasmaVersion}.jar"
 	destinationDir(libs)
 	classifier = ""
 	from(mergeTiny.fileOutput) {
@@ -409,7 +409,7 @@ task tinyJar(type: Jar, dependsOn: "mergeTiny") {
 }
 
 task compressTiny(dependsOn: ["tinyJar", "mergeTiny"], type: FileOutput) {
-	def outputFile = new File(libs, "yarn-tiny-${yarnVersion}.gz")
+	def outputFile = new File(libs, "plasma-tiny-${plasmaVersion}.gz")
 	outputs.file(outputFile)
 	fileOutput = outputFile
 
@@ -464,9 +464,9 @@ task mapNamedJar(dependsOn: [mergeJars, mergeTiny]) {
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId 'net.fabricmc'
-			artifactId "yarn"
-			version yarnVersion
+			groupId 'io.github.minecraftcursedlegacy'
+			artifactId "plasma"
+			version plasmaVersion
 
 			artifact(compressTiny.fileOutput) {
 				classifier "tiny"
@@ -480,11 +480,12 @@ publishing {
 	}
 	repositories {
 		maven {
-			url "http://mavenupload.modmuss50.me/"
-			if (project.hasProperty('mavenPass')) {
+			def mavenUrl = project.hasProperty('maven_url') ? project.property('maven_url') : ""
+			url mavenUrl
+			if(mavenUrl.startsWith("http")) {
 				credentials {
-					username 'buildslave'
-					password project.getProperty('mavenPass')
+					username project.hasProperty('maven_username') ? project.property('maven_username') : ""
+					password project.hasProperty('maven_password') ? project.property('maven_password') : ""
 				}
 			}
 		}

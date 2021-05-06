@@ -11,10 +11,10 @@ CLASS net/minecraft/class_594 net/minecraft/client/ToastManager
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
 	METHOD method_1963 render ()V
-	METHOD method_1964 refreshWithNoDescriptionAndNameTranslation (Lnet/minecraft/class_24;)V
-		COMMENT PLEASE SUGGEST A BETTER NAME
+	METHOD method_1964 refreshWithoutDescription (Lnet/minecraft/class_24;)V
+		COMMENT
 		ARG 1 achievement
 	METHOD method_1965 refreshPositions ()V
-	METHOD method_1966 refreshWithDescriptionAndNoNameTranslation (Lnet/minecraft/class_24;)V
-		COMMENT PLEASE SUGGEST A BETTER NAME
+	METHOD method_1966 refreshWithDescription (Lnet/minecraft/class_24;)V
+		COMMENT
 		ARG 1 achievement

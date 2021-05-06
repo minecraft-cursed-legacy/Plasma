@@ -464,7 +464,7 @@ task mapNamedJar(dependsOn: [mergeJars, mergeTiny]) {
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId 'io.github.minecraftcursedlegacy'
+			groupId 'io.github.minecraft-cursed-legacy'
 			artifactId "plasma"
 			version plasmaVersion
 

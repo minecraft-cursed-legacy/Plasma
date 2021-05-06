@@ -1,2 +1,2 @@
 CLASS net/minecraft/class_513 net/minecraft/client/render/entity/PrimedTntRenderer
-	FIELD field_2128 tileRenderer Lnet/minecraft/class_13;
+	FIELD field_2128 tntTileRenderer Lnet/minecraft/class_13;

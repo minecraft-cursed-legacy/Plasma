@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_545 net/minecraft/client/render/entity/tile/SignRenderer
+	FIELD field_2268 model Lnet/minecraft/class_546;

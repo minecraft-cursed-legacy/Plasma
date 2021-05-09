@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_77 net/minecraft/entity/ParticleEntity
-	METHOD <init> (Lnet/minecraft/class_18;DDDDDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD method_2002 (Lnet/minecraft/class_67;FFFFFF)V
-		ARG 1 tessellator

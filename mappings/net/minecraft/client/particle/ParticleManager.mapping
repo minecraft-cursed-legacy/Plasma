@@ -1,7 +1,11 @@
 CLASS net/minecraft/class_75 net/minecraft/client/particle/ParticleManager
 	FIELD field_269 level Lnet/minecraft/class_18;
+	FIELD field_270 particles [Ljava/util/List;
+		COMMENT Stores a list of lists of particles, indexed by the particle render type.
 	FIELD field_271 textureManager Lnet/minecraft/class_76;
 	FIELD field_272 rand Ljava/util/Random;
+	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_76;)V
+		ARG 2 textureManager
 	METHOD method_321 addTileClickParticle (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -9,3 +13,5 @@ CLASS net/minecraft/class_75 net/minecraft/client/particle/ParticleManager
 		ARG 4 facing
 	METHOD method_322 addTileBreakParticles (IIIII)V
 	METHOD method_325 addParticle (Lnet/minecraft/class_77;)V
+		ARG 1 particle
+	METHOD method_326 getDebugString ()Ljava/lang/String;

@@ -1,6 +1,10 @@
 CLASS net/minecraft/class_584 net/minecraft/client/gui/DrawableHelper
 	FIELD field_2522 zOffset F
-	METHOD method_1931 (IIII)V
+	METHOD method_1931 drawHorizontalLine (IIII)V
+		COMMENT Draws a coloured line across two x coordinates.
+		ARG 1 x1
+		ARG 2 x2
+		ARG 3 y
 		ARG 4 colour
 	METHOD method_1932 fill (IIIII)V
 		ARG 1 x1
@@ -21,7 +25,11 @@ CLASS net/minecraft/class_584 net/minecraft/client/gui/DrawableHelper
 		ARG 3 x
 		ARG 4 y
 		ARG 5 colour
-	METHOD method_1935 (IIII)V
+	METHOD method_1935 drawVerticalLine (IIII)V
+		COMMENT Draws a coloured line across two y coordinates.
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 y2
 		ARG 4 colour
 	METHOD method_1936 blit (IIIIII)V
 		ARG 1 x

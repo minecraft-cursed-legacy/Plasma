@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_287 net/minecraft/client/colour/GrassColour
 	FIELD field_1141 map [I
-	METHOD method_981 get (DD)I
+	METHOD method_981 getColour (DD)I
 	METHOD method_982 set ([I)V
+		ARG 0 map

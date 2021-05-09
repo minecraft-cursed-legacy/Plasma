@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_279 net/minecraft/client/colour/WaterColour
 	FIELD field_1129 map [I
 	METHOD method_972 set ([I)V
+		ARG 0 map

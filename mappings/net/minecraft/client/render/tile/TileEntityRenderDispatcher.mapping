@@ -1,0 +1,39 @@
+CLASS net/minecraft/class_331 net/minecraft/client/render/tile/TileEntityRenderDispatcher
+	FIELD field_1552 INSTANCE Lnet/minecraft/class_331;
+	FIELD field_1553 renderOffsetX D
+	FIELD field_1554 renderOffsetY D
+	FIELD field_1555 renderOffsetZ D
+	FIELD field_1556 textureManager Lnet/minecraft/class_76;
+	FIELD field_1557 level Lnet/minecraft/class_18;
+	FIELD field_1558 cameraEntity Lnet/minecraft/class_127;
+	FIELD field_1559 yaw F
+	FIELD field_1560 pitch F
+	FIELD field_1561 x D
+	FIELD field_1562 y D
+	FIELD field_1563 z D
+	FIELD field_1564 renderers Ljava/util/Map;
+	FIELD field_1565 textRenderer Lnet/minecraft/class_34;
+	METHOD method_1272 getTextRenderer ()Lnet/minecraft/class_34;
+	METHOD method_1273 refreshLevel (Lnet/minecraft/class_18;)V
+		ARG 1 level
+	METHOD method_1274 refresh (Lnet/minecraft/class_18;Lnet/minecraft/class_76;Lnet/minecraft/class_34;Lnet/minecraft/class_127;F)V
+		ARG 1 level
+		ARG 2 textureManager
+		ARG 3 textRenderer
+		ARG 4 cameraEntity
+		ARG 5 tickDelta
+	METHOD method_1275 getRenderer (Ljava/lang/Class;)Lnet/minecraft/class_330;
+		ARG 1 clazz
+	METHOD method_1276 hasRenderer (Lnet/minecraft/class_55;)Z
+		ARG 1 tileEntity
+	METHOD method_1277 renderTileEntity (Lnet/minecraft/class_55;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tickDelta
+	METHOD method_1278 renderTileEntity (Lnet/minecraft/class_55;F)V
+		ARG 1 tileEntity
+		ARG 2 tickDelta
+	METHOD method_1279 getRenderer (Lnet/minecraft/class_55;)Lnet/minecraft/class_330;
+		ARG 1 tileEntity

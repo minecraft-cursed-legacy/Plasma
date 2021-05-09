@@ -67,7 +67,7 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 	METHOD method_573 pardonIp (Ljava/lang/String;)V
 		ARG 1 playerName
 	METHOD method_574 getWhitelist ()Ljava/util/Set;
-	METHOD method_575 updateDimension (Lnet/minecraft/class_69;)V
+	METHOD method_575 remove (Lnet/minecraft/class_69;)V
 		ARG 1 player
 	METHOD method_576 op (Ljava/lang/String;)V
 		ARG 1 playerName

@@ -1,10 +1,22 @@
 CLASS net/minecraft/class_579 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_2676 bipedModel Lnet/minecraft/class_173;
 	FIELD field_2677 dispatcher Lnet/minecraft/class_578;
+	FIELD field_2680 tileRenderer Lnet/minecraft/class_13;
 	METHOD method_2022 render (Lnet/minecraft/class_57;DDDFF)V
 		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
+	METHOD method_2023 getTextRenderer ()Lnet/minecraft/class_34;
+	METHOD method_2024 (Lnet/minecraft/class_25;)V
+		ARG 0 box
+	METHOD method_2025 (Lnet/minecraft/class_25;DDD)V
+		ARG 0 box
 	METHOD method_2026 bindTexture (Ljava/lang/String;)V
+	METHOD method_2028 (Lnet/minecraft/class_57;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
 	METHOD method_2029 setDispatcher (Lnet/minecraft/class_578;)V
 		ARG 1 dispatcher

@@ -37,6 +37,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD field_2816 currentScreen Lnet/minecraft/class_32;
 	FIELD field_2817 progressListener Lnet/minecraft/class_452;
 	FIELD field_2818 gameRenderer Lnet/minecraft/class_555;
+	FIELD field_2819 toastManager Lnet/minecraft/class_594;
 	FIELD field_2820 overlay Lnet/minecraft/class_588;
 	FIELD field_2821 skipGameRender Z
 	FIELD field_2823 hitResult Lnet/minecraft/class_27;

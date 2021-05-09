@@ -34,7 +34,7 @@ def ENV = System.getenv()
 //def build_number = ENV.BUILD_NUMBER ?: "local"
 def build_number = 18
 
-def plasmaVersion = "${minecraft_version}+build.$build_number"
+def plasmaVersion = "${minecraft_version}-build.$build_number"
 
 
 repositories {

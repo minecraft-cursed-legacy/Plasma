@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_454 net/minecraft/client/level/ClientLevel
 	FIELD field_1723 netHandler Lnet/minecraft/class_219;
+	FIELD field_1725 entitiesById Lnet/minecraft/class_80;
+	METHOD method_1496 getEntityById (I)Lnet/minecraft/class_57;

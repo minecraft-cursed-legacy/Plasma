@@ -1,2 +1,10 @@
-CLASS net/minecraft/class_580 net/minecraft/entity/player/ClientPlayer
-	FIELD field_2505 networkHandler Lnet/minecraft/class_219;
+CLASS net/minecraft/class_40 net/minecraft/entity/player/ClientPlayer
+	FIELD field_161 keypressManager Lnet/minecraft/class_41;
+	FIELD field_162 minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/class_18;Lnet/minecraft/class_237;I)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 session
+		ARG 4 dimensionId
+	METHOD method_137 sendChatMessage (Ljava/lang/String;)V
+	METHOD method_139 updateHealth (I)V

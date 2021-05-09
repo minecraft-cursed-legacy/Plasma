@@ -1,19 +1,19 @@
 CLASS net/minecraft/class_187 net/minecraft/util/io/AbstractTag
-	FIELD field_660 type Ljava/lang/String;
-	METHOD method_629 getId ()B
+	FIELD field_660 key Ljava/lang/String;
 	METHOD method_623 getTagFromId (B)Lnet/minecraft/class_187;
 		ARG 0 id
 	METHOD method_624 writeTag (Lnet/minecraft/class_187;Ljava/io/DataOutput;)V
 		ARG 0 tag
 		ARG 1 out
-	METHOD method_630 read (Ljava/io/DataInput;)V
-		ARG 1 in
-	METHOD method_631 write (Ljava/io/DataOutput;)V
-		ARG 1 out
-	METHOD method_625 setType (Ljava/lang/String;)Lnet/minecraft/class_187;
+	METHOD method_625 setKey (Ljava/lang/String;)Lnet/minecraft/class_187;
 		ARG 1 type
-	METHOD method_626 getType ()Ljava/lang/String;
+	METHOD method_626 getKey ()Ljava/lang/String;
 	METHOD method_627 getTagTypeById (B)Ljava/lang/String;
 		ARG 0 id
 	METHOD method_628 readTag (Ljava/io/DataInput;)Lnet/minecraft/class_187;
 		ARG 0 in
+	METHOD method_629 getType ()B
+	METHOD method_630 read (Ljava/io/DataInput;)V
+		ARG 1 in
+	METHOD method_631 write (Ljava/io/DataOutput;)V
+		ARG 1 out

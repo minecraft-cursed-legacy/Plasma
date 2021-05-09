@@ -7,4 +7,5 @@ CLASS net/minecraft/class_588 net/minecraft/client/gui/Overlay
 	FIELD field_2550 jukeboxMessageTime I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD method_1946 render (FZII)V
 	METHOD method_1949 addChatMessage (Ljava/lang/String;)V

@@ -1,12 +1,13 @@
 CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	FIELD field_954 tiles [B
 	FIELD field_956 level Lnet/minecraft/class_18;
-	FIELD field_957 data Lnet/minecraft/class_257;
+	FIELD field_957 metadata Lnet/minecraft/class_257;
 	FIELD field_958 skylight Lnet/minecraft/class_257;
 	FIELD field_959 blocklight Lnet/minecraft/class_257;
 	FIELD field_960 heightmap [B
 	FIELD field_962 x I
 	FIELD field_963 z I
+	FIELD field_964 tileEntities Ljava/util/Map;
 	FIELD field_965 entities [Ljava/util/List;
 	FIELD field_966 decorated Z
 	FIELD field_970 lastUpdate J
@@ -23,21 +24,77 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_860 setTile (IIII)Z
 	METHOD method_861 setTileWithMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 tileId
+		ARG 5 meta
 	METHOD method_862 placeTileEntity (IIILnet/minecraft/class_55;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD method_863 createRandom (J)Ljava/util/Random;
+		ARG 1 seed
+	METHOD method_864 getLightLevel (Lnet/minecraft/class_56;III)I
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_865 setLightLevel (Lnet/minecraft/class_56;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 light
+	METHOD method_866 appendEntities (Ljava/lang/Class;Lnet/minecraft/class_25;Ljava/util/List;)V
+		ARG 1 entityClass
+		ARG 2 box
+		ARG 3 entities
+	METHOD method_867 addTileEntity (Lnet/minecraft/class_55;)V
+		ARG 1 tileEntity
 	METHOD method_868 addEntity (Lnet/minecraft/class_57;)V
 	METHOD method_869 removeEntity (Lnet/minecraft/class_57;I)V
+	METHOD method_870 appendEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;Ljava/util/List;)V
+		ARG 1 except
+		ARG 2 box
+		ARG 3 entities
+	METHOD method_872 fillChunkData ([BIIIIIII)I
+		ARG 1 data
+		ARG 8 length
 	METHOD method_873 generateHeightmap ()V
 	METHOD method_874 getHeight (II)I
+	METHOD method_875 getMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_876 setMetadata (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
 	METHOD method_877 removeEntity (Lnet/minecraft/class_57;)V
 		ARG 1 entity
 	METHOD method_879 isAboveGround (III)Z
 		ARG 1 localX
 		ARG 2 y
 		ARG 3 localZ
+	METHOD method_880 getAbsoluteLight (IIII)I
+		COMMENT @return the combined sky and block light level of a certain position
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_882 (III)Lnet/minecraft/class_55;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_884 removeTileEntity (III)V
+		COMMENT Removes a tile entity and invalidates it
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_888 (III)V
 		ARG 1 x
 		ARG 2 y

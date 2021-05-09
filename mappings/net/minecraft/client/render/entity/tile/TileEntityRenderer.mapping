@@ -1,5 +1,9 @@
 CLASS net/minecraft/class_330 net/minecraft/client/render/entity/tile/TileEntityRenderer
 	FIELD field_1235 renderDispatcher Lnet/minecraft/class_331;
+	METHOD method_1062 refreshLevel (Lnet/minecraft/class_18;)V
+	METHOD method_1063 getTextRenderer ()Lnet/minecraft/class_34;
+	METHOD method_1064 bindTexture (Ljava/lang/String;)V
+		ARG 1 texture
 	METHOD method_1065 setRenderDispatcher (Lnet/minecraft/class_331;)V
 		ARG 1 renderDispatcher
 	METHOD method_1066 render (Lnet/minecraft/class_55;DDDF)V

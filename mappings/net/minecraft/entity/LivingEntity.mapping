@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_127 net/minecraft/entity/LivingEntity
 	FIELD field_1019 texture Ljava/lang/String;
 	FIELD field_1027 lastHandSwingProgress F
+	FIELD field_1029 parallelMovement F
 	FIELD field_1031 jumping Z
 	FIELD field_1033 movementSpeed F
 	FIELD field_1035 handSwingProgress F
@@ -10,6 +11,7 @@ CLASS net/minecraft/class_127 net/minecraft/entity/LivingEntity
 	FIELD field_1042 attackTime I
 	FIELD field_1049 limbDistance F
 	FIELD field_1059 despawnCounter I
+	FIELD field_1060 perpendicularMovement F
 	METHOD method_910 tickHandSwing ()V
 	METHOD method_911 getAmbientSound ()Ljava/lang/String;
 	METHOD method_912 getHurtSound ()Ljava/lang/String;

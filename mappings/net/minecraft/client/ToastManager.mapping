@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_594 net/minecraft/client/ToastManager
+	FIELD field_2571 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD field_2572 width I
+	FIELD field_2573 height I
+	FIELD field_2574 name Ljava/lang/String;
+	FIELD field_2575 description Ljava/lang/String;
+	FIELD field_2576 achievement Lnet/minecraft/class_24;
+	FIELD field_2577 timestamp J
+	FIELD field_2578 itemRenderer Lnet/minecraft/class_92;
+	FIELD field_2579 hasDescription Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD method_1963 render ()V
+	METHOD method_1964 setWithoutDescription (Lnet/minecraft/class_24;)V
+		COMMENT
+		ARG 1 achievement
+	METHOD method_1965 refreshPositions ()V
+	METHOD method_1966 set (Lnet/minecraft/class_24;)V
+		COMMENT
+		ARG 1 achievement

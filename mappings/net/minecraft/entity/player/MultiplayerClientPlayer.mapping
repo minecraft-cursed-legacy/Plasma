@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_580 net/minecraft/entity/player/MultiplayerClientPlayer
+	FIELD field_2505 networkHandler Lnet/minecraft/class_219;

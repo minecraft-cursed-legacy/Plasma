@@ -108,9 +108,14 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
 		ARG 1 entity
 		ARG 2 sound
+	METHOD method_193 updatePosition (Lnet/minecraft/class_57;Z)V
+		ARG 1 entity
 	METHOD method_195 saveLevel (ZLnet/minecraft/class_62;)V
 		ARG 2 listener
-	METHOD method_197 createLevelSource ()Lnet/minecraft/class_51;
+	METHOD method_197 createChunkCache ()Lnet/minecraft/class_51;
+		COMMENT Creates the chunk cache for this level.
+		COMMENT This consists of a {@linkplain LevelSource level source} acting as a chunk cache which references another level source which acts as a chunk generator.
+		COMMENT @return the new chunk cache
 	METHOD method_199 getChunk (II)Lnet/minecraft/class_43;
 		ARG 1 x
 			COMMENT The absolute X coordinate
@@ -145,6 +150,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 3 z
 		ARG 4 meta
 	METHOD method_219 drawCloak (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_220 isDaylight ()Z
 	METHOD method_221 getRainGradient (F)F
 		ARG 1 tickProgress
@@ -174,6 +180,8 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_241 forceUpdatePosition (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_249 isAboveGroundCached (III)Z
 		ARG 1 x
 		ARG 2 y

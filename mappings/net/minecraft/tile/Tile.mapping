@@ -169,7 +169,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 6 maxZ
 	METHOD method_1580 sounds (Lnet/minecraft/class_475;)Lnet/minecraft/class_17;
 		ARG 1 sounds
-	METHOD method_1581 (Lnet/minecraft/class_18;IIILnet/minecraft/class_31;)V
+	METHOD method_1581 dropItem (Lnet/minecraft/class_18;IIILnet/minecraft/class_31;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
@@ -192,6 +192,7 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 	METHOD method_1594 setUnbreakable ()Lnet/minecraft/class_17;
 	METHOD method_1595 getHardness ()F
 	METHOD method_1596 getName ()Ljava/lang/String;
+	METHOD method_1597 getTranslationKey ()Ljava/lang/String;
 	METHOD method_1598 isOpaque ()Z
 	METHOD method_1599 nonOpaque ()Lnet/minecraft/class_17;
 	METHOD method_1600 getTint (Lnet/minecraft/class_14;III)I

@@ -1,2 +1,6 @@
 CLASS net/minecraft/class_12 net/minecraft/client/util/Smoother
+	FIELD field_38 nextValue F
+	FIELD field_39 previousValue F
 	METHOD method_40 smooth (FF)F
+		ARG 1 increase
+		ARG 2 delta

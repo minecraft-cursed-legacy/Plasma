@@ -1,3 +1,19 @@
 CLASS net/minecraft/class_73 net/minecraft/server/level/ServerLevel
 	FIELD field_273 chunkCache Lnet/minecraft/class_79;
 	FIELD field_275 shouldSave Z
+	FIELD field_276 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_277 entitiesById Lnet/minecraft/class_80;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_52;Ljava/lang/String;IJ)V
+		ARG 1 server
+		ARG 4 dimensionId
+		ARG 5 seed
+	METHOD method_197 createLevelSource ()Lnet/minecraft/class_51;
+	METHOD method_328 getEntityById (I)Lnet/minecraft/class_57;
+		ARG 1 id
+	METHOD method_330 getTileEntitiesInArea (IIIIII)Ljava/util/List;
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ

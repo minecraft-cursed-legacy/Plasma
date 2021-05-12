@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_57 net/minecraft/entity/Entity
-	FIELD field_1591 entityId I
+	FIELD field_1591 id I
 	FIELD field_1592 renderDistanceMultiplier D
 	FIELD field_1594 passenger Lnet/minecraft/class_57;
 	FIELD field_1595 vehicle Lnet/minecraft/class_57;
@@ -21,6 +21,7 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	FIELD field_1614 air I
 	FIELD field_1615 immuneToFire Z
 	FIELD field_1616 dataTracker Lnet/minecraft/class_216;
+	FIELD field_1618 shouldTick Z
 	FIELD field_1619 chunkX I
 	FIELD field_1620 chunkIndex I
 	FIELD field_1621 chunkZ I

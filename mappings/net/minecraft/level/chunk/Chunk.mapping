@@ -10,6 +10,7 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	FIELD field_964 tileEntities Ljava/util/Map;
 	FIELD field_965 entities [Ljava/util/List;
 	FIELD field_966 decorated Z
+	FIELD field_967 shouldSave Z
 	FIELD field_970 lastUpdate J
 	METHOD <init> (Lnet/minecraft/class_18;II)V
 		ARG 1 level
@@ -20,11 +21,23 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 2 tiles
 		ARG 3 x
 		ARG 4 z
+	METHOD method_858 equals (II)Z
+		ARG 1 x
+			COMMENT The chunk's x coordinate
+		ARG 2 z
+			COMMENT The chunk's z coordinate
 	METHOD method_859 getTileId (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD method_860 setTile (IIII)Z
+		ARG 1 x
+			COMMENT The relative X coordinate
+		ARG 2 y
+			COMMENT The relative Y coordinate
+		ARG 3 z
+			COMMENT The relative Z coordinate
+		ARG 4 tileId
 	METHOD method_861 setTileWithMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -86,7 +99,7 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_882 (III)Lnet/minecraft/class_55;
+	METHOD method_882 getTileEntity (III)Lnet/minecraft/class_55;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

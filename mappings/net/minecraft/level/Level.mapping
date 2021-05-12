@@ -53,6 +53,8 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 tileId
+		ARG 5 metadata
 	METHOD method_155 isRegionLoaded (IIIIII)Z
 		ARG 1 startX
 		ARG 2 startY
@@ -91,7 +93,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 particle
 	METHOD method_180 putMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
 		ARG 1 name
+	METHOD method_182 addEntities (Ljava/util/List;)V
+		ARG 1 entities
 	METHOD method_183 addListener (Lnet/minecraft/class_59;)V
+		ARG 1 listener
 	METHOD method_186 getClosestPlayerTo (Lnet/minecraft/class_57;D)Lnet/minecraft/class_54;
 	METHOD method_187 createExplosion (Lnet/minecraft/class_57;DDDF)Lnet/minecraft/class_60;
 		ARG 1 cause
@@ -134,6 +139,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 4 z
 		ARG 5 light
 	METHOD method_210 spawnEntity (Lnet/minecraft/class_57;)Z
+		ARG 1 entity
 	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
 	METHOD method_212 computeSpawnPosition ()V
 	METHOD method_213 getThunderGradient (F)F
@@ -149,7 +155,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 meta
-	METHOD method_219 drawCloak (Lnet/minecraft/class_57;)V
+	METHOD method_219 onEntityAdded (Lnet/minecraft/class_57;)V
 		ARG 1 entity
 	METHOD method_220 isDaylight ()Z
 	METHOD method_221 getRainGradient (F)F
@@ -173,6 +179,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_236 removeEntityFromChunk (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_238 isChunkLoaded (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkY
@@ -219,6 +226,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
 	METHOD method_281 removeListener (Lnet/minecraft/class_59;)V
+		ARG 1 listener
 	METHOD method_283 revalidateSpawnPos ()V
 	METHOD method_284 getSkyColour (F)Lnet/minecraft/class_26;
 	METHOD method_289 setRainGradient (F)V

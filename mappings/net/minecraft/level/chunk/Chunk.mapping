@@ -1,7 +1,7 @@
 CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 	FIELD field_954 tiles [B
 	FIELD field_956 level Lnet/minecraft/class_18;
-	FIELD field_957 metadata Lnet/minecraft/class_257;
+	FIELD field_957 meta Lnet/minecraft/class_257;
 	FIELD field_958 skylight Lnet/minecraft/class_257;
 	FIELD field_959 blocklight Lnet/minecraft/class_257;
 	FIELD field_960 heightmap [B

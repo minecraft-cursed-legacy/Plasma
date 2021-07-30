@@ -123,9 +123,9 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		COMMENT @return the new chunk cache
 	METHOD method_199 getChunk (II)Lnet/minecraft/class_43;
 		ARG 1 x
-			COMMENT The block's X coordinate
+			COMMENT The block's absolute X coordinate
 		ARG 2 z
-			COMMENT The block's Z coordinate
+			COMMENT The block's absolute Z coordinate
 	METHOD method_200 setTileInChunk (IIII)Z
 		ARG 1 x
 		ARG 2 y

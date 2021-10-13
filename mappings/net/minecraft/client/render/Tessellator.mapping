@@ -1,10 +1,22 @@
 CLASS net/minecraft/class_67 net/minecraft/client/render/Tessellator
+	FIELD field_2053 size I
 	FIELD field_2054 INSTANCE Lnet/minecraft/class_67;
+	FIELD field_2057 buffer Ljava/nio/ByteBuffer;
+	FIELD field_2058 intBuffer Ljava/nio/IntBuffer;
+	FIELD field_2059 floatBuffer Ljava/nio/FloatBuffer;
 	FIELD field_2062 width D
 	FIELD field_2063 height D
+	FIELD field_2064 color I
+	FIELD field_2072 prevX D
+	FIELD field_2073 prevY D
+	FIELD field_2074 prevZ D
 	FIELD field_2076 tessellating Z
+	METHOD <init> (I)V
+		ARG 1 size
 	METHOD method_1685 draw ()V
 	METHOD method_1686 size (DD)V
+		ARG 1 width
+		ARG 3 height
 	METHOD method_1687 pos (DDD)V
 		ARG 1 x
 		ARG 3 y
@@ -13,11 +25,43 @@ CLASS net/minecraft/class_67 net/minecraft/client/render/Tessellator
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+		ARG 7 width
+		ARG 9 height
 	METHOD method_1689 colour (FFF)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
 	METHOD method_1690 colour (FFFF)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
 	METHOD method_1691 start (I)V
 	METHOD method_1692 colour (II)V
+		ARG 1 colour
+		ARG 2 alpha
 	METHOD method_1693 colour (III)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
 	METHOD method_1694 colour (IIII)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
 	METHOD method_1695 start ()V
+	METHOD method_1696 prevPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1697 (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1698 colour (I)V
+		ARG 1 colour
+	METHOD method_1700 changePrevPos (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1701 clear ()V

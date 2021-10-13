@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_130
-	FIELD field_492 image Ljava/awt/image/BufferedImage;
-	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_131;)V
-		ARG 2 imageProcessor

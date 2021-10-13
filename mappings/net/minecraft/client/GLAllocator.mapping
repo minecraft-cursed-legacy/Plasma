@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_214 net/minecraft/client/GLAllocator
+	FIELD field_795 POINTERS Ljava/util/List;
+	FIELD field_796 IDS Ljava/util/List;
+	METHOD method_740 clear ()V
+	METHOD method_741 add (I)I
+		ARG 0 id
+	METHOD method_742 addTexture (Ljava/nio/IntBuffer;)V
+		ARG 0 buffer
+	METHOD method_743 deletePointer (I)V
+		ARG 0 pointer
+	METHOD method_744 createByteBuffer (I)Ljava/nio/ByteBuffer;
+		ARG 0 size
+	METHOD method_745 createIntBuffer (I)Ljava/nio/IntBuffer;
+		ARG 0 size
+	METHOD method_746 createFloatBuffer (I)Ljava/nio/FloatBuffer;
+		ARG 0 size

@@ -12,6 +12,9 @@ CLASS net/minecraft/class_579 net/minecraft/client/render/entity/EntityRenderer
 		ARG 0 box
 	METHOD method_2025 (Lnet/minecraft/class_25;DDD)V
 		ARG 0 box
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_2026 bindTexture (Ljava/lang/String;)V
 	METHOD method_2028 (Lnet/minecraft/class_57;DDDF)V
 		ARG 1 entity

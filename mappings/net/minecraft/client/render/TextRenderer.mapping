@@ -7,7 +7,7 @@ CLASS net/minecraft/class_34 net/minecraft/client/render/TextRenderer
 		ARG 1 options
 		ARG 2 fontTexturePath
 		ARG 3 textureManager
-	METHOD method_1901 getWordWidth (Ljava/lang/String;)I
+	METHOD method_1901 getTextWidth (Ljava/lang/String;)I
 		ARG 1 text
 	METHOD method_1902 getLineWidth (Ljava/lang/String;I)I
 		ARG 1 text
@@ -17,7 +17,7 @@ CLASS net/minecraft/class_34 net/minecraft/client/render/TextRenderer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 colour
-	METHOD method_1904 drawText (Ljava/lang/String;IIII)V
+	METHOD method_1904 drawMultilineText (Ljava/lang/String;IIII)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y
@@ -28,8 +28,8 @@ CLASS net/minecraft/class_34 net/minecraft/client/render/TextRenderer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 colour
-		ARG 5 flag
-	METHOD method_1906 drawWord (Ljava/lang/String;III)V
+		ARG 5 shadow
+	METHOD method_1906 drawTextWithoutShadow (Ljava/lang/String;III)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y

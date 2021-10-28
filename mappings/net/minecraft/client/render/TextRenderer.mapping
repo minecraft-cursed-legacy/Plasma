@@ -1,18 +1,35 @@
 CLASS net/minecraft/class_34 net/minecraft/client/render/TextRenderer
+	FIELD field_2461 imageId I
+	FIELD field_2462 widths [I
+	FIELD field_2463 glList I
+	FIELD field_2464 buffer Ljava/nio/IntBuffer;
 	METHOD <init> (Lnet/minecraft/class_322;Ljava/lang/String;Lnet/minecraft/class_76;)V
 		ARG 1 options
+		ARG 2 fontTexturePath
+		ARG 3 textureManager
 	METHOD method_1901 getTextWidth (Ljava/lang/String;)I
+		ARG 1 text
+	METHOD method_1902 getLineWidth (Ljava/lang/String;I)I
+		ARG 1 text
+		ARG 2 width
 	METHOD method_1903 drawTextWithShadow (Ljava/lang/String;III)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y
 		ARG 4 colour
+	METHOD method_1904 drawMultilineText (Ljava/lang/String;IIII)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 colour
 	METHOD method_1905 drawText (Ljava/lang/String;IIIZ)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y
 		ARG 4 colour
-	METHOD method_1906 drawText (Ljava/lang/String;III)V
+		ARG 5 shadow
+	METHOD method_1906 drawTextWithoutShadow (Ljava/lang/String;III)V
 		ARG 1 text
 		ARG 2 x
 		ARG 3 y

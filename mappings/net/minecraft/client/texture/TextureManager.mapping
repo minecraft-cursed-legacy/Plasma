@@ -1,9 +1,56 @@
 CLASS net/minecraft/class_76 net/minecraft/client/texture/TextureManager
+	FIELD field_1246 TEXTURE_ID_MAP Ljava/util/HashMap;
+	FIELD field_1247 IMAGE_GRID_CACHE Ljava/util/HashMap;
+	FIELD field_1248 INT_TO_IMAGE Ljava/util/HashMap;
+	FIELD field_1249 atlasBuffer Ljava/nio/IntBuffer;
+	FIELD field_1250 textureGridBuffer Ljava/nio/ByteBuffer;
 	FIELD field_1251 textureBinders Ljava/util/List;
+	FIELD field_1252 ID_TO_DOWNLOADER Ljava/util/Map;
 	FIELD field_1253 gameOptions Lnet/minecraft/class_322;
+	FIELD field_1254 clamped Z
+	FIELD field_1255 blurred Z
+	FIELD field_1256 texturePackManager Lnet/minecraft/class_303;
+	FIELD field_1257 defaultImage Ljava/awt/image/BufferedImage;
+	METHOD <init> (Lnet/minecraft/class_303;Lnet/minecraft/class_322;)V
+		ARG 1 texturePackManager
+		ARG 2 gameOptions
 	METHOD method_1084 tick ()V
+	METHOD method_1085 removeTexture (I)V
+		ARG 1 id
+	METHOD method_1086 (II)I
+		ARG 1 grid
+		ARG 2 grid2
 	METHOD method_1087 add (Lnet/minecraft/class_336;)V
+		ARG 1 textureBinder
 	METHOD method_1088 glLoadImage (Ljava/awt/image/BufferedImage;)I
-	METHOD method_1092 readMap (Ljava/lang/String;)[I
+		ARG 1 image
+	METHOD method_1089 glLoadImageWithId (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 image
+		ARG 2 id
+	METHOD method_1090 getRGBPixels (Ljava/awt/image/BufferedImage;[I)[I
+		ARG 1 image
+		ARG 2 pixels
+	METHOD method_1091 readStream (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+		ARG 1 stream
+	METHOD method_1092 getImageGrid (Ljava/lang/String;)[I
+		ARG 1 id
+	METHOD method_1093 getTextureId (Ljava/lang/String;Ljava/lang/String;)I
+		ARG 1 downloaderId
+		ARG 2 stringId
+	METHOD method_1094 getImageDownloader (Ljava/lang/String;Lnet/minecraft/class_131;)Lnet/minecraft/class_130;
+		ARG 1 stringId
+		ARG 2 imageProcessor
+	METHOD method_1095 ([IIII)V
+		ARG 1 grid
+		ARG 4 textureId
+	METHOD method_1096 reload ()V
 	METHOD method_1097 bindTexture (I)V
+		ARG 1 pointer
+	METHOD method_1099 getRGBPixels (Ljava/awt/image/BufferedImage;)[I
+		ARG 1 image
 	METHOD method_1100 getTextureId (Ljava/lang/String;)I
+		ARG 1 stringId
+	METHOD method_1101 (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 image
+	METHOD method_1102 removeDownloaded (Ljava/lang/String;)V
+		ARG 1 stringId

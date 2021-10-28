@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_89 net/minecraft/util/CharacterUtils
+	FIELD field_298 SUPPORTED_CHARS Ljava/lang/String;
+	METHOD method_350 getSupportedChars ()Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_130 net/minecraft/client/ImageDownloader
+	FIELD field_492 image Ljava/awt/image/BufferedImage;
+	FIELD field_493 downloading I
+	FIELD field_494 pointer I
+	FIELD field_495 loaded Z
+	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_131;)V
+		ARG 1 url
+		ARG 2 imageProcessor

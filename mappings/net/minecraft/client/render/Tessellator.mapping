@@ -1,9 +1,6 @@
 CLASS net/minecraft/class_67 net/minecraft/client/render/Tessellator
 	FIELD field_2053 size I
 	FIELD field_2054 INSTANCE Lnet/minecraft/class_67;
-	FIELD field_2057 buffer Ljava/nio/ByteBuffer;
-	FIELD field_2058 intBuffer Ljava/nio/IntBuffer;
-	FIELD field_2059 floatBuffer Ljava/nio/FloatBuffer;
 	FIELD field_2062 width D
 	FIELD field_2063 height D
 	FIELD field_2064 color I

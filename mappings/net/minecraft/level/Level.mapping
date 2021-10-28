@@ -23,8 +23,15 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD <init> (Lnet/minecraft/class_18;Lnet/minecraft/class_50;)V
 		ARG 1 level
 		ARG 2 dimension
+	METHOD <init> (Lnet/minecraft/class_52;Ljava/lang/String;J)V
+		ARG 2 name
+		ARG 3 seed
+	METHOD <init> (Lnet/minecraft/class_52;Ljava/lang/String;JLnet/minecraft/class_50;)V
+		ARG 2 name
+		ARG 3 seed
 	METHOD <init> (Lnet/minecraft/class_52;Ljava/lang/String;Lnet/minecraft/class_50;J)V
 		ARG 1 dimensionData
+		ARG 2 name
 		ARG 3 dimension
 		ARG 4 seed
 	METHOD method_149 getClosestPlayer (DDDD)Lnet/minecraft/class_54;
@@ -37,10 +44,24 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_152 getTileAtSurface (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD method_153 isRegionLoaded (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 radius
 	METHOD method_154 setTileWithMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 tileId
+		ARG 5 metadata
+	METHOD method_155 isRegionLoaded (IIIIII)Z
+		ARG 1 startX
+		ARG 2 startY
+		ARG 3 startZ
+		ARG 4 endX
+		ARG 5 endY
+		ARG 6 endZ
 	METHOD method_156 canPlaceTile (IIIIZI)Z
 		ARG 1 id
 		ARG 2 x
@@ -58,7 +79,8 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_161 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;Z)Lnet/minecraft/class_27;
 	METHOD method_162 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;ZZ)Lnet/minecraft/class_27;
 	METHOD method_164 getLightLevel (Lnet/minecraft/class_56;III)I
-	METHOD method_165 setLightLevel (Lnet/minecraft/class_56;IIII)V
+	METHOD method_165 (Lnet/minecraft/class_56;IIII)V
+		ARG 1 tpe
 	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
 	METHOD method_173 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
@@ -71,7 +93,10 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 particle
 	METHOD method_180 putMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
 		ARG 1 name
+	METHOD method_182 addEntities (Ljava/util/List;)V
+		ARG 1 entities
 	METHOD method_183 addListener (Lnet/minecraft/class_59;)V
+		ARG 1 listener
 	METHOD method_186 getClosestPlayerTo (Lnet/minecraft/class_57;D)Lnet/minecraft/class_54;
 	METHOD method_187 createExplosion (Lnet/minecraft/class_57;DDDF)Lnet/minecraft/class_60;
 		ARG 1 cause
@@ -97,26 +122,40 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		COMMENT This consists of a {@linkplain LevelSource level source} acting as a chunk cache which references another level source which acts as a chunk generator.
 		COMMENT @return the new chunk cache
 	METHOD method_199 getChunk (II)Lnet/minecraft/class_43;
+		ARG 1 x
+			COMMENT The block's absolute X coordinate
+		ARG 2 z
+			COMMENT The block's absolute Z coordinate
 	METHOD method_200 setTileInChunk (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tileId
 	METHOD method_202 updateRedstone (IIIIII)V
+	METHOD method_205 setLightLevel (Lnet/minecraft/class_56;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 light
 	METHOD method_210 spawnEntity (Lnet/minecraft/class_57;)Z
+		ARG 1 entity
 	METHOD method_211 getEntities (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
 	METHOD method_212 computeSpawnPosition ()V
 	METHOD method_213 getThunderGradient (F)F
 		ARG 1 tickProgress
 	METHOD method_214 getChunkFromCache (II)Lnet/minecraft/class_43;
+		COMMENT
 		ARG 1 x
+			COMMENT The chunk's X coordinate
 		ARG 2 z
+			COMMENT The chunk's Y coordinate
 	METHOD method_215 setTileMeta (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 meta
-	METHOD method_219 drawCloak (Lnet/minecraft/class_57;)V
+	METHOD method_219 onEntityAdded (Lnet/minecraft/class_57;)V
 		ARG 1 entity
 	METHOD method_220 isDaylight ()Z
 	METHOD method_221 getRainGradient (F)F
@@ -140,10 +179,14 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_236 removeEntityFromChunk (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_238 isChunkLoaded (II)Z
 		ARG 1 chunkX
 		ARG 2 chunkY
 	METHOD method_239 isTileLoaded (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_241 forceUpdatePosition (Lnet/minecraft/class_57;)V
 		ARG 1 entity
 	METHOD method_249 isAboveGroundCached (III)Z
@@ -183,6 +226,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_277 addPlayer (Lnet/minecraft/class_54;)V
 		ARG 1 player
 	METHOD method_281 removeListener (Lnet/minecraft/class_59;)V
+		ARG 1 listener
 	METHOD method_283 revalidateSpawnPos ()V
 	METHOD method_284 getSkyColour (F)Lnet/minecraft/class_26;
 	METHOD method_289 setRainGradient (F)V

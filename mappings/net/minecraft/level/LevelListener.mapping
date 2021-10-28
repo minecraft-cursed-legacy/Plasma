@@ -2,10 +2,17 @@ CLASS net/minecraft/class_59 net/minecraft/level/LevelListener
 	METHOD method_1152 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
 	METHOD method_1153 addParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 particle
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
 	METHOD method_1154 playSound (Ljava/lang/String;DDDFF)V
 		ARG 1 sound
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD method_1156 drawCloak (Lnet/minecraft/class_57;)V
+	METHOD method_1156 onEntityAdded (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_1157 onEntityRemoved (Lnet/minecraft/class_57;)V

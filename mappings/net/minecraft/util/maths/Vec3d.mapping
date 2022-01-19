@@ -1,0 +1,58 @@
+CLASS net/minecraft/class_26 net/minecraft/util/maths/Vec3d
+	FIELD field_1585 x D
+	FIELD field_1586 y D
+	FIELD field_1587 z D
+	FIELD field_1588 cache Ljava/util/List;
+	FIELD field_1589 count I
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1292 resetCount ()V
+	METHOD method_1293 create (DDD)Lnet/minecraft/class_26;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD method_1294 getDistance (Lnet/minecraft/class_26;)D
+		ARG 1 to
+	METHOD method_1295 interpolateWrtX (Lnet/minecraft/class_26;D)Lnet/minecraft/class_26;
+		ARG 1 vector
+		ARG 2 x
+	METHOD method_1296 normalize ()Lnet/minecraft/class_26;
+	METHOD method_1297 getOrCreate (DDD)Lnet/minecraft/class_26;
+		COMMENT Returns a cached Vec3f
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD method_1298 getDistanceSquared (Lnet/minecraft/class_26;)D
+		ARG 1 to
+	METHOD method_1299 interpolateWrtY (Lnet/minecraft/class_26;D)Lnet/minecraft/class_26;
+		ARG 1 vector
+		ARG 2 y
+	METHOD method_1300 absoluteValue ()D
+	METHOD method_1301 add (DDD)Lnet/minecraft/class_26;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1302 interpolateWrtZ (Lnet/minecraft/class_26;D)Lnet/minecraft/class_26;
+		ARG 1 vector
+		ARG 2 z
+	METHOD method_1303 getDistanceSquared (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1304 set (DDD)Lnet/minecraft/class_26;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_1305 clearCache ()V
+	METHOD method_1306 rotateX (F)V
+		COMMENT Rotates the vector along the X axis
+		ARG 1 angle
+	METHOD method_1307 subtract (Lnet/minecraft/class_26;)Lnet/minecraft/class_26;
+		ARG 1 subtrahend
+	METHOD method_1308 rotateY (F)V
+		COMMENT Rotates the vector along the Y axis
+		ARG 1 angle
+	METHOD method_1309 crossProduct (Lnet/minecraft/class_26;)Lnet/minecraft/class_26;
+		ARG 1 vec

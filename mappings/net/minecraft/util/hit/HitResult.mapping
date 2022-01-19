@@ -3,3 +3,14 @@ CLASS net/minecraft/class_27 net/minecraft/util/hit/HitResult
 	FIELD field_1984 x I
 	FIELD field_1985 y I
 	FIELD field_1986 z I
+	FIELD field_1987 tileId I
+	FIELD field_1988 pos Lnet/minecraft/class_26;
+	FIELD field_1989 entity Lnet/minecraft/class_57;
+	METHOD <init> (IIIILnet/minecraft/class_26;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 pos
+	METHOD <init> (Lnet/minecraft/class_57;)V
+		ARG 1 entity

@@ -7,8 +7,6 @@ CLASS net/minecraft/class_189 net/minecraft/util/maths/MathsHelper
 		ARG 2 arg1
 	METHOD method_644 sin (F)F
 		ARG 0 value
-	METHOD method_651 isStringEmpty (Ljava/lang/String;)Z
-		ARG 0 string
 	METHOD method_645 floor (D)I
 		ARG 0 value
 	METHOD method_646 cos (F)F
@@ -19,3 +17,5 @@ CLASS net/minecraft/class_189 net/minecraft/util/maths/MathsHelper
 		ARG 0 value
 	METHOD method_649 abs (F)F
 		ARG 0 value
+	METHOD method_651 isStringEmpty (Ljava/lang/String;)Z
+		ARG 0 string

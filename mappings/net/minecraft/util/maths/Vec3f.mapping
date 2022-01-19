@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_26 net/minecraft/util/maths/Vec3f
-	FIELD field_1585 x D
-	FIELD field_1586 y D
-	FIELD field_1587 z D
-	METHOD method_1297 from (DDD)Lnet/minecraft/class_26;

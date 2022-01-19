@@ -83,6 +83,11 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 1 tpe
 	METHOD method_168 canSpawnEntity (Lnet/minecraft/class_25;)Z
 		ARG 1 box
+	METHOD method_172 (Lnet/minecraft/class_54;IIII)V
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_173 playLevelEvent (Lnet/minecraft/class_54;IIIII)V
 	METHOD method_175 getEntities (Ljava/lang/Class;Lnet/minecraft/class_25;)Ljava/util/List;
 	METHOD method_176 getOrCreateMapStorage (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/class_58;

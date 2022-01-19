@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_260 net/minecraft/client/util/ScreenshotManager
 	FIELD field_1005 dateFormat Ljava/text/DateFormat;
+	FIELD field_1006 screenshotBuffer Ljava/nio/ByteBuffer;
 	METHOD method_908 takeScreenshot (Ljava/io/File;II)Ljava/lang/String;
 		ARG 0 directory

@@ -49,6 +49,7 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	METHOD method_1317 baseTick ()V
 	METHOD method_1318 isAlive ()Z
 	METHOD method_1319 destroy ()V
+	METHOD method_1320 getRotationVector ()Lnet/minecraft/class_26;
 	METHOD method_1321 setSize (FF)V
 		ARG 1 width
 		ARG 2 height

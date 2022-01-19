@@ -238,6 +238,11 @@ CLASS net/minecraft/class_17 net/minecraft/tile/Tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_1612 (Lnet/minecraft/class_18;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1613 onDestroyedByExplosion (Lnet/minecraft/class_18;III)V
 		ARG 1 level
 		ARG 2 x

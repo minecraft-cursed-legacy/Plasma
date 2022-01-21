@@ -26,6 +26,16 @@ CLASS net/minecraft/class_166 net/minecraft/server/player/PlayerManager
 		ARG 10 packet
 	METHOD method_551 getChunkTracker (I)Lnet/minecraft/class_167;
 		ARG 1 dimension
+	METHOD method_552 (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dimensionId
+	METHOD method_553 (IIILnet/minecraft/class_55;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 entity
 	METHOD method_554 (Lnet/minecraft/class_69;)V
 		ARG 1 player
 	METHOD method_555 respawn (Lnet/minecraft/class_69;I)Lnet/minecraft/class_69;

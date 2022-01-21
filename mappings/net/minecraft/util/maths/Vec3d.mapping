@@ -18,7 +18,7 @@ CLASS net/minecraft/class_26 net/minecraft/util/maths/Vec3d
 	METHOD method_1295 interpolateWrtX (Lnet/minecraft/class_26;D)Lnet/minecraft/class_26;
 		ARG 1 vector
 		ARG 2 x
-	METHOD method_1296 normalize ()Lnet/minecraft/class_26;
+	METHOD method_1296 normalise ()Lnet/minecraft/class_26;
 	METHOD method_1297 getOrCreate (DDD)Lnet/minecraft/class_26;
 		COMMENT Returns a cached Vec3f
 		ARG 0 x

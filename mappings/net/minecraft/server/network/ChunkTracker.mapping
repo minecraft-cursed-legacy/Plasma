@@ -11,6 +11,10 @@ CLASS net/minecraft/class_167 net/minecraft/server/network/ChunkTracker
 		ARG 2 dimensionId
 		ARG 3 viewRadius
 	METHOD method_1741 getWorld ()Lnet/minecraft/class_73;
+	METHOD method_1742 (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1744 getEntry (IIZ)Lnet/minecraft/class_167$class_514;
 		ARG 1 chunkX
 		ARG 2 chunkZ
@@ -32,6 +36,10 @@ CLASS net/minecraft/class_167 net/minecraft/server/network/ChunkTracker
 		METHOD <init> (Lnet/minecraft/class_167;II)V
 			ARG 2 chunkX
 			ARG 3 chunkY
+		METHOD method_1753 (III)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
 		METHOD method_1754 startTracking (Lnet/minecraft/class_69;)V
 			ARG 1 player
 		METHOD method_1755 sendToTrackers (Lnet/minecraft/class_169;)V

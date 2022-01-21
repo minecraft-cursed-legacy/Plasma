@@ -3,7 +3,10 @@ CLASS net/minecraft/class_50 net/minecraft/level/dimension/Dimension
 	FIELD field_2174 biomeSource Lnet/minecraft/class_519;
 	FIELD field_2175 hasFog Z
 	FIELD field_2177 fixedSpawnPos Z
+	FIELD field_2178 brightnesses [F
 	FIELD field_2179 id I
+	METHOD method_1761 (FF)[F
+		ARG 1 angle
 	METHOD method_1762 getSkyColour (FF)Lnet/minecraft/class_26;
 		ARG 1 temperature
 		ARG 2 humidity
@@ -18,4 +21,6 @@ CLASS net/minecraft/class_50 net/minecraft/level/dimension/Dimension
 	METHOD method_1770 isValidSpawnPos (II)Z
 		ARG 1 x
 		ARG 2 z
+	METHOD method_1771 (JF)F
+		ARG 1 time
 	METHOD method_1772 createLevelSource ()Lnet/minecraft/class_51;

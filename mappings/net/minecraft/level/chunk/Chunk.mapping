@@ -108,6 +108,7 @@ CLASS net/minecraft/class_43 net/minecraft/level/chunk/Chunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_885 markDirty ()V
 	METHOD method_888 (III)V
 		ARG 1 x
 		ARG 2 y

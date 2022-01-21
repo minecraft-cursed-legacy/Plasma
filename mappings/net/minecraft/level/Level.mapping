@@ -69,7 +69,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 4 z
 		ARG 6 meta
 	METHOD method_157 setTileEntity (IIILnet/minecraft/class_55;)V
-	METHOD method_158 placeTile (IIIZ)I
+	METHOD method_158 getLightLevel (IIIZ)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -78,6 +78,8 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_160 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;)Lnet/minecraft/class_27;
 	METHOD method_161 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;Z)Lnet/minecraft/class_27;
 	METHOD method_162 raycast (Lnet/minecraft/class_26;Lnet/minecraft/class_26;ZZ)Lnet/minecraft/class_27;
+		ARG 1 from
+		ARG 2 to
 	METHOD method_164 getLightLevel (Lnet/minecraft/class_56;III)I
 	METHOD method_165 (Lnet/minecraft/class_56;IIII)V
 		ARG 1 tpe
@@ -96,6 +98,12 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_177 getPlayerByName (Ljava/lang/String;)Lnet/minecraft/class_54;
 	METHOD method_178 addParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 particle
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
 	METHOD method_180 putMapStorage (Ljava/lang/String;Lnet/minecraft/class_58;)V
 		ARG 1 name
 	METHOD method_182 addEntities (Ljava/util/List;)V
@@ -115,9 +123,14 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 4 y
 		ARG 6 z
 		ARG 8 power
+	METHOD method_190 (Lnet/minecraft/class_57;Lnet/minecraft/class_25;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
 	METHOD method_191 playSound (Lnet/minecraft/class_57;Ljava/lang/String;FF)V
 		ARG 1 entity
 		ARG 2 sound
+		ARG 3 volume
+		ARG 4 pitch
 	METHOD method_193 updatePosition (Lnet/minecraft/class_57;Z)V
 		ARG 1 entity
 	METHOD method_195 saveLevel (ZLnet/minecraft/class_62;)V
@@ -137,6 +150,11 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 		ARG 3 z
 		ARG 4 tileId
 	METHOD method_202 updateRedstone (IIIIII)V
+	METHOD method_203 (IIILnet/minecraft/class_55;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 entity
 	METHOD method_205 setLightLevel (Lnet/minecraft/class_56;IIII)V
 		ARG 1 type
 		ARG 2 x
@@ -176,6 +194,7 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_229 setTile (IIII)Z
 	METHOD method_230 playLevelEvent (IIIII)V
 	METHOD method_231 removeEntity (Lnet/minecraft/class_57;)V
+		ARG 1 entity
 	METHOD method_233 getSurfaceHeight (II)I
 		ARG 1 x
 		ARG 2 z
@@ -201,6 +220,9 @@ CLASS net/minecraft/class_18 net/minecraft/level/Level
 	METHOD method_251 checkSessionLock ()V
 	METHOD method_254 getSeed ()J
 	METHOD method_255 getLightLevel (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_256 getLevelTime ()J
 	METHOD method_257 isAboveGround (III)Z
 		ARG 1 x

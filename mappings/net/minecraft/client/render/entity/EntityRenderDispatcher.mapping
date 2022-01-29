@@ -3,18 +3,39 @@ CLASS net/minecraft/class_578 net/minecraft/client/render/entity/EntityRenderDis
 	FIELD field_2493 textureManager Lnet/minecraft/class_76;
 	FIELD field_2495 level Lnet/minecraft/class_18;
 	FIELD field_2496 entity Lnet/minecraft/class_127;
+	FIELD field_2497 renderYaw F
+	FIELD field_2498 renderPitch F
 	FIELD field_2499 options Lnet/minecraft/class_322;
+	FIELD field_2500 renderX D
+	FIELD field_2501 renderY D
+	FIELD field_2502 renderZ D
 	FIELD field_2503 renderers Ljava/util/Map;
 	FIELD field_2504 font Lnet/minecraft/class_34;
 	METHOD method_1914 getTextRenderer ()Lnet/minecraft/class_34;
+	METHOD method_1915 refresh (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_1916 setLevel (Lnet/minecraft/class_18;)V
 		ARG 1 level
+	METHOD method_1917 refresh (Lnet/minecraft/class_18;Lnet/minecraft/class_76;Lnet/minecraft/class_34;Lnet/minecraft/class_127;Lnet/minecraft/class_322;F)V
+		ARG 1 level
+		ARG 2 textureManager
+		ARG 3 font
+		ARG 4 entity
+		ARG 5 options
+		ARG 6 delta
 	METHOD method_1918 get (Ljava/lang/Class;)Lnet/minecraft/class_579;
 		ARG 1 entityClass
 	METHOD method_1919 get (Lnet/minecraft/class_57;)Lnet/minecraft/class_579;
 		ARG 1 entity
-	METHOD method_1920 (Lnet/minecraft/class_57;DDDFF)V
+	METHOD method_1920 render (Lnet/minecraft/class_57;DDDFF)V
 		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
+		ARG 8 yaw
+		ARG 9 delta
+	METHOD method_1921 render (Lnet/minecraft/class_57;F)V
+		ARG 1 entity
+		ARG 2 delta

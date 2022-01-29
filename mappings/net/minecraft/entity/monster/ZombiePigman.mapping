@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_535 net/minecraft/entity/monster/ZombiePigman
 	FIELD field_2242 anger I
+	FIELD field_2244 SWORD Lnet/minecraft/class_31;

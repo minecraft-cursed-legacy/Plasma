@@ -2,6 +2,12 @@ CLASS net/minecraft/class_504 net/minecraft/client/ClientInteractionManager
 	FIELD field_2104 minecraft Lnet/minecraft/client/Minecraft;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD method_1707 (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_1708 (IIIZLnet/minecraft/class_54;)Lnet/minecraft/class_31;
+		ARG 5 player
 	METHOD method_1709 closeContainer (ILnet/minecraft/class_54;)V
 		ARG 2 player
 	METHOD method_1712 useItem (Lnet/minecraft/class_54;Lnet/minecraft/class_18;Lnet/minecraft/class_31;)Z
@@ -18,6 +24,11 @@ CLASS net/minecraft/class_504 net/minecraft/client/ClientInteractionManager
 	METHOD method_1714 interactWith (Lnet/minecraft/class_54;Lnet/minecraft/class_57;)V
 		ARG 1 player
 		ARG 2 target
+	METHOD method_1715 getReachDistance ()F
+	METHOD method_1716 (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_1717 createPlayer (Lnet/minecraft/class_18;)Lnet/minecraft/class_54;
 		ARG 1 level
 	METHOD method_1718 (Lnet/minecraft/class_54;)V

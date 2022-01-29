@@ -1,3 +1,5 @@
 CLASS net/minecraft/class_66
 	FIELD field_226 tesselator Lnet/minecraft/class_67;
 	FIELD field_229 level Lnet/minecraft/class_18;
+	METHOD <init> (Lnet/minecraft/class_18;Ljava/util/List;IIIII)V
+		ARG 1 level

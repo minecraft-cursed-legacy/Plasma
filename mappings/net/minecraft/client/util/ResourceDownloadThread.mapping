@@ -1,2 +1,8 @@
 CLASS net/minecraft/class_28 net/minecraft/client/util/ResourceDownloadThread
 	FIELD field_137 workingDirectory Ljava/io/File;
+	FIELD field_138 minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+		ARG 1 file
+		ARG 2 minecraft
+	METHOD method_110 (Ljava/net/URL;Ljava/lang/String;JI)V
+		ARG 2 sound

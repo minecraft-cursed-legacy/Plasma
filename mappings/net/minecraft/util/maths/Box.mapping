@@ -6,8 +6,32 @@ CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
 	FIELD field_133 maxY D
 	FIELD field_134 maxZ D
 	FIELD field_135 cache Ljava/util/List;
-	FIELD field_136 thisIsAlwaysZero I
+	FIELD field_136 count I
+	METHOD <init> (DDDDDD)V
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD method_100 isInXZ (Lnet/minecraft/class_26;)Z
+		ARG 1 vector
+	METHOD method_101 getZOffset (Lnet/minecraft/class_25;D)D
+		ARG 1 box
+		ARG 2 z
+	METHOD method_102 shift (DDD)Lnet/minecraft/class_25;
+		ARG 1 xBy
+		ARG 3 yBy
+		ARG 5 zBy
+	METHOD method_103 isInXY (Lnet/minecraft/class_26;)Z
+		ARG 1 vector
+	METHOD method_104 grow (DDD)Lnet/minecraft/class_25;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_105 clearCache ()V
 	METHOD method_106 averageDimension ()D
+	METHOD method_85 resetCount ()V
 	METHOD method_86 add (DDD)Lnet/minecraft/class_25;
 		ARG 1 xMod
 		ARG 3 yMod
@@ -19,7 +43,14 @@ CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
 		ARG 6 x1
 		ARG 8 y1
 		ARG 10 z1
+	METHOD method_88 isVectorIn (Lnet/minecraft/class_26;)Z
+		ARG 1 vector
 	METHOD method_90 intersects (Lnet/minecraft/class_25;)Z
+		ARG 1 box
+	METHOD method_91 getXOffset (Lnet/minecraft/class_25;D)D
+		ARG 1 box
+		ARG 2 x
+	METHOD method_92 copy ()Lnet/minecraft/class_25;
 	METHOD method_93 expand (DDD)Lnet/minecraft/class_25;
 		ARG 1 x
 		ARG 3 y
@@ -31,6 +62,13 @@ CLASS net/minecraft/class_25 net/minecraft/util/maths/Box
 		ARG 6 x1
 		ARG 8 y1
 		ARG 10 z1
+	METHOD method_95 isInYZ (Lnet/minecraft/class_26;)Z
+		ARG 1 vector
+	METHOD method_96 copy (Lnet/minecraft/class_25;)V
+		ARG 1 from
+	METHOD method_97 getYOffset (Lnet/minecraft/class_25;D)D
+		ARG 1 box
+		ARG 2 y
 	METHOD method_98 move (DDD)Lnet/minecraft/class_25;
 		ARG 1 x
 		ARG 3 y

@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_598 net/minecraft/client/render/Frustum
+	FIELD field_2594 instance Lnet/minecraft/class_598;
+	FIELD field_2595 projectionBuffer Ljava/nio/FloatBuffer;
+	FIELD field_2596 modelViewBuffer Ljava/nio/FloatBuffer;
+	METHOD method_1973 getInstance ()Lnet/minecraft/class_84;
+	METHOD method_1974 normalise ([[FI)V
+		ARG 1 frustum
+		ARG 2 index
+	METHOD method_1975 reset ()V

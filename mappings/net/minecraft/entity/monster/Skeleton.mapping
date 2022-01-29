@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_90 net/minecraft/entity/monster/Skeleton
+	FIELD field_302 BOW Lnet/minecraft/class_31;

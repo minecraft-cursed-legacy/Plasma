@@ -1,5 +1,6 @@
-CLASS net/minecraft/class_477
+CLASS net/minecraft/class_477 net/minecraft/util/Util
 	FIELD field_1961 minecraftDirectory Ljava/io/File;
 	METHOD method_1633 getMinecraftDirectory ()Ljava/io/File;
 	METHOD method_1638 getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
 	METHOD method_1643 getOperatingSystem ()Lnet/minecraft/class_343;

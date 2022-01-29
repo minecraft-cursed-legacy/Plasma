@@ -40,6 +40,8 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	FIELD field_1647 fire I
 	FIELD field_1652 skinUrl Ljava/lang/String;
 	FIELD field_1653 cloakUrl Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_18;)V
+		ARG 1 level
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
 	METHOD method_1310 initDataTracker ()V
@@ -49,6 +51,7 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	METHOD method_1317 baseTick ()V
 	METHOD method_1318 isAlive ()Z
 	METHOD method_1319 destroy ()V
+	METHOD method_1320 getRotation ()Lnet/minecraft/class_26;
 	METHOD method_1321 setSize (FF)V
 		ARG 1 width
 		ARG 2 height
@@ -68,6 +71,7 @@ CLASS net/minecraft/class_57 net/minecraft/entity/Entity
 	METHOD method_1348 fromTag (Lnet/minecraft/class_8;)V
 	METHOD method_1351 distanceTo (Lnet/minecraft/class_57;)F
 	METHOD method_1354 onPlayerCollision (Lnet/minecraft/class_54;)V
+		ARG 1 player
 	METHOD method_1355 damage (Lnet/minecraft/class_57;I)Z
 		ARG 1 target
 		ARG 2 amount

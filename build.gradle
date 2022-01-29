@@ -24,14 +24,12 @@ buildscript {
 
 plugins {
 	id 'de.undercouch.download' version '3.4.3'
-	id 'maven'
 	id 'maven-publish'
 }
 
 def minecraft_version = "b1.7.3"
 
 def ENV = System.getenv()
-//def build_number = ENV.BUILD_NUMBER ?: "local"
 def build_number = 22
 
 def plasmaVersion = "${minecraft_version}-build.$build_number"

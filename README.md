@@ -1,4 +1,4 @@
-# Plasma (originally Minecraft Cursed POMF)
+# Plasma
 
 Plasma is a set of mappings for legacy minecraft versions.
 
@@ -13,7 +13,7 @@ Alternatively, use the functions provided by enigma to decompile
 ## Contributing
 
 Please remember that copying and pasting mappings from alternate projects under more restrictive licenses (such as MCP or Pigeon) is **completely forbidden** without explicit permission from the 
-owners of said mappings. Additionally, copying from the "BIN Mappings" plasma fork is forbidden due to its not being cleanroom.
+owners of said mappings. Additionally, copying from the "BIN Mappings" plasma fork is discouraged due to its not being cleanroom.
 
 When contributing remember to read the conventions (Conventions.md).
 

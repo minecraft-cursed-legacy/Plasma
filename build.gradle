@@ -23,7 +23,8 @@ buildscript {
 }
 
 plugins {
-	id 'de.undercouch.download' version '3.4.3'
+	id 'java'
+	id 'de.undercouch.download' version '4.1.1'
 	id 'maven-publish'
 }
 

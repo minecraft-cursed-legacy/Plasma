@@ -226,7 +226,7 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 task downloadMcLibs(dependsOn: downloadWantedVersionManifest) {
 	inputs.files versionFile
 
-	outputs.file(libraries)
+	outputs.dir(libraries)
 
 	outputs.upToDateWhen {
 		return false
